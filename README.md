@@ -28,8 +28,6 @@ The data comes from 3 different pre-existing projects.
    - **Alpha_entretien_etudiant_trajet** is the recording of a description, with more interactional elements. The prompt was for the student to describe a common route he was taking daily.
 
 
-The segmentation of sentences and tokens was not an easy endeavour. We were confronted with similar challenges then corpus with spoken data, as we analyse a continuous language flow. 
-
 ## References
 
 ### STK

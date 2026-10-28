@@ -49,14 +49,14 @@ Data available since: UD v2.19
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no
-Genre: TO-BE-SPECIFIED
+Genre: none
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
 Features: manual native
-Relations: manual native
+Relations: converted from manual
 Contributors: Kahane, Sylvain; Herrera, Santiago; Périn, Philomène; Bogliotti, Caroline; Guillaume, Lou
-Contributing: here
-Contact: herrera@lipn.univ-paris13.fr
+Contributing: elsewhere
+Contact: skahane@parisnanterre.fr
 ===============================================================================
 </pre>

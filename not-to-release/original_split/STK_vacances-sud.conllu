@@ -8,9 +8,9 @@
 2	[VACANCES]	[VACANCES]	NOUN	_	_	1	conj:zoom	_	AlignBegin=2723|AlignEnd=3166|Gloss=[HOLIDAYS]
 3	[ÉTÉ]	[ÉTÉ]	NOUN	_	_	2	nmod	_	AlignBegin=3183|AlignEnd=4330|Gloss=[SUMMER]|NMM=eye-blink
 4	[euh]	[euh]	INTJ	_	_	1	discourse	_	AlignBegin=4343|AlignEnd=4992|Gloss=[uh]
-5	[PARTIR]	[PARTIR]	VERB	_	_	0	root	_	AlignBegin=5011|AlignEnd=5706|Gloss=[LEAVE]|Src=Prs1
-6	[OÙ]	[OÙ]	PRON	_	PronType=Int	7	mark	_	AlignBegin=5745|AlignEnd=6867|Exp[lex]=Int|Gloss=[WHERE]|ISMarker[Foc]=Cxn-fq+NMM|NMM=eyebrow-raise+forward-tilt
-7	[FRANCE]	[FRANCE]	PROPN	_	_	5	ccomp	_	AlignBegin=6884|AlignEnd=7277|Gloss=[FRANCE]|ISRole=Foc
+5	[PARTIR]	[PARTIR]	VERB	_	_	0	root	_	AlignBegin=5011|AlignEnd=5706|Gloss=[LEAVE]|Src=Prs1|Subj=Src
+6	[OÙ]	[OÙ]	PRON	_	PronType=Int	7	nmod	_	AlignBegin=5745|AlignEnd=6867|Exp[lex]=Int|Gloss=[WHERE]|ISMarker[Foc]=Cxn-fq+NMM|NMM=eyebrow-raise+forward-tilt
+7	[FRANCE]	[FRANCE]	PROPN	_	_	5	obl:arg	_	AlignBegin=6884|AlignEnd=7277|Gloss=[FRANCE]|ISRole=Foc
 8	[carte-france]	[carte-france]	NOUN	_	_	7	conj:illustrate	_	AlignBegin=7296|AlignEnd=8476|Gloss=[map-france]
 9	[SUD]	[SUD]	NOUN	_	_	7	nmod	_	AlignBegin=8490|AlignEnd=9205|Gloss=[SOUTH]|NDHHeld=[carte]|NMM=backward-tilt
 10	[région-sud]	[région-sud]	NOUN	_	_	9	conj:illustrate	_	AlignBegin=9235|AlignEnd=10548|Gloss=[south-region]|NDHHeld=[carte]

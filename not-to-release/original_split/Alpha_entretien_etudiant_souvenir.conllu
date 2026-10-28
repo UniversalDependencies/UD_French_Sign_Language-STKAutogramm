@@ -102,9 +102,9 @@
 3	[BEAUCOUP]	[BEAUCOUP]	ADV	_	_	4	advmod	_	AlignBegin=38645|AlignEnd=39250|Gloss=[A-LOT]|NMM=eyebrow-frown+backward-tilt
 4	[SOUVENIR]	[SOUVENIR]	NOUN	_	_	0	root	_	AlignBegin=39267|AlignEnd=39942|Gloss=[MEMORY]|NMM=eyebrow-frown+forward-tilt
 5	[RIGOLER]	[RIGOLER]	VERB	_	_	4	appos	_	AlignBegin=39959|AlignEnd=41122|Gloss=[LAUGH]|NMM=eyebrow-frown+forward-tilt
-6	[TAQUINER]	[TAQUINER]	VERB	_	_	5	conj	_	AlignBegin=41140|AlignEnd=41756|Gloss=[TEASE]|NMM=eyebrow-frown+forward-tilt|Src=Prs1|Tgt=PSS3l
-7	[MOQUER]	[MOQUER]	VERB	_	_	5	conj	_	AlignBegin=41767|AlignEnd=42384|Gloss=[MOCK]|NMM=eyebrow-frown+forward-tilt|Src=Prs1|Tgt=PSS3l
-8	[PÎQUER]	[PÎQUER]	VERB	_	_	5	conj	_	AlignBegin=42395|AlignEnd=43674|Gloss=[STING]|NMM=eyebrow-frown|Rep=2|Src=Prs1|Tgt=PSS3l
+6	[TAQUINER]	[TAQUINER]	VERB	_	_	5	conj	_	AlignBegin=41140|AlignEnd=41756|Gloss=[TEASE]|NMM=eyebrow-frown+forward-tilt|Obj=Tgt|Src=Prs1|Subj=Src|Tgt=PSS3l
+7	[MOQUER]	[MOQUER]	VERB	_	_	5	conj	_	AlignBegin=41767|AlignEnd=42384|Gloss=[MOCK]|NMM=eyebrow-frown+forward-tilt|Obj=Tgt|Src=Prs1|Subj=Src|Tgt=PSS3l
+8	[PÎQUER]	[PÎQUER]	VERB	_	_	5	conj	_	AlignBegin=42395|AlignEnd=43674|Gloss=[STING]|NMM=eyebrow-frown|Obj=Tgt|Rep=2|Src=Prs1|Subj=Src|Tgt=PSS3l
 9	[DISPUTER]	[DISPUTER]	VERB	_	_	5	conj	_	AlignBegin=44448|AlignEnd=45419|Gloss=[ARGUE]|NMM=eyebrow-raise+eye-contact
 
 # sent_id = souvenir_4_split2_split2

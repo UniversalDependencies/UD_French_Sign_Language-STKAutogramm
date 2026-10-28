@@ -168,7 +168,7 @@
 6	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	4	obj	_	AlignBegin=1137424|AlignEnd=1137939|Gloss=[MUSHROOM]|NMM=forward-tilt
 7	[LAVER]	[LAVER]	VERB	_	_	4	conj:reform	_	AlignBegin=1137939|AlignEnd=1139019|Exp=Intensité|Gloss=[WASH]|NMM=eyebrow-frown+eye-blink
 8	[COUPER-en-morceaux]	[COUPER]	VERB	_	_	4	conj	_	AlignBegin=1139019|AlignEnd=1139579|Gloss=[CUT-in-pieces]|Instr=PRF(DH)[lame]|Loc=PSS3l|Manner=en-morceaux|NMM=eyebrow-frown+eye-blink|PT=tu-générique
-9	[DÉPLACER]	[DÉPLACER]	VERB	_	_	4	conj	_	AlignBegin=1139579|AlignEnd=1140219|Gloss=[MOVE]|NMM=eyebrow-raise|Src=PSS3l|Tgt=PSS3r
+9	[DÉPLACER]	[DÉPLACER]	VERB	_	_	4	conj	_	AlignBegin=1139579|AlignEnd=1140219|Gloss=[MOVE]|NMM=eyebrow-raise|Obj=Src|Obl=Tgt|Src=PSS3l|Tgt=PSS3r
 10	SST[forme-plate]~	SST	ADJ	_	_	11	reparandum	_	AlignBegin=1140219|AlignEnd=1140579|Gloss=SST[flat-shape]~|Loc=PSS3r|Scrap=Yes
 11	SST[forme-ronde]	SST	ADJ	_	_	9	obl:arg	_	AlignBegin=1140579|AlignEnd=1141184|Gloss=SST[round-shape]|NMM=eye-contact
 12	[s'égoutter]	[s'égoutter]	VERB	_	_	4	conj	_	AlignBegin=1141184|AlignEnd=1141754|Gloss=[DRAIN]
@@ -223,10 +223,10 @@
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Prendre les champignons et les mettre dans la poëlle et bien mélanger. Puis les laisser.
 # text_en = Take the mushrooms and put them in the pan et stir well. And leave them.
-1	[PRENDRE]	[PRENDRE]	VERB	_	_	0	root	_	AlignBegin=1155024|AlignEnd=1155454|Gloss=[TAKE]|Src=PSS3r
+1	[PRENDRE]	[PRENDRE]	VERB	_	_	0	root	_	AlignBegin=1155024|AlignEnd=1155454|Gloss=[TAKE]|Obj=Src|Src=PSS3r
 2	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	1	obj	_	AlignBegin=1155454|AlignEnd=1155739|Gloss=[MUSHROOM]
-3	[DÉPLACER]	[DÉPLACER]	VERB	_	_	1	conj:reform	_	AlignBegin=1155739|AlignEnd=1156339|Gloss=[MOVE]|Src=PSS3r|Tgt=PSS3l
-4	[METTRE-dans-poêle]	[METTRE]	VERB	_	_	1	conj	_	AlignBegin=1156339|AlignEnd=1156739|Gloss=[PUT]|Tgt=PSS3l
+3	[DÉPLACER]	[DÉPLACER]	VERB	_	_	1	conj:reform	_	AlignBegin=1155739|AlignEnd=1156339|Gloss=[MOVE]|Obj=Src|Obl=Tgt|Src=PSS3r|Tgt=PSS3l
+4	[METTRE-dans-poêle]	[METTRE]	VERB	_	_	1	conj	_	AlignBegin=1156339|AlignEnd=1156739|Gloss=[PUT]|Obl=Tgt|Tgt=PSS3l
 5	[MÉLANGER]	[MÉLANGER]	VERB	_	_	1	conj	_	AlignBegin=1156739|AlignEnd=1157859|Gloss=[MIX]|NMM=eye-blink
 6	[LAISSER]	[LAISSER]	VERB	_	_	1	conj	_	AlignBegin=1157859|AlignEnd=1158139|Gloss=[LET]|NMM=head-nod
 
@@ -249,8 +249,8 @@
 3	[SAUCE]	[SAUCE]	NOUN	_	_	5	obj	_	AlignBegin=1161934|AlignEnd=1162419|Gloss=[SAUCE]
 4	[visqueux]	[visqueux]	ADJ	_	_	3	amod	_	AlignBegin=1162419|AlignEnd=1163139|Gloss=[slimy]
 5	[verser-SAUCE]	[SAUCE]	VERB	_	_	0	root	_	AlignBegin=1163139|AlignEnd=1163699|Gloss=[POUR]|NMM=eyebrow-raise+eye-blink
-6	[TROIS]	[TROIS]	NUM	_	_	3	nmod	_	AlignBegin=1163699|AlignEnd=1163939|DHHeld=sauce|Gloss=[THREE]
-7	[verser]	[verser]	VERB	_	_	5	conj:illustrate	_	AlignBegin=1163939|AlignEnd=1164819|DHHeld=sauce|Gloss=[pour]|NMM=head-nod+eye-blink|Rep=2
+6	[TROIS]	[TROIS]	NUM	_	_	3	nmod	_	AlignBegin=1163699|AlignEnd=1163939|DHHeld=[SAUCE]|Gloss=[THREE]
+7	[verser]	[verser]	VERB	_	_	5	conj:illustrate	_	AlignBegin=1163939|AlignEnd=1164819|DHHeld=[SAUCE]|Gloss=[pour]|NMM=head-nod+eye-blink|Rep=2
 
 # sent_id = crdo-fsl-cuc022_88_89
 # text = [SUCRE] [METTRE] [SEL] [METTRE] [POIVRE] [METTRE] [mélanger] [FINI]~
@@ -292,7 +292,7 @@
 # text_en = Turn off the burner and pour the content in the pan in a bowl.
 1	[COUPER]	[COUPER]	VERB	_	_	0	root	_	AlignBegin=1175979|AlignEnd=1176779|Gloss=[CUT]
 2	[prendre-POÊLE]	[POÊLE]	VERB	_	_	1	conj	_	AlignBegin=1176779|AlignEnd=1177259|Gloss=[take-PAN]
-3	[verser]	[verser]	VERB	_	_	1	conj	_	AlignBegin=1177259|AlignEnd=1177939|DHHeld=PRF[POÊLE]|Gloss=[pour]|NDH=PRF[contenant]|NMM=eyebrow-raise+head-nod
+3	[verser]	[verser]	VERB	_	_	1	conj	_	AlignBegin=1177259|AlignEnd=1177939|DHHeld=PRF[POÊLE]|Gloss=[pour]|NDH=PRF[contenant]|NMM=eyebrow-raise+head-nod|Obj=DHHeld|Obl=NDH
 4	[forme-arrondie/saladier]	[forme-arrondie/saladier]	NOUN	_	_	3	obl:arg	_	AlignBegin=1177939|AlignEnd=1178499|Gloss=[round-shape/bowl]|NMM=eye-blink
 5	[verser-dans-saladier]	[verser-dans-saladier]	VERB	_	_	3	conj:dbl	_	AlignBegin=1178499|AlignEnd=1179219|Gloss=[pour-in-bowl]|NDHHeld=[saladier]|NMM=head-nod+eye-blink
 
@@ -303,7 +303,7 @@
 # text_en = Put pepper again, chop it and spread it on the preparation as well as the flower-leaves.
 1	[POIVRE]	[POIVRE]	NOUN	_	_	3	obj	_	AlignBegin=1179219|AlignEnd=1179659|Gloss=[PEPPER]
 2	[ENCORE]	[ENCORE]	ADV	_	_	3	advmod	_	AlignBegin=1179659|AlignEnd=1179899|Gloss=[AGAIN]|NMM=forward-tilt+eye-contact
-3	[COUPER-en-morceaux]	[COUPER]	VERB	_	_	0	root	_	AlignBegin=1179899|AlignEnd=1180499|Gloss=[CUT-in-pieces]|Instr=Prf(DH)[lame]|Manner=en-morceaux|NMM=leftward-tilt+head-nod+eye-blink
+3	[COUPER-en-morceaux]	[COUPER]	VERB	_	_	0	root	_	AlignBegin=1179899|AlignEnd=1180499|Gloss=[CUT-in-pieces]|Instr=PRF(DH)[lame]|Manner=en-morceaux|NMM=leftward-tilt+head-nod+eye-blink
 4	[répandre]	[répandre]	VERB	_	_	3	conj	_	AlignBegin=1180499|AlignEnd=1181259|Gloss=[spread]|ISRole=Foc|NMM=eye-blink
 5	[FEUILLE]	[FEUILLE]	NOUN	_	_	4	obj	_	AlignBegin=1181259|AlignEnd=1181699|Gloss=[LEAF]|NMM=forward-tilt
 6	[FLEUR]	[FLEUR]	NOUN	_	_	5	nmod	_	AlignBegin=1181699|AlignEnd=1182059|Gloss=[FLOWER]

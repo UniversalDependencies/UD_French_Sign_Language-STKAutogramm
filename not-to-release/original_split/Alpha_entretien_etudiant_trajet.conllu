@@ -37,7 +37,7 @@
 1	PNT[TOI]	PNT	PRON	_	Number=Sing|PronType=Prs	2	nmod	_	AlignBegin=9099|AlignEnd=9344|Gloss=PNT[YOU]|Tgt=Prs2
 2	[TRAJET]	[TRAJET]	NOUN	_	_	4	obj	_	AlignBegin=9358|AlignEnd=10033|Gloss=[ROUTE]
 3	[POUVOIR]	[POUVOIR]	VERB	_	_	0	root	_	AlignBegin=10047|AlignEnd=10467|Gloss=[CAN]
-4	[EXPLIQUER]	[EXPLIQUER]	VERB	_	_	3	ccomp	_	AlignBegin=10476|AlignEnd=10939|Gloss=[EXPLAIN]|Src=Prs2|Tgt=Prs1
+4	[EXPLIQUER]	[EXPLIQUER]	VERB	_	_	3	ccomp	_	AlignBegin=10476|AlignEnd=10939|Gloss=[EXPLAIN]|Obj=Tgt|Src=Prs2|Subj=Src|Tgt=Prs1
 5	[PRÉCIS]	[PRÉCIS]	ADJ	_	_	4	advcl	_	AlignBegin=10953|AlignEnd=11425|Gloss=[PRECISE]
 
 # sent_id = trajet-len-1-signerA_1

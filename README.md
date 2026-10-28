@@ -23,9 +23,9 @@ The data comes from 3 different pre-existing projects.
  - Two samples (**LS-Colin_champignon** and **LS-Colin_cheval**) from the corpus **LS-Colin**. This corpus was recorded in 2002 and contains different signers' participation, realizing different tasks.
    - **LS-Colin_champignon** is the recording of a recipe. The prompt for the signer was to present her favorite recipe. The extract used has the following time code: 18:17 to 19:46, from the video CUC022_low of a total length of 36:43.
    - **LS-Colin_cheval** is the recording of a short narration. The prompt was to retell the story presented in 5 images, about a horse jumping a fence, accompanied by a cow and a bird. The extract used has the following time code: 00:06 to 01:07, from the same video. 
- - Two samples (**Alpha_entretien-eleve-souvenir** and **Alpha_entretien-eleve-trajet**) from the corpus **ALPHA SOURDS**. In this corpus, we find interviews between the researchers and different deaf students. 
-   - **Alpha_entretien-eleve-souvenir** is the recording of a narration, with a few interactional elements. The prompt was for the student to tell her best memory.
-   - **Alpha_entretien-eleve-trajet** is the recording of a description, with more interactional elements. The prompt was for the student to describe a common route he was taking daily.
+ - Two samples (**Alpha_entretien_etudiant_souvenir** and **Alpha_entretien_etudiant_trajet**) from the corpus **ALPHA SOURDS**. In this corpus, we find interviews between the researchers and different deaf students. 
+   - **Alpha_entretien_etudiant_souvenir** is the recording of a narration, with a few interactional elements. The prompt was for the student to tell her best memory.
+   - **Alpha_entretien_etudiant_trajet** is the recording of a description, with more interactional elements. The prompt was for the student to describe a common route he was taking daily.
 
 
 The segmentation of sentences and tokens was not an easy endeavour. We were confronted with similar challenges then corpus with spoken data, as we analyse a continuous language flow. 

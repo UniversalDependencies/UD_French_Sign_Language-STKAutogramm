@@ -68,7 +68,7 @@
 # text_fr = Il galope, saute [et] heurte la barrière
 # text_en = It gallops, jumps and hits the fence
 1	[sauter]	[sauter]	VERB	_	_	0	root	_	AlignBegin=47195|AlignEnd=47715|Gloss=[jump]|PT=cheval|PTReal=détermination+mimique-effort|ST=cheval-qui-saute|STReal=PRF(DH)[cheval]|Subj=PT
-2	[heurter-barrière]	[heurter-barrière]	VERB	_	_	1	conj:chaining	_	AlignBegin=47715|AlignEnd=48675|Gloss=[hit-fence]|Obj=PRF(NDH)[barrière]|PT=cheval|PTReal=détermination+mimique-effort|ST=cheval-qui-heurte-barrière|STReal=PRF(DH)[cheval]+PRF(NDH)[barrière]|Subj=PRF(DH)[cheval]
+2	[heurter-barrière]	[heurter-barrière]	VERB	_	_	1	conj:chaining	_	AlignBegin=47715|AlignEnd=48675|Gloss=[hit-fence]|Obj=PRF(NDH)[barrière]|PT=cheval|PTReal=détermination+mimique-effort|ST=cheval-qui-heurte-barrière|STReal=PRF(DH)[cheval]+PRF(NDH)[barrière]|Subj=PT+PRF(DH)[cheval]
 
 # sent_id = crdo-fsl-cuc022__7
 # text = [tomber] [DOULEUR] [gésir-sol]
@@ -94,10 +94,10 @@
 # text_fr = [Il va] chercher une valisette de pharmacie, la dépose et l'ouvre.
 # text_en = It goes to grab the medecine chest, it drops it off and opens it.
 1	[prendre-VALISE]	[VALISE]	VERB	_	_	0	root	_	AlignBegin=54155|AlignEnd=54595|Gloss=[take-CHEST]|Loc=PSSXr|PT=oiseau|Subj=PT
-2	[apporter]	[apporter]	VERB	_	_	1	conj:chaining	_	AlignBegin=54595|AlignEnd=55875|Gloss=[bring]|Obj=PRF(DH)[VALISE]|PT=oiseau|Src=PSSXr|Subj=PT|Tgt=PSSN
+2	[apporter]	[apporter]	VERB	_	_	1	conj:chaining	_	AlignBegin=54595|AlignEnd=55875|Gloss=[bring]|Obj=PRF(DH)[VALISE]|Obl=Src+Tgt|PT=oiseau|Src=PSSXr|Subj=PT|Tgt=PSSN
 3	PNT[valise]	PNT	PRON	_	_	2	obj	_	AlignBegin=55875|AlignEnd=56115|DHHeld=PRF[VALISE]|Gloss=PNT[chest]|NMM=eyebrow-raise|PT=oiseau|Tgt=PSSN
 4	[PHARMACIE]	[PHARMACIE]	NOUN	_	_	3	nmod	_	AlignBegin=56115|AlignEnd=56795|DHHeld=PRF[VALISE]|Gloss=[PHARMACY]|NMM=eyebrow-raise|PT=oiseau
-5	[apporter]	[apporter]	VERB	_	_	2	conj:reform	_	AlignBegin=56795|AlignEnd=57435|Gloss=[bring]|Obj=PRF[VALISE]|PT=oiseau|Src=PSSN|Subj=PT|Tgt=PSS3l
+5	[apporter]	[apporter]	VERB	_	_	2	conj:reform	_	AlignBegin=56795|AlignEnd=57435|Gloss=[bring]|Obj=PRF[VALISE]|Obl=Src+Tgt|PT=oiseau|Src=PSSN|Subj=PT|Tgt=PSS3l
 6	[ouvrir]	[ouvrir]	VERB	_	_	5	conj:chaining	_	AlignBegin=57435|AlignEnd=59355|Gloss=[open]|Loc=PSS3l|Obj=PRF[VALISE]|PT=oiseau|Subj=PT
 
 # sent_id = crdo-fsl-cuc022__10

@@ -1,0 +1,154 @@
+# sent_id = cap_petite_enfance__1
+# text = [BIENVENUE] POSS[TOI] [C]-[A]-[P] [PETIT] [ENFANCE] position-neutre [COURS] [PI_TYPIQUE] [ORDINATEUR] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = Bienvenue dans ton CAP Petite enfance avec les cours par ordinateur.
+# text_en = Welcome to you CAP Young infancy with online classes.
+1	[BIENVENUE]	[BIENVENUE]	VERB	_	_	0	root	_	AlignBegin=1990|AlignEnd=3150|Gloss=[WELCOME]|NMM=forward-tilt+eyebrow-raise
+2	POSS[TOI]	POSS	PRON	_	_	3	nmod	_	AlignBegin=3180|AlignEnd=3550|Gloss=POSS[YOU]
+3	[C]-[A]-[P]	FingerSpelling	NOUN	_	_	1	obj	_	AlignBegin=3553|AlignEnd=4788|Gloss=[CAP]
+4	[PETIT]	[PETIT]	ADJ	_	_	5	amod	_	AlignBegin=4796|AlignEnd=5389|Gloss=[SMALL]
+5	[ENFANCE]	[ENFANCE]	NOUN	_	_	3	nmod	_	AlignBegin=5394|AlignEnd=6323|Gloss=[INFANCY]
+6	position-neutre	position-neutre	PUNCT	_	_	1	discourse	_	AlignBegin=6327|AlignEnd=6752|Gloss=neutral-position
+7	[COURS]	[COURS]	NOUN	_	_	3	nmod	_	AlignBegin=6765|AlignEnd=7257|Gloss=[CLASS]|NMM=eyebrow-frown
+8	[PI_TYPIQUE]	[PI_TYPIQUE]	ADJ	_	_	7	amod	_	AlignBegin=7261|AlignEnd=7934|Gloss=[PI_TYPICAL]|NMM=eyebrow-frown
+9	[ORDINATEUR]	[ORDINATEUR]	NOUN	_	_	8	dep:comp	_	AlignBegin=7942|AlignEnd=8951|Gloss=[COMPUTER]
+10	position-neutre	position-neutre	PUNCT	_	_	1	discourse	_	AlignBegin=8951|AlignEnd=9593|Gloss=neutral-position
+
+# sent_id = cap_petite_enfance__2
+# text = ? [PROJET] PNT[celui-ci] [ACTUELLEMENT] [EXPÉRIENCE] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = Ce projet est encore expérimental.
+# text_en = This project is still experimental.
+1	?	?	_	_	_	_	_	_	AlignBegin=9597|AlignEnd=9956
+2	[PROJET]	[PROJET]	NOUN	_	_	5	nmod	_	AlignBegin=9965|AlignEnd=10673|Gloss=[PROJECT]|NMM=eyebrow-raise
+3	PNT[celui-ci]	PNT	PRON	_	_	2	nmod	_	AlignBegin=10673|AlignEnd=10920|Gloss=PNT[this-one]
+4	[ACTUELLEMENT]	[ACTUELLEMENT]	ADV	_	_	5	advmod	_	AlignBegin=10920|AlignEnd=11363|Gloss=[CURRENTLY]
+5	[EXPÉRIENCE]	[EXPÉRIENCE]	NOUN	_	_	0	root	_	AlignBegin=11372|AlignEnd=12748|Gloss=[EXPERIMENT]|NMM=rightward-tilt
+6	position-neutre	position-neutre	PUNCT	_	_	5	punct	_	AlignBegin=12752|AlignEnd=13850|Gloss=neutral-position|NMM=eye-blink
+
+# sent_id = cap_petite_enfance__3
+# text = [OBJECTIF] [QUOI] [CRÉER] [DIPLÔME] PNT[là] [FORMATION] [PI_TYPIQUE] [PETIT] [ENFANCE] [POUR] [PERSONNE] [ENTENDANT] [AUSSI] [SOURD] [voilà] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = L’objectif est de créer un diplôme de formation de la petite enfance pour les personnes entendantes mais aussi pour les sourds.
+# text_en = The goal is to create a training diploma for young infancy for hearing but also deaf people.
+1	[OBJECTIF]	[OBJECTIF]	_	_	_	0	root	_	AlignBegin=13858|AlignEnd=15058|Gloss=[GOAL]|NMM=eyebrow-frown
+2	[QUOI]	[QUOI]	_	_	_	3	mark	_	AlignBegin=15066|AlignEnd=15363|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NMM=eyebrow-frown
+3	[CRÉER]	[CRÉER]	_	_	_	1	dep:comp	_	AlignBegin=15367|AlignEnd=16208|Gloss=[CREATE]|ISRole=Foc|Loc=PSS3r|NMM=eyebrow-frown
+4	[DIPLÔME]	[DIPLÔME]	_	_	_	3	dep:comp	_	AlignBegin=16217|AlignEnd=17013|Gloss=[DIPLOMA]|Loc=PSS3r|NMM=eyebrow-frown
+5	PNT[là]	PNT	_	_	_	4	dep	_	AlignBegin=17018|AlignEnd=17575|Gloss=PNT[here]|Loc=PSS3r|NMM=eyebrow-frown
+6	[FORMATION]	[FORMATION]	_	_	_	4	dep	_	AlignBegin=17588|AlignEnd=18345|Gloss=[TRAINING]|Loc=PSS3r|NMM=eyebrow-frown
+7	[PI_TYPIQUE]	[PI_TYPIQUE]	_	_	_	6	dep	_	AlignBegin=18350|AlignEnd=18695|Gloss=[PI_TYPICAL]|Loc=PSS3r|NMM=eyebrow-frown
+8	[PETIT]	[PETIT]	_	_	_	9	dep	_	AlignBegin=18695|AlignEnd=19248|Gloss=[SMALL]
+9	[ENFANCE]	[ENFANCE]	_	_	_	7	dep:comp	_	AlignBegin=19257|AlignEnd=20044|Gloss=[INFANCY]|NMM=head-nod
+10	[POUR]	[POUR]	_	_	_	4	dep	_	AlignBegin=20265|AlignEnd=20969|Gloss=[FOR]|NMM=rightward-tilt+eyebrow-raise
+11	[PERSONNE]	[PERSONNE]	_	_	_	10	dep:comp	_	AlignBegin=20982|AlignEnd=21606|Gloss=[PERSON]|Loc=PSS3l|NMM=leftward-tilt+eyebrow-raise
+12	[ENTENDANT]	[ENTENDANT]	_	_	_	11	dep	_	AlignBegin=21615|AlignEnd=22274|Gloss=[HEARING]|Loc=PSS3l|NMM=eyebrow-raise
+13	[AUSSI]	[AUSSI]	_	_	_	14	dep	_	AlignBegin=22279|AlignEnd=22686|Gloss=[ALSO]|Loc=PSS3r|NMM=rightward-tilt+eyebrow-raise
+14	[SOURD]	[SOURD]	_	_	_	10	dep:comp	_	AlignBegin=22695|AlignEnd=23429|Gloss=[DEAF]|Loc=PSS3r
+15	[voilà]	[voilà]	_	_	_	1	discourse	_	AlignBegin=23442|AlignEnd=23996|Gloss=[that's-it]|NMM=head-nod
+16	position-neutre	position-neutre	_	_	_	1	discourse	_	AlignBegin=24009|AlignEnd=24637|Gloss=neutral-position
+
+# sent_id = cap_petite_enfance__4_split1
+# text = [ÉTAPES] [alors] position-neutre [alors] [COURS] [DEDANS] [PRÊT] [VIDÉO] [SIGNÉ] [L]-[S]-[F] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = La démarche : il y a des vidéos toutes prêtes signées en LSF
+# text_en = The process: there are readymade videos signed in LSF
+1	[ÉTAPES]	[ÉTAPES]	_	_	_	5	dislocated	_	AlignBegin=24965|AlignEnd=25960|Gloss=[STEPS]|ISMarker[Top]=Dlxn|ISRole=Top|NMM=leftward-tilt+eyebrow-raise
+2	[alors]	[alors]	_	_	_	1	discourse	_	AlignBegin=25969|AlignEnd=26248|Gloss=[so]|NMM=eyebrow-raise
+3	position-neutre	position-neutre	PUNCT	_	_	1	discourse	_	AlignBegin=26261|AlignEnd=27345|Gloss=neutral-position
+4	[alors]	[alors]	_	_	_	5	discourse	_	AlignBegin=27354|AlignEnd=27889|Gloss=[so]|NMM=eyebrow-frown
+5	[COURS]	[COURS]	_	_	_	0	root	_	AlignBegin=27898|AlignEnd=28456|Gloss=[CLASS]|NMM=eyebrow-frown
+6	[DEDANS]	[DEDANS]	_	_	_	5	dep	_	AlignBegin=28460|AlignEnd=29279|Gloss=[INSIDE]|NMM=eyebrow-frown
+7	[PRÊT]	[PRÊT]	_	_	_	8	dep	_	AlignBegin=29288|AlignEnd=29969|Gloss=[READY]|NMM=eyebrow-frown+eye-blink
+8	[VIDÉO]	[VIDÉO]	_	_	_	6	dep:comp	_	AlignBegin=29982|AlignEnd=30602|Gloss=[VIDEO]|NMM=eyebrow-frown
+9	[SIGNÉ]	[SIGNÉ]	_	_	_	8	dep	_	AlignBegin=30606|AlignEnd=31810|Gloss=[SIGNED]|NMM=eyebrow-frown
+10	[L]-[S]-[F]	FingerSpelling	_	_	_	9	dep	_	AlignBegin=31823|AlignEnd=32588|Gloss=[LSF]|NMM=leftward-tilt+eyebrow-frown+head-nod
+11	position-neutre	position-neutre	_	_	_	5	discourse	_	AlignBegin=32606|AlignEnd=33717|Gloss=neutral-position
+
+# sent_id = cap_petite_enfance__4_split2
+# text = [PLUS] PNT[TOI] [COURS] [TROUVER] [LIEU] [OÙ] [INTERNET]
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = que tu trouveras sur internet.
+# text_en = that you will find on internet.
+1	[PLUS]	[PLUS]	_	_	_	4	dep	_	AlignBegin=33721|AlignEnd=34292|Gloss=[PLUS]|NMM=eyebrow-raise
+2	PNT[TOI]	PNT	_	_	_	4	dep	_	AlignBegin=34301|AlignEnd=34619|Gloss=PNT[YOU]|NMM=eyebrow-frown
+3	[COURS]	[COURS]	_	_	_	4	dep:comp	_	AlignBegin=34619|AlignEnd=35212|Gloss=[CLASS]|ISMarker[Top]=Dlxn?|ISRole=Top|NMM=eyebrow-frown+eye-blink
+4	[TROUVER]	[TROUVER]	_	_	_	0	root	_	AlignBegin=35221|AlignEnd=35889|Gloss=[FIND]|NMM=eyebrow-frown
+5	[LIEU]	[LIEU]	_	_	_	4	dep:comp	_	AlignBegin=35903|AlignEnd=36447|Gloss=[PLACE]|Loc=PSSXr
+6	[OÙ]	[OÙ]	_	_	_	7	mark	_	AlignBegin=36460|AlignEnd=36633|Gloss=[WHERE]|ISMarker[Foc]=Cxn-fq|Loc=PSSXr
+7	[INTERNET]	[INTERNET]	_	_	_	5	advcl	_	AlignBegin=36642|AlignEnd=37615|Gloss=[INTERNET]|ISRole=Foc|Loc=PSSXr|NMM=eyebrow-raise
+
+# sent_id = cap_petite_enfance__5
+# text = PNT[ça] [S'APPELER/NOM] [E]-[TIRET]-[L]-[E]-[A]-[R]-[N]-[I]-[N]-[G] [ICI] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = Cela s’appelle e-learning.
+# text_en = It is called e-learning.
+1	PNT[ça]	PNT	_	_	_	2	dep	_	AlignBegin=37624|AlignEnd=37721|Gloss=PNT[this]|Tgt=PSSXr
+2	[S'APPELER/NOM]	[S'APPELER/NOM]	_	_	_	0	root	_	AlignBegin=37721|AlignEnd=38398|Gloss=[NAME]
+3	[E]-[TIRET]-[L]-[E]-[A]-[R]-[N]-[I]-[N]-[G]	FingerSpelling	_	_	_	2	dep:comp	_	AlignBegin=38406|AlignEnd=42942|Gloss=[E-LEARNING]|NMM=rightward-tilt
+4	[ICI]	[ICI]	_	_	_	2	dep	_	AlignBegin=42957|AlignEnd=44246|Gloss=[HERE]|NMM=leftward-tilt+head-nod
+5	position-neutre	position-neutre	_	_	_	2	discourse	_	AlignBegin=44250|AlignEnd=45226|Gloss=neutral-position
+
+# sent_id = cap_petite_enfance__6
+# text = [VRAIMENT] [MERCI] PNT[TOUS] [AIDE] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = Merci beaucoup à tous pour votre aide.
+# text_en = Thank you very much for your help.
+1	[VRAIMENT]	[VRAIMENT]	_	_	_	2	dep	_	AlignBegin=45241|AlignEnd=45811|Gloss=[REALLY]|NMM=eyebrow-frown
+2	[MERCI]	[MERCI]	INTJ	_	_	0	root	_	AlignBegin=45821|AlignEnd=46840|Gloss=[THANK-YOU]|NMM=eyebrow-frown
+3	PNT[TOUS]	PNT	_	_	_	2	vocative	_	AlignBegin=46844|AlignEnd=47844|Gloss=PNT[ALL]|NMM=eyebrow-frown|Tgt=circle
+4	[AIDE]	[AIDE]	_	_	_	2	dep:comp	_	AlignBegin=47849|AlignEnd=48825|Gloss=[HELP]|NMM=head-nod+eye-blink|Src=Prs2|Tgt=Prs1
+5	position-neutre	position-neutre	_	_	_	2	discourse	_	AlignBegin=48830|AlignEnd=50052|Gloss=neutral-position
+
+# sent_id = cap_petite_enfance__7
+# text = [SI] PNT[TOI] [REMARQUE] [AVOIR] [DIFFICULTES/DIFFICILE?] [FLOU] [POUVOIR/POSSIBLE] [APPEL]NOUS [POUR] [ÉVOLUER] [AMÉLIORER] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = Si vous remarquez des difficultés ou des problèmes, vous pouvez nous contacter pour faire évoluer et améliorer la plateforme.
+# text_en = If you notice difficulties or issues, you can contact us to update and improve the platform.
+1	[SI]	[SI]	SCONJ	_	_	3	dep:comp	_	AlignBegin=50057|AlignEnd=50821|Gloss=[IF]|NMM=eyebrow-frown
+2	PNT[TOI]	PNT	_	_	_	3	dep	_	AlignBegin=50830|AlignEnd=51203|Gloss=PNT[YOU]|NMM=eyebrow-frown
+3	[REMARQUE]	[REMARQUE]	_	_	_	7	dep	_	AlignBegin=51222|AlignEnd=52028|Gloss=[NOTICE]|NMM=eyebrow-frown
+4	[AVOIR]	[AVOIR]	_	_	_	3	dep:comp	_	AlignBegin=52042|AlignEnd=52542|Gloss=[HAVE]|Manner=eyebrow-frown
+5	[DIFFICULTES/DIFFICILE?]	[DIFFICULTES/DIFFICILE?]	_	_	_	4	dep:comp	_	AlignBegin=52552|AlignEnd=53533|Gloss=[DIFFICULT]|NMM=rightward-tilt+eyebrow-frown
+6	[FLOU]	[FLOU]	_	_	_	5	conj	_	AlignBegin=53547|AlignEnd=54231|Gloss=[BLURRY]|NMM=eyebrow-frown
+7	[POUVOIR/POSSIBLE]	[POUVOIR]	_	_	_	0	root	_	AlignBegin=54241|AlignEnd=54679|Gloss=[CAN]|NMM=eyebrow-raise
+8	[APPEL]NOUS	[APPEL]	_	_	_	7	dep:comp	_	AlignBegin=54689|AlignEnd=55349|Gloss=[CALL]US|Tgt=Prs1
+9	[POUR]	[POUR]	_	_	_	8	dep	_	AlignBegin=55363|AlignEnd=55675|Gloss=[FOR]
+10	[ÉVOLUER]	[ÉVOLUER]	_	_	_	9	dep:comp	_	AlignBegin=55679|AlignEnd=56377|Gloss=[EVOLVE]
+11	[AMÉLIORER]	[AMÉLIORER]	_	_	_	10	compound:svc	_	AlignBegin=56387|AlignEnd=57693|Gloss=[IMPROVE]
+12	position-neutre	position-neutre	_	_	_	7	discourse	_	AlignBegin=57708|AlignEnd=59142|Gloss=neutral-position
+
+# sent_id = cap_petite_enfance__8
+# text = [alors] [MERCI] [AUSSI] [AVOIR] [QUESTION] [POUVOIR/POSSIBLE] [RÉPONDRE] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = Merci aussi pour vos questions, nous vous répondrons.
+# text_en = Thank you also for your questions, we will answer you.
+1	[alors]	[alors]	_	_	_	2	discourse	_	AlignBegin=59146|AlignEnd=59717|Gloss=[so]
+2	[MERCI]	[MERCI]	INTJ	_	_	0	root	_	AlignBegin=59717|AlignEnd=60208|Gloss=[THANK-YOU]|NMM=leftward-tilt+eyebrow-raise
+3	[AUSSI]	[AUSSI]	_	_	_	2	dep	_	AlignBegin=60217|AlignEnd=60943|Gloss=[ALSO]|NMM=eyebrow-frown
+4	[AVOIR]	[AVOIR]	_	_	_	2	dep:comp	_	AlignBegin=60953|AlignEnd=61344|Gloss=[HAVE]
+5	[QUESTION]	[QUESTION]	_	_	Number=Plur	4	dep:comp	_	AlignBegin=61354|AlignEnd=62358|Gloss=[QUESTION]|NMM=forward-tilt+eyebrow-frown|Rep=4
+6	[POUVOIR/POSSIBLE]	[POUVOIR]	_	_	_	2	conj	_	AlignBegin=62368|AlignEnd=62698|Gloss=[CAN]
+7	[RÉPONDRE]	[RÉPONDRE]	_	_	_	6	conj	_	AlignBegin=62703|AlignEnd=63783|Gloss=[ANSWER]|NMM=leftward-tilt|Rep=4
+8	position-neutre	position-neutre	_	_	_	2	discourse	_	AlignBegin=63783|AlignEnd=64538|Gloss=neutral-position
+
+# sent_id = cap_petite_enfance__9
+# text = [voilà] [LAISSER] [AVANCER/ETAPES] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = Voilà, on vous laisse commencer.
+# text_en = That's it, we let you start.
+1	[voilà]	[voilà]	_	_	_	2	discourse	_	AlignBegin=64542|AlignEnd=65085|Gloss=[that's-it]|NMM=rightward-tilt
+2	[LAISSER]	[LAISSER]	_	_	_	0	root	_	AlignBegin=65090|AlignEnd=65722|Gloss=[LET]|NMM=rightward-tilt
+3	[AVANCER/ETAPES]	[AVANCER]	_	_	_	2	dep:comp	_	AlignBegin=65731|AlignEnd=66976|Gloss=[GO-FORWARD]|NMM=rightward-tilt
+4	position-neutre	position-neutre	_	_	_	2	discourse	_	AlignBegin=66986|AlignEnd=67835|Gloss=neutral-position
+
+# sent_id = cap_petite_enfance__10
+# text = [AU-REVOIR] [BON] [COURAGE] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = Au revoir et bon courage !
+# text_en = Goodbye and good luck!
+1	[AU-REVOIR]	[AU-REVOIR]	_	_	_	0	root	_	AlignBegin=67844|AlignEnd=68976|Gloss=[BYE]|NMM=rightward-tilt
+2	[BON]	[BON]	_	_	_	3	flat	_	AlignBegin=68986|AlignEnd=69590|Gloss=[GOOD]|NMM=rightward-tilt
+3	[COURAGE]	[COURAGE]	_	_	_	1	conj	_	AlignBegin=69604|AlignEnd=70160|Gloss=[COURAGE]|NMM=rightward-tilt
+4	position-neutre	position-neutre	_	_	_	1	discourse	_	AlignBegin=70170|AlignEnd=71264|Gloss=neutral-position
+

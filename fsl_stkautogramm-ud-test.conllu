@@ -1,0 +1,1652 @@
+# sent_id = souvenir_1
+# text = [euh] [PI_TEMPORALITE] [SIXIÈME] [ANNÉE] [MEILLEUR] [SOUVENIR] [VIE]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = Euh, en 6ème, c’est l’année où j’ai eu les meilleurs souvenirs de ma vie.
+# text_en = Well, in 6th grade, it was the year for which I have the best life memories.
+1	[euh]	[euh]	INTJ	_	_	6	discourse	_	AlignBegin=125|AlignEnd=948|Gloss=[hesitation]|NMM=eye-blink
+2	[PI_TEMPORALITE]	[PI_TEMPORALITE]	ADP	_	_	4	case	_	AlignBegin=955|AlignEnd=1765|Gloss=[DATE]|ISMarker[Top]=NMM|ISRole=Top|NMM=eye-blink
+3	[SIXIÈME]	[SIXIÈME]	NOUN	_	NumType=Ord	4	nmod	_	AlignBegin=1767|AlignEnd=2750|Gloss=[SIXTH]|NMM=eye-contact
+4	[ANNÉE]	[ANNÉE]	NOUN	_	_	6	nmod	_	AlignBegin=2756|AlignEnd=3715|Gloss=[DURING-YEAR]|NMM=eye-blink
+5	[MEILLEUR]	[MEILLEUR]	ADJ	_	_	6	amod	_	AlignBegin=3715|AlignEnd=4424|Gloss=[BEST]|NMM=eyebrow-frown
+6	[SOUVENIR]	[SOUVENIR]	NOUN	_	_	0	root	_	AlignBegin=4436|AlignEnd=4971|Gloss=[MEMORY]|ISMarker[Foc]=NMM|ISRole=Foc|NMM=eyebrow-frown+foward-tilt+eye-blink
+7	[VIE]	[VIE]	NOUN	_	_	6	nmod	_	AlignBegin=4977|AlignEnd=5570|Gloss=[LIFE]|NMM=eye-blink
+
+# sent_id = souvenir_2_split1
+# text = [CLASSE] [CLASSE] [GROUPE] [CHAUD]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = Dans la classe, le groupe était chaleureux,
+# text_en = In the class, the group was warm,
+1	[CLASSE]	[CLASSE]	NOUN	_	_	2	reparandum	_	AlignBegin=5570|AlignEnd=6103|Gloss=[CLASS]
+2	[CLASSE]	[CLASSE]	NOUN	_	_	4	obl:mod	_	AlignBegin=6103|AlignEnd=6709|Gloss=[CLASS]|NMM=eyebrow-raise+eye-blink
+3	[GROUPE]	[GROUPE]	NOUN	_	_	4	nsubj	_	AlignBegin=6715|AlignEnd=7483|Gloss=[GROUP]|NMM=eye-contact+forward-tilt
+4	[CHAUD]	[CHAUD]	ADJ	_	_	0	root	_	AlignBegin=7494|AlignEnd=8395|Gloss=[WARM]|NMM=eyebrow-frown+eye-blink+forward-tilt
+
+# sent_id = souvenir_2_split2_split1
+# text = [~] [GROUPE~] [~] [ÉLÈVE] [AMI] [~] [LIEN] [FORT]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = les élèves étaient amis, on avait des liens forts.
+# text_en = the student were friends, we had strong relations.
+1	[~]	[~]	X	_	_	4	dep	_	AlignBegin=8407|AlignEnd=8802|Gloss=[~]|NMM=eye-blink|Scrap=Yes
+2	[GROUPE~]	[GROUPE~]	X	_	_	4	dep	_	AlignBegin=8808|AlignEnd=9355|Gloss=[GROUP~]|NMM=eye-blink|Scrap=Yes
+3	[~]	[~]	X	_	_	4	dep	_	AlignBegin=9355|AlignEnd=9849|Gloss=[~]|Scrap=Yes
+4	[ÉLÈVE]	[ÉLÈVE]	NOUN	_	_	5	nsubj	_	AlignBegin=9855|AlignEnd=10413|Gloss=[STUDENT]|NMM=eye-blink
+5	[AMI]	[AMI]	NOUN	_	_	0	root	_	AlignBegin=10413|AlignEnd=10808|Gloss=[FRIEND]|NMM=eye-blink
+6	[~]	[~]	X	_	_	7	dep	_	AlignBegin=10808|AlignEnd=11070|Gloss=[~]|Scrap=Yes
+7	[LIEN]	[LIEN]	NOUN	_	_	5	conj	_	AlignBegin=11081|AlignEnd=11744|Gloss=[LINK]|NMM=eyebrow-frown+forward-tilt
+8	[FORT]	[FORT]	ADV	_	_	7	advmod	_	AlignBegin=11744|AlignEnd=12221|Gloss=[STRONG]|NMM=eye-blink
+
+# sent_id = souvenir_2_split2_split2
+# text = [PLUS] [INTERNAT] [SAINT-JACQUES] [INTERNAT]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = Encore plus avec l’internat, ici, à Saint-Jacques.
+# text_en = Even more with the broading school, here, in Saint-Jacques.
+1	[PLUS]	[PLUS]	ADV	_	_	0	root	_	AlignBegin=12227|AlignEnd=12843|Gloss=[PLUS]|NMM=eyebrow-raise+eye-contact
+2	[INTERNAT]	[INTERNAT]	NOUN	_	_	4	reparandum	_	AlignBegin=12849|AlignEnd=13878|Gloss=[BOARDING-SCHOOL]|NMM=eye-contact+eye-blink
+3	[SAINT-JACQUES]	[SAINT-JACQUES]	PROPN	_	_	4	nmod	_	AlignBegin=15401|AlignEnd=15860|Gloss=[SAINT-JACQUES]
+4	[INTERNAT]	[INTERNAT]	NOUN	_	_	1	dep:comp	_	AlignBegin=15872|AlignEnd=16448|Gloss=[BOARDING-SCHOOL]|NMM=eye-blink+forward-tilt
+
+# sent_id = souvenir_3_split1
+# text = [PERSONNE] [PROFESSIONNEL] [COMMUNICATION] [INTÉRESSANT]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = Avec les personnes, les professionnels, on communiquait bien. C’était un groupe intéressant, voilà.
+# text_en = With the people, the professionals, we communicated well. It was an interesting group.
+1	[PERSONNE]	[PERSONNE]	NOUN	_	Number=Plur	3	nsubj	_	AlignBegin=17000|AlignEnd=17994|Gloss=[PERSON]|NMM=eye-blink
+2	[PROFESSIONNEL]	[PROFESSIONNEL]	NOUN	_	_	1	nmod	_	AlignBegin=18663|AlignEnd=19570|Gloss=[PROFESSIONAL]|NMM=eye-blink+forward-tilt
+3	[COMMUNICATION]	[COMMUNICATION]	NOUN	_	_	0	root	_	AlignBegin=20000|AlignEnd=20628|Gloss=[COMMUNICATION]|NMM=eye-blink+forward-tilt
+4	[INTÉRESSANT]	[INTÉRESSANT]	ADJ	_	_	3	amod	_	AlignBegin=21331|AlignEnd=21983|Gloss=[INTERESTING]|NMM=eye-blink
+
+# sent_id = souvenir_3_split2
+# text = [ENSUITE] [PI_TEMPORALITE] [ÉTÉ] [euh] [ENVIRON] [MAI] [AVRIL] [JUIN] [PÉRIODE] [PARTIR] [GROUPE~] [INTERNAT] [GROUPE] [QUATRE] [ÉTAGE] [GROUPE] [PARTIR] [ESPAGNE] [BARCELONE]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = Un jour, en été, euh, à peu près, mai, avril, juin dans cette période, on est partis avec tout le groupe d’internes, le groupe du 4ème étage, on est partis en Espagne à Barcelone en avion.
+# text_en = Once, in summer, hmm around may, april, june in this time period, we went with the group of boarders, the 4th floor group, we went to Spain, to Barcelona by plane.
+1	[ENSUITE]	[ENSUITE]	ADV	_	_	10	discourse	_	AlignBegin=21988|AlignEnd=22686|Gloss=[THEN]
+2	[PI_TEMPORALITE]	[PI_TEMPORALITE]	ADP	_	_	3	case	_	AlignBegin=22703|AlignEnd=23547|Gloss=[PI_TEMPORALITY]
+3	[ÉTÉ]	[ÉTÉ]	NOUN	_	_	10	obl:mod	_	AlignBegin=23558|AlignEnd=24192|Gloss=[SUMMER]|NMM=eye-contact
+4	[euh]	[euh]	INTJ	_	_	5	discourse	_	AlignBegin=24215|AlignEnd=24744|Gloss=[hesitation]
+5	[ENVIRON]	[ENVIRON]	ADV	_	_	6	advmod	_	AlignBegin=24762|AlignEnd=25849|Gloss=[APPROXIMATELY]
+6	[MAI]	[MAI]	NOUN	_	_	3	conj:zoom	_	AlignBegin=25855|AlignEnd=26407|Gloss=[MAY]|NMM=leftward-tilt
+7	[AVRIL]	[AVRIL]	NOUN	_	_	3	conj	_	AlignBegin=26407|AlignEnd=27087|Gloss=[APRIL]
+8	[JUIN]	[JUIN]	NOUN	_	_	3	conj	_	AlignBegin=27099|AlignEnd=27442|Gloss=[JUNE]
+9	[PÉRIODE]	[PÉRIODE]	NOUN	_	_	3	nmod	_	AlignBegin=27453|AlignEnd=28087|Gloss=[PERIOD]|NMM=eye-contact+head-shake
+10	[PARTIR]	[PARTIR]	VERB	_	_	0	root	_	AlignBegin=28105|AlignEnd=28948|Gloss=[LEAVE]|ISMarker[Foc]=Cxn-dbl+NMM|ISRole=Foc|NMM=eyebrow-raise+eye-contact
+11	[GROUPE~]	[GROUPE~]	NOUN	_	_	13	reparandum	_	AlignBegin=28959|AlignEnd=29285|Gloss=[GROUP~]
+12	[INTERNAT]	[INTERNAT]	NOUN	_	_	13	nmod	_	AlignBegin=29285|AlignEnd=29581|Gloss=[BOARDING-SCHOOL]
+13	[GROUPE]	[GROUPE]	NOUN	_	_	10	nsubj	_	AlignBegin=29587|AlignEnd=30401|Gloss=[GROUP]|NMM=forward-tilt
+14	[QUATRE]	[QUATRE]	NUM	_	_	15	nummod	_	AlignBegin=30651|AlignEnd=30872|Gloss=[FOUR]
+15	[ÉTAGE]	[ÉTAGE]	NOUN	_	_	16	nmod	_	AlignBegin=30884|AlignEnd=31343|Gloss=[FLOOR]|NMM=eye-blink+head-nod
+16	[GROUPE]	[GROUPE]	NOUN	_	_	13	dep:comp	_	AlignBegin=31355|AlignEnd=31791|Gloss=[GROUP]|NMM=head-nod
+17	[PARTIR]	[PARTIR]	VERB	_	_	10	conj:dbl	_	AlignBegin=31802|AlignEnd=32145|Gloss=[LEAVE]
+18	[ESPAGNE]	[ESPAGNE]	PROPN	_	_	17	obj	_	AlignBegin=32145|AlignEnd=32744|Gloss=[SPAIN]
+19	[BARCELONE]	[BARCELONE]	PROPN	_	_	18	conj:zoom	_	AlignBegin=32756|AlignEnd=33512|Gloss=[BARCELONA]|NMM=head-nod
+
+# sent_id = souvenir_4_split1
+# text = [voyager-en-AVION] [PREMIER] [FOIS] [GROUPE] [AMI] [AVION]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = C’était la première fois qu’on partait entre amis en avion.
+# text_en = It was the first time we flew by plane with friends.
+1	[voyager-en-AVION]	[AVION]	NOUN	_	_	0	root	_	AlignBegin=33517|AlignEnd=34523|Gloss=[PLANE]|ISMarker[Foc]=Cxn-dbl+NMM|ISRole=Foc|NMM=eyebrow-raise
+2	[PREMIER]	[PREMIER]	ADJ	_	_	3	amod	_	AlignBegin=34529|AlignEnd=34698|Gloss=[FIRST]
+3	[FOIS]	[FOIS]	NOUN	_	_	1	nmod	_	AlignBegin=34698|AlignEnd=34953|Gloss=[TIME]
+4	[GROUPE]	[GROUPE]	NOUN	_	_	1	nsubj	_	AlignBegin=34959|AlignEnd=35337|Gloss=[GROUP]
+5	[AMI]	[AMI]	NOUN	_	_	4	compound	_	AlignBegin=35337|AlignEnd=35843|Gloss=[FRIEND]
+6	[AVION]	[AVION]	NOUN	_	_	1	conj:dbl	_	AlignBegin=35855|AlignEnd=36744|Gloss=[PLANE]|NMM=eye-blink+head-nod
+
+# sent_id = souvenir_4_split2_split1
+# text = [ATTERRIR] [BARCELONE] [PLEIN] [SOUVENIR] [RIGOLER] [TAQUINER] [MOQUER] [PÎQUER] [DISPUTER]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = Quand on a atterri à Barcelone, j’ai plein de souvenirs. On a rigolé, on se taquinait, on se moquait, on s’envoyait des piques, on se disputait aussi.
+# text_en = When we landed in Barcelona, I have a lot of memories. We laughed, we teased, mocked and made barbed comments to each other, we were arguing too.
+1	[ATTERRIR]	[ATTERRIR]	VERB	_	_	4	acl	_	AlignBegin=36756|AlignEnd=37831|Gloss=[LANDING]
+2	[BARCELONE]	[BARCELONE]	PROPN	_	_	1	obl:arg	_	AlignBegin=37860|AlignEnd=38645|Gloss=[BARCELONA]|NMM=eye-blink
+3	[PLEIN]	[PLEIN]	ADV	_	_	4	advmod	_	AlignBegin=38645|AlignEnd=39250|Gloss=[A-LOT]|NMM=eyebrow-frown+backward-tilt
+4	[SOUVENIR]	[SOUVENIR]	NOUN	_	_	0	root	_	AlignBegin=39267|AlignEnd=39942|Gloss=[MEMORY]|NMM=eyebrow-frown+forward-tilt
+5	[RIGOLER]	[RIGOLER]	VERB	_	_	4	appos	_	AlignBegin=39959|AlignEnd=41122|Gloss=[LAUGH]|NMM=eyebrow-frown+forward-tilt
+6	[TAQUINER]	[TAQUINER]	VERB	_	_	5	conj	_	AlignBegin=41140|AlignEnd=41756|Gloss=[TEASE]|NMM=eyebrow-frown+forward-tilt|Src=Prs1|Tgt=PSS3l
+7	[MOQUER]	[MOQUER]	VERB	_	_	5	conj	_	AlignBegin=41767|AlignEnd=42384|Gloss=[MOCK]|NMM=eyebrow-frown+forward-tilt|Src=Prs1|Tgt=PSS3l
+8	[PÎQUER]	[PÎQUER]	VERB	_	_	5	conj	_	AlignBegin=42395|AlignEnd=43674|Gloss=[STING]|NMM=eyebrow-frown|Rep=2|Src=Prs1|Tgt=PSS3l
+9	[DISPUTER]	[DISPUTER]	VERB	_	_	5	conj	_	AlignBegin=44448|AlignEnd=45419|Gloss=[ARGUE]|NMM=eyebrow-raise+eye-contact
+
+# sent_id = souvenir_4_split2_split2
+# text = [DRÔLE] [TROP] [SOUVENIR]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = C’était marrant. J’ai trop de souvenirs.
+# text_en = It was funny. I have so many memories.
+1	[DRÔLE]	[DRÔLE]	ADJ	_	_	3	discourse	_	AlignBegin=47407|AlignEnd=48349|Gloss=[FUNNY]
+2	[TROP]	[TROP]	ADV	_	_	3	advmod	_	AlignBegin=48349|AlignEnd=48756|Gloss=[TOO-MUCH]
+3	[SOUVENIR]	[SOUVENIR]	NOUN	_	_	0	root	_	AlignBegin=48767|AlignEnd=49384|Gloss=[MEMORY]
+
+# sent_id = souvenir_5_split1
+# text = [PI_TEMPORALITE] [PI_TEMPORALITE] [JOUR] [MACRON] [ÉLÉCTION] [PRÉSIDENT]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = Et c’était le jour où Macron a été élu président
+# text_en = And it was the day Macron was elected president
+1	[PI_TEMPORALITE]	[PI_TEMPORALITE]	ADP	_	_	3	reparandum	_	AlignBegin=50802|AlignEnd=51395|Gloss=[PI_TEMPORALITY]
+2	[PI_TEMPORALITE]	[PI_TEMPORALITE]	ADP	_	_	3	case	_	AlignBegin=51407|AlignEnd=52000|Gloss=[PI_TEMPORALITY]|NMM=eyebrow-raise+eye-contact
+3	[JOUR]	[JOUR]	NOUN	_	_	0	root	_	AlignBegin=52000|AlignEnd=52744|Gloss=[DAY]
+4	[MACRON]	[MACRON]	PROPN	_	_	5	nmod	_	AlignBegin=52750|AlignEnd=53052|Gloss=[MACRON]
+5	[ÉLÉCTION]	[ÉLÉCTION]	NOUN	_	_	3	nmod	_	AlignBegin=53070|AlignEnd=54035|Gloss=[ELECTION]|NMM=backward-tilt
+6	[PRÉSIDENT]	[PRÉSIDENT]	NOUN	_	_	5	nmod	_	AlignBegin=54047|AlignEnd=55221|Gloss=[PRESIDENT]|NMM=eye-blink
+
+# sent_id = souvenir_5_split2_split1
+# text = PI[CELUI-CI] [QUI]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = [alors on se disait] c’est qui ? c’est qui ?
+# text_en = [so we were wondering] who is it? who is it?
+1	PI[CELUI-CI]	PI	PRON	_	_	2	nsubj	_	AlignBegin=55244|AlignEnd=55628|Gloss=PI[THIS-ONE]|Tgt=PSSLr
+2	[QUI]	[QUI]	PRON	_	_	0	root	_	AlignBegin=55634|AlignEnd=57169|Gloss=[WHO]|Loc=PSSLr
+
+# sent_id = souvenir_5_split2_split2
+# text = PNT[MOI] [BARCELONE] [FRANCE] [QUI] [ÉLÉCTION] [OUI] [DRÔLE]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = J’étais à Barcelone et on attendait de savoir en France qui avait été élu, c’était drôle.
+# text_en = I was in Barcelona and we were waiting to know who got elected in France, it was funny.
+1	PNT[MOI]	PNT	PRON	_	_	2	nsubj	_	AlignBegin=57174|AlignEnd=57413|Gloss=PNT[ME]|Tgt=Prs1
+2	[BARCELONE]	[BARCELONE]	PROPN	_	_	5	advcl	_	AlignBegin=57413|AlignEnd=57959|Gloss=[BARCELONA]|ISMarker[CTop]=Spatial|ISRole=CTop|Loc=PSS3l
+3	[FRANCE]	[FRANCE]	PROPN	_	_	5	obl:mod	_	AlignBegin=57965|AlignEnd=58413|Gloss=[FRANCE]|Loc=PSSLr
+4	[QUI]	[QUI]	PRON	_	_	5	obl	_	AlignBegin=58419|AlignEnd=58721|Gloss=[WHO]|Loc=PSSLr
+5	[ÉLÉCTION]	[ÉLÉCTION]	VERB	_	_	0	root	_	AlignBegin=58727|AlignEnd=59424|Gloss=[ELECTED]
+6	[OUI]	[OUI]	INTJ	_	_	5	discourse	_	AlignBegin=59430|AlignEnd=59919|Gloss=[YES]|NMM=forward-tilt
+7	[DRÔLE]	[DRÔLE]	ADJ	_	_	5	discourse	_	AlignBegin=59930|AlignEnd=60715|Gloss=[FUNNY]|NMM=eye-blink
+
+# sent_id = souvenir_6_split1_split1
+# text = [IL-Y-A] [CONTRE]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = Y’en a qui étaient contre,
+# text_en = Some were against,
+1	[IL-Y-A]	[IL-Y-A]	NOUN	_	_	0	root	_	AlignBegin=61698|AlignEnd=62035|Gloss=[THERE-IS]
+2	[CONTRE]	[CONTRE]	ADV	_	_	1	advmod	_	AlignBegin=62052|AlignEnd=62267|Gloss=[AGAINST]|NMM=eyebrow-frown
+
+# sent_id = souvenir_6_split1_split2
+# text = [NON] [MACRON] PNT[MOI] [PRÉFÉRER] PNT[LUI]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = [qui disaient] non pas Macron, je préfère celui-là.
+# text_en = they were saying no not Macron, I prefer this one.
+1	[NON]	[NON]	ADV	_	_	0	root	_	AlignBegin=62267|AlignEnd=62779|Gloss=[NO]|NMM=eyebrown-frown|Reported=Yes|TransfertType=Personne
+2	[MACRON]	[MACRON]	PROPN	_	_	1	obl:mod	_	AlignBegin=62791|AlignEnd=63140|Gloss=[MACRON]|NMM=eyebrown-frown
+3	PNT[MOI]	PNT	VERB	_	_	4	csubj	_	AlignBegin=63157|AlignEnd=63651|Gloss=PNT[ME]|Tgt=Prs1
+4	[PRÉFÉRER]	[PRÉFÉRER]	VERB	_	_	1	conj	_	AlignBegin=63157|AlignEnd=63651|Gloss=[PREFER]
+5	PNT[LUI]	PNT	PRON	_	_	4	obj	_	AlignBegin=63663|AlignEnd=63884|Gloss=PNT[HIM]|Tgt=PSS3r
+
+# sent_id = souvenir_6_split2
+# text = [?] [INTÉRESSANT]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = [on a vu ça]? , c’était intéressant.
+# text_en = [We saw this]? , it was interesting.
+1	[?]	[?]	X	_	_	2	dep	_	AlignBegin=63895|AlignEnd=64610|Gloss=[?]
+2	[INTÉRESSANT]	[INTÉRESSANT]	ADJ	_	_	0	root	_	AlignBegin=64744|AlignEnd=65326|Gloss=[INTERESTING]|NMM=eye-blink
+
+# sent_id = souvenir_7_split1_split1
+# text = [ENSUITE] [RENTRER] [TOUS] [PLEURER] [TRISTE] [PEINE]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = Ensuite, on est rentrés, tout le monde pleurait, était triste. Ça faisait de la peine.
+# text_en = Then, we went back home, everyone cried, was sad. It caused us pain.
+1	[ENSUITE]	[ENSUITE]	ADV	_	_	2	advmod	_	AlignBegin=65616|AlignEnd=66285|Gloss=[THEN]|NMM=forward-tilt
+2	[RENTRER]	[RENTRER]	NOUN	_	_	0	root	_	AlignBegin=66576|AlignEnd=67291|Gloss=[GO-BACK]|NMM=eyebrow-raise+eye-contact
+3	[TOUS]	[TOUS]	PRON	_	_	4	nsubj	_	AlignBegin=67297|AlignEnd=67721|Gloss=[ALL]|NMM=eye-blink
+4	[PLEURER]	[PLEURER]	VERB	_	_	2	conj	_	AlignBegin=67738|AlignEnd=68099|Gloss=[CRY]
+5	[TRISTE]	[TRISTE]	ADJ	_	_	2	conj	_	AlignBegin=68116|AlignEnd=68767|Gloss=[SAD]|NMM=eyebrow-frown+eye-blink
+6	[PEINE]	[PEINE]	NOUN	_	_	2	conj	_	AlignBegin=69616|AlignEnd=70105|Gloss=[SORROW]|NMM=eyebrow-frown
+
+# sent_id = souvenir_7_split1_split2
+# text = [OUI] [WEEK-END] [SEULEMENT]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = Après un week-end, seulement.
+# text_en = After one week-end, only.
+1	[OUI]	[OUI]	ADV	_	_	2	discourse	_	AlignBegin=71609|AlignEnd=72053|Gloss=[YES]
+2	[WEEK-END]	[WEEK-END]	NOUN	_	_	0	root	_	AlignBegin=72099|AlignEnd=72785|Gloss=[WEEK-END]|NMM=eyebrow-frown+backward-tilt
+3	[SEULEMENT]	[SEULEMENT]	ADV	_	_	2	advmod	_	AlignBegin=72791|AlignEnd=73436|Gloss=[ONLY]|NMM=eyebrow-frown+backward-tilt
+
+# sent_id = souvenir_7_split2_split1
+# text = [RETOUR] [FRANCE]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = On est retournés en France
+# text_en = We went back to France
+1	[RETOUR]	[RETOUR]	NOUN	_	_	0	root	_	AlignBegin=74924|AlignEnd=75703|Gloss=[GO-BACK]
+2	[FRANCE]	[FRANCE]	PROPN	_	_	1	nmod	_	AlignBegin=75703|AlignEnd=76444|Gloss=[FRANCE]
+
+# sent_id = souvenir_7_split2_split2_split1
+# text = [FRANCE] [bah] [RETOUR]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = et en France... bah on est rentrés.
+# text_en = and in France... well we came back.
+1	[FRANCE]	[FRANCE]	PROPN	_	_	3	nmod	_	AlignBegin=76444|AlignEnd=77280|Gloss=[FRANCE]
+2	[bah]	[bah]	INTJ	_	_	3	discourse	_	AlignBegin=0|AlignEnd=0|Gloss=[well]
+3	[RETOUR]	[RETOUR]	NOUN	_	_	0	root	_	AlignBegin=79145|AlignEnd=79674|Gloss=[COME-BACK]
+
+# sent_id = souvenir_7_split2_split2_split2
+# text = [APRÈS] [APRÈS] [CINQUIÈME] [MOINS] [SOUVENIR] [SIXIÈME] [PARFAIT]
+# source_file = ./Souvenir_JAN_1.mp4
+# text_fr = Ensuite, euh après en 5ème, j’ai moins de souvenirs qu’en 6ème , en 6ème c’était top.
+# text_en = Then, uh then in 7th grade, I have less memories than in 6th grade, in 6th grade it was great.
+1	[APRÈS]	[APRÈS]	ADV	_	_	2	reparandum	_	AlignBegin=79942|AlignEnd=80372|Gloss=[AFTER]
+2	[APRÈS]	[APRÈS]	ADV	_	_	5	advmod	_	AlignBegin=81233|AlignEnd=81680|Gloss=[AFTER]
+3	[CINQUIÈME]	[CINQUIÈME]	NOUN	_	_	2	conj:zoom	_	AlignBegin=81715|AlignEnd=82349|Gloss=[FIFTH]
+4	[MOINS]	[MOINS]	ADV	_	_	5	advmod	_	AlignBegin=82355|AlignEnd=82936|Gloss=[LESS]
+5	[SOUVENIR]	[SOUVENIR]	NOUN	_	_	0	root	_	AlignBegin=82965|AlignEnd=83256|Gloss=[MEMORY]
+6	[SIXIÈME]	[SIXIÈME]	NOUN	_	_	7	nsubj	_	AlignBegin=83256|AlignEnd=83674|Gloss=[SIXTH]|NMM=eye-blink+backward-tilt
+7	[PARFAIT]	[PARFAIT]	ADJ	_	_	5	conj	_	AlignBegin=83703|AlignEnd=84384|Gloss=[PERFECT]
+
+# sent_id = trajet-len-1-signerB_1
+# text = [alors] [REVENIR-EN-ARRIÈRE] [PREMIER] [THÈME] PNT[changement-sujet?]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = Alors on revient au premier thème.
+# text_en = So we go back to the first theme.
+# speaker_id = B
+1	[alors]	[alors]	INTJ	_	_	2	discourse	_	AlignBegin=1160|AlignEnd=1453|Gloss=[so]
+2	[REVENIR-EN-ARRIÈRE]	[REVENIR-EN-ARRIÈRE]	VERB	_	_	0	root	_	AlignBegin=1467|AlignEnd=1873|Gloss=[GO-BACK]
+3	[PREMIER]	[PREMIER]	ADJ	_	_	4	amod	_	AlignBegin=1877|AlignEnd=2203|Gloss=[FIRST]
+4	[THÈME]	[THÈME]	NOUN	_	_	2	obl:mod	_	AlignBegin=2222|AlignEnd=2802|Gloss=[THEME]
+5	PNT[changement-sujet?]	PNT	PRON	_	_	4	discourse	_	AlignBegin=2816|AlignEnd=3222|Gloss=PNT[topic-change?]|Tgt=PSSN
+
+# sent_id = trajet-len-1-signerB_2_split1
+# text = PNT[TOI] [MAISON] PNT[TOI] POSS[TOI] [JUSQUE] PNT[là] [ARRIVER] PNT[là] [SAINT-JACQUES] [COMMENT] [FAIRE]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = De ta maison, pour venir ici et arriver à Saint-Jacques, tu fais comment ?
+# text_en = From home, to come here, at Saint-Jacques, how do you do?
+# speaker_id = B
+1	PNT[TOI]	PNT	PRON	_	_	2	nmod	_	AlignBegin=3863|AlignEnd=4401|Gloss=PNT[YOU]|Tgt=Prs2
+2	[MAISON]	[MAISON]	NOUN	_	_	7	dislocated	_	AlignBegin=4410|AlignEnd=5014|Gloss=[HOUSE]
+3	PNT[TOI]	PNT	PRON	_	_	2	nmod	_	AlignBegin=5014|AlignEnd=5297|Gloss=PNT[YOU]|Tgt=Prs2
+4	POSS[TOI]	POSS	ADJ	_	_	3	conj:reform	_	AlignBegin=5307|AlignEnd=5726|Gloss=POSS[YOU]|Tgt=Prs2
+5	[JUSQUE]	[JUSQUE]	ADP	_	_	6	case	_	AlignBegin=5745|AlignEnd=6245|Gloss=[UNTIL]
+6	PNT[là]	PNT	PRON	_	_	7	obj	_	AlignBegin=6255|AlignEnd=6481|Gloss=PNT[here]
+7	[ARRIVER]	[ARRIVER]	VERB	_	_	0	root	_	AlignBegin=6491|AlignEnd=7217|Gloss=[ARRIVE]
+8	PNT[là]	PNT	PRON	_	_	7	obj	_	AlignBegin=7226|AlignEnd=7698|Gloss=PNT[here]
+9	[SAINT-JACQUES]	[SAINT-JACQUES]	PROPN	_	_	8	appos	_	AlignBegin=7717|AlignEnd=8090|Gloss=[SAINT-JACQUES]
+10	[COMMENT]	[COMMENT]	PRON	_	PronType=Int	11	obl:mod	_	AlignBegin=8241|AlignEnd=8750|Gloss=[HOW]
+11	[FAIRE]	[FAIRE]	VERB	_	_	7	appos	_	AlignBegin=8764|AlignEnd=9075|Gloss=[DO]
+
+# sent_id = trajet-len-1-signerB_2_split2
+# text = PNT[TOI] [TRAJET] [POUVOIR] [EXPLIQUER] [PRÉCIS]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = Tu peux m’expliquer ton trajet précisément ?
+# text_en = Can you explain me precisely your route?
+# speaker_id = B
+1	PNT[TOI]	PNT	PRON	_	_	2	nmod	_	AlignBegin=9099|AlignEnd=9344|Gloss=PNT[YOU]|Tgt=Prs2
+2	[TRAJET]	[TRAJET]	NOUN	_	_	4	obj	_	AlignBegin=9358|AlignEnd=10033|Gloss=[ROUTE]
+3	[POUVOIR]	[POUVOIR]	VERB	_	_	0	root	_	AlignBegin=10047|AlignEnd=10467|Gloss=[CAN]
+4	[EXPLIQUER]	[EXPLIQUER]	VERB	_	_	3	ccomp	_	AlignBegin=10476|AlignEnd=10939|Gloss=[EXPLAIN]|Src=Prs2|Tgt=Prs1
+5	[PRÉCIS]	[PRÉCIS]	ADJ	_	_	4	advcl	_	AlignBegin=10953|AlignEnd=11425|Gloss=[PRECISE]
+
+# sent_id = trajet-len-1-signerA_1
+# text = [OUI] [PREMIER] PNT[MOI] [MARCHER]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = En premier, je marche…
+# text_en = Firstly, I walk...
+# speaker_id = A
+1	[OUI]	[OUI]	INTJ	_	_	4	discourse	_	AlignBegin=10995|AlignEnd=11392|Gloss=[YES]
+2	[PREMIER]	[PREMIER]	ADJ	_	ExtPos=CCONJ	4	advmod	_	AlignBegin=11514|AlignEnd=12052|Gloss=[FIRST]|NMM=head-nod+eye-blink
+3	PNT[MOI]	PNT	PRON	_	_	4	nsubj	_	AlignBegin=12075|AlignEnd=12722|Gloss=PNT[ME]|Tgt=Prs1
+4	[MARCHER]	[MARCHER]	VERB	_	_	0	root	_	AlignBegin=12741|AlignEnd=13656|Gloss=[WALK]|NMM=head-nod|Scrap=Yes
+
+# sent_id = trajet-len-1-signerB_3
+# text = [HABITER] [OÙ] [HABITER] [PRÉCIS]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = Tu habites où précisement ?
+# text_en = Where do you live exactly?
+# speaker_id = B
+1	[HABITER]	[HABITER]	VERB	_	_	0	root	_	AlignBegin=12981|AlignEnd=13500|Gloss=[LIVE]|ISRole=Top
+2	[OÙ]	[OÙ]	PRON	_	PronType=Int	1	obj	_	AlignBegin=13500|AlignEnd=13736|Gloss=[WHERE]
+3	[HABITER]	[HABITER]	VERB	_	_	1	conj:dbl	_	AlignBegin=13736|AlignEnd=13995|Gloss=[LIVE]|ISMarker[Top]=Cxn-dbl
+4	[PRÉCIS]	[PRÉCIS]	ADJ	_	_	1	advcl	_	AlignBegin=13995|AlignEnd=14462|Gloss=[PRECISE]
+
+# sent_id = trajet-len-1-signerA_2_split1
+# text = [QUATRE-VINGT-DIX] [QUATRE] [C]-[H]~ [NEUF] [QUATRE]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = Dans le 94, à C-H-quelque chose, dans le 94.
+# text_en = In the (departement) 94, at C-H-something, in the 94.
+# speaker_id = A
+1	[QUATRE-VINGT-DIX]	[QUATRE-VINGT-DIX]	NUM	_	_	0	root	_	AlignBegin=14311|AlignEnd=14807|Gloss=[NINETY]
+2	[QUATRE]	[QUATRE]	NUM	_	_	1	flat:num	_	AlignBegin=14816|AlignEnd=15250|Gloss=[FOUR]
+3	[C]-[H]~	[C]-[H]~	PROPN	_	_	1	conj:zoom	_	AlignBegin=15259|AlignEnd=15774|Gloss=[C]-[H]~|Scrap=Yes
+4	[NEUF]	[NEUF]	NUM	_	_	1	conj:reform	_	AlignBegin=15783|AlignEnd=16160|Gloss=[NINE]
+5	[QUATRE]	[QUATRE]	NUM	_	_	4	flat:num	_	AlignBegin=16160|AlignEnd=16481|Gloss=[FOUR]|NMM=head-nod+eye-blink
+
+# sent_id = trajet-len-1-signerA_2_split2
+# text = PNT[MOI] [PROCHE] [DEUX] [MINUTE] [MARCHER] [TRAM]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = À côté, à 2 minutes de marche, il y a le tram,
+# text_en = Next by, in a 2 minute walk, there is the tram,
+# speaker_id = A
+1	PNT[MOI]	PNT	PRON	_	_	2	dislocated	_	AlignBegin=16486|AlignEnd=16871|Gloss=PNT[ME]|Tgt=Prs1
+2	[PROCHE]	[PROCHE]	ADJ	_	_	6	amod	_	AlignBegin=16886|AlignEnd=17601|Gloss=[NEAR]|NMM=eyebrow-frown+eye-contact
+3	[DEUX]	[DEUX]	NUM	_	_	4	nummod	_	AlignBegin=17607|AlignEnd=17829|Gloss=[TWO]|NMM=eyebrow-frown
+4	[MINUTE]	[MINUTE]	NOUN	_	_	5	obl:mod	_	AlignBegin=17829|AlignEnd=18171|Gloss=[MINUTE]|NMM=eyebrow-frown+eye-blink
+5	[MARCHER]	[MARCHER]	VERB	_	_	6	acl	_	AlignBegin=18177|AlignEnd=18502|Gloss=[WALK]|NMM=rightward-tilt|Tgt=PSSXr
+6	[TRAM]	[TRAM]	NOUN	_	_	0	root	_	AlignBegin=18506|AlignEnd=19910|Gloss=[TRAM]|Loc=PSSXr|NMM=eyebrow-raise
+
+# sent_id = trajet-len-1-signerA_3_split1
+# text = [LIGNE] [SEPT] [LIGNE] [TRAM] [MONTER-dans-véhicule]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = ligne 7 du tram. Je monte dedans
+# text_en = line 7 of the tram. I go sit on it
+# speaker_id = A
+1	[LIGNE]	[LIGNE]	NOUN	_	_	3	conj:dbl	_	AlignBegin=19910|AlignEnd=20365|Gloss=[LINE]
+2	[SEPT]	[SEPT]	NUM	_	_	1	nmod	_	AlignBegin=20377|AlignEnd=20615|Gloss=[SEVEN]
+3	[LIGNE]	[LIGNE]	NOUN	_	_	5	obj	_	AlignBegin=20631|AlignEnd=21107|Gloss=[LINE]
+4	[TRAM]	[TRAM]	NOUN	_	_	3	nmod	_	AlignBegin=21123|AlignEnd=21660|Gloss=[TRAM]
+5	[MONTER-dans-véhicule]	[MONTER]	VERB	_	_	0	root	_	AlignBegin=21672|AlignEnd=22283|Gloss=[SIT-in-vehicule]|NMM=backward-tilt+eye-blink|Obj=ST|Sass=tram|ST=tram|STReal=Prf(DH)[ANIMÉ]+Prf(NDH)[tram]|Subj=Prf(DH)[ANIMÉ]
+
+# sent_id = trajet-len-1-signerA_3_split2_split1
+# text = [ARRÊT] [TERMINUS] [FIN/TERMINUS]~ [MÉTRO] [CHANGER] [MÉTRO] [SEPT] [LIGNE] [VILLE]-[JUIF] [MÉTRO]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = je passe toutes les stations et jusqu’au bout, au terminus, je change pour le métro ligne 7 à Villejuif.
+# text_en = I pass by all the stations and until the end, the end stop, I change for the metro on line 7 in Villejuif.
+# speaker_id = A
+1	[ARRÊT]	[ARRÊT]	NOUN	_	Number=Plur	2	nmod	_	AlignBegin=22291|AlignEnd=23545|Gloss=[STOP]
+2	[TERMINUS]	[TERMINUS]	NOUN	_	_	5	obl:mod	_	AlignBegin=23553|AlignEnd=24119|Gloss=[TERMINUS]|NMM=eyebrow-raise
+3	[FIN/TERMINUS]~	[FIN]	NOUN	_	_	2	conj:reform	_	AlignBegin=24134|AlignEnd=25110|Gloss=[END]~|NMM=eyebrow-raise
+4	[MÉTRO]	[MÉTRO]	NOUN	_	_	5	obj	_	AlignBegin=25118|AlignEnd=25559|Gloss=[METRO]
+5	[CHANGER]	[CHANGER]	VERB	_	_	0	root	_	AlignBegin=25575|AlignEnd=25969|Gloss=[CHANGE]
+6	[MÉTRO]	[MÉTRO]	NOUN	_	_	4	conj:dbl	_	AlignBegin=25969|AlignEnd=26189|Gloss=[METRO]|ISMarker[Foc]=Cxn-dbl|ISRole=Foc
+7	[SEPT]	[SEPT]	NUM	_	_	8	nummod	_	AlignBegin=26205|AlignEnd=26535|Gloss=[SEVEN]
+8	[LIGNE]	[LIGNE]	NOUN	_	_	6	nmod	_	AlignBegin=26543|AlignEnd=26866|Gloss=[LINE]
+9	[VILLE]-[JUIF]	[VILLE]-[JUIF]	PROPN	_	_	8	nmod	_	AlignBegin=26882|AlignEnd=28024|Gloss=[VILLE]-[JUIF]|NMM=eyebrow-frown
+10	[MÉTRO]	[MÉTRO]	NOUN	_	_	6	conj:dbl	_	AlignBegin=28024|AlignEnd=28669|Gloss=[METRO]|NMM=head-nod+eye-blink
+
+# sent_id = trajet-len-1-signerA_3_split2_split2_split1
+# text = [MONTER-dans-véhicule] [JUSQUE] [DESCENDRE] [CHANGER] [G]-[O]-[B]-[L]-[E]~ [OUBLIER]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = Je monte dans le métro, jusqu’à l’arrêt G-O-B-L- j’ai oublié,
+# text_en = I go sit in the metro, until the stop G-O-B-L- I forgot,
+# speaker_id = A
+1	[MONTER-dans-véhicule]	[MONTER]	VERB	_	_	0	root	_	AlignBegin=28669|AlignEnd=29630|Gloss=[SIT-in-vehicule]|Sass=train
+2	[JUSQUE]	[JUSQUE]	ADV	_	_	1	advmod	_	AlignBegin=29638|AlignEnd=29992|Gloss=[UNTIL]|NMM=eyebrow-raise
+3	[DESCENDRE]	[DESCENDRE]	VERB	_	_	2	ccomp	_	AlignBegin=30008|AlignEnd=30528|Gloss=[GET-OUT]
+4	[CHANGER]	[CHANGER]	VERB	_	_	3	conj	_	AlignBegin=30543|AlignEnd=30835|Gloss=[CHANGE]
+5	[G]-[O]-[B]-[L]-[E]~	[G]-[O]-[B]-[L]-[E]~	PROPN	_	_	4	obl:mod	_	AlignBegin=30843|AlignEnd=32268|Gloss=[G]-[O]-[B]-[L]-[E]~|NMM=eyebrow-frown|Scrap=Yes
+6	[OUBLIER]	[OUBLIER]	VERB	_	_	1	discourse	_	AlignBegin=32276|AlignEnd=32654|Gloss=[FORGOT]
+
+# sent_id = trajet-len-1-signerA_3_split2_split2_split2
+# text = [CHANGER] [DESCENDRE]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = là je change. Donc je descends là.
+# text_en = there I change. So I go down here.
+# speaker_id = A
+1	[CHANGER]	[CHANGER]	VERB	_	_	2	advcl	_	AlignBegin=32677|AlignEnd=33039|Gloss=[CHANGE]
+2	[DESCENDRE]	[DESCENDRE]	VERB	_	_	0	root	_	AlignBegin=33055|AlignEnd=34047|Gloss=[GET-OUT]|NMM=forward-tilt+eyebrow-raise
+
+# sent_id = trajet-len-1-signerB_4
+# text = [G-O-B-E-L-I-N-S] [hein]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = G-O-B-E-L-I-N-S ?
+# text_en = G-O-B-E-L-I-N-S ?
+# speaker_id = B
+1	[G-O-B-E-L-I-N-S]	[G-O-B-E-L-I-N-S]	PROPN	_	_	0	root	_	AlignBegin=34071|AlignEnd=36260|Gloss=[G-O-B-E-L-I-N-S]
+2	[hein]	[hein]	INTJ	_	_	1	discourse	_	AlignBegin=36268|AlignEnd=36827
+
+# sent_id = trajet-len-1-signerA_4
+# text = [OUI] [À-CÔTÉ/PROCHE?] [LA?] [DESCENDRE] [BUS] [NUMÉRO] [VINGT] [SEPT] [BUS]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = Oui, à côté, là. Je descends du métro et je prends le bus numéro 27, le bus.
+# text_en = Yes, next by, here. I get out of the metro and I take the bus number 27.
+# speaker_id = A
+1	[OUI]	[OUI]	INTJ	_	_	4	discourse	_	AlignBegin=35598|AlignEnd=36110|Gloss=[YES]
+2	[À-CÔTÉ/PROCHE?]	[À-CÔTÉ]	ADV	_	_	4	advmod	_	AlignBegin=36157|AlignEnd=36717|Gloss=[NEXT-TO]
+3	[LA?]	[LA?]	_	_	_	_	_	_	AlignBegin=36748|AlignEnd=36969
+4	[DESCENDRE]	[DESCENDRE]	VERB	_	_	0	root	_	AlignBegin=36984|AlignEnd=38000|Gloss=[GET-OUT]|NMM=forward-tilt+eyebrow-raise
+5	[BUS]	[BUS]	NOUN	_	_	4	conj	_	AlignBegin=38425|AlignEnd=38976|Gloss=[BUS]|ISMarker[Foc]=Cxn-dbl|ISRole=Foc
+6	[NUMÉRO]	[NUMÉRO]	NOUN	_	_	5	nmod	_	AlignBegin=39008|AlignEnd=39622|Gloss=[NUMBER]
+7	[VINGT]	[VINGT]	NUM	_	_	6	obj	_	AlignBegin=39646|AlignEnd=39882|Gloss=[TWENTY]
+8	[SEPT]	[SEPT]	NUM	_	_	7	flat:num	_	AlignBegin=39898|AlignEnd=40323|Gloss=[SEVEN]
+9	[BUS]	[BUS]	NOUN	_	_	5	conj:dbl	_	AlignBegin=40339|AlignEnd=40961|Gloss=[BUS]
+
+# sent_id = trajet-len-1-signerB_5
+# text = [NUMERO] [COMBIEN]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = Numéro combien ?
+# text_en = Which number?
+# speaker_id = B
+1	[NUMERO]	[NUMERO]	NOUN	_	_	2	nmod	_	AlignBegin=41000|AlignEnd=41394|Gloss=[NUMBER]
+2	[COMBIEN]	[COMBIEN]	PRON	_	PronType=Int	0	root	_	AlignBegin=41417|AlignEnd=41945|Gloss=[HOW-MUCH]
+
+# sent_id = trajet-len-1-signerA_5
+# text = [VINGT] [SEPT] [BUS]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = 27 le bus
+# text_en = the bus 27
+# speaker_id = A
+1	[VINGT]	[VINGT]	NUM	_	_	3	nummod	_	AlignBegin=41756|AlignEnd=42252|Gloss=[TWENTY]
+2	[SEPT]	[SEPT]	NUM	_	_	1	flat:num	_	AlignBegin=42260|AlignEnd=43024|Gloss=[SEVEN]
+3	[BUS]	[BUS]	NOUN	_	_	0	root	_	AlignBegin=43055|AlignEnd=43433|Gloss=[BUS]|NMM=eye-blink
+
+# sent_id = trajet-len-1-signerB_6
+# text = [VINGT] [DEUX] [OUI]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = 27, d'accord
+# text_en = 27, okay
+# speaker_id = B
+1	[VINGT]	[VINGT]	NUM	_	_	0	root	_	AlignBegin=42724|AlignEnd=43087|Gloss=[TWENTY]
+2	[DEUX]	[SEPT]	NUM	_	_	1	flat:num	_	AlignBegin=42724|AlignEnd=43087|Gloss=[TWO]
+3	[OUI]	[OUI]	ADV	_	_	1	discourse	_	AlignBegin=43110|AlignEnd=43520|Gloss=[YES]
+
+# sent_id = trajet-len-1-signerA_6
+# text = [JUSQUE] [DESCENDRE] [SAINT] [JACQUES] [voilà]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = Jusqu’à l’arrêt Saint-Jacques et voilà.
+# text_en = Until the stop Saint-Jacques, that's it.
+# speaker_id = A
+1	[JUSQUE]	[JUSQUE]	ADV	_	_	2	advmod	_	AlignBegin=43772|AlignEnd=44449|Gloss=[UNTIL]|NMM=head-shake
+2	[DESCENDRE]	[DESCENDRE]	VERB	_	_	0	root	_	AlignBegin=44465|AlignEnd=44780|Gloss=[GET-OUT]
+3	[SAINT]	[SAINT]	ADJ	_	_	2	obl:arg	_	AlignBegin=44787|AlignEnd=45189|Gloss=[SAINT]
+4	[JACQUES]	[JACQUES]	PROPN	_	_	3	flat	_	AlignBegin=45213|AlignEnd=45591|Gloss=[JACQUES]
+5	[voilà]	[voilà]	INTJ	_	_	2	discourse	_	AlignBegin=45630|AlignEnd=46213|Gloss=[well]
+
+# sent_id = trajet-len-1-signerB_7
+# text = [voilà] [TOTAL] [COMBIEN??] [TEMPS??] PNT[TOI]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = Voilà, au total, tu mets combien de temps ?
+# text_en = Ok, in total, how much time do you take?
+# speaker_id = B
+1	[voilà]	[voilà]	INTJ	_	_	3	discourse	_	AlignBegin=46087|AlignEnd=46543|Gloss=[that's-it]
+2	[TOTAL]	[TOTAL]	ADJ	_	_	3	amod	_	AlignBegin=46575|AlignEnd=47472|Gloss=[TOTAL]
+3	[COMBIEN??]	[COMBIEN??]	PRON	_	PronType=Int	0	root	_	AlignBegin=47480|AlignEnd=47724|Gloss=[HOW-MUCH]
+4	[TEMPS??]	[TEMPS??]	NOUN	_	_	3	nmod	_	AlignBegin=47732|AlignEnd=48071|Gloss=[TIME]
+5	PNT[TOI]	PNT	PRON	_	_	3	nsubj	_	AlignBegin=48079|AlignEnd=48646|Gloss=PNT[YOU]|Tgt=Prs2
+
+# sent_id = trajet-len-1-signerA_7
+# text = [ENVIRON] [TRENTE] [MINUTE] [QUARANTE] [MINUTE] [ENVIRON]
+# source_file = ./Trajet_LEN_1.mp4
+# text_fr = à peu près, 30, 40 minutes.
+# text_en = around 30, 40 minutes.
+# speaker_id = A
+1	[ENVIRON]	[ENVIRON]	ADV	_	_	3	discourse	_	AlignBegin=48661|AlignEnd=49213|Gloss=[APPROXIMATELY]
+2	[TRENTE]	[TRENTE]	NUM	_	_	3	nummod	_	AlignBegin=49213|AlignEnd=49535|Gloss=[THIRTY]
+3	[MINUTE]	[MINUTE]	NOUN	_	_	0	root	_	AlignBegin=49551|AlignEnd=50157|Gloss=[MINUTE]
+4	[QUARANTE]	[QUARANTE]	NUM	_	_	5	nummod	_	AlignBegin=50165|AlignEnd=50425|Gloss=[FOURTY]
+5	[MINUTE]	[MINUTE]	NOUN	_	_	3	conj:dbl	_	AlignBegin=50441|AlignEnd=50913|Gloss=[MINUTE]
+6	[ENVIRON]	[ENVIRON]	ADV	_	_	3	discourse	_	AlignBegin=50937|AlignEnd=51362|Gloss=[APPROXIMATELY]
+
+# sent_id = crdo-fsl-cuc022_68
+# text = [RECETTE] [CUISINE] position-neutre
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Recette de cuisine.
+# text_en = Cooking recipe.
+1	[RECETTE]	[RECETTE]	NOUN	_	_	0	root	_	AlignBegin=1098344|AlignEnd=1098939|Gloss=[RECIPE]
+2	[CUISINE]	[CUISINE]	NOUN	_	_	1	nmod	_	AlignBegin=1098939|AlignEnd=1099659|Gloss=[COOKING]
+3	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=1099659|AlignEnd=1102699|Gloss=neutral-position|NMM=eye-blink
+
+# sent_id = crdo-fsl-cuc022_69
+# text = [voilà] position-neutre
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Voilà !
+# text_en = That's it!
+1	[voilà]	[voilà]	INTJ	_	_	0	root	_	AlignBegin=1102699|AlignEnd=1103459|Gloss=[that's-it]|NMM=head-nod+eye-blink
+2	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=1103459|AlignEnd=1104459|Gloss=neutral-position
+
+# sent_id = crdo-fsl-cuc022_70_split1
+# text = [TITRE] [euh] [CHAMPIGNON] [SAUCE] [S]-[O]-[J]-[A]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = "Champignons à la sauce soja"
+# text_en = "Mushrooms with soy sauce"
+1	[TITRE]	[TITRE]	NOUN	_	_	3	dislocated	_	AlignBegin=1104459|AlignEnd=1105139|Gloss=[TITLE]
+2	[euh]	[euh]	INTJ	_	_	3	discourse	_	AlignBegin=1105139|AlignEnd=1105899|Gloss=~|NMM=eye-blink
+3	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	0	root	_	AlignBegin=1105899|AlignEnd=1106859|Gloss=[MUSHROOM]|NMM=forward-tilt
+4	[SAUCE]	[SAUCE]	NOUN	_	_	3	nmod	_	AlignBegin=1106859|AlignEnd=1107459|Gloss=[SAUCE]|NMM=eye-blink
+5	[S]-[O]-[J]-[A]	FingerSpelling	NOUN	_	_	4	nmod	_	AlignBegin=1107459|AlignEnd=1108859|Gloss=[SOY]|NMM=head-nod
+
+# sent_id = crdo-fsl-cuc022_70_split2
+# text = [VENIR-DE] [RECETTE] [VIÊT-NAM]~ [MONTAGNE] [VIÊT-NAM] POSS[LUI]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = c'est une recette qui vient du Viêt-Nam.
+# text_en = it is a recipe from Viêt-Nam.
+1	[VENIR-DE]	[VENIR-DE]	VERB	_	_	0	root	_	AlignBegin=1108859|AlignEnd=1109259|Gloss=[COME-FROM]|NMM=rightward-tilt+eyebrow-raise|Tgt=PSS3l
+2	[RECETTE]	[RECETTE]	NOUN	_	_	1	dislocated	_	AlignBegin=1109259|AlignEnd=1109579|Gloss=[RECIPE]|Loc=PSS3l
+3	[VIÊT-NAM]~	[VIÊT-NAM]	PROPN	_	_	5	reparandum	_	AlignBegin=1109579|AlignEnd=1109659|Gloss=[VIÊT-NAM]~|Scrap=Yes
+4	[MONTAGNE]	[MONTAGNE]	NOUN	_	_	1	obl:arg	_	AlignBegin=1109659|Gloss=[MOUNTAIN]
+5	[VIÊT-NAM]	[VIÊT-NAM]	PROPN	_	_	4	nmod	_	AlignEnd=1110584|Gloss=[VIÊT-NAM]
+6	POSS[LUI]	POSS	ADJ	_	_	5	amod	_	AlignBegin=1110584|AlignEnd=1112109|Gloss=POSS[IT]|NMM=rightward-tilt+head-nod+eye-blink|Tgt=PSS3l
+
+# sent_id = crdo-fsl-cuc022_71_split1
+# text = [bon] PNT[LISTE] [IL-FAUT] [CHAMPIGNON] [N'IMPORTE] [PAREIL] [VOULOIR] [larges-possibilités]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Bon, il faut plusieurs choses, d'abord des champignons, n'importe lesquels, comme vous voulez
+# text_en = So, we need several things, first murshrooms, which ever, as you'd like
+1	[bon]	[bon]	INTJ	_	_	3	discourse	_	AlignBegin=1112109|AlignEnd=1112579|Gloss=[well]|NMM=eye-blink
+2	PNT[LISTE]	PNT	NOUN	_	_	3	dislocated	_	AlignBegin=1112579|AlignEnd=1113299|Gloss=PNT[LIST]|ISMarker[Top]=Dlxn?|ISRole=Top|NDH=[LISTE]|NMM=eye-contact|Tgt=NDH
+3	[IL-FAUT]	[IL-FAUT]	VERB	_	_	0	root	_	AlignBegin=1113299|AlignEnd=1113659|Gloss=[MUST]|NMM=forward-tilt
+4	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	3	obl:arg	_	AlignBegin=1113659|AlignEnd=1114219|Gloss=[MUSHROOM]|NMM=forward-tilt+eye-blink
+5	[N'IMPORTE]	[N'IMPORTE]	ADV	_	_	4	advmod	_	AlignBegin=1114219|AlignEnd=1114574|Gloss=[WHICHEVER]|NMM=eyebrow-frown
+6	[PAREIL]	[PAREIL]	ADV	_	_	4	advmod	_	AlignBegin=1114574|AlignEnd=1114779|Gloss=[SAME]
+7	[VOULOIR]	[VOULOIR]	VERB	_	_	6	ccomp	_	AlignBegin=1114779|AlignEnd=1115059|Gloss=[WANT]
+8	[larges-possibilités]	[larges-possibilités]	NOUN	_	_	6	discourse	_	AlignBegin=1115059|AlignEnd=1115859|Gloss=[large-possibilities]
+
+# sent_id = crdo-fsl-cuc022_71_split2
+# text = [POUVOIR] [CHOISIR] [CHAMPIGNON] SST[forme-incurvée] [CHAMPIGNON] SST[forme-trompette] SST[forme-ronde] [ETC]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = vous pouvez choisir des champignons de n'importe quel type, en trompette, en forme ronde, etc…
+# text_en = you can choose mushrooms of any kind, shaped like trumpet or round, etc...
+1	[POUVOIR]	[POUVOIR]	VERB	_	_	0	root	_	AlignBegin=1115859|AlignEnd=1116059|Gloss=[CAN]
+2	[CHOISIR]	[CHOISIR]	VERB	_	_	1	ccomp	_	AlignBegin=1116059|AlignEnd=1116499|Gloss=[CHOOSE]|NMM=eye-blink
+3	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	2	obl:arg	_	AlignBegin=1116499|AlignEnd=1116779|Gloss=[MUSHROOM]|NMM=eyebrow-frown+eye-contact
+4	SST[forme-incurvée]	SST	ADJ	_	_	3	amod	_	AlignBegin=1116779|AlignEnd=1117339|Gloss=[curved-shape]|NMM=eye-blink
+5	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	3	conj	_	AlignBegin=1117339|AlignEnd=1117619|Gloss=[MUSHROOM]
+6	SST[forme-trompette]	SST	ADJ	_	_	5	amod	_	AlignBegin=1117619|AlignEnd=1117974|Gloss=[trumpet-shape]|NMM=eye-blink
+7	SST[forme-ronde]	SST	ADJ	_	_	6	conj	_	AlignBegin=1117974|AlignEnd=1118299|Gloss=[round-shape]
+8	[ETC]	[ETC]	INTJ	_	_	3	conj	_	AlignBegin=1118299|AlignEnd=1118979|Gloss=[etc]|NMM=eye-blink
+
+# sent_id = crdo-fsl-cuc022_72
+# text = [LIBRE]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Vous êtes libre.
+# text_en = You are free.
+1	[LIBRE]	[LIBRE]	ADJ	_	_	0	root	_	AlignBegin=1118979|AlignEnd=1119624|Gloss=[FREE]|NMM=head-nod+eye-blink
+
+# sent_id = crdo-fsl-cuc022_73
+# text = PNT[PREMIEREMENT]~ [IL-FAUT] [DEUX]-[CENT] [GRAMME] [IL-FAUT] PNT[PREMIEREMENT]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = En premier, il en faut 200 grammes.
+# text_en = Firslty, we need 200 grams of it.
+1	PNT[PREMIEREMENT]~	PNT	ADV	_	_	2	advmod	_	AlignBegin=1119624|AlignEnd=1119979|Gloss=PNT[FIRSTLY]~|NDH=[LISTE]|NMM=rightward-tilt+eyebrow-raise|Scrap=Yes|Tgt=NDH
+2	[IL-FAUT]	[IL-FAUT]	VERB	_	_	0	root	_	AlignBegin=1119979|AlignEnd=1120139|Gloss=[MUST]
+3	[DEUX]-[CENT]	[DEUX]-[CENT]	NUM	_	_	4	nummod	_	AlignBegin=1120139|AlignEnd=1120539|Gloss=[TWO]-[HUNDRED]
+4	[GRAMME]	[GRAMME]	NOUN	_	_	2	obj	_	AlignBegin=1120539|AlignEnd=1120979|Gloss=[GRAM]
+5	[IL-FAUT]	[IL-FAUT]	VERB	_	_	2	conj:dbl	_	AlignBegin=1120979|AlignEnd=1121219|Gloss=[MUST]|NMM=forward-tilt
+6	PNT[PREMIEREMENT]	PNT	ADV	_	_	2	advmod	_	AlignBegin=1121219|AlignEnd=1121629|Gloss=PNT[FIRSTLY]|NDH=[LISTE]|NMM=eye-blink|Tgt=NDH
+
+# sent_id = crdo-fsl-cuc022_74
+# text = PNT[DEUXIEMEMENT] [SAUCE] [S]-[O]-[J]-[A] [IL-FAUT]~ [CUILLÈRE] [TROIS] [SOUPE] [IL-FAUT] PNT[DEUXIEMEMENT]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Deuxièmement, de la sauce soja , il en faut 3 cuillères à soupe.
+# text_en = Secondly, some soy sauce, we need 3 soup spoon.
+1	PNT[DEUXIEMEMENT]	PNT	ADV	_	_	8	advmod	_	AlignBegin=1121629|AlignEnd=1122534|Gloss=PNT[SECONDLY]|NDH=[LISTE]|Tgt=NDH
+2	[SAUCE]	[SAUCE]	NOUN	_	_	8	obj	_	AlignBegin=1122534|AlignEnd=1123059|Gloss=[SAUCE]|NMM=eye-contact
+3	[S]-[O]-[J]-[A]	FingerSpelling	NOUN	_	_	2	nmod	_	AlignBegin=1123059|AlignEnd=1124219|Gloss=[SOY]
+4	[IL-FAUT]~	[IL-FAUT]	VERB	_	_	8	reparandum	_	AlignBegin=1124219|AlignEnd=1124339|Gloss=[MUST]~|Scrap=Yes
+5	[CUILLÈRE]	[CUILLÈRE]	NOUN	_	_	2	nmod	_	AlignBegin=1124339|AlignEnd=1124579|Gloss=[SPOON]
+6	[TROIS]	[TROIS]	NUM	_	_	5	nmod	_	AlignBegin=1124579|AlignEnd=1124779|Gloss=[THREE]|NMM=eye-blink
+7	[SOUPE]	[SOUPE]	NOUN	_	_	5	nmod	_	AlignBegin=1124779|AlignEnd=1125179|Gloss=[SOUP]
+8	[IL-FAUT]	[IL-FAUT]	VERB	_	_	0	root	_	AlignBegin=1125179|AlignEnd=1125539|Gloss=[MUST]|NMM=forward-tilt+eye-blink
+9	PNT[DEUXIEMEMENT]	PNT	ADV	_	_	8	advmod	_	AlignBegin=1125539|AlignEnd=1125854|Gloss=PNT[SECONDLY]|NDH=[LISTE]|Tgt=NDH
+
+# sent_id = crdo-fsl-cuc022_75
+# text = PNT[TROISIEMEMENT] [UN] [CUILLÈRE] [SUCRE] [un-peu]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Troisièmement, une cuillère de sucre.
+# text_en = Thirdly, one spoon of sugar.
+1	PNT[TROISIEMEMENT]	PNT	ADV	_	_	3	advmod	_	AlignBegin=1125854|AlignEnd=1126259|Gloss=PNT[THIRDLY]|NDH=[LISTE]|Tgt=NDH
+2	[UN]	[UN]	NUM	_	_	3	nummod	_	AlignBegin=1126259|AlignEnd=1126419|Gloss=[ONE]|NMM=eye-contact
+3	[CUILLÈRE]	[CUILLÈRE]	NOUN	_	_	0	root	_	AlignBegin=1126419|AlignEnd=1126659|Gloss=[SPOON]
+4	[SUCRE]	[SUCRE]	NOUN	_	_	3	nmod	_	AlignBegin=1126659|AlignEnd=1127379|Gloss=[SUGAR]
+5	[un-peu]	[un-peu]	ADV	_	_	3	advmod	_	AlignBegin=1127379|AlignEnd=1127859|Gloss=[a-little]|NMM=head-nod+eye-blink
+
+# sent_id = crdo-fsl-cuc022_76_split1
+# text = PNT[QUATRIEMEMENT] [POIVRE]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Quatrièmement, du poivre.
+# text_en = Fourthly, pepper.
+1	PNT[QUATRIEMEMENT]	PNT	ADV	_	_	2	advmod	_	AlignBegin=1127859|AlignEnd=1128499|Gloss=PNT[FOURTHLY]|NDH=[LISTE]|Tgt=NDH
+2	[POIVRE]	[POIVRE]	NOUN	_	_	0	root	_	AlignBegin=1128499|AlignEnd=1129179|Gloss=[PEPPER]|NMM=forward-tilt+eye-contact
+
+# sent_id = crdo-fsl-cuc022_76_split2
+# text = PNT[CINQUIEMEMENT] [SEL] [FEUILLE] [PAREIL]~ [PROCHE] [FLEUR] [PI_TYPIQUE] [CHINE] [PI_TYPIQUE]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Quatrièmement, du poivre. Cinquièmement, du sel, des feuilles qui ressemblent à des fleurs, typique de Chine.
+# text_en = Fourthly, pepper. Fifthly, salt, leaves that look like flowers, typical of China.
+1	PNT[CINQUIEMEMENT]	PNT	ADV	_	_	2	advmod	_	AlignBegin=1129179|AlignEnd=1129419|Gloss=PNT[FIFTHLY]|NDH=[LISTE]|Tgt=NDH
+2	[SEL]	[SEL]	NOUN	_	_	0	root	_	AlignBegin=1129419|AlignEnd=1130024|Gloss=[SALT]|NMM=leftward-tilt
+3	[FEUILLE]	[FEUILLE]	NOUN	_	_	2	conj	_	AlignBegin=1130024|AlignEnd=1130579|Gloss=[LEAF]
+4	[PAREIL]~	[PAREIL]	ADJ	_	_	5	reparandum	_	AlignBegin=1130579|AlignEnd=1130819|Gloss=[SAME]~|NMM=eyebrow-frown|Scrap=Yes
+5	[PROCHE]	[PROCHE]	ADJ	_	_	3	amod	_	AlignBegin=1130819|AlignEnd=1131139|Gloss=[CLOSE]|NMM=eyebrow-frown
+6	[FLEUR]	[FLEUR]	NOUN	_	_	5	obj	_	AlignBegin=1131139|AlignEnd=1131659|Gloss=[FLOWER]|NMM=eyebrow-frown
+7	[PI_TYPIQUE]	[PI_TYPIQUE]	ADJ	_	_	6	amod	_	AlignBegin=1131659|AlignEnd=1132059|Gloss=[PI_TYPICAL]|ISRole=Foc|NMM=head-nod+eyebrow-raise
+8	[CHINE]	[CHINE]	PROPN	_	_	9	obj	_	AlignBegin=1132059|AlignEnd=1132539|Gloss=[CHINA]
+9	[PI_TYPIQUE]	[PI_TYPIQUE]	ADJ	_	_	7	conj:dbl	_	AlignBegin=1132539|AlignEnd=1132899|Gloss=[PI_TYPICAL]|ISMarker[Foc]=Cxn-dbl
+
+# sent_id = crdo-fsl-cuc022_77
+# text = [FEUILLE-petite] [NOM] [ÉPELER] [pas-savoir] [SAVOIR] [ODEUR] [c'est-tout]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Ces feuilles ont un nom que je ne connais vraiment pas, j'en connais l'odeur, c'est tout.
+# text_en = I don't know the name of these flowers, I only know their smell, that's it.
+1	[FEUILLE-petite]	[FEUILLE]	NOUN	_	_	2	nmod	_	AlignBegin=1132899|AlignEnd=1133299|Gloss=[LEAF-small]|NMM=eyebrow-frown
+2	[NOM]	[NOM]	NOUN	_	_	3	obj	_	AlignBegin=1133299|AlignEnd=1133539|Gloss=[NAME]|NMM=eyebrow-raise
+3	[ÉPELER]	[ÉPELER]	VERB	_	_	4	dislocated	_	AlignBegin=1133539|AlignEnd=1133899|Gloss=[SPELL]
+4	[pas-savoir]	[pas-savoir]	INTJ	_	_	0	root	_	AlignBegin=1133899|AlignEnd=1134219|Gloss=[IGNORE]|NMM=eyebrow-raise+eye-blink
+5	[SAVOIR]	[SAVOIR]	VERB	_	_	4	conj:contr	_	AlignBegin=1134219|AlignEnd=1134459|Gloss=[KNOW]|NMM=eyebrow-raise
+6	[ODEUR]	[ODEUR]	NOUN	_	_	5	obj	_	AlignBegin=1134459|AlignEnd=1134819|Gloss=[SMELL]|ISMarker[CFoc]=Cxn-corel?|ISRole=CFoc|NMM=eye-blink
+7	[c'est-tout]	[c'est-tout]	INTJ	_	_	5	discourse	_	AlignBegin=1134819|AlignEnd=1135459|Gloss=[that's-all]|NMM=eye-blink
+
+# sent_id = crdo-fsl-cuc022_78
+# text = PNT[toute-LISTE] [voilà]~
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Tout y est, voilà !
+# text_en = We have everything!
+1	PNT[toute-LISTE]	PNT	NOUN	_	_	0	root	_	AlignBegin=1135459|AlignEnd=1135939|Gloss=PNT[all-LIST]|NDH=[LISTE]|NMM=head-nod+eye-contact|Tgt=NDH
+2	[voilà]~	[voilà]	INTJ	_	_	1	discourse	_	AlignBegin=1135939|AlignEnd=1136139|Gloss=[that's-it]~|Scrap=Yes
+
+# sent_id = crdo-fsl-cuc022_79_80
+# text = [COMMENCER] [COMMENT] [IL-FAUT] [LAVER] [PREMIER]~ [CHAMPIGNON] [LAVER] [COUPER-en-morceaux] [DÉPLACER] SST[forme-plate]~ SST[forme-ronde] [s'égoutter] ??[IL-FAUT]~
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Comment on fait : D'abord, il faut laver les champignons, tout laver, les couper en morceaux, les mettre dans une passoire.
+# text_en = How do we proceed: First, you must wash the mushrooms, wash everything and cut them in pieces, put them in a strainer.
+1	[COMMENCER]	[COMMENCER]	VERB	_	_	0	root	_	AlignBegin=1136139|AlignEnd=1136579|Gloss=[START]
+2	[COMMENT]	[COMMENT]	PRON	_	PronType=Int	3	obl:mod	_	AlignBegin=1136579|AlignEnd=1136739|Gloss=[HOW]|ISMarker[Foc]=Cxn-fq|NMM=eye-blink
+3	[IL-FAUT]	[IL-FAUT]	VERB	_	_	1	ccomp	_	AlignBegin=1136739|AlignEnd=1136899|Gloss=[MUST]|ISRole=Foc|NMM=forward-tilt
+4	[LAVER]	[LAVER]	VERB	_	_	3	ccomp	_	AlignBegin=1136899|AlignEnd=1137299|Gloss=[WASH]
+5	[PREMIER]~	[PREMIER]	ADJ	_	_	3	advcl	_	AlignBegin=1137299|AlignEnd=1137424|Gloss=[FIRST]~|Scrap=Yes
+6	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	4	obj	_	AlignBegin=1137424|AlignEnd=1137939|Gloss=[MUSHROOM]|NMM=forward-tilt
+7	[LAVER]	[LAVER]	VERB	_	_	4	conj:reform	_	AlignBegin=1137939|AlignEnd=1139019|Exp=Intensité|Gloss=[WASH]|NMM=eyebrow-frown+eye-blink
+8	[COUPER-en-morceaux]	[COUPER]	VERB	_	_	4	conj	_	AlignBegin=1139019|AlignEnd=1139579|Gloss=[CUT-in-pieces]|Instr=PRF(DH)[lame]|Loc=PSS3l|Manner=en-morceaux|NMM=eyebrow-frown+eye-blink|PT=tu-générique
+9	[DÉPLACER]	[DÉPLACER]	VERB	_	_	4	conj	_	AlignBegin=1139579|AlignEnd=1140219|Gloss=[MOVE]|NMM=eyebrow-raise|Src=PSS3l|Tgt=PSS3r
+10	SST[forme-plate]~	SST	ADJ	_	_	11	reparandum	_	AlignBegin=1140219|AlignEnd=1140579|Gloss=SST[flat-shape]~|Loc=PSS3r|Scrap=Yes
+11	SST[forme-ronde]	SST	ADJ	_	_	9	obl:arg	_	AlignBegin=1140579|AlignEnd=1141184|Gloss=SST[round-shape]|NMM=eye-contact
+12	[s'égoutter]	[s'égoutter]	VERB	_	_	4	conj	_	AlignBegin=1141184|AlignEnd=1141754|Gloss=[DRAIN]
+13	??[IL-FAUT]~	[IL-FAUT]	VERB	_	_	3	conj:reform	_	AlignBegin=1141754|AlignEnd=1142054|Gloss=[MUST]~
+
+# sent_id = crdo-fsl-cuc022_81
+# text = [MOUILLER] [NON] [LAISSER] [SÉCHER] [LAISSER] position-neutre
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Il ne faut pas qu'ils soient mouillés, les laisser sécher.
+# text_en = They shouldn't be wet, we need to let them dry.
+1	[MOUILLER]	[MOUILLER]	VERB	_	_	0	root	_	AlignBegin=1142054|AlignEnd=1142374|Gloss=[WET]|NMM=leftward-tilt
+2	[NON]	[NON]	ADV	_	_	1	advmod	_	AlignBegin=1142374|AlignEnd=1142859|Gloss=[NO]|ISMarker[CFoc]=Cxn-corel
+3	[LAISSER]	[LAISSER]	VERB	_	_	1	conj	_	AlignBegin=1142859|AlignEnd=1143214|Gloss=[LET]|ISRole=Foc+CFoc
+4	[SÉCHER]	[SÉCHER]	VERB	_	_	3	ccomp	_	AlignBegin=1143214|AlignEnd=1143659|Gloss=[DRY]|NMM=eyebrow-raise+head-nod
+5	[LAISSER]	[LAISSER]	VERB	_	_	3	conj:reform	_	AlignBegin=1143659|AlignEnd=1144339|Gloss=[LET]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
+6	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=1144339|AlignEnd=1144859|Gloss=neutral-position
+
+# sent_id = crdo-fsl-cuc022_82
+# text = [A]-[I]-[L] SST[gousse] [OUBLIER] [AJOUTER] [DEUX] [gousse] [gousse] [ÉCRASER] [METTRE] [POÊLE] [DEUX] [CUILLÈRE] [HUILE/SAUCE] [verser-HUILE]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = J'avais oublié: il faut ajouter deux gousses d'ail, bien écrasées et les mettre dans la poêle avec deux cuillerées d'huile.
+# text_en = I forgot: we need to add two cloves of garlic, well mashed and put them in the pan with two spoons of oil.
+1	[A]-[I]-[L]	FingerSpelling	NOUN	_	_	2	nmod	_	AlignBegin=1144859|AlignEnd=1145659|Gloss=[GARLIC]
+2	SST[gousse]	SST	NOUN	_	_	6	conj:reform	_	AlignBegin=1145659|AlignEnd=1146179|Gloss=[clove]
+3	[OUBLIER]	[OUBLIER]	VERB	_	_	4	discourse	_	AlignBegin=1146179|AlignEnd=1146459|Gloss=[FORGET]|NMM=eyebrow-raise
+4	[AJOUTER]	[AJOUTER]	VERB	_	_	0	root	_	AlignBegin=1146459|AlignEnd=1146699|Gloss=[ADD]
+5	[DEUX]	[DEUX]	NUM	_	_	6	nummod	_	AlignBegin=1146699|AlignEnd=1147259|Gloss=[TWO]
+6	[gousse]	[gousse]	NOUN	_	_	4	obj	_	AlignBegin=1147259|AlignEnd=1147618|Gloss=[clove]|NMM=eye-contact
+7	[gousse]	[gousse]	NOUN	_	_	6	conj:illustrate	_	AlignBegin=1147618|AlignEnd=1147819|Gloss=[clove]
+8	[ÉCRASER]	[ÉCRASER]	VERB	_	_	6	acl	_	AlignBegin=1147819|AlignEnd=1149244|Gloss=[MASH]|NMM=eyebrow-frown+head-nod+eye-blink
+9	[METTRE]	[METTRE]	VERB	_	_	4	conj	_	AlignBegin=1149244|AlignEnd=1149739|Gloss=[PUT]|Tgt=PSS3l
+10	[POÊLE]	[POÊLE]	NOUN	_	_	9	obl:arg	_	AlignBegin=1149739|AlignEnd=1150259|Gloss=[PAN]|Loc=PSS3l
+11	[DEUX]	[DEUX]	NUM	_	_	12	nummod	_	AlignBegin=1150259|AlignEnd=1150539|Gloss=[TWO]|NMM=eye-blink
+12	[CUILLÈRE]	[CUILLÈRE]	NOUN	_	_	9	obj	_	AlignBegin=1150539|AlignEnd=1150979|Gloss=[SPOON]
+13	[HUILE/SAUCE]	[HUILE]	NOUN	_	_	12	nmod	_	AlignBegin=1150979|AlignEnd=1151339|Gloss=[OIL]
+14	[verser-HUILE]	[HUILE]	VERB	_	_	9	conj:illustrate	_	AlignBegin=1151339|AlignEnd=1152344|Gloss=[pour-oil]|NMM=head-nod+eye-blink
+
+# sent_id = crdo-fsl-cuc022_83
+# text = [LAISSER] [FRIRE] [JUSQUE]~ [DEVENIR] [COMMENCER] [MARRON]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Laisser frire jusqu'à ce que cela devienne marron.
+# text_en = Let it fry until it becomes brown.
+1	[LAISSER]	[LAISSER]	VERB	_	_	0	root	_	AlignBegin=1152344|AlignEnd=1152734|Gloss=[LET]|NMM=eyebrow-frown
+2	[FRIRE]	[FRIRE]	VERB	_	_	1	ccomp	_	AlignBegin=1152734|AlignEnd=1153299|Gloss=[FRY]
+3	[JUSQUE]~	[JUSQUE]	ADP	_	_	4	mark	_	AlignBegin=1153299|AlignEnd=1153499|Gloss=[UNTIL]~|Scrap=Yes
+4	[DEVENIR]	[DEVENIR]	VERB	_	_	1	ccomp	_	AlignBegin=1153499|AlignEnd=1153899|Gloss=[BECOME]|NMM=eyebrow-raise
+5	[COMMENCER]	[COMMENCER]	VERB	_	_	4	compound:svc	_	AlignBegin=1153899|AlignEnd=1154219|Gloss=[START]
+6	[MARRON]	[MARRON]	ADJ	_	_	4	obj	_	AlignBegin=1154219|AlignEnd=1155024|Gloss=[BROWN]|ISMarker[Foc]=NMM|ISRole=Foc|NMM=forward-tilt+eyebrow-raise+head-nod+eye-blink
+
+# sent_id = crdo-fsl-cuc022_84_85
+# text = [PRENDRE] [CHAMPIGNON] [DÉPLACER] [METTRE-dans-poêle] [MÉLANGER] [LAISSER]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Prendre les champignons et les mettre dans la poëlle et bien mélanger. Puis les laisser.
+# text_en = Take the mushrooms and put them in the pan et stir well. And leave them.
+1	[PRENDRE]	[PRENDRE]	VERB	_	_	0	root	_	AlignBegin=1155024|AlignEnd=1155454|Gloss=[TAKE]|Src=PSS3r
+2	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	1	obj	_	AlignBegin=1155454|AlignEnd=1155739|Gloss=[MUSHROOM]
+3	[DÉPLACER]	[DÉPLACER]	VERB	_	_	1	conj:reform	_	AlignBegin=1155739|AlignEnd=1156339|Gloss=[MOVE]|Src=PSS3r|Tgt=PSS3l
+4	[METTRE-dans-poêle]	[METTRE]	VERB	_	_	1	conj	_	AlignBegin=1156339|AlignEnd=1156739|Gloss=[PUT]|Tgt=PSS3l
+5	[MÉLANGER]	[MÉLANGER]	VERB	_	_	1	conj	_	AlignBegin=1156739|AlignEnd=1157859|Gloss=[MIX]|NMM=eye-blink
+6	[LAISSER]	[LAISSER]	VERB	_	_	1	conj	_	AlignBegin=1157859|AlignEnd=1158139|Gloss=[LET]|NMM=head-nod
+
+# sent_id = crdo-fsl-cuc022_86
+# text = [PRÉPARER] [SAUCE] [PRÉPARER]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Préparer la sauce :
+# text_en = Prepare the sauce:
+1	[PRÉPARER]	[PRÉPARER]	VERB	_	_	0	root	_	AlignBegin=1158139|AlignEnd=1158619|Gloss=[PREPARE]|ISRole=Foc
+2	[SAUCE]	[SAUCE]	NOUN	_	_	1	obj	_	AlignBegin=1158619|AlignEnd=1159379|Gloss=[SAUCE]
+3	[PRÉPARER]	[PRÉPARER]	VERB	_	_	1	conj:dbl	_	AlignBegin=1159379|AlignEnd=1160014|Gloss=[PREPARE]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
+
+# sent_id = crdo-fsl-cuc022_87
+# text = [petit-récipient] [S]-[O]-[J]-[A] [SAUCE] [visqueux] [verser-SAUCE] [TROIS] [verser]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Dans un petit récipient, verser trois cuillères de sauce soja (un peu visqueux),
+# text_en = In a small recipient, pour three spoons of soy sauce (a little slimy),
+1	[petit-récipient]	[petit-récipient]	NOUN	_	_	5	obl:mod	_	AlignBegin=1160014|AlignEnd=1160264|Gloss=[small-recipient]
+2	[S]-[O]-[J]-[A]	[SOJA]	NOUN	_	_	3	nmod	_	AlignBegin=1160264|AlignEnd=1161934|Gloss=[SOY]
+3	[SAUCE]	[SAUCE]	NOUN	_	_	5	obj	_	AlignBegin=1161934|AlignEnd=1162419|Gloss=[SAUCE]
+4	[visqueux]	[visqueux]	ADJ	_	_	3	amod	_	AlignBegin=1162419|AlignEnd=1163139|Gloss=[slimy]
+5	[verser-SAUCE]	[SAUCE]	VERB	_	_	0	root	_	AlignBegin=1163139|AlignEnd=1163699|Gloss=[POUR]|NMM=eyebrow-raise+eye-blink
+6	[TROIS]	[TROIS]	NUM	_	_	3	nmod	_	AlignBegin=1163699|AlignEnd=1163939|DHHeld=sauce|Gloss=[THREE]
+7	[verser]	[verser]	VERB	_	_	5	conj:illustrate	_	AlignBegin=1163939|AlignEnd=1164819|DHHeld=sauce|Gloss=[pour]|NMM=head-nod+eye-blink|Rep=2
+
+# sent_id = crdo-fsl-cuc022_88_89
+# text = [SUCRE] [METTRE] [SEL] [METTRE] [POIVRE] [METTRE] [mélanger] [FINI]~
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Mettre le sucre, mettre le sel, ajouter le poivre, et mélanger. C'est tout.
+# text_en = Put the sugar, put the salt, add the pepper, and stir. That's it.
+1	[SUCRE]	[SUCRE]	NOUN	_	_	2	obj	_	AlignBegin=1164819|AlignEnd=1165299|Gloss=[SUGAR]|NMM=eye-blink
+2	[METTRE]	[METTRE]	VERB	_	_	0	root	_	AlignBegin=1165299|AlignEnd=1165899|Gloss=[PUT]|NMM=head-nod+eye-blink
+3	[SEL]	[SEL]	NOUN	_	_	4	obj	_	AlignBegin=1165899|AlignEnd=1166179|Gloss=[SALT]
+4	[METTRE]	[METTRE]	VERB	_	_	2	conj	_	AlignBegin=1166179|AlignEnd=1166619|Gloss=[PUT]|NMM=head-nod+eye-blink
+5	[POIVRE]	[POIVRE]	NOUN	_	_	6	obj	_	AlignBegin=1166619|AlignEnd=1166939|Gloss=[PEPPER]
+6	[METTRE]	[METTRE]	VERB	_	_	2	conj	_	AlignBegin=1166939|AlignEnd=1167339|Gloss=[PUT]|NMM=head-nod+eye-blink
+7	[mélanger]	[mélanger]	VERB	_	_	2	conj	_	AlignBegin=1167339|AlignEnd=1168099|Gloss=[mix]|NMM=eyebrow-frown+eye-blink
+8	[FINI]~	[FINI]	VERB	_	_	7	discourse	_	AlignBegin=1168099|AlignEnd=1168279|Gloss=[DONE]~|Scrap=Yes
+
+# sent_id = crdo-fsl-cuc022_90
+# text = [par-là]~ [VERSER] [mettre-SAUCE] [LAISSER] [CHAUFFER] [MÉLANGER] [LAISSER] [JUSQUE] [EAU] [en-surface] [ABSORBER-totalement] [NON] [ABSORBER-un-peu]~
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Lorsque c'est à mi-cuisson, verser le bol de sauce dans la poëlle, laisser chauffer, mélanger et laisser jusqu'à ce que le liquide en surface soit un peu absorbé, il ne faut pas le laisser absorber entièrement.
+# text_en = When it's halfway through cooking, pour the bowl of sauce in the pan, let warm up, mix and let it until the liquide on the surface is a little bit absorbed, it shouldn't be absorbed completely.
+1	[par-là]~	[par-là]	ADV	_	_	2	advmod	_	AlignBegin=1168279|AlignEnd=1168939|Gloss=[over-there]~|Scrap=Yes
+2	[VERSER]	[VERSER]	VERB	_	_	0	root	_	AlignBegin=1168939|AlignEnd=1169499|Gloss=[POUR]|Loc=PSS3l[poêle]|NDH=PRF[POÊLE]|NMM=eyebrow-raise+eye-contact|PT=tu-générique|Subj=PT
+3	[mettre-SAUCE]	[SAUCE]	VERB	_	_	2	conj	_	AlignBegin=1169499|AlignEnd=1170099|Gloss=[put-SAUCE]
+4	[LAISSER]	[LAISSER]	VERB	_	_	2	conj	_	AlignBegin=1170099|AlignEnd=1170499|Gloss=[LET]
+5	[CHAUFFER]	[CHAUFFER]	VERB	_	_	4	ccomp	_	AlignBegin=1170499|AlignEnd=1170744|Gloss=[WARM]
+6	[MÉLANGER]	[MÉLANGER]	VERB	_	_	2	conj	_	AlignBegin=1170744|AlignEnd=1171214|Gloss=[MIX]
+7	[LAISSER]	[LAISSER]	VERB	_	_	2	conj	_	AlignBegin=1171214|AlignEnd=1171894|Gloss=[LET]
+8	[JUSQUE]	[JUSQUE]	ADP	_	_	12	case	_	AlignBegin=1171894|AlignEnd=1173539|Gloss=[UNTIL]|NMM=forward-tilt+eyebrow-raise
+9	[EAU]	[EAU]	NOUN	_	_	11	obj	_	AlignBegin=1173539|AlignEnd=1173739|Gloss=[WATER]
+10	[en-surface]	[en-surface]	ADJ	_	_	9	amod	_	AlignBegin=1173739|AlignEnd=1174179|Gloss=[on-surface]
+11	[ABSORBER-totalement]	[ABSORBER]	VERB	_	_	12	csubj	_	AlignBegin=1174179|AlignEnd=1174899|Gloss=[ABSORB-completely]|Manner=totalement|NMM=eyebrow-raise
+12	[NON]	[NON]	ADV	_	_	7	advmod	_	AlignBegin=1174899|AlignEnd=1175424|Gloss=[NO]|ISMarker[CFoc]=Cxn-corel|NMM=eyebrow-raise
+13	[ABSORBER-un-peu]~	[ABSORBER]	VERB	_	_	12	conj:contr	_	AlignBegin=1175424|AlignEnd=1175979|Gloss=[ABSORB-a-little]|ISRole=CFoc|Manner=pas-totalement|NMM=eyebrow-raise+head-nod|Scrap=Yes
+
+# sent_id = crdo-fsl-cuc022_91
+# text = [COUPER] [prendre-POÊLE] [verser] [forme-arrondie/saladier] [verser-dans-saladier]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Eteindre le feu et verser le contenu de la poêle dans un saladier.
+# text_en = Turn off the burner and pour the content in the pan in a bowl.
+1	[COUPER]	[COUPER]	VERB	_	_	0	root	_	AlignBegin=1175979|AlignEnd=1176779|Gloss=[CUT]
+2	[prendre-POÊLE]	[POÊLE]	VERB	_	_	1	conj	_	AlignBegin=1176779|AlignEnd=1177259|Gloss=[take-PAN]
+3	[verser]	[verser]	VERB	_	_	1	conj	_	AlignBegin=1177259|AlignEnd=1177939|DHHeld=PRF[POÊLE]|Gloss=[pour]|NDH=PRF[contenant]|NMM=eyebrow-raise+head-nod
+4	[forme-arrondie/saladier]	[forme-arrondie/saladier]	NOUN	_	_	3	obl:arg	_	AlignBegin=1177939|AlignEnd=1178499|Gloss=[round-shape/bowl]|NMM=eye-blink
+5	[verser-dans-saladier]	[verser-dans-saladier]	VERB	_	_	3	conj:dbl	_	AlignBegin=1178499|AlignEnd=1179219|Gloss=[pour-in-bowl]|NDHHeld=[saladier]|NMM=head-nod+eye-blink
+
+# sent_id = crdo-fsl-cuc022_92
+# text = [POIVRE] [ENCORE] [COUPER-en-morceaux] [répandre] [FEUILLE] [FLEUR] [répandre]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Mettre encore du poivre, le hacher et le répandre sur la préparation ainsi que les feuilles-fleurs.
+# text_en = Put pepper again, chop it and spread it on the preparation as well as the flower-leaves.
+1	[POIVRE]	[POIVRE]	NOUN	_	_	3	obj	_	AlignBegin=1179219|AlignEnd=1179659|Gloss=[PEPPER]
+2	[ENCORE]	[ENCORE]	ADV	_	_	3	advmod	_	AlignBegin=1179659|AlignEnd=1179899|Gloss=[AGAIN]|NMM=forward-tilt+eye-contact
+3	[COUPER-en-morceaux]	[COUPER]	VERB	_	_	0	root	_	AlignBegin=1179899|AlignEnd=1180499|Gloss=[CUT-in-pieces]|Instr=Prf(DH)[lame]|Manner=en-morceaux|NMM=leftward-tilt+head-nod+eye-blink
+4	[répandre]	[répandre]	VERB	_	_	3	conj	_	AlignBegin=1180499|AlignEnd=1181259|Gloss=[spread]|ISRole=Foc|NMM=eye-blink
+5	[FEUILLE]	[FEUILLE]	NOUN	_	_	4	obj	_	AlignBegin=1181259|AlignEnd=1181699|Gloss=[LEAF]|NMM=forward-tilt
+6	[FLEUR]	[FLEUR]	NOUN	_	_	5	nmod	_	AlignBegin=1181699|AlignEnd=1182059|Gloss=[FLOWER]
+7	[répandre]	[répandre]	VERB	_	_	4	conj:dbl	_	AlignBegin=1182059|AlignEnd=1182779|Gloss=[spread]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
+
+# sent_id = crdo-fsl-cuc022_93
+# text = [poser-plat] [COMMENCER]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Poser le plat sur la table. Vous pouvez commencer (à manger).
+# text_en = Put down the plat on the table. You can start (eating).
+1	[poser-plat]	[poser-plat]	VERB	_	_	0	root	_	AlignBegin=1182779|AlignEnd=1183419|Gloss=[put-down-plate]|NMM=forward-tilt+eyebrow-raise
+2	[COMMENCER]	[COMMENCER]	VERB	_	_	1	conj	_	AlignBegin=1183419|AlignEnd=1183809|Gloss=[START]
+
+# sent_id = crdo-fsl-cuc022_94
+# text = [BON] [DÉLICIEUX]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = C'est vraiment délicieux!...
+# text_en = It's really delicious!...
+1	[BON]	[BON]	ADJ	_	_	0	root	_	AlignBegin=1183809|AlignEnd=1184229|Gloss=[GOOD]|NMM=eyebrow-raise
+2	[DÉLICIEUX]	[DÉLICIEUX]	ADJ	_	_	1	conj	_	AlignBegin=1184229|AlignEnd=1184619|Gloss=[DELICIOUS]
+
+# sent_id = crdo-fsl-cuc022_95_split1
+# text = [FINI] position-neutre
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = C'est fini!
+# text_en = It's done!
+1	[FINI]	[FINI]	VERB	_	_	0	root	_	AlignBegin=1184619|AlignEnd=1185014|Gloss=[DONE]
+2	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=1185014|AlignEnd=1185894|Gloss=neutral-position|NMM=head-nod
+
+# sent_id = crdo-fsl-cuc022__1
+# text = [plaine] [herbe-qui-ondule]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Dans la plaine, l'herbe ondule,
+# text_en = In the plains, the grass is waving,
+1	[plaine]	[plaine]	NOUN	_	_	0	root	_	AlignBegin=7323|AlignEnd=8833|Gloss=[plains]|ST=plaine
+2	[herbe-qui-ondule]	[herbe-qui-ondule]	NOUN	_	_	1	nmod	_	AlignBegin=8835|AlignEnd=12190|Gloss=[grass-waving]|ST=plaine
+
+# sent_id = crdo-fsl-cuc022__2
+# text = PRF[cheval] SST[deux-oreilles] PRF[cheval] SST[queue] SST[crinière] PRF[cheval] [CHEVAL]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = un animal se tient là, avec deux oreilles, une queue, une crinière : c'est un cheval.
+# text_en = an animal is standing here, with two ears, a tail, a mane: it's a horse.
+1	PRF[cheval]	PRF	NOUN	_	_	0	root	_	AlignBegin=12190|AlignEnd=13435|Gloss=PRF[horse]|PT=cheval|PTReal=posture-fière
+2	SST[deux-oreilles]	SST	NOUN	_	_	1	conj	_	AlignBegin=13435|AlignEnd=14885|Gloss=SST[two-ears]|PT=cheval|PTReal=posture-fière
+3	PRF[cheval]	PRF	PRON	_	PronType=Prs	4	conj:illustrate	_	AlignBegin=14885|AlignEnd=15875|Gloss=PRF[horse]|PT=cheval|PTReal=posture-fière+deux-pattes
+4	SST[queue]	SST	NOUN	_	_	1	conj	_	AlignBegin=15875|AlignEnd=17195|Gloss=SST[tail]|PT=cheval|PTReal=posture-fière+NDH-patte
+5	SST[crinière]	SST	NOUN	_	_	1	conj	_	AlignBegin=17195|AlignEnd=18355|Gloss=SST[mane]|PT=cheval|PTReal=posture-fière+NDH-patte
+6	PRF[cheval]	PRF	PRON	_	PronType=Prs	7	conj:illustrate	_	AlignBegin=18355|AlignEnd=20035|Gloss=PRF[horse]|PT=cheval|PTReal=posture-fière+deux-pattes
+7	[CHEVAL]	[CHEVAL]	NOUN	_	_	1	appos	_	AlignBegin=20035|AlignEnd=21235|Gloss=[HORSE]|ISMarker[Foc]=NMM+Dlxn?|ISRole=Foc|NMM=eyebrow-raise+eye-contact|PT=cheval|PTReal=posture-fière
+
+# sent_id = crdo-fsl-cuc022__3
+# text = [gambader] [s'arrêter-brusquement] SST[piquet] SST[barrière-entre-piquets] PRF[piquet] [OISEAU] [être-sur] [regarder] [regarder] PNT[loin]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Il galope, puis soudain s'arrête, intrigué : des piquets qui soutiennent une barrière. Un oiseau est perché sur la barrière, le cheval le regarde et loin devant lui
+# text_en = It is galloping, then suddently stops, intrigued: stakes holding up a fence. A bird is one the fence, the horse observes it and far away
+1	[gambader]	[gambader]	VERB	_	_	0	root	_	AlignBegin=21235|AlignEnd=24715|Gloss=[gambol]|PT=cheval|PTReal=posture-fière+deux-pattes|Subj=PT
+2	[s'arrêter-brusquement]	[s'arrêter-brusquement]	VERB	_	_	1	conj:chaining	_	AlignBegin=24715|AlignEnd=26275|Gloss=[stop-suddently]|NMM=foward-tilt|PT=cheval|PTReal=posture-fière+deux-pattes|Subj=PT
+3	SST[piquet]	SST	NOUN	_	_	2	conj:chaining	_	AlignBegin=26275|AlignEnd=28075|Gloss=SST[stake]|NMM=eyebrow-frown|PT=cheval|PTReal=posture|Rep=5|ST=barrière|TwoH=Yes
+4	SST[barrière-entre-piquets]	SST	NOUN	_	_	3	nmod	_	AlignBegin=28075|AlignEnd=30595|Gloss=SST[fence-between-stakes]|NDHHeld=SST[piquet]|NMM=eyebrow-raise|PT=cheval|PTReal=posture|ST=barrière
+5	PRF[piquet]	PRF	NOUN	_	_	7	obj	_	AlignBegin=30595|AlignEnd=31675|Gloss=PRF[stake]|Loc=PSS3r|NMM=eyebrow-frown|ST=oiseau-sur-piquet
+6	[OISEAU]	[OISEAU]	NOUN	_	_	7	nsubj	_	AlignBegin=31675|AlignEnd=32355|DHHeld=PRF[piquet]|GazeHeld=PSS3r|Gloss=[BIRD]|NMM=eyebrow-frown|ST=oiseau-sur-piquet
+7	[être-sur]	[être-sur]	VERB	_	_	3	conj:chaining	_	AlignBegin=32355|AlignEnd=33755|GazeHeld=PSS3r|Gloss=[be-on]|NMM=eyebrow-frown|Obj=PRF(DH)[piquet]|ST=oiseau-sur-piquet|Subj=PRF(NDH)[oiseau]
+8	[regarder]	[regarder]	VERB	_	_	7	conj:chaining	_	AlignBegin=33755|AlignEnd=34700|Gaze=oiseau|Gloss=[look]|NMM=eyebrow-frown|Obj=Gaze|PT=cheval|PTReal=posture-fière+deux-pattes|Subj=PT|Tgt=PSS3r
+9	[regarder]	[regarder]	VERB	_	_	8	conj:chaining	_	AlignBegin=34700|AlignEnd=35315|Gaze=loin|Gloss=[look]|NMM=eyebrow-frown|Obj=Gaze|PT=cheval|PTReal=posture-fière+deux-pattes|Subj=PT|Tgt=PSS3re
+10	PNT[loin]	PNT	ADV	_	_	9	obj	_	AlignBegin=35315|AlignEnd=36465|GazeHeld=PSS3re|Gloss=PNT[far]|ISMarker[CFoc]=NMM+Spatial|ISRole=CFoc|NMM=eyebrow-raise|Tgt=PSS3re
+
+# sent_id = crdo-fsl-cuc022__4
+# text = [VACHE] [MÂCHER] [ruminer]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = une vache rumine.
+# text_en = a cow is grazing.
+1	[VACHE]	[VACHE]	NOUN	_	_	2	nsubj	_	AlignBegin=36465|AlignEnd=37715|Gloss=[COW]|PT=vache|PTReal=posture-avachi|Trs=Left
+2	[MÂCHER]	[MÂCHER]	VERB	_	_	0	root	_	AlignBegin=37715|AlignEnd=38875|Gloss=[CHEW]|PT=vache|PTReal=posture-avachi+rumination|Subj=PT
+3	[ruminer]	[ruminer]	VERB	_	_	2	conj:illustrate	_	AlignBegin=38875|AlignEnd=40755|Gloss=[graze]|PT=vache|PTReal=posture-avachi+rumination+deux-pattes|Subj=PT
+
+# sent_id = crdo-fsl-cuc022__5
+# text = [estimer] [VOULOIR] PNT[MOI] [sauter]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Le cheval observe la barrière : "Moi, je veux sauter par dessus..."
+# text_en = The horse observes the fence: "I want to jump over it..."
+1	[estimer]	[estimer]	VERB	_	_	0	root	_	AlignBegin=40755|AlignEnd=43595|Gloss=[evaluate]|PT=cheval|PTReal=posture-fière+deux-pattes|Subj=PT
+2	[VOULOIR]	[VOULOIR]	VERB	_	_	1	conj:chaining	_	AlignBegin=43595|AlignEnd=43809|Gloss=[WANT]|NMM=eye-blink|PT=cheval|PTReal=posture-fière|Subj=PT
+3	PNT[MOI]	PNT	PRON	_	PronType=Prs	2	nsubj	_	AlignBegin=43809|AlignEnd=44035|Gloss=PNT[ME]|PT=cheval|PTReal=posture-fière|Tgt=Prs1
+4	[sauter]	[sauter]	VERB	_	_	2	ccomp	_	AlignBegin=44035|AlignEnd=45235|Gloss=[jump]|NMM=eye-blink|PT=cheval|PTReal=posture-fière|ST=cheval-qui-saute|STReal=PRF(DH)[cheval]|Subj=PT
+
+# sent_id = crdo-fsl-cuc022__6_split1
+# text = [se-tenir-en-arrêt] [galoper]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Il galope, saute [et] heurte la barrière
+# text_en = It gallops, jumps and hits the fence
+1	[se-tenir-en-arrêt]	[se-tenir-en-arrêt]	VERB	_	_	0	root	_	AlignBegin=45235|AlignEnd=45635|Gloss=[stand]|PT=cheval|PTReal=détermination+deux-pattes|Subj=PT
+2	[galoper]	[galoper]	VERB	_	_	1	conj:chaining	_	AlignBegin=45635|AlignEnd=47195|Gloss=[gallop]|PT=cheval|PTReal=détermination+deux-pattes|Subj=PT
+
+# sent_id = crdo-fsl-cuc022__6_split2
+# text = [sauter] [heurter-barrière]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Il galope, saute [et] heurte la barrière
+# text_en = It gallops, jumps and hits the fence
+1	[sauter]	[sauter]	VERB	_	_	0	root	_	AlignBegin=47195|AlignEnd=47715|Gloss=[jump]|PT=cheval|PTReal=détermination+mimique-effort|ST=cheval-qui-saute|STReal=PRF(DH)[cheval]|Subj=PT
+2	[heurter-barrière]	[heurter-barrière]	VERB	_	_	1	conj:chaining	_	AlignBegin=47715|AlignEnd=48675|Gloss=[hit-fence]|Obj=PRF(NDH)[barrière]|PT=cheval|PTReal=détermination+mimique-effort|ST=cheval-qui-heurte-barrière|STReal=PRF(DH)[cheval]+PRF(NDH)[barrière]|Subj=PRF(DH)[cheval]
+
+# sent_id = crdo-fsl-cuc022__7
+# text = [tomber] [DOULEUR] [gésir-sol]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = [Il] tombe. Il a mal, à la jambe.
+# text_en = It falls. Its legs is hurt.
+1	[tomber]	[tomber]	VERB	_	_	0	root	_	AlignBegin=48675|AlignEnd=49795|Gloss=[fall]|PT=cheval|PTReal=exp-douleur+deux-pattes|Subj=PT
+2	[DOULEUR]	[DOULEUR]	NOUN	_	_	1	conj:chaining	_	AlignBegin=49795|AlignEnd=50515|Exp[lex]=Douleur|Gloss=[PAIN]|PT=cheval|PTReal=exp-douleur+deux-pattes
+3	[gésir-sol]	[gésir-sol]	VERB	_	_	2	conj:chaining	_	AlignBegin=50515|AlignEnd=51995|Gloss=[lay-on-ground]|PT=cheval|PTReal=exp-douleur+deux-pattes|Subj=PT
+
+# sent_id = crdo-fsl-cuc022__8
+# text = [OISEAU] [s'envoler] [VOLER]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = L'oiseau, voyant la chute, s'envole
+# text_en = The bird, seeing the fall, flies away
+1	[OISEAU]	[OISEAU]	NOUN	_	_	2	nsubj	_	AlignBegin=51995|AlignEnd=52755|Gloss=[BIRD]
+2	[s'envoler]	[s'envoler]	VERB	_	_	0	root	_	AlignBegin=52755|AlignEnd=53555|Gloss=[fly-away]|PT=oiseau|PTReal=deux-ailes|Subj=PT
+3	[VOLER]	[VOLER]	VERB	_	_	2	conj:reform	_	AlignBegin=53555|AlignEnd=54155|Gloss=[FLY]|Subj=PRF[oiseau]|Tgt=PSSXr
+
+# sent_id = crdo-fsl-cuc022__9
+# text = [prendre-VALISE] [apporter] PNT[valise] [PHARMACIE] [apporter] [ouvrir]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = [Il va] chercher une valisette de pharmacie, la dépose et l'ouvre.
+# text_en = It goes to grab the medecine chest, it drops it off and opens it.
+1	[prendre-VALISE]	[VALISE]	VERB	_	_	0	root	_	AlignBegin=54155|AlignEnd=54595|Gloss=[take-CHEST]|Loc=PSSXr|PT=oiseau|Subj=PT
+2	[apporter]	[apporter]	VERB	_	_	1	conj:chaining	_	AlignBegin=54595|AlignEnd=55875|Gloss=[bring]|Obj=PRF(DH)[VALISE]|PT=oiseau|Src=PSSXr|Subj=PT|Tgt=PSSN
+3	PNT[valise]	PNT	PRON	_	_	2	obj	_	AlignBegin=55875|AlignEnd=56115|DHHeld=PRF[VALISE]|Gloss=PNT[chest]|NMM=eyebrow-raise|PT=oiseau|Tgt=PSSN
+4	[PHARMACIE]	[PHARMACIE]	NOUN	_	_	3	nmod	_	AlignBegin=56115|AlignEnd=56795|DHHeld=PRF[VALISE]|Gloss=[PHARMACY]|NMM=eyebrow-raise|PT=oiseau
+5	[apporter]	[apporter]	VERB	_	_	2	conj:reform	_	AlignBegin=56795|AlignEnd=57435|Gloss=[bring]|Obj=PRF[VALISE]|PT=oiseau|Src=PSSN|Subj=PT|Tgt=PSS3l
+6	[ouvrir]	[ouvrir]	VERB	_	_	5	conj:chaining	_	AlignBegin=57435|AlignEnd=59355|Gloss=[open]|Loc=PSS3l|Obj=PRF[VALISE]|PT=oiseau|Subj=PT
+
+# sent_id = crdo-fsl-cuc022__10
+# text = [VACHE] [s'approcher] [prendre] [bander-patte]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = La vache s'approche de la boite et prend quelque chose. La vache soigne le cheval
+# text_en = The cow comes to the chest and takes something. The cow is treating the horse
+1	[VACHE]	[VACHE]	NOUN	_	_	2	nsubj	_	AlignBegin=59355|AlignEnd=60635|Gloss=[COW]|PT=vache|PTReal=mimique|Trs=Right
+2	[s'approcher]	[s'approcher]	VERB	_	_	0	root	_	AlignBegin=60635|AlignEnd=61595|Gloss=[get-closer]|PT=vache|PTReal=mimique+deux-pattes|Subj=PT|Tgt=PSS3r[valise]
+3	[prendre]	[prendre]	VERB	_	_	2	conj:chaining	_	AlignBegin=61595|AlignEnd=62275|Gloss=[take]|Loc=PSS3r[valise]|PT=vache|PTReal=mimique+deux-pattes|Subj=PT
+4	[bander-patte]	[bander-patte]	VERB	_	_	3	conj:chaining	_	AlignBegin=62275|AlignEnd=63195|Gloss=[bandage-leg]|Obj=PRF(NDH)[patte-cheval]|PT=vache|PTReal=mimique|Subj=PT
+
+# sent_id = crdo-fsl-cuc022__11
+# text = [bander-patte] [rester-sans-bouger]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = [Le cheval se fait soigner par la vache] et il se laisse faire.
+# text_en = [The horse is being treated by the cow] and it lets it happen.
+1	[bander-patte]	[bander-patte]	VERB	_	Voice=Pass	0	root	_	Agent=PRF(DH)[patte-vache]|AlignBegin=63195|AlignEnd=65355|Exp=Douleur|Gloss=[bandage-leg]|Obj=PRF(NDH)[patte-cheval]|PT=cheval|PTReal=mimique+posture|Subj=PT|Trs=Left
+2	[rester-sans-bouger]	[rester-sans-bouger]	VERB	_	_	1	conj:chaining	_	AlignBegin=65355|AlignEnd=66955|Exp=Douleur|Gloss=[remain-still]|PT=cheval|PTReal=mimique+patte|Subj=PT
+
+# sent_id = cap_petite_enfance__1
+# text = [BIENVENUE] POSS[TOI] [C]-[A]-[P] [PETIT] [ENFANCE] position-neutre [COURS] [PI_TYPIQUE] [ORDINATEUR] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = Bienvenue dans ton CAP Petite enfance avec les cours par ordinateur.
+# text_en = Welcome to you CAP Young infancy with online classes.
+1	[BIENVENUE]	[BIENVENUE]	VERB	_	_	0	root	_	AlignBegin=1990|AlignEnd=3150|Gloss=[WELCOME]|NMM=forward-tilt+eyebrow-raise
+2	POSS[TOI]	POSS	PRON	_	_	3	nmod	_	AlignBegin=3180|AlignEnd=3550|Gloss=POSS[YOU]
+3	[C]-[A]-[P]	FingerSpelling	NOUN	_	_	1	obj	_	AlignBegin=3553|AlignEnd=4788|Gloss=[CAP]
+4	[PETIT]	[PETIT]	ADJ	_	_	5	amod	_	AlignBegin=4796|AlignEnd=5389|Gloss=[SMALL]
+5	[ENFANCE]	[ENFANCE]	NOUN	_	_	3	nmod	_	AlignBegin=5394|AlignEnd=6323|Gloss=[INFANCY]
+6	position-neutre	position-neutre	PUNCT	_	_	1	discourse	_	AlignBegin=6327|AlignEnd=6752|Gloss=neutral-position
+7	[COURS]	[COURS]	NOUN	_	_	3	nmod	_	AlignBegin=6765|AlignEnd=7257|Gloss=[CLASS]|NMM=eyebrow-frown
+8	[PI_TYPIQUE]	[PI_TYPIQUE]	ADJ	_	_	7	amod	_	AlignBegin=7261|AlignEnd=7934|Gloss=[PI_TYPICAL]|NMM=eyebrow-frown
+9	[ORDINATEUR]	[ORDINATEUR]	NOUN	_	_	8	dep:comp	_	AlignBegin=7942|AlignEnd=8951|Gloss=[COMPUTER]
+10	position-neutre	position-neutre	PUNCT	_	_	1	discourse	_	AlignBegin=8951|AlignEnd=9593|Gloss=neutral-position
+
+# sent_id = cap_petite_enfance__2
+# text = ? [PROJET] PNT[celui-ci] [ACTUELLEMENT] [EXPÉRIENCE] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = Ce projet est encore expérimental.
+# text_en = This project is still experimental.
+1	?	?	_	_	_	_	_	_	AlignBegin=9597|AlignEnd=9956
+2	[PROJET]	[PROJET]	NOUN	_	_	5	nmod	_	AlignBegin=9965|AlignEnd=10673|Gloss=[PROJECT]|NMM=eyebrow-raise
+3	PNT[celui-ci]	PNT	PRON	_	_	2	nmod	_	AlignBegin=10673|AlignEnd=10920|Gloss=PNT[this-one]
+4	[ACTUELLEMENT]	[ACTUELLEMENT]	ADV	_	_	5	advmod	_	AlignBegin=10920|AlignEnd=11363|Gloss=[CURRENTLY]
+5	[EXPÉRIENCE]	[EXPÉRIENCE]	NOUN	_	_	0	root	_	AlignBegin=11372|AlignEnd=12748|Gloss=[EXPERIMENT]|NMM=rightward-tilt
+6	position-neutre	position-neutre	PUNCT	_	_	5	punct	_	AlignBegin=12752|AlignEnd=13850|Gloss=neutral-position|NMM=eye-blink
+
+# sent_id = cap_petite_enfance__3
+# text = [OBJECTIF] [QUOI] [CRÉER] [DIPLÔME] PNT[là] [FORMATION] [PI_TYPIQUE] [PETIT] [ENFANCE] [POUR] [PERSONNE] [ENTENDANT] [AUSSI] [SOURD] [voilà] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = L’objectif est de créer un diplôme de formation de la petite enfance pour les personnes entendantes mais aussi pour les sourds.
+# text_en = The goal is to create a training diploma for young infancy for hearing but also deaf people.
+1	[OBJECTIF]	[OBJECTIF]	_	_	_	0	root	_	AlignBegin=13858|AlignEnd=15058|Gloss=[GOAL]|NMM=eyebrow-frown
+2	[QUOI]	[QUOI]	_	_	_	3	mark	_	AlignBegin=15066|AlignEnd=15363|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NMM=eyebrow-frown
+3	[CRÉER]	[CRÉER]	_	_	_	1	dep:comp	_	AlignBegin=15367|AlignEnd=16208|Gloss=[CREATE]|ISRole=Foc|Loc=PSS3r|NMM=eyebrow-frown
+4	[DIPLÔME]	[DIPLÔME]	_	_	_	3	dep:comp	_	AlignBegin=16217|AlignEnd=17013|Gloss=[DIPLOMA]|Loc=PSS3r|NMM=eyebrow-frown
+5	PNT[là]	PNT	_	_	_	4	dep	_	AlignBegin=17018|AlignEnd=17575|Gloss=PNT[here]|Loc=PSS3r|NMM=eyebrow-frown
+6	[FORMATION]	[FORMATION]	_	_	_	4	dep	_	AlignBegin=17588|AlignEnd=18345|Gloss=[TRAINING]|Loc=PSS3r|NMM=eyebrow-frown
+7	[PI_TYPIQUE]	[PI_TYPIQUE]	_	_	_	6	dep	_	AlignBegin=18350|AlignEnd=18695|Gloss=[PI_TYPICAL]|Loc=PSS3r|NMM=eyebrow-frown
+8	[PETIT]	[PETIT]	_	_	_	9	dep	_	AlignBegin=18695|AlignEnd=19248|Gloss=[SMALL]
+9	[ENFANCE]	[ENFANCE]	_	_	_	7	dep:comp	_	AlignBegin=19257|AlignEnd=20044|Gloss=[INFANCY]|NMM=head-nod
+10	[POUR]	[POUR]	_	_	_	4	dep	_	AlignBegin=20265|AlignEnd=20969|Gloss=[FOR]|NMM=rightward-tilt+eyebrow-raise
+11	[PERSONNE]	[PERSONNE]	_	_	_	10	dep:comp	_	AlignBegin=20982|AlignEnd=21606|Gloss=[PERSON]|Loc=PSS3l|NMM=leftward-tilt+eyebrow-raise
+12	[ENTENDANT]	[ENTENDANT]	_	_	_	11	dep	_	AlignBegin=21615|AlignEnd=22274|Gloss=[HEARING]|Loc=PSS3l|NMM=eyebrow-raise
+13	[AUSSI]	[AUSSI]	_	_	_	14	dep	_	AlignBegin=22279|AlignEnd=22686|Gloss=[ALSO]|Loc=PSS3r|NMM=rightward-tilt+eyebrow-raise
+14	[SOURD]	[SOURD]	_	_	_	10	dep:comp	_	AlignBegin=22695|AlignEnd=23429|Gloss=[DEAF]|Loc=PSS3r
+15	[voilà]	[voilà]	_	_	_	1	discourse	_	AlignBegin=23442|AlignEnd=23996|Gloss=[that's-it]|NMM=head-nod
+16	position-neutre	position-neutre	_	_	_	1	discourse	_	AlignBegin=24009|AlignEnd=24637|Gloss=neutral-position
+
+# sent_id = cap_petite_enfance__4_split1
+# text = [ÉTAPES] [alors] position-neutre [alors] [COURS] [DEDANS] [PRÊT] [VIDÉO] [SIGNÉ] [L]-[S]-[F] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = La démarche : il y a des vidéos toutes prêtes signées en LSF
+# text_en = The process: there are readymade videos signed in LSF
+1	[ÉTAPES]	[ÉTAPES]	_	_	_	5	dislocated	_	AlignBegin=24965|AlignEnd=25960|Gloss=[STEPS]|ISMarker[Top]=Dlxn|ISRole=Top|NMM=leftward-tilt+eyebrow-raise
+2	[alors]	[alors]	_	_	_	1	discourse	_	AlignBegin=25969|AlignEnd=26248|Gloss=[so]|NMM=eyebrow-raise
+3	position-neutre	position-neutre	PUNCT	_	_	1	discourse	_	AlignBegin=26261|AlignEnd=27345|Gloss=neutral-position
+4	[alors]	[alors]	_	_	_	5	discourse	_	AlignBegin=27354|AlignEnd=27889|Gloss=[so]|NMM=eyebrow-frown
+5	[COURS]	[COURS]	_	_	_	0	root	_	AlignBegin=27898|AlignEnd=28456|Gloss=[CLASS]|NMM=eyebrow-frown
+6	[DEDANS]	[DEDANS]	_	_	_	5	dep	_	AlignBegin=28460|AlignEnd=29279|Gloss=[INSIDE]|NMM=eyebrow-frown
+7	[PRÊT]	[PRÊT]	_	_	_	8	dep	_	AlignBegin=29288|AlignEnd=29969|Gloss=[READY]|NMM=eyebrow-frown+eye-blink
+8	[VIDÉO]	[VIDÉO]	_	_	_	6	dep:comp	_	AlignBegin=29982|AlignEnd=30602|Gloss=[VIDEO]|NMM=eyebrow-frown
+9	[SIGNÉ]	[SIGNÉ]	_	_	_	8	dep	_	AlignBegin=30606|AlignEnd=31810|Gloss=[SIGNED]|NMM=eyebrow-frown
+10	[L]-[S]-[F]	FingerSpelling	_	_	_	9	dep	_	AlignBegin=31823|AlignEnd=32588|Gloss=[LSF]|NMM=leftward-tilt+eyebrow-frown+head-nod
+11	position-neutre	position-neutre	_	_	_	5	discourse	_	AlignBegin=32606|AlignEnd=33717|Gloss=neutral-position
+
+# sent_id = cap_petite_enfance__4_split2
+# text = [PLUS] PNT[TOI] [COURS] [TROUVER] [LIEU] [OÙ] [INTERNET]
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = que tu trouveras sur internet.
+# text_en = that you will find on internet.
+1	[PLUS]	[PLUS]	_	_	_	4	dep	_	AlignBegin=33721|AlignEnd=34292|Gloss=[PLUS]|NMM=eyebrow-raise
+2	PNT[TOI]	PNT	_	_	_	4	dep	_	AlignBegin=34301|AlignEnd=34619|Gloss=PNT[YOU]|NMM=eyebrow-frown
+3	[COURS]	[COURS]	_	_	_	4	dep:comp	_	AlignBegin=34619|AlignEnd=35212|Gloss=[CLASS]|ISMarker[Top]=Dlxn?|ISRole=Top|NMM=eyebrow-frown+eye-blink
+4	[TROUVER]	[TROUVER]	_	_	_	0	root	_	AlignBegin=35221|AlignEnd=35889|Gloss=[FIND]|NMM=eyebrow-frown
+5	[LIEU]	[LIEU]	_	_	_	4	dep:comp	_	AlignBegin=35903|AlignEnd=36447|Gloss=[PLACE]|Loc=PSSXr
+6	[OÙ]	[OÙ]	_	_	_	7	mark	_	AlignBegin=36460|AlignEnd=36633|Gloss=[WHERE]|ISMarker[Foc]=Cxn-fq|Loc=PSSXr
+7	[INTERNET]	[INTERNET]	_	_	_	5	advcl	_	AlignBegin=36642|AlignEnd=37615|Gloss=[INTERNET]|ISRole=Foc|Loc=PSSXr|NMM=eyebrow-raise
+
+# sent_id = cap_petite_enfance__5
+# text = PNT[ça] [S'APPELER/NOM] [E]-[TIRET]-[L]-[E]-[A]-[R]-[N]-[I]-[N]-[G] [ICI] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = Cela s’appelle e-learning.
+# text_en = It is called e-learning.
+1	PNT[ça]	PNT	_	_	_	2	dep	_	AlignBegin=37624|AlignEnd=37721|Gloss=PNT[this]|Tgt=PSSXr
+2	[S'APPELER/NOM]	[S'APPELER/NOM]	_	_	_	0	root	_	AlignBegin=37721|AlignEnd=38398|Gloss=[NAME]
+3	[E]-[TIRET]-[L]-[E]-[A]-[R]-[N]-[I]-[N]-[G]	FingerSpelling	_	_	_	2	dep:comp	_	AlignBegin=38406|AlignEnd=42942|Gloss=[E-LEARNING]|NMM=rightward-tilt
+4	[ICI]	[ICI]	_	_	_	2	dep	_	AlignBegin=42957|AlignEnd=44246|Gloss=[HERE]|NMM=leftward-tilt+head-nod
+5	position-neutre	position-neutre	_	_	_	2	discourse	_	AlignBegin=44250|AlignEnd=45226|Gloss=neutral-position
+
+# sent_id = cap_petite_enfance__6
+# text = [VRAIMENT] [MERCI] PNT[TOUS] [AIDE] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = Merci beaucoup à tous pour votre aide.
+# text_en = Thank you very much for your help.
+1	[VRAIMENT]	[VRAIMENT]	_	_	_	2	dep	_	AlignBegin=45241|AlignEnd=45811|Gloss=[REALLY]|NMM=eyebrow-frown
+2	[MERCI]	[MERCI]	INTJ	_	_	0	root	_	AlignBegin=45821|AlignEnd=46840|Gloss=[THANK-YOU]|NMM=eyebrow-frown
+3	PNT[TOUS]	PNT	_	_	_	2	vocative	_	AlignBegin=46844|AlignEnd=47844|Gloss=PNT[ALL]|NMM=eyebrow-frown|Tgt=circle
+4	[AIDE]	[AIDE]	_	_	_	2	dep:comp	_	AlignBegin=47849|AlignEnd=48825|Gloss=[HELP]|NMM=head-nod+eye-blink|Src=Prs2|Tgt=Prs1
+5	position-neutre	position-neutre	_	_	_	2	discourse	_	AlignBegin=48830|AlignEnd=50052|Gloss=neutral-position
+
+# sent_id = cap_petite_enfance__7
+# text = [SI] PNT[TOI] [REMARQUE] [AVOIR] [DIFFICULTES/DIFFICILE?] [FLOU] [POUVOIR/POSSIBLE] [APPEL]NOUS [POUR] [ÉVOLUER] [AMÉLIORER] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = Si vous remarquez des difficultés ou des problèmes, vous pouvez nous contacter pour faire évoluer et améliorer la plateforme.
+# text_en = If you notice difficulties or issues, you can contact us to update and improve the platform.
+1	[SI]	[SI]	SCONJ	_	_	3	dep:comp	_	AlignBegin=50057|AlignEnd=50821|Gloss=[IF]|NMM=eyebrow-frown
+2	PNT[TOI]	PNT	_	_	_	3	dep	_	AlignBegin=50830|AlignEnd=51203|Gloss=PNT[YOU]|NMM=eyebrow-frown
+3	[REMARQUE]	[REMARQUE]	_	_	_	7	dep	_	AlignBegin=51222|AlignEnd=52028|Gloss=[NOTICE]|NMM=eyebrow-frown
+4	[AVOIR]	[AVOIR]	_	_	_	3	dep:comp	_	AlignBegin=52042|AlignEnd=52542|Gloss=[HAVE]|Manner=eyebrow-frown
+5	[DIFFICULTES/DIFFICILE?]	[DIFFICULTES/DIFFICILE?]	_	_	_	4	dep:comp	_	AlignBegin=52552|AlignEnd=53533|Gloss=[DIFFICULT]|NMM=rightward-tilt+eyebrow-frown
+6	[FLOU]	[FLOU]	_	_	_	5	conj	_	AlignBegin=53547|AlignEnd=54231|Gloss=[BLURRY]|NMM=eyebrow-frown
+7	[POUVOIR/POSSIBLE]	[POUVOIR]	_	_	_	0	root	_	AlignBegin=54241|AlignEnd=54679|Gloss=[CAN]|NMM=eyebrow-raise
+8	[APPEL]NOUS	[APPEL]	_	_	_	7	dep:comp	_	AlignBegin=54689|AlignEnd=55349|Gloss=[CALL]US|Tgt=Prs1
+9	[POUR]	[POUR]	_	_	_	8	dep	_	AlignBegin=55363|AlignEnd=55675|Gloss=[FOR]
+10	[ÉVOLUER]	[ÉVOLUER]	_	_	_	9	dep:comp	_	AlignBegin=55679|AlignEnd=56377|Gloss=[EVOLVE]
+11	[AMÉLIORER]	[AMÉLIORER]	_	_	_	10	compound:svc	_	AlignBegin=56387|AlignEnd=57693|Gloss=[IMPROVE]
+12	position-neutre	position-neutre	_	_	_	7	discourse	_	AlignBegin=57708|AlignEnd=59142|Gloss=neutral-position
+
+# sent_id = cap_petite_enfance__8
+# text = [alors] [MERCI] [AUSSI] [AVOIR] [QUESTION] [POUVOIR/POSSIBLE] [RÉPONDRE] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = Merci aussi pour vos questions, nous vous répondrons.
+# text_en = Thank you also for your questions, we will answer you.
+1	[alors]	[alors]	_	_	_	2	discourse	_	AlignBegin=59146|AlignEnd=59717|Gloss=[so]
+2	[MERCI]	[MERCI]	INTJ	_	_	0	root	_	AlignBegin=59717|AlignEnd=60208|Gloss=[THANK-YOU]|NMM=leftward-tilt+eyebrow-raise
+3	[AUSSI]	[AUSSI]	_	_	_	2	dep	_	AlignBegin=60217|AlignEnd=60943|Gloss=[ALSO]|NMM=eyebrow-frown
+4	[AVOIR]	[AVOIR]	_	_	_	2	dep:comp	_	AlignBegin=60953|AlignEnd=61344|Gloss=[HAVE]
+5	[QUESTION]	[QUESTION]	_	_	Number=Plur	4	dep:comp	_	AlignBegin=61354|AlignEnd=62358|Gloss=[QUESTION]|NMM=forward-tilt+eyebrow-frown|Rep=4
+6	[POUVOIR/POSSIBLE]	[POUVOIR]	_	_	_	2	conj	_	AlignBegin=62368|AlignEnd=62698|Gloss=[CAN]
+7	[RÉPONDRE]	[RÉPONDRE]	_	_	_	6	conj	_	AlignBegin=62703|AlignEnd=63783|Gloss=[ANSWER]|NMM=leftward-tilt|Rep=4
+8	position-neutre	position-neutre	_	_	_	2	discourse	_	AlignBegin=63783|AlignEnd=64538|Gloss=neutral-position
+
+# sent_id = cap_petite_enfance__9
+# text = [voilà] [LAISSER] [AVANCER/ETAPES] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = Voilà, on vous laisse commencer.
+# text_en = That's it, we let you start.
+1	[voilà]	[voilà]	_	_	_	2	discourse	_	AlignBegin=64542|AlignEnd=65085|Gloss=[that's-it]|NMM=rightward-tilt
+2	[LAISSER]	[LAISSER]	_	_	_	0	root	_	AlignBegin=65090|AlignEnd=65722|Gloss=[LET]|NMM=rightward-tilt
+3	[AVANCER/ETAPES]	[AVANCER]	_	_	_	2	dep:comp	_	AlignBegin=65731|AlignEnd=66976|Gloss=[GO-FORWARD]|NMM=rightward-tilt
+4	position-neutre	position-neutre	_	_	_	2	discourse	_	AlignBegin=66986|AlignEnd=67835|Gloss=neutral-position
+
+# sent_id = cap_petite_enfance__10
+# text = [AU-REVOIR] [BON] [COURAGE] position-neutre
+# source_file = ./CAP Petite Enfance.mp4
+# text_fr = Au revoir et bon courage !
+# text_en = Goodbye and good luck!
+1	[AU-REVOIR]	[AU-REVOIR]	_	_	_	0	root	_	AlignBegin=67844|AlignEnd=68976|Gloss=[BYE]|NMM=rightward-tilt
+2	[BON]	[BON]	_	_	_	3	flat	_	AlignBegin=68986|AlignEnd=69590|Gloss=[GOOD]|NMM=rightward-tilt
+3	[COURAGE]	[COURAGE]	_	_	_	1	conj	_	AlignBegin=69604|AlignEnd=70160|Gloss=[COURAGE]|NMM=rightward-tilt
+4	position-neutre	position-neutre	_	_	_	1	discourse	_	AlignBegin=70170|AlignEnd=71264|Gloss=neutral-position
+
+# sent_id = primaire_populaire_en_LSF__1
+# text = [BONJOUR] [ASSEMBLÉE]
+# source_file = ./Primaire Populaire en LSF.mp4
+# text_fr = Bonjour à toutes et à tous,
+# text_en = Hello everyone,
+1	[BONJOUR]	[BONJOUR]	NOUN	_	_	0	root	_	AlignBegin=7240|AlignEnd=7900|Gloss=[HELLO]|NMM=head-nod
+2	[ASSEMBLÉE]	[ASSEMBLÉE]	NOUN	_	_	1	vocative	_	AlignBegin=7920|AlignEnd=8620|Gloss=[ASSEMBLY]
+
+# sent_id = primaire_populaire_en_LSF__2
+# text = [ÊTRE] [C] SignedName[Charlotte] [AVEC] [INTERPRÈTE] SignedName[Pascal] [AUSSI] [CAMERA] [TECHNIQUE]
+# source_file = ./Primaire Populaire en LSF.mp4
+# text_fr = je suis Charlotte Marchandise, je suis avec Pascal di Piazza et Sylvain Liotté-Stasse à la technique
+# text_en = I am Charlotte Marchandise, I am with Pascal di Piazza et Sylvain Liotté-Stasse as a technician
+1	[ÊTRE]	[ÊTRE]	VERB	_	_	0	root	_	AlignBegin=8630|AlignEnd=9290|Gloss=[BE]
+2	[C]	[C]	X	_	_	3	reparandum	_	AlignBegin=9290|AlignEnd=9830|Gloss=[C]
+3	SignedName[Charlotte]	SignedName	PROPN	_	_	1	nsubj	_	AlignBegin=9830|AlignEnd=10480|Gloss=SignedName[Charlotte]|NMM=eyebrow-raise
+4	[AVEC]	[AVEC]	ADP	_	_	5	case	_	AlignBegin=10480|AlignEnd=10880|Gloss=[WITH]|NMM=eyebrow-raise
+5	[INTERPRÈTE]	[INTERPRÈTE]	NOUN	_	_	1	dep:comp	_	AlignBegin=10910|AlignEnd=11650|Gloss=[INTERPRET]|NMM=eyebrow-raise
+6	SignedName[Pascal]	SignedName	PROPN	_	_	5	appos	_	AlignBegin=11660|AlignEnd=12110|Gloss=SignedName[Pascal]
+7	[AUSSI]	[AUSSI]	CCONJ	_	_	8	cc	_	AlignBegin=12130|AlignEnd=12420|Gloss=[ALSO]
+8	[CAMERA]	[CAMERA]	NOUN	_	_	5	conj	_	AlignBegin=12420|AlignEnd=13570|Gloss=[CAMERA]|NMM=eyebroww-raise
+9	[TECHNIQUE]	[TECHNIQUE]	NOUN	_	_	8	nmod	_	AlignBegin=13590|AlignEnd=14230|Gloss=[TECHNIQUE]
+
+# sent_id = primaire_populaire_en_LSF__3
+# text = [FILMER] [CONSTRUIRE] [QUOI] [VIDEO] [PRESENTER]VOUS [DEDANS] [PREMIER (PRIMAIRE)] [PRIMAIRE?] [POPULAIRE] [SIGNÉ] [DEDANS] position-neutre
+# source_file = ./Primaire Populaire en LSF.mp4
+# text_fr = et on est très heureux de vous présenter une vidéo pour présenter la primaire populaire en Langue des Signes Française.
+# text_en = and we are very happy to present you a video to introduce the popular primary election in French Sign Language.
+1	[FILMER]	[FILMER]	VERB	_	_	0	root	_	AlignBegin=14260|AlignEnd=14980|Gloss=[FILM]
+2	[CONSTRUIRE]	[CONSTRUIRE]	VERB	_	_	1	compound:svc	_	AlignBegin=14990|AlignEnd=15440|Gloss=[BUILD]|NMM=eyebrow-raise
+3	[QUOI]	[QUOI]	PRON	_	_	4	mark	_	AlignBegin=15450|AlignEnd=15900|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NMM=backward-tilt
+4	[VIDEO]	[VIDEO]	NOUN	_	_	2	ccomp	_	AlignBegin=15906|AlignEnd=16444|Gloss=[WHAT]|ISRole=Foc
+5	[PRESENTER]VOUS	[PRESENTER]	VERB	_	_	4	acl	_	AlignBegin=16456|AlignEnd=17286|Gloss=[PRESENT]YOU|NMM=eyebrow-frown
+6	[DEDANS]	[DEDANS]	_	_	_	4	dep	_	AlignBegin=17289|AlignEnd=18000|Gloss=[INSIDE]|ISRole=Foc|NMM=eyebrow-frown
+7	[PREMIER (PRIMAIRE)]	[PREMIER (PRIMAIRE)]	_	_	_	8	dep	_	AlignBegin=18003|AlignEnd=18340|Gloss=[FIRST/PRIMARY]|NMM=backward-tilt+eyebrow-frown
+8	[PRIMAIRE?]	[PRIMAIRE?]	_	_	_	6	dep:comp	_	AlignBegin=18350|AlignEnd=18793|Gloss=[PRIMARY]
+9	[POPULAIRE]	[POPULAIRE]	_	_	_	8	dep	_	AlignBegin=18802|AlignEnd=19590|Gloss=[POPULAR]|NMM=eyebrow-raise
+10	[SIGNÉ]	[SIGNÉ]	_	_	_	8	dep	_	AlignBegin=19596|AlignEnd=20201|Gloss=[SIGNED]
+11	[DEDANS]	[DEDANS]	_	_	_	6	conj:dbl	_	AlignBegin=20210|AlignEnd=20650|Gloss=[INSIDE]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod
+12	position-neutre	position-neutre	_	_	_	1	discourse	_	AlignBegin=20660|AlignEnd=21416|Gloss=neutral-position
+
+# sent_id = primaire_populaire_en_LSF__4
+# text = [PRIMAIRE] [POPULAIRE] [INITIATIVE] [euh] [VENIR-DE] [GROUPE]Plur [PERSONNE]Plur [THÈME] [MÉTÉO] [JEUNESSE] [CONTRE] [MÉPRIS] [RACISME] [CONTRE] [FEMME] [DISCRIMINATION] [CONTRE] [CONTRE-tout-ça]
+# source_file = ./Primaire Populaire en LSF.mp4
+# text_fr = La primaire populaire c’est une initiative qui vient de groupes de militants pour le climat, pour la jeunesse, contre les discriminations, contre le sexisme, contre le racisme
+# text_en = The primary election is an initiative from a group of activits for climate, youth, against discriminations, against sexism, against racism
+1	[PRIMAIRE]	[PRIMAIRE]	_	_	_	3	dep	_	AlignBegin=21422|AlignEnd=21997|Gloss=[PRIMARY]|ISMarker[Top]=Dlxn?|ISRole=Top|NMM=eyebrow-raise
+2	[POPULAIRE]	[POPULAIRE]	_	_	_	1	dep	_	AlignBegin=22012|AlignEnd=23472|Gloss=[POPULAR]|NMM=leftward-tilt+eyebrow-frown
+3	[INITIATIVE]	[INITIATIVE]	_	_	_	0	root	_	AlignBegin=23479|AlignEnd=24049|Gloss=[INITIATIVE]|NMM=eyebrow-frown
+4	[euh]	[euh]	_	_	_	3	discourse	_	AlignBegin=24067|AlignEnd=24552|Gloss=[hum]|NMM=backward-tilt
+5	[VENIR-DE]	[VENIR-DE]	_	_	_	3	dep	_	AlignBegin=24564|AlignEnd=25043|Gloss=[COME-FROM]|NMM=rightward-tilt
+6	[GROUPE]Plur	[GROUPE]	_	_	_	5	dep:comp	_	AlignBegin=25043|AlignEnd=25883|Gloss=[GROUP]Plur|NMM=leftward-tilt+eyebrow-frown
+7	[PERSONNE]Plur	[PERSONNE]	_	_	_	6	dep	_	AlignBegin=25896|AlignEnd=26730|Gloss=[PERSON]Plur|NMM=eyebrow-frown
+8	[THÈME]	[THÈME]	_	_	_	6	dep	_	AlignBegin=26742|AlignEnd=27147|Gloss=[THEME]|NMM=eyebrow-frown
+9	[MÉTÉO]	[MÉTÉO]	_	_	_	8	dep:comp	_	AlignBegin=27166|AlignEnd=27926|Gloss=[WEATHER]
+10	[JEUNESSE]	[JEUNESSE]	_	_	_	9	conj	_	AlignBegin=27939|AlignEnd=28337|Gloss=[YOUTH]
+11	[CONTRE]	[CONTRE]	_	_	_	9	conj	_	AlignBegin=28350|AlignEnd=29012|Gloss=[AGAINST]
+12	[MÉPRIS]	[MÉPRIS]	_	_	_	11	dep:comp	_	AlignBegin=29018|AlignEnd=29583|Gloss=[DISREGARD]
+13	[RACISME]	[RACISME]	_	_	_	12	conj	_	AlignBegin=29595|AlignEnd=30074|Gloss=[RACISM]
+14	[CONTRE]	[CONTRE]	_	_	_	9	conj	_	AlignBegin=30080|AlignEnd=30773|Gloss=[AGAINST]|NMM=eyebrow-frown
+15	[FEMME]	[FEMME]	_	_	_	16	dep	_	AlignBegin=31209|AlignEnd=31920|Gloss=[WOMAN]
+16	[DISCRIMINATION]	[DISCRIMINATION]	_	_	_	14	dep:comp	_	AlignBegin=31933|AlignEnd=32853|Gloss=[DISCRIMINATION]
+17	[CONTRE]	[CONTRE]	_	_	_	9	conj	_	AlignBegin=32865|AlignEnd=33196|Gloss=[AGAINST]|NMM=eyebrow-raise
+18	[CONTRE-tout-ça]	[CONTRE]	_	_	_	9	conj	_	AlignBegin=33202|AlignEnd=33883|Gloss=[AGAINST-all-this]|NMM=eyebrow-raise
+
+# sent_id = primaire_populaire_en_LSF__5
+# text = PNT[NOUS] [MOBILISER]
+# source_file = ./Primaire Populaire en LSF.mp4
+# text_fr = et qui s’est mobilisée en disant :
+# text_en = and which raised saying:
+1	PNT[NOUS]	PNT	_	_	_	2	dep	_	AlignBegin=33896|AlignEnd=34258|Gloss=PNT[WE]
+2	[MOBILISER]	[MOBILISER]	_	_	_	0	root	_	AlignBegin=34282|AlignEnd=35755|Gloss=[MOBILIZE]|NMM=eyebrow-frown
+
+# sent_id = primaire_populaire_en_LSF__6
+# text = [BESOIN] [QUOI] [POLITIQUE] [S'APPROPRIER] [AUSSI] [IL-FAUT] [JUSTICE] [SOCIAL] [ECOLOGIE] [AUSSI] [DÉMOCRATIE] [IMPORTANT] [DEUX] [MILLE] [DEUX] [DEUX] [GAGNER]
+# source_file = ./Primaire Populaire en LSF.mp4
+# text_fr = « on a besoin de s’approprier la politique, on a besoin que la justice sociale, que l’écologie, que la démocratie gagnent en 2022
+# text_en = "we need to take ownership of politics, we need social justice, ecology, democracy to win in 2022 to give us a future because 10 million people are poor in France, because the climat is spiralying out of control"
+1	[BESOIN]	[BESOIN]	_	_	_	0	root	_	AlignBegin=36773|AlignEnd=37264|Gloss=[NEED]
+2	[QUOI]	[QUOI]	_	_	_	4	mark	_	AlignBegin=37282|AlignEnd=37681|Exp[lex]=Int|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NMM=eyebrow-raise
+3	[POLITIQUE]	[POLITIQUE]	_	_	_	4	dep:comp	_	AlignBegin=37681|AlignEnd=38276|Gloss=[POLITIC]
+4	[S'APPROPRIER]	[S'APPROPRIER]	_	_	_	1	dep:comp	_	AlignBegin=38282|AlignEnd=39233|Gloss=[APPROPRIATE]|ISRole=Foc|NMM=backward-tilt
+5	[AUSSI]	[AUSSI]	_	_	_	6	cc	_	AlignBegin=39245|AlignEnd=39742|Gloss=[ALSO]
+6	[IL-FAUT]	[IL-FAUT]	_	_	_	1	conj	_	AlignBegin=39755|AlignEnd=40153|Gloss=[MUST]
+7	[JUSTICE]	[JUSTICE]	_	_	_	6	dep:comp	_	AlignBegin=40153|AlignEnd=40896|Gloss=[JUSTICE]
+8	[SOCIAL]	[SOCIAL]	_	_	_	7	dep	_	AlignBegin=40908|AlignEnd=41497|Gloss=[SOCIAL]
+9	[ECOLOGIE]	[ECOLOGIE]	_	_	_	7	conj	_	AlignBegin=41499|AlignEnd=42058|Gloss=[ECOLOGY]
+10	[AUSSI]	[AUSSI]	_	_	_	11	cc	_	AlignBegin=42067|AlignEnd=42318|Gloss=[ALSO]
+11	[DÉMOCRATIE]	[DÉMOCRATIE]	_	_	_	7	conj	_	AlignBegin=42321|AlignEnd=43064|Gloss=[DEMOCRACY]|NMM=leftward-tilt
+12	[IMPORTANT]	[IMPORTANT]	_	_	_	6	root:dislocated	_	AlignBegin=43070|AlignEnd=43939|Gloss=[IMPORTANT]|NMM=eyebrow-raise
+13	[DEUX]	[DEUX]	_	_	_	17	dep	_	AlignBegin=43942|AlignEnd=44242|Gloss=[TWO]|NMM=eyebrow-raise
+14	[MILLE]	[MILLE]	_	_	_	13	flat:num	_	AlignBegin=44245|AlignEnd=44580|Gloss=[THOUSAND]
+15	[DEUX]	[DEUX]	_	_	_	13	flat:num	_	AlignBegin=44583|AlignEnd=44805|Gloss=[TWO]
+16	[DEUX]	[DEUX]	_	_	_	13	flat:num	_	AlignBegin=44808|AlignEnd=44994|Gloss=[TWO]
+17	[GAGNER]	[GAGNER]	_	_	_	12	dep:comp	_	AlignBegin=45000|AlignEnd=45551|Gloss=[WIN]
+
+# sent_id = primaire_populaire_en_LSF__7
+# text = [OBJECTIF] [QUOI] [PROJET] [FUTUR] [avoir-en-TÊTE] [PUBLIC] [PAUVRE] [DIX] [MILLION] [FRANCE] [LÀ-LÀ-LÀ-LÀ] position-neutre
+# source_file = ./Primaire Populaire en LSF.mp4
+# text_fr = pour nous donner un futur parce qu’il y a 10 millions de pauvres en France, parce que le climat s’emballe »
+# text_en = "we need to take ownership of politics, we need social justice, ecology, democracy to win in 2022 to give us a future because 10 million people are poor in France, because the climat is spiralying out of control"
+1	[OBJECTIF]	[OBJECTIF]	_	_	_	0	root	_	AlignBegin=45557|AlignEnd=46122|NMM=eyebrow-raise
+2	[QUOI]	[QUOI]	_	_	_	3	mark	_	AlignBegin=46125|AlignEnd=46405|ISMarker[Foc]=Cxn-fq
+3	[PROJET]	[PROJET]	_	_	_	1	dep:comp	_	AlignBegin=46414|AlignEnd=47236|ISRole=Foc
+4	[FUTUR]	[FUTUR]	_	_	_	3	dep	_	AlignBegin=47242|AlignEnd=47598|NMM=eyebrow-raise
+5	[avoir-en-TÊTE]	[TÊTE]	_	_	_	1	conj	_	AlignBegin=47598|AlignEnd=48050|NMM=eyebrow-raise
+6	[PUBLIC]	[PUBLIC]	_	_	_	5	dep:comp	_	AlignBegin=48058|AlignEnd=48997
+7	[PAUVRE]	[PAUVRE]	_	_	_	6	dep	_	AlignBegin=49012|AlignEnd=49659|NMM=backward-tilt
+8	[DIX]	[DIX]	_	_	_	6	dep	_	AlignBegin=49662|AlignEnd=49994|NMM=eyebrow-raise
+9	[MILLION]	[MILLION]	_	_	_	8	flat:num	_	AlignBegin=50000|AlignEnd=50810|Gloss=[MILLION]
+10	[FRANCE]	[FRANCE]	PROPN	_	_	6	obl:mod	_	AlignBegin=50822|AlignEnd=51277|Loc=cercle|NMM=eyebrow-raise
+11	[LÀ-LÀ-LÀ-LÀ]	[LÀ-LÀ-LÀ-LÀ]	ADP	_	_	10	case	_	AlignBegin=51277|AlignEnd=52440|Tgt=cercle
+12	position-neutre	position-neutre	_	_	_	1	discourse	_	AlignBegin=52453|AlignEnd=53104|Gloss=neutral-position
+
+# sent_id = primaire_populaire_en_LSF__8
+# text = [PENSER] [peut-être] [PEUT-ÊTRE] [POLITIQUE] [GAUCHE] [AUSSI] [ECOLOGIE] [PENSER] [MILITANT]
+# source_file = ./Primaire Populaire en LSF.mp4
+# text_fr = On pouvait à un moment donné, penser que les partis politiques, des gauches et de l’écologie en général, feraient ce travail-là.
+# text_en = We could, at some point, think that political parties, from the left and ecology in general, would do this work. They have programs that defend these projects.
+1	[PENSER]	[PENSER]	_	_	_	0	root	_	AlignBegin=53104|AlignEnd=53730|NMM=eyebrow-raise
+2	[peut-être]	[peut-être]	_	_	_	3	reparandum	_	AlignBegin=53736|AlignEnd=54231
+3	[PEUT-ÊTRE]	[PEUT-ÊTRE]	_	_	_	1	dep	_	AlignBegin=54235|AlignEnd=55033
+4	[POLITIQUE]	[POLITIQUE]	_	_	_	1	dep:comp	_	AlignBegin=55039|AlignEnd=55922|NMM=eyebrow-frown
+5	[GAUCHE]	[GAUCHE]	_	_	_	4	dep	_	AlignBegin=55925|AlignEnd=56726|NMM=eyebrow-raise
+6	[AUSSI]	[AUSSI]	_	_	_	7	cc	_	AlignBegin=56730|AlignEnd=57117
+7	[ECOLOGIE]	[ECOLOGIE]	_	_	_	4	dep	_	AlignBegin=57117|AlignEnd=57765|NMM=eyebrow-frown
+8	[PENSER]	[PENSER]	_	_	_	1	conj:dbl	_	AlignBegin=57769|AlignEnd=58153|NMM=eyebrow-raise
+9	[MILITANT]	[MILITANT]	_	_	_	_	_	_	AlignBegin=58153|AlignEnd=58948|NMM=leftward-tilt+eyebrow-frown
+
+# sent_id = primaire_populaire_en_LSF__9
+# text = [PROGRAMME] [IL-Y-A] [AUSSI]~ [THÈME] [DÉFENDRE] [TÉMOIGNE/MONTRER?] [DIVERS]
+# source_file = ./Primaire Populaire en LSF.mp4
+# text_fr = Ils ont des programmes qui défendent ces projets-là.
+# text_en = We could, at some point, think that political parties, from the left and ecology in general, would do this work. They have programs that defend these projects.
+1	[PROGRAMME]	[PROGRAMME]	_	_	_	2	dislocated	_	AlignBegin=58954|AlignEnd=59492|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NMM=eyebrow-raise
+2	[IL-Y-A]	[IL-Y-A]	_	_	_	0	root	_	AlignBegin=59498|AlignEnd=59909
+3	[AUSSI]~	[AUSSI]	_	_	_	_	_	_	AlignBegin=59915|AlignEnd=60147
+4	[THÈME]	[THÈME]	_	_	_	2	dep:comp	_	AlignBegin=60150|AlignEnd=60577|NMM=eyebrow-frown
+5	[DÉFENDRE]	[DÉFENDRE]	_	_	_	4	dep:comp	_	AlignBegin=60582|AlignEnd=61114|NMM=eyebrow-frown
+6	[TÉMOIGNE/MONTRER?]	[TÉMOIGNE]	_	_	_	5	conj	_	AlignBegin=61114|AlignEnd=61526|NMM=eyebrow-frown
+7	[DIVERS]	[DIVERS]	_	_	_	6	dep	_	AlignBegin=61526|AlignEnd=62071|NMM=eyebrow-frown
+
+# sent_id = primaire_populaire_en_LSF__10
+# text = [MAIS] [POLITIQUE]~? [MAINTENANT] [SITUATION] [AUJOURD’HUI/MAINTENANT?] [OBSERVE] [CANDIDATS] [SEPT] [OSER-INITIATIVE] [THÈME] [ELECTIONS] [PRÉSIDENT] [DEUX]-[MILLE] [DEUX] [DEUX] [THÈME] [OUVERTURE] [HUMANISTE] [DÉFENDRE] [PAUVRE] [DISCRIMINÉS] [ECOLOGIE] [THÈME] [MONDE] Prf[MONDE] [SAUVER]
+# source_file = ./Primaire Populaire en LSF.mp4
+# text_fr = Pourtant, aujourd’hui, à l’heure où on est, on a 7 candidats et candidates déclarées pour les élections présidentielles de 2022, sur ce qu’on va dire l’arc humaniste, c’est-à-dire les gens qui vont défendre les plus pauvres, les plus vulnérables, et l’écologie pour sauver la planète.
+# text_en = However, today, at this moment, we have 7 candidates declared for the presidential elections of 2022, for what we would call the humanist movement, meaning people who will defend the poorest, the most vunerable, and ecology to save the planet.
+1	[MAIS]	[MAIS]	_	_	_	6	cc	_	AlignBegin=62077|AlignEnd=62354
+2	[POLITIQUE]~?	[POLITIQUE]~?	_	_	_	4	dep	_	AlignBegin=62360|AlignEnd=63160|NMM=eyebrow-frown
+3	[MAINTENANT]	[MAINTENANT]	_	_	_	4	dep	_	AlignBegin=63163|AlignEnd=63505
+4	[SITUATION]	[SITUATION]	_	_	_	6	dislocated	_	AlignBegin=63505|AlignEnd=64043|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NMM=shoulder-shrug
+5	[AUJOURD’HUI/MAINTENANT?]	[AUJOURD’HUI]	_	_	_	4	dep	_	AlignBegin=64046|AlignEnd=64748|NMM=shoulder-shrug
+6	[OBSERVE]	[OBSERVE]	_	_	_	0	root	_	AlignBegin=64751|AlignEnd=65714|NMM=eyebrow-frown
+7	[CANDIDATS]	[CANDIDATS]	_	_	_	6	dep:comp	_	AlignBegin=65717|AlignEnd=66532|NMM=eyebrow-frown
+8	[SEPT]	[SEPT]	_	_	_	7	dep	_	AlignBegin=66535|AlignEnd=67791|ISMarker[Foc]=NMM|ISRole=Foc|NMM=forward-tilt+eyebrow-raise+head-nod
+9	[OSER-INITIATIVE]	[OSER-INITIATIVE]	_	_	_	7	dep	_	AlignBegin=67794|AlignEnd=68345
+10	[THÈME]	[THÈME]	_	_	_	9	dep:comp	_	AlignBegin=68351|AlignEnd=69025|NMM=forward-tilt+eyebrow-raise
+11	[ELECTIONS]	[ELECTIONS]	_	_	_	10	dep:comp	_	AlignBegin=69028|AlignEnd=69963
+12	[PRÉSIDENT]	[PRÉSIDENT]	_	_	_	11	dep	_	AlignBegin=69966|AlignEnd=70742
+13	[DEUX]-[MILLE]	[DEUX]-[MILLE]	_	_	_	11	dep	_	AlignBegin=70745|AlignEnd=71191|NMM=eyebrow-raise
+14	[DEUX]	[DEUX]	_	_	_	13	flat:num	_	AlignBegin=71194|AlignEnd=71483|NMM=eyebrow-frown
+15	[DEUX]	[DEUX]	_	_	_	13	flat:num	_	AlignBegin=71489|AlignEnd=71889
+16	[THÈME]	[THÈME]	_	_	_	7	dep	_	AlignBegin=71889|AlignEnd=72702|NMM=eyebrow-frown
+17	[OUVERTURE]	[OUVERTURE]	_	_	_	16	dep:comp	_	AlignBegin=72711|AlignEnd=73403|NMM=forward-tilt
+18	[HUMANISTE]	[HUMANISTE]	_	_	_	17	dep	_	AlignBegin=73406|AlignEnd=74055
+19	[DÉFENDRE]	[DÉFENDRE]	_	_	_	17	dep:comp	_	AlignBegin=74062|AlignEnd=74785
+20	[PAUVRE]	[PAUVRE]	_	_	_	19	dep:comp	_	AlignBegin=74788|AlignEnd=75680
+21	[DISCRIMINÉS]	[DISCRIMINÉS]	_	_	_	20	conj	_	AlignBegin=75683|AlignEnd=76871
+22	[ECOLOGIE]	[ECOLOGIE]	_	_	_	20	conj	_	AlignBegin=77585|AlignEnd=78151|NMM=eyebrow-raise
+23	[THÈME]	[THÈME]	_	_	_	22	dep	_	AlignBegin=78154|AlignEnd=78625
+24	[MONDE]	[MONDE]	_	_	_	26	dep:comp	_	AlignBegin=78628|AlignEnd=79323
+25	Prf[MONDE]	Prf[MONDE]	_	_	_	24	conj:illustrate	_	AlignBegin=79323|AlignEnd=79634
+26	[SAUVER]	[SAUVER]	_	_	_	23	dep:comp	_	AlignBegin=79637|AlignEnd=80342
+
+# sent_id = primaire_populaire_en_LSF__11
+# text = [SI] [CANDIDAT] [SEPT] [ça-veut-dire]? [GAGNER] [IMPOSSIBLE]
+# source_file = ./Primaire Populaire en LSF.mp4
+# text_fr = Si il y a 7 candidats et candidates, personne ne gagne !
+# text_en = If there are 7 candidates, nobody is winning!
+1	[SI]	[SI]	_	_	_	6	dep	_	AlignBegin=80345|AlignEnd=80754|NMM=eyebrow-frown
+2	[CANDIDAT]	[CANDIDAT]	_	_	_	1	dep:comp	_	AlignBegin=80757|AlignEnd=81345
+3	[SEPT]	[SEPT]	_	_	_	2	dep	_	AlignBegin=81348|AlignEnd=81837
+4	[ça-veut-dire]?	[ça-veut-dire]?	_	_	_	_	_	_	AlignBegin=81840|AlignEnd=82117|NMM=eyebrow-rf
+5	[GAGNER]	[GAGNER]	_	_	_	6	dep:comp	_	AlignBegin=82117|AlignEnd=82455
+6	[IMPOSSIBLE]	[IMPOSSIBLE]	_	_	_	0	root	_	AlignBegin=82458|AlignEnd=83055|NMM=forward-tilt
+
+# sent_id = vacances-sud_1
+# text = [PASSÉ-PROCHE] [VACANCES] [ÉTÉ] [euh] [PARTIR] [OÙ] [FRANCE] [carte-france] [SUD] [région-sud] position-neutre
+# source_file = ./recit-agnieska.mp4
+# text_fr = Les dernières vacances d’été, on est partis dans le sud de la France.
+# text_en = Last summer holidays, we went to the south of France.
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[PASSÉ-PROCHE]	[PASSÉ-PROCHE]	ADV	_	_	5	advmod	_	AlignBegin=2248|AlignEnd=2717|Gloss=[RECENT-PAST]|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NMM=eyebrow-raise
+2	[VACANCES]	[VACANCES]	NOUN	_	_	1	conj:zoom	_	AlignBegin=2723|AlignEnd=3166|Gloss=[HOLIDAYS]
+3	[ÉTÉ]	[ÉTÉ]	NOUN	_	_	2	nmod	_	AlignBegin=3183|AlignEnd=4330|Gloss=[SUMMER]|NMM=eye-blink
+4	[euh]	[euh]	INTJ	_	_	1	discourse	_	AlignBegin=4343|AlignEnd=4992|Gloss=[uh]
+5	[PARTIR]	[PARTIR]	VERB	_	_	0	root	_	AlignBegin=5011|AlignEnd=5706|Gloss=[LEAVE]|Src=Prs1
+6	[OÙ]	[OÙ]	PRON	_	PronType=Int	7	mark	_	AlignBegin=5745|AlignEnd=6867|Exp[lex]=Int|Gloss=[WHERE]|ISMarker[Foc]=Cxn-fq+NMM|NMM=eyebrow-raise+forward-tilt
+7	[FRANCE]	[FRANCE]	PROPN	_	_	5	ccomp	_	AlignBegin=6884|AlignEnd=7277|Gloss=[FRANCE]|ISRole=Foc
+8	[carte-france]	[carte-france]	NOUN	_	_	7	conj:illustrate	_	AlignBegin=7296|AlignEnd=8476|Gloss=[map-france]
+9	[SUD]	[SUD]	NOUN	_	_	7	nmod	_	AlignBegin=8490|AlignEnd=9205|Gloss=[SOUTH]|NDHHeld=[carte]|NMM=backward-tilt
+10	[région-sud]	[région-sud]	NOUN	_	_	9	conj:illustrate	_	AlignBegin=9235|AlignEnd=10548|Gloss=[south-region]|NDHHeld=[carte]
+11	position-neutre	position-neutre	PUNCT	_	_	5	punct	_	AlignBegin=10574|AlignEnd=11065|Gloss=neutral-position
+
+# sent_id = vacances-sud_2_split1
+# text = [FAMILLE] POSS[MOI] [MAMAN] [PAPA] [SOEUR] [TOUS]-[QUATRE] [VOITURE] [MONTER-dans-véhicule] [aller-en-VOITURE] [itinéraire-vers-sud] [PENDANT-HEURES]-[HUIT]
+# source_file = ./recit-agnieska.mp4
+# text_fr = Dans ma famille il y a maman, papa et ma sœur, nous étions donc tous les 4. On est montés en voiture et on a roulé vers le sud pendant 8 heures. C’était long !
+# text_en = In my family, there is my mom, dad, my sister, we were four. We sat in the car and we drove south for 8 hours. It was long!
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[FAMILLE]	[FAMILLE]	NOUN	_	_	8	nsubj	_	AlignBegin=11404|AlignEnd=11812|Gloss=[FAMILY]|NMM=rightward-tilt
+2	POSS[MOI]	POSS	ADJ	_	Number=Sing	1	amod	_	AlignBegin=11823|AlignEnd=12449|Gloss=POSS[ME]|NMM=rightward-tilt+eye-blink|Tgt=Prs1
+3	[MAMAN]	[MAMAN]	NOUN	_	_	1	appos	_	AlignBegin=12526|AlignEnd=13341|Gloss=[MOM]|NMM=eyebrow-raise
+4	[PAPA]	[PAPA]	NOUN	_	_	3	conj	_	AlignBegin=13355|AlignEnd=13875|Gloss=[DAD]|NMM=eyebrow-raise
+5	[SOEUR]	[SOEUR]	NOUN	_	_	3	conj	_	AlignBegin=13909|AlignEnd=14501|Gloss=[SISTER]|NMM=eyebrow-raise
+6	[TOUS]-[QUATRE]	[TOUS]-[QUATRE]	PRON	_	PronType=Tot	3	appos	_	AlignBegin=14529|AlignEnd=16737|Gloss=[ALL]-[FOUR]|NMM=head-nod
+7	[VOITURE]	[VOITURE]	NOUN	_	_	8	dislocated	_	AlignBegin=16816|AlignEnd=17737|Gloss=[CAR]|ISMarker[Top]=Dlxn|ISRole=Top
+8	[MONTER-dans-véhicule]	[MONTER]	VERB	_	_	0	root	_	AlignBegin=17755|AlignEnd=18819|Gloss=[SIT-VEHICULE]|NMM=eyebrow-raise|Obj=ST|ST=voiture|STReal=PRF[ANIMÉ]+deux-avant+deux-arrière|Subj=PRF[ANIMÉ]x4
+9	[aller-en-VOITURE]	[VOITURE]	VERB	_	_	8	conj:chaining	_	AlignBegin=18843|AlignEnd=19856|Exp=Intensité|Gloss=[go-by-CAR]|NMM=eyebrow-raise
+10	[itinéraire-vers-sud]	[itinéraire]	ADV	_	_	9	conj:illustrate	_	AlignBegin=19894|AlignEnd=21963|Exp=Intensité|Gloss=[itinerary-south]|NMM=eyebrow-raise
+11	[PENDANT-HEURES]-[HUIT]	[PENDANT-HEURES]-[HUIT]	ADV	_	_	9	advmod	_	AlignBegin=22005|AlignEnd=23310|Exp=Intensité|Gloss=[DURING-HOURS]-[EIGHT]|NMM=eyebrow-raise
+
+# sent_id = vacances-sud_2_split2
+# text = [c'est-long]
+# source_file = ./recit-agnieska.mp4
+# text_fr = Dans ma famille il y a maman, papa et ma sœur, nous étions donc tous les 4. On est montés en voiture et on a roulé vers le sud pendant 8 heures. C’était long !
+# text_en = In my family, there is my mom, dad, my sister, we were four. We sat in the car and we drove south for 8 hours. It was long!
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[c'est-long]	[c'est-long]	INTJ	_	_	0	root	_	AlignBegin=23333|AlignEnd=24676|Exp[lex]=Intensité|Gloss=[a-lot]|NMM=eyebrow-raise+head-nod
+
+# sent_id = vacances-sud_3
+# text = [itinéraire] PNT[fin] [UN] [VILLE] [NON] [TROIS] [étape] [étape] [étape] [voilà]
+# source_file = ./recit-agnieska.mp4
+# text_fr = Arrivés là-bas, nous n’avions pas prévu de voir qu’une seule ville, nous avons visité 3 endroits différents.
+# text_en = At the destination, we hadn't planned to see one city, but rather to visit 3 different places.
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[itinéraire]	[itinéraire]	NOUN	_	_	2	nmod	_	AlignBegin=24745|AlignEnd=25896|Exp=Intensité|Gloss=[itinerary]|NDH=[itinéraire-départ]
+2	PNT[fin]	PNT	PRON	_	_	5	obl:mod	_	AlignBegin=25896|AlignEnd=26315|Gloss=PNT[end]|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NDHHeld=[itinéraire-début]|NMM=eyebrow-raise|Tgt=itinéraire-fin
+3	[UN]	[UN]	NUM	_	_	4	nummod	_	AlignBegin=26356|AlignEnd=26792|Gloss=[ONE]
+4	[VILLE]	[VILLE]	NOUN	_	_	5	nsubj	_	AlignBegin=26810|AlignEnd=27264|Gloss=[CITY]
+5	[NON]	[NON]	ADV	_	_	0	root	_	AlignBegin=27329|AlignEnd=27755|Exp[lex]=Neg|Gloss=[NO]
+6	[TROIS]	[TROIS]	NUM	_	_	7	nummod	_	AlignBegin=27769|AlignEnd=28125|Gloss=[THREE]
+7	[étape]	[étape]	NOUN	_	_	5	conj:contr	_	AlignBegin=28157|AlignEnd=28730|Gloss=[stop]|ISMarker[CFoc]=Cxn-corel|ISRole=CFoc|Loc=PSS3l
+8	[étape]	[étape]	NOUN	_	_	5	conj	_	AlignBegin=28730|AlignEnd=29183|Gloss=[stop]|Loc=PSSN|NDHHeld=[étape]-PSS3l|Subj=PRF(DH)[ANIMÉ]
+9	[étape]	[étape]	NOUN	_	_	5	conj	_	AlignBegin=29183|AlignEnd=29718|Gloss=[stop]|Loc=PSS3r|NDHHeld=[étape]-PSS3l|NMM=eye-blink+head-nod|Subj=PRF(DH)[ANIMÉ]
+10	[voilà]	[voilà]	INTJ	_	_	5	discourse	_	AlignBegin=29843|AlignEnd=30477|Gloss=[that's-it]
+
+# sent_id = vacances-sud_4
+# text = PNT[changement-temporel?] [PASSÉ-PROCHE] [DIMANCHE]-[AVANT] [FAMILLE] [RÉUNIR] [MANGER] [BAVARDER] [ÉCHANGER]
+# source_file = ./recit-agnieska.mp4
+# text_fr = Dimanche dernier, toute la famille s’est réunie pour prendre un bon repas, bavarder et échanger.
+# text_en = Last sunday, all the family gathers to have a good meal, chat and exchange.
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	PNT[changement-temporel?]	PNT	PRON	_	_	5	discourse	_	AlignBegin=31435|AlignEnd=31917|Gloss=PNT[time-change?]|NMM=eyebrow-raise|Tgt=PSSN
+2	[PASSÉ-PROCHE]	[PASSÉ-PROCHE]	ADV	_	_	5	advmod	_	AlignBegin=31954|AlignEnd=32634|Gloss=[RECENT-PAST]|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NMM=eyebrow-raise
+3	[DIMANCHE]-[AVANT]	[DIMANCHE]-[AVANT]	NOUN	_	_	2	conj:zoom	_	AlignBegin=32634|AlignEnd=33472|Gloss=[SUNDAY]-[BEFORE]|NMM=eye-blink
+4	[FAMILLE]	[FAMILLE]	NOUN	_	_	5	nsubj	_	AlignBegin=33532|AlignEnd=34282|Gloss=[FAMILY]
+5	[RÉUNIR]	[RÉUNIR]	VERB	_	_	0	root	_	AlignBegin=34338|AlignEnd=35745|Gloss=[GATHER]|NMM=forward-tilt
+6	[MANGER]	[MANGER]	VERB	_	_	5	conj	_	AlignBegin=35787|AlignEnd=37657|Exp=Intensité|Gloss=[EAT]
+7	[BAVARDER]	[BAVARDER]	VERB	_	_	5	conj	_	AlignBegin=37681|AlignEnd=38449|Gloss=[CHAT]
+8	[ÉCHANGER]	[ÉCHANGER]	VERB	_	_	5	conj	_	AlignBegin=38468|AlignEnd=39542|Gloss=[EXCHANGE]|NMM=eyebrow-raise+eye-blink
+
+# sent_id = vacances-sud_5
+# text = [MAMAN] [hep] [appel] PNT[VOUS] [ADORER] [VACANCES] PNT[étape1] PNT[étape2] PNT[étape3] [QUOI] [PRÉFÉRER] [QUOI]
+# source_file = ./recit-agnieska.mp4
+# text_fr = Maman a demandé à tout le monde : “Pendant les vacances, lequel des 3 lieux avez-vous préféré ?”
+# text_en = Mom asked everyone: "During the holidays, which one of the 3 places did you prefer?"
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[MAMAN]	[MAMAN]	NOUN	_	_	11	discourse:participant	_	AlignBegin=40019|AlignEnd=40690|Gloss=[MOM]
+2	[hep]	[hep]	INTJ	_	_	11	discourse	_	AlignBegin=40718|AlignEnd=40940|Gloss=[hep]
+3	[appel]	[appel]	INTJ	_	Number=Plur	11	discourse	_	AlignBegin=41009|AlignEnd=42824|Gloss=[call]|Tgt=Prs2
+4	PNT[VOUS]	PNT	PRON	_	Number=Plur|PronType=Prs	11	vocative	_	AlignBegin=42843|AlignEnd=43389|Gloss=PNT[YOU]|NMM=eyebrow-frown|Tgt=Prs2
+5	[ADORER]	[ADORER]	VERB	_	_	6	acl	_	AlignBegin=43407|AlignEnd=44222|Gloss=[ADORE]|NMM=eyebrow-frown
+6	[VACANCES]	[VACANCES]	NOUN	_	_	11	obl:mod	_	AlignBegin=44241|AlignEnd=45019|Gloss=[HOLIDAYS]|NMM=eyebrow-frown
+7	PNT[étape1]	PNT	ADV	_	_	11	dislocated	_	AlignBegin=45046|AlignEnd=45339|Gloss=PNT[stop1]|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NMM=eyebrow-frown|Tgt=PSS3l
+8	PNT[étape2]	PNT	ADV	_	_	7	conj	_	AlignBegin=45339|AlignEnd=45574|Gloss=PNT[stop2]|NDHHeld=PNT[étape1]|NMM=eyebrow-frown|Tgt=PSSN
+9	PNT[étape3]	PNT	ADV	_	_	7	conj	_	AlignBegin=45574|AlignEnd=45954|Gloss=PNT[stop3]|NDHHeld=PNT[étape1]|NMM=eyebrow-frown|Tgt=PSS3r
+10	[QUOI]	[QUOI]	PRON	_	PronType=Int	12	conj:dbl	_	AlignBegin=45986|AlignEnd=46412|Exp[lex]=Int|Gloss=[WHAT]|ISMarker[Foc]=Cxn-dbl+NMM|NMM=eyebrow-frown
+11	[PRÉFÉRER]	[PRÉFÉRER]	VERB	_	_	0	root	_	AlignBegin=46421|AlignEnd=46917|Gaze=Prs2|Gloss=[PREFER]|NMM=eyebrow-frown|Reported=Yes|Subj=Gaze
+12	[QUOI]	[QUOI]	PRON	_	PronType=Int	11	obj	_	AlignBegin=46935|AlignEnd=47648|Exp[lex]=Int|Gloss=[WHAT]|ISRole=Foc|NMM=forward-tilt+eyebrow-frown+eye-blink
+
+# sent_id = vacances-sud_6
+# text = PNT[NOUS] [réfléchir]
+# source_file = ./recit-agnieska.mp4
+# text_fr = Nous avons tous réfléchi
+# text_en = We all thought about it
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	PNT[NOUS]	PNT	PRON	_	Number=Plur|PronType=Prs	2	nsubj	_	AlignBegin=48019|AlignEnd=48565|Gloss=PNT[US]|Tgt=Prs1
+2	[réfléchir]	[réfléchir]	VERB	_	_	0	root	_	AlignBegin=48606|AlignEnd=49625|Gloss=[think]|Subj=PT
+
+# sent_id = vacances-sud_7
+# text = [hep] PNT[MOI] [SOEUR] [hep] PNT[MOI] [ADMIRER] [ADORER] PNT[lieu1] [PREMIER] PNT[lieu1] [POURQUOI] PNT[lieu1] [LÀ] [QUOI] [MER] [PLAGE] [SABLE] [FIN] [PLAGE] [PERSONNE] [FOULE] [FOULE-qui-grouille]
+# source_file = ./recit-agnieska.mp4
+# text_fr = ma sœur a répondu : “Moi, j’ai vraiment adoré le premier lieu avec la mer, la plage de sable fin, et puis ça grouillait de gens !
+# text_en = my sister responded: "Personaly, I really loved the first place with the sea, the fine sandy beach, and it was teeming with people!
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[hep]	[hep]	VERB	_	_	6	discourse	_	AlignBegin=49639|AlignEnd=49958|Gloss=[hep]|NMM=eyebrow-raise+backward-tilt
+2	PNT[MOI]	PNT	PRON	_	Number=Sing|PronType=Prs	6	discourse:participant	_	AlignBegin=49968|AlignEnd=50194|Gloss=PNT[ME]|NMM=rightward-tilt+eyebrow-raise|Tgt=Prs1
+3	[SOEUR]	[SOEUR]	NOUN	_	_	2	appos	_	AlignBegin=50213|AlignEnd=51120|Gloss=[SISTER]|NMM=eyebrow-raise
+4	[hep]	[hep]	VERB	_	_	6	discourse	_	AlignBegin=51153|AlignEnd=51532|Gloss=[hep]|NMM=eye-blink
+5	PNT[MOI]	PNT	PRON	_	Number=Sing|PronType=Prs	6	nsubj	_	AlignBegin=51542|AlignEnd=51931|Gloss=PNT[ME]|Tgt=Prs1
+6	[ADMIRER]	[ADMIRER]	VERB	_	_	0	root	_	AlignBegin=51954|AlignEnd=52741|Gloss=[ADMIRE]|Reported=Yes
+7	[ADORER]	[ADORER]	VERB	_	_	6	compound:svc	_	AlignBegin=52759|AlignEnd=53685|Gloss=[ADORE]
+8	PNT[lieu1]	PNT	ADV	_	_	7	obj	_	AlignBegin=53694|AlignEnd=54269|Gloss=PNT[place1]|NMM=backward-tilt|Tgt=PSS3l|TwoH=Yes
+9	[PREMIER]	[PREMIER]	ADJ	_	_	8	amod	_	AlignBegin=54296|AlignEnd=54597|Gloss=[FIRST]|NDHHeld=PNT-PSS3l
+10	PNT[lieu1]	PNT	ADV	_	_	8	conj:dbl	_	AlignBegin=54616|AlignEnd=55431|Gloss=PNT[place1]|NDHHeld=PNT-PSS3l|NMM=head-nod+eye-blink|Tgt=PSS3l|TwoH=Yes
+11	[POURQUOI]	[POURQUOI]	PRON	_	PronType=Int	12	obl:mod	_	AlignBegin=55769|AlignEnd=56648|Gloss=[WHY]|ISMarker[Foc]=Cxn-fq|NDHHeld=PNT-PSS3l
+12	PNT[lieu1]	PNT	ADV	_	_	7	advmod	_	AlignBegin=56694|AlignEnd=57898|Gloss=PNT[place1]|ISRole=Foc|NDHHeld=PNT-PSS3l|NMM=eyebrow-raise+eye-blink|Tgt=PSS3l|TwoH=Yes
+13	[LÀ]	[LÀ]	ADV	_	_	12	advmod	_	AlignBegin=57931|AlignEnd=58190|Gloss=[THERE]|NDHHeld=PNT-PSS3l|NMM=eyebrow-raise
+14	[QUOI]	[QUOI]	PRON	_	PronType=Int	15	nmod	_	AlignBegin=58213|AlignEnd=58852|Focus=Yes|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NMM=eye-blink
+15	[MER]	[MER]	NOUN	_	_	12	obl:mod	_	AlignBegin=58870|AlignEnd=59935|Gloss=[SEA]|ISRole=Foc|NMM=backward-tilt
+16	[PLAGE]	[PLAGE]	NOUN	_	_	15	conj	_	AlignBegin=59977|AlignEnd=60991|Gloss=[BEACH]
+17	[SABLE]	[SABLE]	NOUN	_	_	15	conj	_	AlignBegin=61023|AlignEnd=61912|Gloss=[SAND]
+18	[FIN]	[FIN]	ADJ	_	_	17	amod	_	AlignBegin=61949|AlignEnd=62815|Gloss=[FINE]
+19	[PLAGE]	[PLAGE]	NOUN	_	_	15	conj	_	AlignBegin=62835|AlignEnd=63304|Gloss=[BEACH]|NMM=head-nod+eye-blink
+20	[PERSONNE]	[PERSONNE]	NOUN	_	Number=Plur	15	conj	_	AlignBegin=63316|AlignEnd=63899|Gloss=[PERSON]
+21	[FOULE]	[FOULE]	NOUN	_	_	15	conj	_	AlignBegin=63987|AlignEnd=66937|Exp[lex]=Intensité|Gloss=[CROWD]
+22	[FOULE-qui-grouille]	[FOULE]	VERB	_	_	21	conj:illustrate	_	AlignBegin=63987|AlignEnd=66937|Exp[lex]=Intensité|Gloss=[teem]|NMM=head-nod+eye-blink|ST=foule-qui-grouille
+
+# sent_id = vacances-sud_8
+# text = [euh] [FEUILLE]~ [rangée-arbre] [FEUILLE-longue-grande] [arbres-de-chaque-côté] position-neutre
+# source_file = ./recit-agnieska.mp4
+# text_fr = Et les palmiers disposés ici et là,
+# text_en = And the palm trees here and there,
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[euh]	[euh]	INTJ	_	_	3	discourse	_	AlignBegin=66962|AlignEnd=67165
+2	[FEUILLE]~	[FEUILLE]	NOUN	_	_	4	reparandum	_	AlignBegin=67228|AlignEnd=67452|Gloss=[LEAF]~|NMM=eyebrow-frown+eye-blink|Scrap=Yes
+3	[rangée-arbre]	[rangée-arbre]	NOUN	_	_	0	root	_	AlignBegin=67452|AlignEnd=68367|Gloss=[row-tree]|ST=allée-d'arbres|TwoH=Yes
+4	[FEUILLE-longue-grande]	[FEUILLE]	NOUN	_	_	3	nmod	_	AlignBegin=68392|AlignEnd=69582|Gloss=[LEAF]|Loc=haut-arbre|NMM=eyebrow-raise|Rep=3|ST=palmier
+5	[arbres-de-chaque-côté]	[arbres-de-chaque-côté]	NOUN	_	_	3	conj:illustrate	_	AlignBegin=69595|AlignEnd=71138|Gloss=[trees-on-both-sides]|NMM=eyebrow-raise|Rep=4|ST=deux-rangées-face|STReal=PRF[ARBRE]|TwoH=Yes
+6	position-neutre	position-neutre	PUNCT	_	_	3	punct	_	AlignBegin=71138|AlignEnd=71855|Gloss=neutral-position|NMM=eye-blink
+
+# sent_id = vacances-sud_9
+# text = [AUSSI] PNT[là] [MER] PNT-SURFACE[là] [PORT] [VOILE] [LUXE] [bateau] PNT[bateau] [IMPRESSIONNANT]
+# source_file = ./recit-agnieska.mp4
+# text_fr = et aussi, près de la mer, le port avec le voilier de luxe
+# text_en = and also, close to the sea, the port with luxurious sailing boats
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[AUSSI]	[AUSSI]	CCONJ	_	_	5	cc	_	AlignBegin=71861|AlignEnd=72152|Gloss=[ALSO]
+2	PNT[là]	PNT	ADV	_	_	3	advmod	_	AlignBegin=72190|AlignEnd=72722|Gloss=PNT[here]|Tgt=PSSLl
+3	[MER]	[MER]	NOUN	_	_	5	nmod	_	AlignBegin=72772|AlignEnd=73810|Gloss=[SEA]|Loc=PSSLl|NMM=head-nod
+4	PNT-SURFACE[là]	PNT-SURFACE	ADV	_	_	5	advmod	_	AlignBegin=73823|AlignEnd=75342|Gloss=PNT-SURFACE[here]|NDHHeld=[mer]|NMM=mouth-frown|Tgt=Left-of-NDH
+5	[PORT]	[PORT]	NOUN	_	_	0	root	_	AlignBegin=75354|AlignEnd=77127|Gloss=[PORT]|Loc=PSSLl|NMM=eyebrow-raise+eye-blink
+6	[VOILE]	[VOILE]	NOUN	_	Number=Plur	5	nmod	_	AlignBegin=77152|AlignEnd=77987|Gloss=[SAIL]|Loc=PSSLl|NMM=eyebrow-frown
+7	[LUXE]	[LUXE]	NOUN	_	_	6	nmod	_	AlignBegin=78076|AlignEnd=78975|Gloss=[LUXURY]|NMM=eyebrow-rf
+8	[bateau]	[bateau]	NOUN	_	_	5	conj:illustrate	_	AlignBegin=79025|AlignEnd=80101|Gloss=[boat]
+9	PNT[bateau]	PNT	PRON	_	PronType=Prs	10	nsubj	_	AlignBegin=80114|AlignEnd=81063|Gloss=PNT[boat]|NDHHeld=[bateau]|NMM=eyerow-raise|Tgt=NDH
+10	[IMPRESSIONNANT]	[IMPRESSIONNANT]	ADJ	_	_	8	amod	_	AlignBegin=81127|AlignEnd=81759|Gloss=[IMPRESSIVE]|NDHHeld=[bateau]
+
+# sent_id = vacances-sud_10
+# text = [PERSONNE] [PROMENER] [FOULE]
+# source_file = ./recit-agnieska.mp4
+# text_fr = et tous les promeneurs qui se baladaient là,
+# text_en = and all the walkers strolling here,
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[PERSONNE]	[PERSONNE]	NOUN	_	Number=Plur	2	nsubj	_	AlignBegin=82304|AlignEnd=82861|Gloss=[PERSON]|NMM=backward-tilt+eyebrow-frown
+2	[PROMENER]	[PROMENER]	VERB	_	_	0	root	_	AlignBegin=82886|AlignEnd=83278|Gloss=[STROLL]|NMM=eyebrow-frown
+3	[FOULE]	[FOULE]	NOUN	_	_	2	conj:illustrate	_	AlignBegin=83329|AlignEnd=85937|Exp[lex]=Intensité|Gloss=[CROWD]|NMM=eye-blink
+
+# sent_id = vacances-sud_11
+# text = PNT-SURFACE[là] [AGRÉABLE]
+# source_file = ./recit-agnieska.mp4
+# text_fr = c’était très agréable !”.
+# text_en = it was very nice!".
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	PNT-SURFACE[là]	PNT-SURFACE	ADV	_	_	2	nsubj	_	AlignBegin=86063|AlignEnd=86924|Gloss=PNT-SURFACE[here]|Tgt=PSSN
+2	[AGRÉABLE]	[AGRÉABLE]	ADJ	_	_	0	root	_	AlignBegin=87013|AlignEnd=88114|Gloss=[PLEASANT]
+
+# sent_id = vacances-sud_12
+# text = [écouter-en-regardant] PNT[soeur] [SOEUR] PNT[soeur] [c'est-ça] [porter-intérêt]
+# source_file = ./recit-agnieska.mp4
+# text_fr = Nous écoutions ma soeur
+# text_en = We were listening to my sister
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[écouter-en-regardant]	[écouter-en-regardant]	VERB	_	_	0	root	_	AlignBegin=88544|AlignEnd=89139|Gloss=[listen-looking]|Obj=Gaze|Subj=PT
+2	PNT[soeur]	PNT	PRON	_	Number=Sing|PronType=Prs	1	obj	_	AlignBegin=89152|AlignEnd=89481|Gloss=PNT[sister]|Tgt=PSS3
+3	[SOEUR]	[SOEUR]	NOUN	_	_	2	appos	_	AlignBegin=89506|AlignEnd=89937|Gloss=[SISTER]|ISMarker[Top]=NMM|ISRole=Top|NMM=eyebrow-raise
+4	PNT[soeur]	PNT	PRON	_	Number=Sing|PronType=Prs	2	conj:dbl	_	AlignBegin=89967|AlignEnd=90191|Gloss=PNT[sister]|Tgt=PSS3
+5	[c'est-ça]	[c'est-ça]	INTJ	_	_	1	discourse	_	AlignBegin=90198|AlignEnd=90641|Gloss=[that's-right]
+6	[porter-intérêt]	[porter-intérêt]	VERB	_	_	1	conj:reform	_	AlignBegin=90663|AlignEnd=91787|Gloss=[show-interest]
+
+# sent_id = vacances-sud_13
+# text = [transition] [PAPA] [hep] PNT[MOI] [ADORER] PNT[lieu1] [PREMIER] [VILLE] [NON] PNT[lieu2] [DEUXIÈME]
+# source_file = ./recit-agnieska.mp4
+# text_fr = quand papa a pris la parole : “Moi, ce n’est pas le premier mais le deuxième lieu que j’ai adoré,
+# text_en = then Dad said "in my case, I didn’t prefer the first place, but rather the second.
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[transition]	[transition]	ADV	_	_	5	discourse	_	AlignBegin=91802|AlignEnd=92264|Gloss=[transition]
+2	[PAPA]	[PAPA]	NOUN	_	_	5	discourse:participant	_	AlignBegin=92346|AlignEnd=92868|Gloss=[DAD]|NMM=eyebrow-raise
+3	[hep]	[hep]	INTJ	_	_	5	discourse	_	AlignBegin=92904|AlignEnd=93618|Gloss=[hep]|NMM=eye-blink|TransfertType=Personne
+4	PNT[MOI]	PNT	PRON	_	Number=Sing|PronType=Prs	5	nsubj	_	AlignBegin=93669|AlignEnd=94029|Gloss=PNT[ME]|Tgt=Prs1
+5	[ADORER]	[ADORER]	VERB	_	_	0	root	_	AlignBegin=94110|AlignEnd=94853|Gloss=[ADORE]|Reported=Yes
+6	PNT[lieu1]	PNT	ADV	_	_	9	nsubj	_	AlignBegin=94868|AlignEnd=95109|Exp=Neg|Gloss=PNT[place1]|NMM=eyebrow-frown|Tgt=PSS3l|TwoH=Yes
+7	[PREMIER]	[PREMIER]	ADJ	_	_	8	amod	_	AlignBegin=95109|AlignEnd=95529|Exp=Neg|Gloss=[FIRST]|NDHHeld=PNT-PSS3l|NMM=eyebrow-frown
+8	[VILLE]	[VILLE]	NOUN	_	_	6	appos	_	AlignBegin=95544|AlignEnd=95765|Exp=Neg|Gloss=[CITY]|NDHHeld=PNT-PSS3l|NMM=eyebrow-frown
+9	[NON]	[NON]	ADV	_	_	5	obj	_	AlignBegin=95779|AlignEnd=96059|Exp[lex]=Neg|Gloss=[NO]|ISMarker[CFoc]=Cxn-corel?|NDHHeld=PNT-PSS3l|NMM=eyebrow-raise
+10	PNT[lieu2]	PNT	ADV	_	_	9	conj:contr	_	AlignBegin=96088|AlignEnd=96728|Gloss=PNT[place2]|ISRole=CFoc|NDHHeld=PNT-PSS3l|NMM=eyebrow-raise|Tgt=PSSN
+11	[DEUXIÈME]	[DEUXIÈME]	ADJ	_	_	10	advcl	_	AlignBegin=96765|AlignEnd=97154|Gloss=[SECOND]|NMM=eyebrow-raise
+
+# sent_id = vacances-sud_14
+# text = PNT[là] [QUOI] [MER] [NON] [à-l'avant] PNT-SURFACE[derrière] [FORÊT] PNT[là] [RIVIÈRE-petite-sinueuse]
+# source_file = ./recit-agnieska.mp4
+# text_fr = dans les terres, la forêt avec la petite rivière sinueuse
+# text_en = inland, the forest with a small winding river
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	PNT[là]	PNT	ADV	_	_	3	nsubj	_	AlignBegin=97161|AlignEnd=97791|Gloss=PNT[here]|NMM=eyebrow-raise+eye-blink|Tgt=PSSN|TwoH=Yes
+2	[QUOI]	[QUOI]	PRON	_	PronType=Int	3	nmod	_	AlignBegin=97791|AlignEnd=98926|Exp[lex]=Int|Focus=Yes|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NMM=backward-tilt
+3	[MER]	[MER]	NOUN	_	_	0	root	_	AlignBegin=98926|AlignEnd=99826|Exp=Int|Gloss=[SEA]
+4	[NON]	[NON]	ADV	_	_	3	advmod	_	AlignBegin=99826|AlignEnd=100096|Exp[lex]=Neg|Gloss=[NO]|ISMarker[CFoc]=Cxn-corel|NDHHeld=[MER]|NMM=eyebrow-raise
+5	[à-l'avant]	[à-l'avant]	NOUN	_	_	6	obl:mod	_	AlignBegin=100100|AlignEnd=100513|Gloss=[at-the-front]|Loc=PSSN
+6	PNT-SURFACE[derrière]	PNT-SURFACE	ADV	_	_	3	conj	_	AlignBegin=100522|AlignEnd=101504|Gloss=PNT-SURFACE[behind]|ISRole=Foc+CFoc|Loc=PSS1|NDHHeld=[à-l'avant]|NMM=eyebrow-frown+eye-blink
+7	[FORÊT]	[FORÊT]	NOUN	_	_	6	obl:mod	_	AlignBegin=101509|AlignEnd=103165|Gloss=[FOREST]|NMM=eyebrow-rf
+8	PNT[là]	PNT	ADV	_	_	3	conj	_	AlignBegin=103174|AlignEnd=103439|Gloss=PNT[here]|NMM=eyebrow-raise|Tgt=PSS1
+9	[RIVIÈRE-petite-sinueuse]	[RIVIÈRE]	NOUN	_	_	8	obl:mod	_	AlignBegin=103448|AlignEnd=105461|Gloss=[RIVER-small-winding]
+
+# sent_id = vacances-sud_15
+# text = [PERSONNE] [PEU] PRF[PERSONNE]
+# source_file = ./recit-agnieska.mp4
+# text_fr = (et surtout) très peu de monde.
+# text_en = (and especially) very little people.
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[PERSONNE]	[PERSONNE]	NOUN	_	_	2	nsubj	_	AlignBegin=105470|AlignEnd=105978|Gloss=[PERSON]|NMM=eyebrow-rf
+2	[PEU]	[PEU]	ADV	_	_	0	root	_	AlignBegin=105991|AlignEnd=106787|Exp[lex]=Intensité|Gloss=[LITTLE]|NMM=eyebrow-rf
+3	PRF[PERSONNE]	PRF	NOUN	_	_	2	conj:illustrate	_	AlignBegin=106791|AlignEnd=108683|Exp=Intensité|Gloss=PRF[PERSON]|NMM=eyebrow-rf|Rep=4|TwoH=Yes
+
+# sent_id = vacances-sud_16
+# text = PNT[là] [NAGER] [AGRÉABLE]
+# source_file = ./recit-agnieska.mp4
+# text_fr = Nager dans la rivière, qu’est-ce que c’était agréable,
+# text_en = Swimming in the river, how nice
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	PNT[là]	PNT	ADV	_	_	2	advmod	_	AlignBegin=108687|AlignEnd=109322|Gloss=PNT[here]|ISMarker[Top]=NMM|ISRole=Top|NMM=eyebrow-raise+eye-blink|Tgt=PSSN
+2	[NAGER]	[NAGER]	NOUN	_	_	3	nsubj	_	AlignBegin=109352|AlignEnd=111017|Exp=Positif|Gloss=[SWIM]
+3	[AGRÉABLE]	[AGRÉABLE]	ADJ	_	_	0	root	_	AlignBegin=111017|AlignEnd=111722|Exp[lex]=Positif|Gloss=[PLEASANT]|NMM=eye-blink
+
+# sent_id = vacances-sud_17
+# text = [EAU] [FROID]
+# source_file = ./recit-agnieska.mp4
+# text_fr = l’eau était froide
+# text_en = the water was cold
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[EAU]	[EAU]	NOUN	_	_	0	root	_	AlignBegin=111722|AlignEnd=111857|Gloss=[WATER]
+2	[FROID]	[FROID]	ADJ	_	_	1	amod	_	AlignBegin=111857|AlignEnd=113357|Gloss=[COLD]|NMM=forward-tilt
+
+# sent_id = vacances-sud_18
+# text = [CALME] [NATURE] PNT-SURFACE[là] position-neutre
+# source_file = ./recit-agnieska.mp4
+# text_fr = mais on profitait du calme, de la nature…”.
+# text_en = but we enjoyed the calm, the nature...".
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[CALME]	[CALME]	ADJ	_	_	2	amod	_	AlignBegin=113357|AlignEnd=114574|Gloss=[CALM]
+2	[NATURE]	[NATURE]	NOUN	_	_	0	root	_	AlignBegin=114578|AlignEnd=115078|Gloss=[NATURE]
+3	PNT-SURFACE[là]	PNT-SURFACE	ADV	_	_	2	conj:illustrate	_	AlignBegin=115083|AlignEnd=116074|Gloss=PNT-SURFACE[here]|NMM=head-nod+eye-blink|Tgt=PSSLr
+4	position-neutre	position-neutre	PUNCT	_	_	2	punct	_	AlignBegin=116074|AlignEnd=116726|Gloss=neutral-position
+
+# sent_id = vacances-sud_19
+# text = [REGARDER] [écouter-en-regardant] [INTÉRESSANT] PNT[sujet]
+# source_file = ./recit-agnieska.mp4
+# text_fr = Nous écoutions papa, intéressés.
+# text_en = We listen to dad, interested.
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[REGARDER]	[REGARDER]	VERB	_	_	0	root	_	AlignBegin=116743|AlignEnd=117130|Gloss=[LOOK]|Tgt=PSS3
+2	[écouter-en-regardant]	[écouter-en-regardant]	VERB	_	_	1	conj:illustrate	_	AlignBegin=117139|AlignEnd=117970|Gloss=[listen-looking]
+3	[INTÉRESSANT]	[INTÉRESSANT]	ADJ	_	_	2	parataxis	_	AlignBegin=117974|AlignEnd=118648|Gloss=[INTERESTING]|Reported=Yes
+4	PNT[sujet]	PNT	PRON	_	_	3	nsubj	_	AlignBegin=118648|AlignEnd=119326|Gloss=PNT[topic]|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NMM=head-nod+eye-blink|Tgt=PSSN
+
+# sent_id = vacances-sud_20
+# text = [hep] PNT[MOI] [hep] PNT[lieu2]-[non] PNT[lieu3] [TROISIÈME] PNT[lieu3] [ADORER2]
+# source_file = ./recit-agnieska.mp4
+# text_fr = À mon tour, j’ai dit “Moi ce n’est ni le premier, ni le deuxième mais le troisième endroit que j’ai adoré.
+# text_en = In turn, I said "For me, it's neither the first or the second but rather the third place that I loved.
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[hep]	[hep]	INTJ	_	_	8	discourse	_	AlignBegin=119352|AlignEnd=119626|Gloss=[hep]|NMM=eyebrow-raise|Trs=Left
+2	PNT[MOI]	PNT	PRON	_	Number=Sing|PronType=Prs	8	discourse:participant	_	AlignBegin=119630|AlignEnd=120600|Gloss=PNT[ME]|NMM=rightward-tilt+eyebrow-raise|Tgt=Prs1
+3	[hep]	[hep]	INTJ	_	_	8	discourse	_	AlignBegin=120604|AlignEnd=121200|Exp=Neg|Gloss=[hep]|NMM=eyebrow-rf
+4	PNT[lieu2]-[non]	PNT	ADV	_	_	8	conj	_	AlignBegin=121200|AlignEnd=122265|Exp=Neg|Gloss=PNT[place2]-[no]|NMM=eye-blink|Src=PSS3l|Tgt=PSSN
+5	PNT[lieu3]	PNT	ADV	_	_	4	conj:contr	_	AlignBegin=122274|AlignEnd=122826|Gloss=PNT[place3]|NDHHeld=PNT-PSS3l|NMM=eyebrow-raise|Src=PSSN|Tgt=PSS3r
+6	[TROISIÈME]	[TROISIÈME]	ADJ	_	_	5	advcl	_	AlignBegin=122826|AlignEnd=123287|Gloss=[THIRD]
+7	PNT[lieu3]	PNT	ADV	_	_	5	conj:reform	_	AlignBegin=123296|AlignEnd=123904|Gloss=PNT[place3]|NMM=head-nod+eye-blink|Tgt=PSS3r
+8	[ADORER2]	[ADORER2]	VERB	_	_	0	root	_	AlignBegin=123913|AlignEnd=124939|Gloss=[ADORE2]|Reported=Yes
+
+# sent_id = vacances-sud_21
+# text = PNT[lieu3] [QUOI] [MER] [MAIS] [PLAGE] [DIFFÉRENT] [CALANQUE] [ROCHER] [rocher]
+# source_file = ./recit-agnieska.mp4
+# text_fr = Le bord de mer mais pas la plage, les calanques avec les rochers tout autour.
+# text_en = The seashore but not the beach, the rocky inlet with the rocks around.
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	PNT[lieu3]	PNT	ADV	_	_	0	root	_	AlignBegin=124939|AlignEnd=125296|Exp=Int|Gloss=PNT[place3]|NDHHeld=[ADORER2]|NMM=forward-tilt+eyebrow-raise|Tgt=PSS3r
+2	[QUOI]	[QUOI]	PRON	_	PronType=Int	3	nmod	_	AlignBegin=125300|AlignEnd=125913|Exp[lex]=Int|Gloss=[WHAT]|ISMarker[Foc]=Cxn-fq|NDHHeld=[ADORER2]|NMM=eye-blink
+3	[MER]	[MER]	NOUN	_	_	1	obl:mod	_	AlignBegin=125913|AlignEnd=127078|Gloss=[SEA]|ISRole=Foc
+4	[MAIS]	[MAIS]	CCONJ	_	_	5	cc	_	AlignBegin=127091|AlignEnd=127635|Gloss=[BUT]|NDHHeld=[MER]|NMM=eyebrow-raise
+5	[PLAGE]	[PLAGE]	NOUN	_	_	6	nsubj	_	AlignBegin=127657|AlignEnd=128383|Gloss=[BEACH]
+6	[DIFFÉRENT]	[DIFFÉRENT]	ADJ	_	_	3	conj	_	AlignBegin=128396|AlignEnd=128987|Gloss=[DIFFERENT]
+7	[CALANQUE]	[CALANQUE]	NOUN	_	_	6	conj:contr	_	AlignBegin=129013|AlignEnd=130809|Gloss=[ROCKY-INLET]|ISMarker[CFoc]=Cxn-corel|ISRole=CFoc|NMM=eyebrow-rf|TransfertType=Situation
+8	[ROCHER]	[ROCHER]	NOUN	_	_	9	nmod	_	AlignBegin=130817|AlignEnd=131152|Gloss=[ROCK]|NMM=eyebrow-rf
+9	[rocher]	[rocher]	NOUN	_	_	7	conj:illustrate	_	AlignBegin=131170|AlignEnd=132813|Exp=Intensité|Gloss=[rock]|NMM=eyebrow-rf|TwoH=Yes
+
+# sent_id = vacances-sud_22
+# text = [REGARDER]
+# source_file = ./recit-agnieska.mp4
+# text_fr = On pouvait voir la mer depuis les hauteurs.
+# text_en = We could see the sea from the hights.
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[REGARDER]	[REGARDER]	VERB	_	_	0	root	_	AlignBegin=132822|AlignEnd=134400|Gloss=[LOOK]|NDH=[falaise]|NMM=head-nod+eye-blink|Tgt=down-left-to-down-right|TransfertType=Situation+Personne
+
+# sent_id = vacances-sud_23
+# text = [AUSSI] PNT[là-bas-en-bas] [EAU] [SABLE] [non] [ROCHER] [rocher]
+# source_file = ./recit-agnieska.mp4
+# text_fr = Et dans l’eau, pas de sable mais des rochers,
+# text_en = And in the water, not sand but rocks,
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[AUSSI]	[AUSSI]	ADV	_	_	5	cc	_	AlignBegin=134500|AlignEnd=134960|Gloss=[ALSO]|NMM=eye-blink
+2	PNT[là-bas-en-bas]	PNT	ADV	_	_	3	advmod	_	AlignBegin=134960|AlignEnd=135278|Gloss=PNT[down-there]|Tgt=PSSN
+3	[EAU]	[EAU]	NOUN	_	_	5	obl:mod	_	AlignBegin=135278|AlignEnd=136174|Gloss=[WATER]|NMM=forward-tilt+eyebrow-raise+eye-blink
+4	[SABLE]	[SABLE]	NOUN	_	_	5	nsubj	_	AlignBegin=136187|AlignEnd=136816|Gloss=[SAND]
+5	[non]	[non]	ADV	_	_	0	root	_	AlignBegin=136187|AlignEnd=136816|DHHeld=[SABLE]|Exp[lex]=Neg|Gloss=[no]|ISMarker[CFoc]=Cxn-corel+NMM|NDHHeld=[SABLE]|NMM=eyebrow-raise
+6	[ROCHER]	[ROCHER]	NOUN	_	_	5	conj:contr	_	AlignBegin=137317|AlignEnd=138026|Gloss=[ROCK]|ISRole=CFoc|NMM=forward-tilt+eyebrow-rf
+7	[rocher]	[rocher]	NOUN	_	_	6	conj:illustrate	_	AlignBegin=138035|AlignEnd=139774|Exp=Intensité|Gloss=[rock]|NMM=eye-blink
+
+# sent_id = vacances-sud_24
+# text = [RENTRER] [EAU] [avancer] [marcher-difficilement] [rochers-dans-les-pieds] [marcher-difficilement] [NAGER] [AGRÉABLE]
+# source_file = ./recit-agnieska.mp4
+# text_fr = d’ailleurs quand on rentrait dans l’eau ça faisait mal aux pieds, puis une fois dans l’eau, on nageait et ça allait mieux.
+# text_en = when we enter in the water it hurts the feet, but once in the water, we swim and it is better.
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[RENTRER]	[RENTRER]	VERB	_	_	0	root	_	AlignBegin=140278|AlignEnd=140835|Gloss=[ENTER]|NDH=[bord]|NMM=eyebrow-frown+eye-blink
+2	[EAU]	[EAU]	NOUN	_	_	1	obl:arg	_	AlignBegin=140835|AlignEnd=141157|Gloss=[WATER]|NDHHeld=[bord]
+3	[avancer]	[avancer]	VERB	_	_	1	conj:chaining	_	AlignBegin=141174|AlignEnd=142065|Exp=Douleur|Gloss=[go-forward]|NDHHeld=[bord]|Subj=PRF[PERSONNE]
+4	[marcher-difficilement]	[marcher-difficilement]	VERB	_	_	3	conj:chaining	_	AlignBegin=142078|AlignEnd=143261|Exp[lex]=Douleur|Gloss=[hardly-walk]|ISRole=Foc|NMM=eyebrow-rf|Subj=PRF[pieds]
+5	[rochers-dans-les-pieds]	[rochers-dans-les-pieds]	NOUN	_	_	4	conj:chaining	_	AlignBegin=143270|AlignEnd=144204|Exp=Douleur|Gloss=[rocks-in-feet]|Loc=NDH|NDHHeld=PRF[pied]|NMM=eyebrow-frown+eye-blink|Rep=3|Subj=PRF(DH)[rocher]
+6	[marcher-difficilement]	[marcher-difficilement]	VERB	_	_	4	conj:dbl	_	AlignBegin=144217|AlignEnd=145080|Exp[lex]=Douleur|Gloss=[hardly-walk]|ISMarker[Foc]=Cxn-dbl|NMM=eyebrow-frown|Subj=PRF[pieds]
+7	[NAGER]	[NAGER]	VERB	_	_	6	conj:chaining	_	AlignBegin=145080|AlignEnd=147069|Exp=Positif|Gloss=[SWIM]
+8	[AGRÉABLE]	[AGRÉABLE]	ADJ	_	_	7	advcl	_	AlignBegin=147069|AlignEnd=148069|Exp[lex]=Positif|Gloss=[PLEASANT]|NMM=eyebrow-raise
+
+# sent_id = vacances-sud_25
+# text = [PERSONNE]/Plur [DESERTIQUE] [CALME]
+# source_file = ./recit-agnieska.mp4
+# text_fr = Et là il n’y avait vraiment pas un chat ! C’était paisible.”
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+# text_en = And there, there was no one ! It was peaceful."
+1	[PERSONNE]/Plur	[PERSONNE]	NOUN	_	Number=Plur	2	dislocated	_	AlignBegin=148297|AlignEnd=148897|Gloss=[PERSON]|NMM=eyebrow-raise|Rep=2|TwoH=Yes
+2	[DESERTIQUE]	[DESERTIQUE]	VERB	_	_	0	root	_	AlignBegin=148924|AlignEnd=150207|Exp=Neg|Gloss=[EMPTY]|NMM=eyebrow-rf
+3	[CALME]	[CALME]	ADJ	_	_	2	conj:chaining	_	AlignBegin=150228|AlignEnd=151862|Exp=Neg|Gloss=[CALM]|NMM=eyebrow-rf+eye-blink
+
+# sent_id = vacances-sud_26
+# text = [TOUS]-[QUATRE] [REGARDER] [OUI] [DIFFÉRENT]
+# source_file = ./recit-agnieska.mp4
+# text_fr = Nous étions là tous les 4, à écouter les souvenirs de chacun, tous différents.
+# text_en = We were all four here, listening to everyone's memories, each different.
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[TOUS]-[QUATRE]	[TOUS]-[QUATRE]	PRON	_	PronType=Tot	2	nsubj	_	AlignBegin=153228|AlignEnd=153862|Gloss=[ALL]-[FOUR]|NMM=backward-tilt+eye-blink
+2	[REGARDER]	[REGARDER]	VERB	_	_	0	root	_	AlignBegin=153869|AlignEnd=154648|Gloss=[LOOK]|Tgt=Rcp
+3	[OUI]	[OUI]	ADV	_	_	4	discourse	_	AlignBegin=154662|AlignEnd=155055|Gloss=[YES]|Reported=Yes
+4	[DIFFÉRENT]	[DIFFÉRENT]	ADJ	_	_	2	parataxis	_	AlignBegin=155062|AlignEnd=156979|Gloss=[DIFFERENT]|NMM=eye-blink|Rep=3
+
+# sent_id = vacances-sud_27
+# text = [hep] [MAMAN] [OUI] [DIFFÉRENT] [DONNER] [DÉCOUVERTE] [DIFFÉRENT] [RICHE] [INTÉRESSANT]
+# source_file = ./recit-agnieska.mp4
+# text_fr = Maman a terminé en disant : “Avec ces endroits différents, les découvertes étaient variées et riches. C’était très intéressant,
+# text_en = Mom finished saying: "With the different places, the discoveries where diverse and riche. It was very interesting,
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[hep]	[hep]	INTJ	_	_	6	discourse	_	AlignBegin=157083|AlignEnd=157550|Gloss=[hep]|NMM=leftward-tilt+eyebrow-raise
+2	[MAMAN]	[MAMAN]	NOUN	_	_	6	discourse:participant	_	AlignBegin=157550|AlignEnd=158014|Gloss=[MOM]
+3	[OUI]	[OUI]	ADV	_	_	6	discourse	_	AlignBegin=158028|AlignEnd=159214|Gloss=[YES]|NMM=eyebrow-raise
+4	[DIFFÉRENT]	[DIFFÉRENT]	ADJ	_	_	6	amod	_	AlignBegin=159228|AlignEnd=160186|Gloss=[DIFFERENT]|Rep=2
+5	[DONNER]	[DONNER]	VERB	_	_	6	acl	_	AlignBegin=160207|AlignEnd=160862|Gloss=[GIVE]|NMM=eyebrow-raise
+6	[DÉCOUVERTE]	[DÉCOUVERTE]	NOUN	_	_	0	root	_	AlignBegin=160897|AlignEnd=161621|Gloss=[DISCOVERY]|NMM=forward-tilt+eyebrow-frown|Reported=Yes
+7	[DIFFÉRENT]	[DIFFÉRENT]	ADJ	_	_	6	amod	_	AlignBegin=161641|AlignEnd=162690|Gloss=[DIFFERENT]
+8	[RICHE]	[RICHE]	ADJ	_	_	7	conj	_	AlignBegin=162724|AlignEnd=164179|Gloss=[RICH]|NMM=eyebrow-rf
+9	[INTÉRESSANT]	[INTÉRESSANT]	ADJ	_	_	7	conj	_	AlignBegin=164207|AlignEnd=164966|Gloss=[INTERESTING]|NMM=head-nod
+
+# sent_id = vacances-sud_28
+# text = [BEAU] [JUSTE] [BEAU] [VACANCES] [OUI]
+# source_file = ./recit-agnieska.mp4
+# text_fr = oui, c’était vraiment des bonnes vacances.”
+# text_en = yes, it was very good holidays."
+# video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
+1	[BEAU]	[BEAU]	ADJ	_	_	4	amod	_	AlignBegin=164986|AlignEnd=165579|Gloss=[BEAUTIFUL]|NMM=head-nod
+2	[JUSTE]	[JUSTE]	ADJ	_	_	4	amod	_	AlignBegin=165593|AlignEnd=166572|Gloss=[ACCURATE]|NMM=rightward-tilt
+3	[BEAU]	[BEAU]	ADJ	_	_	4	amod	_	AlignBegin=166572|AlignEnd=167034|Gloss=[BEAUTIFUL]|NMM=eyebrow-raise
+4	[VACANCES]	[VACANCES]	NOUN	_	_	0	root	_	AlignBegin=167069|AlignEnd=167572|Gloss=[HOLIDAYS]
+5	[OUI]	[OUI]	ADV	_	_	4	discourse	_	AlignBegin=167600|AlignEnd=168186|Gloss=[YES]|NMM=eye-blink|TwoH=Yes
+

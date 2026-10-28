@@ -1,0 +1,335 @@
+# sent_id = crdo-fsl-cuc022_68
+# text = [RECETTE] [CUISINE] position-neutre
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Recette de cuisine.
+# text_en = Cooking recipe.
+1	[RECETTE]	[RECETTE]	NOUN	_	_	0	root	_	AlignBegin=1098344|AlignEnd=1098939|Gloss=[RECIPE]
+2	[CUISINE]	[CUISINE]	NOUN	_	_	1	nmod	_	AlignBegin=1098939|AlignEnd=1099659|Gloss=[COOKING]
+3	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=1099659|AlignEnd=1102699|Gloss=neutral-position|NMM=eye-blink
+
+# sent_id = crdo-fsl-cuc022_69
+# text = [voilà] position-neutre
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Voilà !
+# text_en = That's it!
+1	[voilà]	[voilà]	INTJ	_	_	0	root	_	AlignBegin=1102699|AlignEnd=1103459|Gloss=[that's-it]|NMM=head-nod+eye-blink
+2	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=1103459|AlignEnd=1104459|Gloss=neutral-position
+
+# sent_id = crdo-fsl-cuc022_70_split1
+# text = [TITRE] [euh] [CHAMPIGNON] [SAUCE] [S]-[O]-[J]-[A]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = "Champignons à la sauce soja"
+# text_en = "Mushrooms with soy sauce"
+1	[TITRE]	[TITRE]	NOUN	_	_	3	dislocated	_	AlignBegin=1104459|AlignEnd=1105139|Gloss=[TITLE]
+2	[euh]	[euh]	INTJ	_	_	3	discourse	_	AlignBegin=1105139|AlignEnd=1105899|Gloss=~|NMM=eye-blink
+3	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	0	root	_	AlignBegin=1105899|AlignEnd=1106859|Gloss=[MUSHROOM]|NMM=forward-tilt
+4	[SAUCE]	[SAUCE]	NOUN	_	_	3	nmod	_	AlignBegin=1106859|AlignEnd=1107459|Gloss=[SAUCE]|NMM=eye-blink
+5	[S]-[O]-[J]-[A]	FingerSpelling	NOUN	_	_	4	nmod	_	AlignBegin=1107459|AlignEnd=1108859|Gloss=[SOY]|NMM=head-nod
+
+# sent_id = crdo-fsl-cuc022_70_split2
+# text = [VENIR-DE] [RECETTE] [VIÊT-NAM]~ [MONTAGNE] [VIÊT-NAM] POSS[LUI]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = c'est une recette qui vient du Viêt-Nam.
+# text_en = it is a recipe from Viêt-Nam.
+1	[VENIR-DE]	[VENIR-DE]	VERB	_	_	0	root	_	AlignBegin=1108859|AlignEnd=1109259|Gloss=[COME-FROM]|NMM=rightward-tilt+eyebrow-raise|Tgt=PSS3l
+2	[RECETTE]	[RECETTE]	NOUN	_	_	1	dislocated	_	AlignBegin=1109259|AlignEnd=1109579|Gloss=[RECIPE]|Loc=PSS3l
+3	[VIÊT-NAM]~	[VIÊT-NAM]	PROPN	_	_	5	reparandum	_	AlignBegin=1109579|AlignEnd=1109659|Gloss=[VIÊT-NAM]~|Scrap=Yes
+4	[MONTAGNE]	[MONTAGNE]	NOUN	_	_	1	obl:arg	_	AlignBegin=1109659|Gloss=[MOUNTAIN]
+5	[VIÊT-NAM]	[VIÊT-NAM]	PROPN	_	_	4	nmod	_	AlignEnd=1110584|Gloss=[VIÊT-NAM]
+6	POSS[LUI]	POSS	ADJ	_	_	5	amod	_	AlignBegin=1110584|AlignEnd=1112109|Gloss=POSS[IT]|NMM=rightward-tilt+head-nod+eye-blink|Tgt=PSS3l
+
+# sent_id = crdo-fsl-cuc022_71_split1
+# text = [bon] PNT[LISTE] [IL-FAUT] [CHAMPIGNON] [N'IMPORTE] [PAREIL] [VOULOIR] [larges-possibilités]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Bon, il faut plusieurs choses, d'abord des champignons, n'importe lesquels, comme vous voulez
+# text_en = So, we need several things, first murshrooms, which ever, as you'd like
+1	[bon]	[bon]	INTJ	_	_	3	discourse	_	AlignBegin=1112109|AlignEnd=1112579|Gloss=[well]|NMM=eye-blink
+2	PNT[LISTE]	PNT	NOUN	_	_	3	dislocated	_	AlignBegin=1112579|AlignEnd=1113299|Gloss=PNT[LIST]|ISMarker[Top]=Dlxn?|ISRole=Top|NDH=[LISTE]|NMM=eye-contact|Tgt=NDH
+3	[IL-FAUT]	[IL-FAUT]	VERB	_	_	0	root	_	AlignBegin=1113299|AlignEnd=1113659|Gloss=[MUST]|NMM=forward-tilt
+4	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	3	obl:arg	_	AlignBegin=1113659|AlignEnd=1114219|Gloss=[MUSHROOM]|NMM=forward-tilt+eye-blink
+5	[N'IMPORTE]	[N'IMPORTE]	ADV	_	_	4	advmod	_	AlignBegin=1114219|AlignEnd=1114574|Gloss=[WHICHEVER]|NMM=eyebrow-frown
+6	[PAREIL]	[PAREIL]	ADV	_	_	4	advmod	_	AlignBegin=1114574|AlignEnd=1114779|Gloss=[SAME]
+7	[VOULOIR]	[VOULOIR]	VERB	_	_	6	ccomp	_	AlignBegin=1114779|AlignEnd=1115059|Gloss=[WANT]
+8	[larges-possibilités]	[larges-possibilités]	NOUN	_	_	6	discourse	_	AlignBegin=1115059|AlignEnd=1115859|Gloss=[large-possibilities]
+
+# sent_id = crdo-fsl-cuc022_71_split2
+# text = [POUVOIR] [CHOISIR] [CHAMPIGNON] SST[forme-incurvée] [CHAMPIGNON] SST[forme-trompette] SST[forme-ronde] [ETC]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = vous pouvez choisir des champignons de n'importe quel type, en trompette, en forme ronde, etc…
+# text_en = you can choose mushrooms of any kind, shaped like trumpet or round, etc...
+1	[POUVOIR]	[POUVOIR]	VERB	_	_	0	root	_	AlignBegin=1115859|AlignEnd=1116059|Gloss=[CAN]
+2	[CHOISIR]	[CHOISIR]	VERB	_	_	1	ccomp	_	AlignBegin=1116059|AlignEnd=1116499|Gloss=[CHOOSE]|NMM=eye-blink
+3	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	2	obl:arg	_	AlignBegin=1116499|AlignEnd=1116779|Gloss=[MUSHROOM]|NMM=eyebrow-frown+eye-contact
+4	SST[forme-incurvée]	SST	ADJ	_	_	3	amod	_	AlignBegin=1116779|AlignEnd=1117339|Gloss=[curved-shape]|NMM=eye-blink
+5	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	3	conj	_	AlignBegin=1117339|AlignEnd=1117619|Gloss=[MUSHROOM]
+6	SST[forme-trompette]	SST	ADJ	_	_	5	amod	_	AlignBegin=1117619|AlignEnd=1117974|Gloss=[trumpet-shape]|NMM=eye-blink
+7	SST[forme-ronde]	SST	ADJ	_	_	6	conj	_	AlignBegin=1117974|AlignEnd=1118299|Gloss=[round-shape]
+8	[ETC]	[ETC]	INTJ	_	_	3	conj	_	AlignBegin=1118299|AlignEnd=1118979|Gloss=[etc]|NMM=eye-blink
+
+# sent_id = crdo-fsl-cuc022_72
+# text = [LIBRE]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Vous êtes libre.
+# text_en = You are free.
+1	[LIBRE]	[LIBRE]	ADJ	_	_	0	root	_	AlignBegin=1118979|AlignEnd=1119624|Gloss=[FREE]|NMM=head-nod+eye-blink
+
+# sent_id = crdo-fsl-cuc022_73
+# text = PNT[PREMIEREMENT]~ [IL-FAUT] [DEUX]-[CENT] [GRAMME] [IL-FAUT] PNT[PREMIEREMENT]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = En premier, il en faut 200 grammes.
+# text_en = Firslty, we need 200 grams of it.
+1	PNT[PREMIEREMENT]~	PNT	ADV	_	_	2	advmod	_	AlignBegin=1119624|AlignEnd=1119979|Gloss=PNT[FIRSTLY]~|NDH=[LISTE]|NMM=rightward-tilt+eyebrow-raise|Scrap=Yes|Tgt=NDH
+2	[IL-FAUT]	[IL-FAUT]	VERB	_	_	0	root	_	AlignBegin=1119979|AlignEnd=1120139|Gloss=[MUST]
+3	[DEUX]-[CENT]	[DEUX]-[CENT]	NUM	_	_	4	nummod	_	AlignBegin=1120139|AlignEnd=1120539|Gloss=[TWO]-[HUNDRED]
+4	[GRAMME]	[GRAMME]	NOUN	_	_	2	obj	_	AlignBegin=1120539|AlignEnd=1120979|Gloss=[GRAM]
+5	[IL-FAUT]	[IL-FAUT]	VERB	_	_	2	conj:dbl	_	AlignBegin=1120979|AlignEnd=1121219|Gloss=[MUST]|NMM=forward-tilt
+6	PNT[PREMIEREMENT]	PNT	ADV	_	_	2	advmod	_	AlignBegin=1121219|AlignEnd=1121629|Gloss=PNT[FIRSTLY]|NDH=[LISTE]|NMM=eye-blink|Tgt=NDH
+
+# sent_id = crdo-fsl-cuc022_74
+# text = PNT[DEUXIEMEMENT] [SAUCE] [S]-[O]-[J]-[A] [IL-FAUT]~ [CUILLÈRE] [TROIS] [SOUPE] [IL-FAUT] PNT[DEUXIEMEMENT]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Deuxièmement, de la sauce soja , il en faut 3 cuillères à soupe.
+# text_en = Secondly, some soy sauce, we need 3 soup spoon.
+1	PNT[DEUXIEMEMENT]	PNT	ADV	_	_	8	advmod	_	AlignBegin=1121629|AlignEnd=1122534|Gloss=PNT[SECONDLY]|NDH=[LISTE]|Tgt=NDH
+2	[SAUCE]	[SAUCE]	NOUN	_	_	8	obj	_	AlignBegin=1122534|AlignEnd=1123059|Gloss=[SAUCE]|NMM=eye-contact
+3	[S]-[O]-[J]-[A]	FingerSpelling	NOUN	_	_	2	nmod	_	AlignBegin=1123059|AlignEnd=1124219|Gloss=[SOY]
+4	[IL-FAUT]~	[IL-FAUT]	VERB	_	_	8	reparandum	_	AlignBegin=1124219|AlignEnd=1124339|Gloss=[MUST]~|Scrap=Yes
+5	[CUILLÈRE]	[CUILLÈRE]	NOUN	_	_	2	nmod	_	AlignBegin=1124339|AlignEnd=1124579|Gloss=[SPOON]
+6	[TROIS]	[TROIS]	NUM	_	_	5	nmod	_	AlignBegin=1124579|AlignEnd=1124779|Gloss=[THREE]|NMM=eye-blink
+7	[SOUPE]	[SOUPE]	NOUN	_	_	5	nmod	_	AlignBegin=1124779|AlignEnd=1125179|Gloss=[SOUP]
+8	[IL-FAUT]	[IL-FAUT]	VERB	_	_	0	root	_	AlignBegin=1125179|AlignEnd=1125539|Gloss=[MUST]|NMM=forward-tilt+eye-blink
+9	PNT[DEUXIEMEMENT]	PNT	ADV	_	_	8	advmod	_	AlignBegin=1125539|AlignEnd=1125854|Gloss=PNT[SECONDLY]|NDH=[LISTE]|Tgt=NDH
+
+# sent_id = crdo-fsl-cuc022_75
+# text = PNT[TROISIEMEMENT] [UN] [CUILLÈRE] [SUCRE] [un-peu]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Troisièmement, une cuillère de sucre.
+# text_en = Thirdly, one spoon of sugar.
+1	PNT[TROISIEMEMENT]	PNT	ADV	_	_	3	advmod	_	AlignBegin=1125854|AlignEnd=1126259|Gloss=PNT[THIRDLY]|NDH=[LISTE]|Tgt=NDH
+2	[UN]	[UN]	NUM	_	_	3	nummod	_	AlignBegin=1126259|AlignEnd=1126419|Gloss=[ONE]|NMM=eye-contact
+3	[CUILLÈRE]	[CUILLÈRE]	NOUN	_	_	0	root	_	AlignBegin=1126419|AlignEnd=1126659|Gloss=[SPOON]
+4	[SUCRE]	[SUCRE]	NOUN	_	_	3	nmod	_	AlignBegin=1126659|AlignEnd=1127379|Gloss=[SUGAR]
+5	[un-peu]	[un-peu]	ADV	_	_	3	advmod	_	AlignBegin=1127379|AlignEnd=1127859|Gloss=[a-little]|NMM=head-nod+eye-blink
+
+# sent_id = crdo-fsl-cuc022_76_split1
+# text = PNT[QUATRIEMEMENT] [POIVRE]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Quatrièmement, du poivre.
+# text_en = Fourthly, pepper.
+1	PNT[QUATRIEMEMENT]	PNT	ADV	_	_	2	advmod	_	AlignBegin=1127859|AlignEnd=1128499|Gloss=PNT[FOURTHLY]|NDH=[LISTE]|Tgt=NDH
+2	[POIVRE]	[POIVRE]	NOUN	_	_	0	root	_	AlignBegin=1128499|AlignEnd=1129179|Gloss=[PEPPER]|NMM=forward-tilt+eye-contact
+
+# sent_id = crdo-fsl-cuc022_76_split2
+# text = PNT[CINQUIEMEMENT] [SEL] [FEUILLE] [PAREIL]~ [PROCHE] [FLEUR] [PI_TYPIQUE] [CHINE] [PI_TYPIQUE]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Quatrièmement, du poivre. Cinquièmement, du sel, des feuilles qui ressemblent à des fleurs, typique de Chine.
+# text_en = Fourthly, pepper. Fifthly, salt, leaves that look like flowers, typical of China.
+1	PNT[CINQUIEMEMENT]	PNT	ADV	_	_	2	advmod	_	AlignBegin=1129179|AlignEnd=1129419|Gloss=PNT[FIFTHLY]|NDH=[LISTE]|Tgt=NDH
+2	[SEL]	[SEL]	NOUN	_	_	0	root	_	AlignBegin=1129419|AlignEnd=1130024|Gloss=[SALT]|NMM=leftward-tilt
+3	[FEUILLE]	[FEUILLE]	NOUN	_	_	2	conj	_	AlignBegin=1130024|AlignEnd=1130579|Gloss=[LEAF]
+4	[PAREIL]~	[PAREIL]	ADJ	_	_	5	reparandum	_	AlignBegin=1130579|AlignEnd=1130819|Gloss=[SAME]~|NMM=eyebrow-frown|Scrap=Yes
+5	[PROCHE]	[PROCHE]	ADJ	_	_	3	amod	_	AlignBegin=1130819|AlignEnd=1131139|Gloss=[CLOSE]|NMM=eyebrow-frown
+6	[FLEUR]	[FLEUR]	NOUN	_	_	5	obj	_	AlignBegin=1131139|AlignEnd=1131659|Gloss=[FLOWER]|NMM=eyebrow-frown
+7	[PI_TYPIQUE]	[PI_TYPIQUE]	ADJ	_	_	6	amod	_	AlignBegin=1131659|AlignEnd=1132059|Gloss=[PI_TYPICAL]|ISRole=Foc|NMM=head-nod+eyebrow-raise
+8	[CHINE]	[CHINE]	PROPN	_	_	9	obj	_	AlignBegin=1132059|AlignEnd=1132539|Gloss=[CHINA]
+9	[PI_TYPIQUE]	[PI_TYPIQUE]	ADJ	_	_	7	conj:dbl	_	AlignBegin=1132539|AlignEnd=1132899|Gloss=[PI_TYPICAL]|ISMarker[Foc]=Cxn-dbl
+
+# sent_id = crdo-fsl-cuc022_77
+# text = [FEUILLE-petite] [NOM] [ÉPELER] [pas-savoir] [SAVOIR] [ODEUR] [c'est-tout]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Ces feuilles ont un nom que je ne connais vraiment pas, j'en connais l'odeur, c'est tout.
+# text_en = I don't know the name of these flowers, I only know their smell, that's it.
+1	[FEUILLE-petite]	[FEUILLE]	NOUN	_	_	2	nmod	_	AlignBegin=1132899|AlignEnd=1133299|Gloss=[LEAF-small]|NMM=eyebrow-frown
+2	[NOM]	[NOM]	NOUN	_	_	3	obj	_	AlignBegin=1133299|AlignEnd=1133539|Gloss=[NAME]|NMM=eyebrow-raise
+3	[ÉPELER]	[ÉPELER]	VERB	_	_	4	dislocated	_	AlignBegin=1133539|AlignEnd=1133899|Gloss=[SPELL]
+4	[pas-savoir]	[pas-savoir]	INTJ	_	_	0	root	_	AlignBegin=1133899|AlignEnd=1134219|Gloss=[IGNORE]|NMM=eyebrow-raise+eye-blink
+5	[SAVOIR]	[SAVOIR]	VERB	_	_	4	conj:contr	_	AlignBegin=1134219|AlignEnd=1134459|Gloss=[KNOW]|NMM=eyebrow-raise
+6	[ODEUR]	[ODEUR]	NOUN	_	_	5	obj	_	AlignBegin=1134459|AlignEnd=1134819|Gloss=[SMELL]|ISMarker[CFoc]=Cxn-corel?|ISRole=CFoc|NMM=eye-blink
+7	[c'est-tout]	[c'est-tout]	INTJ	_	_	5	discourse	_	AlignBegin=1134819|AlignEnd=1135459|Gloss=[that's-all]|NMM=eye-blink
+
+# sent_id = crdo-fsl-cuc022_78
+# text = PNT[toute-LISTE] [voilà]~
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Tout y est, voilà !
+# text_en = We have everything!
+1	PNT[toute-LISTE]	PNT	NOUN	_	_	0	root	_	AlignBegin=1135459|AlignEnd=1135939|Gloss=PNT[all-LIST]|NDH=[LISTE]|NMM=head-nod+eye-contact|Tgt=NDH
+2	[voilà]~	[voilà]	INTJ	_	_	1	discourse	_	AlignBegin=1135939|AlignEnd=1136139|Gloss=[that's-it]~|Scrap=Yes
+
+# sent_id = crdo-fsl-cuc022_79_80
+# text = [COMMENCER] [COMMENT] [IL-FAUT] [LAVER] [PREMIER]~ [CHAMPIGNON] [LAVER] [COUPER-en-morceaux] [DÉPLACER] SST[forme-plate]~ SST[forme-ronde] [s'égoutter] ??[IL-FAUT]~
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Comment on fait : D'abord, il faut laver les champignons, tout laver, les couper en morceaux, les mettre dans une passoire.
+# text_en = How do we proceed: First, you must wash the mushrooms, wash everything and cut them in pieces, put them in a strainer.
+1	[COMMENCER]	[COMMENCER]	VERB	_	_	0	root	_	AlignBegin=1136139|AlignEnd=1136579|Gloss=[START]
+2	[COMMENT]	[COMMENT]	PRON	_	PronType=Int	3	obl:mod	_	AlignBegin=1136579|AlignEnd=1136739|Gloss=[HOW]|ISMarker[Foc]=Cxn-fq|NMM=eye-blink
+3	[IL-FAUT]	[IL-FAUT]	VERB	_	_	1	ccomp	_	AlignBegin=1136739|AlignEnd=1136899|Gloss=[MUST]|ISRole=Foc|NMM=forward-tilt
+4	[LAVER]	[LAVER]	VERB	_	_	3	ccomp	_	AlignBegin=1136899|AlignEnd=1137299|Gloss=[WASH]
+5	[PREMIER]~	[PREMIER]	ADJ	_	_	3	advcl	_	AlignBegin=1137299|AlignEnd=1137424|Gloss=[FIRST]~|Scrap=Yes
+6	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	4	obj	_	AlignBegin=1137424|AlignEnd=1137939|Gloss=[MUSHROOM]|NMM=forward-tilt
+7	[LAVER]	[LAVER]	VERB	_	_	4	conj:reform	_	AlignBegin=1137939|AlignEnd=1139019|Exp=Intensité|Gloss=[WASH]|NMM=eyebrow-frown+eye-blink
+8	[COUPER-en-morceaux]	[COUPER]	VERB	_	_	4	conj	_	AlignBegin=1139019|AlignEnd=1139579|Gloss=[CUT-in-pieces]|Instr=PRF(DH)[lame]|Loc=PSS3l|Manner=en-morceaux|NMM=eyebrow-frown+eye-blink|PT=tu-générique
+9	[DÉPLACER]	[DÉPLACER]	VERB	_	_	4	conj	_	AlignBegin=1139579|AlignEnd=1140219|Gloss=[MOVE]|NMM=eyebrow-raise|Src=PSS3l|Tgt=PSS3r
+10	SST[forme-plate]~	SST	ADJ	_	_	11	reparandum	_	AlignBegin=1140219|AlignEnd=1140579|Gloss=SST[flat-shape]~|Loc=PSS3r|Scrap=Yes
+11	SST[forme-ronde]	SST	ADJ	_	_	9	obl:arg	_	AlignBegin=1140579|AlignEnd=1141184|Gloss=SST[round-shape]|NMM=eye-contact
+12	[s'égoutter]	[s'égoutter]	VERB	_	_	4	conj	_	AlignBegin=1141184|AlignEnd=1141754|Gloss=[DRAIN]
+13	??[IL-FAUT]~	[IL-FAUT]	VERB	_	_	3	conj:reform	_	AlignBegin=1141754|AlignEnd=1142054|Gloss=[MUST]~
+
+# sent_id = crdo-fsl-cuc022_81
+# text = [MOUILLER] [NON] [LAISSER] [SÉCHER] [LAISSER] position-neutre
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Il ne faut pas qu'ils soient mouillés, les laisser sécher.
+# text_en = They shouldn't be wet, we need to let them dry.
+1	[MOUILLER]	[MOUILLER]	VERB	_	_	0	root	_	AlignBegin=1142054|AlignEnd=1142374|Gloss=[WET]|NMM=leftward-tilt
+2	[NON]	[NON]	ADV	_	_	1	advmod	_	AlignBegin=1142374|AlignEnd=1142859|Gloss=[NO]|ISMarker[CFoc]=Cxn-corel
+3	[LAISSER]	[LAISSER]	VERB	_	_	1	conj	_	AlignBegin=1142859|AlignEnd=1143214|Gloss=[LET]|ISRole=Foc+CFoc
+4	[SÉCHER]	[SÉCHER]	VERB	_	_	3	ccomp	_	AlignBegin=1143214|AlignEnd=1143659|Gloss=[DRY]|NMM=eyebrow-raise+head-nod
+5	[LAISSER]	[LAISSER]	VERB	_	_	3	conj:reform	_	AlignBegin=1143659|AlignEnd=1144339|Gloss=[LET]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
+6	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=1144339|AlignEnd=1144859|Gloss=neutral-position
+
+# sent_id = crdo-fsl-cuc022_82
+# text = [A]-[I]-[L] SST[gousse] [OUBLIER] [AJOUTER] [DEUX] [gousse] [gousse] [ÉCRASER] [METTRE] [POÊLE] [DEUX] [CUILLÈRE] [HUILE/SAUCE] [verser-HUILE]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = J'avais oublié: il faut ajouter deux gousses d'ail, bien écrasées et les mettre dans la poêle avec deux cuillerées d'huile.
+# text_en = I forgot: we need to add two cloves of garlic, well mashed and put them in the pan with two spoons of oil.
+1	[A]-[I]-[L]	FingerSpelling	NOUN	_	_	2	nmod	_	AlignBegin=1144859|AlignEnd=1145659|Gloss=[GARLIC]
+2	SST[gousse]	SST	NOUN	_	_	6	conj:reform	_	AlignBegin=1145659|AlignEnd=1146179|Gloss=[clove]
+3	[OUBLIER]	[OUBLIER]	VERB	_	_	4	discourse	_	AlignBegin=1146179|AlignEnd=1146459|Gloss=[FORGET]|NMM=eyebrow-raise
+4	[AJOUTER]	[AJOUTER]	VERB	_	_	0	root	_	AlignBegin=1146459|AlignEnd=1146699|Gloss=[ADD]
+5	[DEUX]	[DEUX]	NUM	_	_	6	nummod	_	AlignBegin=1146699|AlignEnd=1147259|Gloss=[TWO]
+6	[gousse]	[gousse]	NOUN	_	_	4	obj	_	AlignBegin=1147259|AlignEnd=1147618|Gloss=[clove]|NMM=eye-contact
+7	[gousse]	[gousse]	NOUN	_	_	6	conj:illustrate	_	AlignBegin=1147618|AlignEnd=1147819|Gloss=[clove]
+8	[ÉCRASER]	[ÉCRASER]	VERB	_	_	6	acl	_	AlignBegin=1147819|AlignEnd=1149244|Gloss=[MASH]|NMM=eyebrow-frown+head-nod+eye-blink
+9	[METTRE]	[METTRE]	VERB	_	_	4	conj	_	AlignBegin=1149244|AlignEnd=1149739|Gloss=[PUT]|Tgt=PSS3l
+10	[POÊLE]	[POÊLE]	NOUN	_	_	9	obl:arg	_	AlignBegin=1149739|AlignEnd=1150259|Gloss=[PAN]|Loc=PSS3l
+11	[DEUX]	[DEUX]	NUM	_	_	12	nummod	_	AlignBegin=1150259|AlignEnd=1150539|Gloss=[TWO]|NMM=eye-blink
+12	[CUILLÈRE]	[CUILLÈRE]	NOUN	_	_	9	obj	_	AlignBegin=1150539|AlignEnd=1150979|Gloss=[SPOON]
+13	[HUILE/SAUCE]	[HUILE]	NOUN	_	_	12	nmod	_	AlignBegin=1150979|AlignEnd=1151339|Gloss=[OIL]
+14	[verser-HUILE]	[HUILE]	VERB	_	_	9	conj:illustrate	_	AlignBegin=1151339|AlignEnd=1152344|Gloss=[pour-oil]|NMM=head-nod+eye-blink
+
+# sent_id = crdo-fsl-cuc022_83
+# text = [LAISSER] [FRIRE] [JUSQUE]~ [DEVENIR] [COMMENCER] [MARRON]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Laisser frire jusqu'à ce que cela devienne marron.
+# text_en = Let it fry until it becomes brown.
+1	[LAISSER]	[LAISSER]	VERB	_	_	0	root	_	AlignBegin=1152344|AlignEnd=1152734|Gloss=[LET]|NMM=eyebrow-frown
+2	[FRIRE]	[FRIRE]	VERB	_	_	1	ccomp	_	AlignBegin=1152734|AlignEnd=1153299|Gloss=[FRY]
+3	[JUSQUE]~	[JUSQUE]	ADP	_	_	4	mark	_	AlignBegin=1153299|AlignEnd=1153499|Gloss=[UNTIL]~|Scrap=Yes
+4	[DEVENIR]	[DEVENIR]	VERB	_	_	1	ccomp	_	AlignBegin=1153499|AlignEnd=1153899|Gloss=[BECOME]|NMM=eyebrow-raise
+5	[COMMENCER]	[COMMENCER]	VERB	_	_	4	compound:svc	_	AlignBegin=1153899|AlignEnd=1154219|Gloss=[START]
+6	[MARRON]	[MARRON]	ADJ	_	_	4	obj	_	AlignBegin=1154219|AlignEnd=1155024|Gloss=[BROWN]|ISMarker[Foc]=NMM|ISRole=Foc|NMM=forward-tilt+eyebrow-raise+head-nod+eye-blink
+
+# sent_id = crdo-fsl-cuc022_84_85
+# text = [PRENDRE] [CHAMPIGNON] [DÉPLACER] [METTRE-dans-poêle] [MÉLANGER] [LAISSER]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Prendre les champignons et les mettre dans la poëlle et bien mélanger. Puis les laisser.
+# text_en = Take the mushrooms and put them in the pan et stir well. And leave them.
+1	[PRENDRE]	[PRENDRE]	VERB	_	_	0	root	_	AlignBegin=1155024|AlignEnd=1155454|Gloss=[TAKE]|Src=PSS3r
+2	[CHAMPIGNON]	[CHAMPIGNON]	NOUN	_	_	1	obj	_	AlignBegin=1155454|AlignEnd=1155739|Gloss=[MUSHROOM]
+3	[DÉPLACER]	[DÉPLACER]	VERB	_	_	1	conj:reform	_	AlignBegin=1155739|AlignEnd=1156339|Gloss=[MOVE]|Src=PSS3r|Tgt=PSS3l
+4	[METTRE-dans-poêle]	[METTRE]	VERB	_	_	1	conj	_	AlignBegin=1156339|AlignEnd=1156739|Gloss=[PUT]|Tgt=PSS3l
+5	[MÉLANGER]	[MÉLANGER]	VERB	_	_	1	conj	_	AlignBegin=1156739|AlignEnd=1157859|Gloss=[MIX]|NMM=eye-blink
+6	[LAISSER]	[LAISSER]	VERB	_	_	1	conj	_	AlignBegin=1157859|AlignEnd=1158139|Gloss=[LET]|NMM=head-nod
+
+# sent_id = crdo-fsl-cuc022_86
+# text = [PRÉPARER] [SAUCE] [PRÉPARER]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Préparer la sauce :
+# text_en = Prepare the sauce:
+1	[PRÉPARER]	[PRÉPARER]	VERB	_	_	0	root	_	AlignBegin=1158139|AlignEnd=1158619|Gloss=[PREPARE]|ISRole=Foc
+2	[SAUCE]	[SAUCE]	NOUN	_	_	1	obj	_	AlignBegin=1158619|AlignEnd=1159379|Gloss=[SAUCE]
+3	[PRÉPARER]	[PRÉPARER]	VERB	_	_	1	conj:dbl	_	AlignBegin=1159379|AlignEnd=1160014|Gloss=[PREPARE]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
+
+# sent_id = crdo-fsl-cuc022_87
+# text = [petit-récipient] [S]-[O]-[J]-[A] [SAUCE] [visqueux] [verser-SAUCE] [TROIS] [verser]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Dans un petit récipient, verser trois cuillères de sauce soja (un peu visqueux),
+# text_en = In a small recipient, pour three spoons of soy sauce (a little slimy),
+1	[petit-récipient]	[petit-récipient]	NOUN	_	_	5	obl:mod	_	AlignBegin=1160014|AlignEnd=1160264|Gloss=[small-recipient]
+2	[S]-[O]-[J]-[A]	[SOJA]	NOUN	_	_	3	nmod	_	AlignBegin=1160264|AlignEnd=1161934|Gloss=[SOY]
+3	[SAUCE]	[SAUCE]	NOUN	_	_	5	obj	_	AlignBegin=1161934|AlignEnd=1162419|Gloss=[SAUCE]
+4	[visqueux]	[visqueux]	ADJ	_	_	3	amod	_	AlignBegin=1162419|AlignEnd=1163139|Gloss=[slimy]
+5	[verser-SAUCE]	[SAUCE]	VERB	_	_	0	root	_	AlignBegin=1163139|AlignEnd=1163699|Gloss=[POUR]|NMM=eyebrow-raise+eye-blink
+6	[TROIS]	[TROIS]	NUM	_	_	3	nmod	_	AlignBegin=1163699|AlignEnd=1163939|DHHeld=sauce|Gloss=[THREE]
+7	[verser]	[verser]	VERB	_	_	5	conj:illustrate	_	AlignBegin=1163939|AlignEnd=1164819|DHHeld=sauce|Gloss=[pour]|NMM=head-nod+eye-blink|Rep=2
+
+# sent_id = crdo-fsl-cuc022_88_89
+# text = [SUCRE] [METTRE] [SEL] [METTRE] [POIVRE] [METTRE] [mélanger] [FINI]~
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Mettre le sucre, mettre le sel, ajouter le poivre, et mélanger. C'est tout.
+# text_en = Put the sugar, put the salt, add the pepper, and stir. That's it.
+1	[SUCRE]	[SUCRE]	NOUN	_	_	2	obj	_	AlignBegin=1164819|AlignEnd=1165299|Gloss=[SUGAR]|NMM=eye-blink
+2	[METTRE]	[METTRE]	VERB	_	_	0	root	_	AlignBegin=1165299|AlignEnd=1165899|Gloss=[PUT]|NMM=head-nod+eye-blink
+3	[SEL]	[SEL]	NOUN	_	_	4	obj	_	AlignBegin=1165899|AlignEnd=1166179|Gloss=[SALT]
+4	[METTRE]	[METTRE]	VERB	_	_	2	conj	_	AlignBegin=1166179|AlignEnd=1166619|Gloss=[PUT]|NMM=head-nod+eye-blink
+5	[POIVRE]	[POIVRE]	NOUN	_	_	6	obj	_	AlignBegin=1166619|AlignEnd=1166939|Gloss=[PEPPER]
+6	[METTRE]	[METTRE]	VERB	_	_	2	conj	_	AlignBegin=1166939|AlignEnd=1167339|Gloss=[PUT]|NMM=head-nod+eye-blink
+7	[mélanger]	[mélanger]	VERB	_	_	2	conj	_	AlignBegin=1167339|AlignEnd=1168099|Gloss=[mix]|NMM=eyebrow-frown+eye-blink
+8	[FINI]~	[FINI]	VERB	_	_	7	discourse	_	AlignBegin=1168099|AlignEnd=1168279|Gloss=[DONE]~|Scrap=Yes
+
+# sent_id = crdo-fsl-cuc022_90
+# text = [par-là]~ [VERSER] [mettre-SAUCE] [LAISSER] [CHAUFFER] [MÉLANGER] [LAISSER] [JUSQUE] [EAU] [en-surface] [ABSORBER-totalement] [NON] [ABSORBER-un-peu]~
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Lorsque c'est à mi-cuisson, verser le bol de sauce dans la poëlle, laisser chauffer, mélanger et laisser jusqu'à ce que le liquide en surface soit un peu absorbé, il ne faut pas le laisser absorber entièrement.
+# text_en = When it's halfway through cooking, pour the bowl of sauce in the pan, let warm up, mix and let it until the liquide on the surface is a little bit absorbed, it shouldn't be absorbed completely.
+1	[par-là]~	[par-là]	ADV	_	_	2	advmod	_	AlignBegin=1168279|AlignEnd=1168939|Gloss=[over-there]~|Scrap=Yes
+2	[VERSER]	[VERSER]	VERB	_	_	0	root	_	AlignBegin=1168939|AlignEnd=1169499|Gloss=[POUR]|Loc=PSS3l[poêle]|NDH=PRF[POÊLE]|NMM=eyebrow-raise+eye-contact|PT=tu-générique|Subj=PT
+3	[mettre-SAUCE]	[SAUCE]	VERB	_	_	2	conj	_	AlignBegin=1169499|AlignEnd=1170099|Gloss=[put-SAUCE]
+4	[LAISSER]	[LAISSER]	VERB	_	_	2	conj	_	AlignBegin=1170099|AlignEnd=1170499|Gloss=[LET]
+5	[CHAUFFER]	[CHAUFFER]	VERB	_	_	4	ccomp	_	AlignBegin=1170499|AlignEnd=1170744|Gloss=[WARM]
+6	[MÉLANGER]	[MÉLANGER]	VERB	_	_	2	conj	_	AlignBegin=1170744|AlignEnd=1171214|Gloss=[MIX]
+7	[LAISSER]	[LAISSER]	VERB	_	_	2	conj	_	AlignBegin=1171214|AlignEnd=1171894|Gloss=[LET]
+8	[JUSQUE]	[JUSQUE]	ADP	_	_	12	case	_	AlignBegin=1171894|AlignEnd=1173539|Gloss=[UNTIL]|NMM=forward-tilt+eyebrow-raise
+9	[EAU]	[EAU]	NOUN	_	_	11	obj	_	AlignBegin=1173539|AlignEnd=1173739|Gloss=[WATER]
+10	[en-surface]	[en-surface]	ADJ	_	_	9	amod	_	AlignBegin=1173739|AlignEnd=1174179|Gloss=[on-surface]
+11	[ABSORBER-totalement]	[ABSORBER]	VERB	_	_	12	csubj	_	AlignBegin=1174179|AlignEnd=1174899|Gloss=[ABSORB-completely]|Manner=totalement|NMM=eyebrow-raise
+12	[NON]	[NON]	ADV	_	_	7	advmod	_	AlignBegin=1174899|AlignEnd=1175424|Gloss=[NO]|ISMarker[CFoc]=Cxn-corel|NMM=eyebrow-raise
+13	[ABSORBER-un-peu]~	[ABSORBER]	VERB	_	_	12	conj:contr	_	AlignBegin=1175424|AlignEnd=1175979|Gloss=[ABSORB-a-little]|ISRole=CFoc|Manner=pas-totalement|NMM=eyebrow-raise+head-nod|Scrap=Yes
+
+# sent_id = crdo-fsl-cuc022_91
+# text = [COUPER] [prendre-POÊLE] [verser] [forme-arrondie/saladier] [verser-dans-saladier]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Eteindre le feu et verser le contenu de la poêle dans un saladier.
+# text_en = Turn off the burner and pour the content in the pan in a bowl.
+1	[COUPER]	[COUPER]	VERB	_	_	0	root	_	AlignBegin=1175979|AlignEnd=1176779|Gloss=[CUT]
+2	[prendre-POÊLE]	[POÊLE]	VERB	_	_	1	conj	_	AlignBegin=1176779|AlignEnd=1177259|Gloss=[take-PAN]
+3	[verser]	[verser]	VERB	_	_	1	conj	_	AlignBegin=1177259|AlignEnd=1177939|DHHeld=PRF[POÊLE]|Gloss=[pour]|NDH=PRF[contenant]|NMM=eyebrow-raise+head-nod
+4	[forme-arrondie/saladier]	[forme-arrondie/saladier]	NOUN	_	_	3	obl:arg	_	AlignBegin=1177939|AlignEnd=1178499|Gloss=[round-shape/bowl]|NMM=eye-blink
+5	[verser-dans-saladier]	[verser-dans-saladier]	VERB	_	_	3	conj:dbl	_	AlignBegin=1178499|AlignEnd=1179219|Gloss=[pour-in-bowl]|NDHHeld=[saladier]|NMM=head-nod+eye-blink
+
+# sent_id = crdo-fsl-cuc022_92
+# text = [POIVRE] [ENCORE] [COUPER-en-morceaux] [répandre] [FEUILLE] [FLEUR] [répandre]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Mettre encore du poivre, le hacher et le répandre sur la préparation ainsi que les feuilles-fleurs.
+# text_en = Put pepper again, chop it and spread it on the preparation as well as the flower-leaves.
+1	[POIVRE]	[POIVRE]	NOUN	_	_	3	obj	_	AlignBegin=1179219|AlignEnd=1179659|Gloss=[PEPPER]
+2	[ENCORE]	[ENCORE]	ADV	_	_	3	advmod	_	AlignBegin=1179659|AlignEnd=1179899|Gloss=[AGAIN]|NMM=forward-tilt+eye-contact
+3	[COUPER-en-morceaux]	[COUPER]	VERB	_	_	0	root	_	AlignBegin=1179899|AlignEnd=1180499|Gloss=[CUT-in-pieces]|Instr=Prf(DH)[lame]|Manner=en-morceaux|NMM=leftward-tilt+head-nod+eye-blink
+4	[répandre]	[répandre]	VERB	_	_	3	conj	_	AlignBegin=1180499|AlignEnd=1181259|Gloss=[spread]|ISRole=Foc|NMM=eye-blink
+5	[FEUILLE]	[FEUILLE]	NOUN	_	_	4	obj	_	AlignBegin=1181259|AlignEnd=1181699|Gloss=[LEAF]|NMM=forward-tilt
+6	[FLEUR]	[FLEUR]	NOUN	_	_	5	nmod	_	AlignBegin=1181699|AlignEnd=1182059|Gloss=[FLOWER]
+7	[répandre]	[répandre]	VERB	_	_	4	conj:dbl	_	AlignBegin=1182059|AlignEnd=1182779|Gloss=[spread]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
+
+# sent_id = crdo-fsl-cuc022_93
+# text = [poser-plat] [COMMENCER]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Poser le plat sur la table. Vous pouvez commencer (à manger).
+# text_en = Put down the plat on the table. You can start (eating).
+1	[poser-plat]	[poser-plat]	VERB	_	_	0	root	_	AlignBegin=1182779|AlignEnd=1183419|Gloss=[put-down-plate]|NMM=forward-tilt+eyebrow-raise
+2	[COMMENCER]	[COMMENCER]	VERB	_	_	1	conj	_	AlignBegin=1183419|AlignEnd=1183809|Gloss=[START]
+
+# sent_id = crdo-fsl-cuc022_94
+# text = [BON] [DÉLICIEUX]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = C'est vraiment délicieux!...
+# text_en = It's really delicious!...
+1	[BON]	[BON]	ADJ	_	_	0	root	_	AlignBegin=1183809|AlignEnd=1184229|Gloss=[GOOD]|NMM=eyebrow-raise
+2	[DÉLICIEUX]	[DÉLICIEUX]	ADJ	_	_	1	conj	_	AlignBegin=1184229|AlignEnd=1184619|Gloss=[DELICIOUS]
+
+# sent_id = crdo-fsl-cuc022_95_split1
+# text = [FINI] position-neutre
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = C'est fini!
+# text_en = It's done!
+1	[FINI]	[FINI]	VERB	_	_	0	root	_	AlignBegin=1184619|AlignEnd=1185014|Gloss=[DONE]
+2	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=1185014|AlignEnd=1185894|Gloss=neutral-position|NMM=head-nod
+

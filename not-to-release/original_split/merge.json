@@ -1,0 +1,15 @@
+{
+  "fsl_stkautogramm-ud-test": [
+    {
+      "document_ids": [
+        "entretien_étudiant_souvenir",
+        "entretien_étudiant_trajet",
+        "LS-Colin_champignon",
+        "LS-Colin_cheval",
+        "présentation-CAP-petite-enfance",
+        "présentation-primaire-populaire",
+        "STK_vacances-sud"
+      ]
+    }
+  ]
+}

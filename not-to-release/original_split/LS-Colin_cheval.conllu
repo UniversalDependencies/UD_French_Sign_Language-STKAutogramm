@@ -1,0 +1,120 @@
+# sent_id = crdo-fsl-cuc022__1
+# text = [plaine] [herbe-qui-ondule]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Dans la plaine, l'herbe ondule,
+# text_en = In the plains, the grass is waving,
+1	[plaine]	[plaine]	NOUN	_	_	0	root	_	AlignBegin=7323|AlignEnd=8833|Gloss=[plains]|ST=plaine
+2	[herbe-qui-ondule]	[herbe-qui-ondule]	NOUN	_	_	1	nmod	_	AlignBegin=8835|AlignEnd=12190|Gloss=[grass-waving]|ST=plaine
+
+# sent_id = crdo-fsl-cuc022__2
+# text = PRF[cheval] SST[deux-oreilles] PRF[cheval] SST[queue] SST[crinière] PRF[cheval] [CHEVAL]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = un animal se tient là, avec deux oreilles, une queue, une crinière : c'est un cheval.
+# text_en = an animal is standing here, with two ears, a tail, a mane: it's a horse.
+1	PRF[cheval]	PRF	NOUN	_	_	0	root	_	AlignBegin=12190|AlignEnd=13435|Gloss=PRF[horse]|PT=cheval|PTReal=posture-fière
+2	SST[deux-oreilles]	SST	NOUN	_	_	1	conj	_	AlignBegin=13435|AlignEnd=14885|Gloss=SST[two-ears]|PT=cheval|PTReal=posture-fière
+3	PRF[cheval]	PRF	PRON	_	PronType=Prs	4	conj:illustrate	_	AlignBegin=14885|AlignEnd=15875|Gloss=PRF[horse]|PT=cheval|PTReal=posture-fière+deux-pattes
+4	SST[queue]	SST	NOUN	_	_	1	conj	_	AlignBegin=15875|AlignEnd=17195|Gloss=SST[tail]|PT=cheval|PTReal=posture-fière+NDH-patte
+5	SST[crinière]	SST	NOUN	_	_	1	conj	_	AlignBegin=17195|AlignEnd=18355|Gloss=SST[mane]|PT=cheval|PTReal=posture-fière+NDH-patte
+6	PRF[cheval]	PRF	PRON	_	PronType=Prs	7	conj:illustrate	_	AlignBegin=18355|AlignEnd=20035|Gloss=PRF[horse]|PT=cheval|PTReal=posture-fière+deux-pattes
+7	[CHEVAL]	[CHEVAL]	NOUN	_	_	1	appos	_	AlignBegin=20035|AlignEnd=21235|Gloss=[HORSE]|ISMarker[Foc]=NMM+Dlxn?|ISRole=Foc|NMM=eyebrow-raise+eye-contact|PT=cheval|PTReal=posture-fière
+
+# sent_id = crdo-fsl-cuc022__3
+# text = [gambader] [s'arrêter-brusquement] SST[piquet] SST[barrière-entre-piquets] PRF[piquet] [OISEAU] [être-sur] [regarder] [regarder] PNT[loin]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Il galope, puis soudain s'arrête, intrigué : des piquets qui soutiennent une barrière. Un oiseau est perché sur la barrière, le cheval le regarde et loin devant lui
+# text_en = It is galloping, then suddently stops, intrigued: stakes holding up a fence. A bird is one the fence, the horse observes it and far away
+1	[gambader]	[gambader]	VERB	_	_	0	root	_	AlignBegin=21235|AlignEnd=24715|Gloss=[gambol]|PT=cheval|PTReal=posture-fière+deux-pattes|Subj=PT
+2	[s'arrêter-brusquement]	[s'arrêter-brusquement]	VERB	_	_	1	conj:chaining	_	AlignBegin=24715|AlignEnd=26275|Gloss=[stop-suddently]|NMM=foward-tilt|PT=cheval|PTReal=posture-fière+deux-pattes|Subj=PT
+3	SST[piquet]	SST	NOUN	_	_	2	conj:chaining	_	AlignBegin=26275|AlignEnd=28075|Gloss=SST[stake]|NMM=eyebrow-frown|PT=cheval|PTReal=posture|Rep=5|ST=barrière|TwoH=Yes
+4	SST[barrière-entre-piquets]	SST	NOUN	_	_	3	nmod	_	AlignBegin=28075|AlignEnd=30595|Gloss=SST[fence-between-stakes]|NDHHeld=SST[piquet]|NMM=eyebrow-raise|PT=cheval|PTReal=posture|ST=barrière
+5	PRF[piquet]	PRF	NOUN	_	_	7	obj	_	AlignBegin=30595|AlignEnd=31675|Gloss=PRF[stake]|Loc=PSS3r|NMM=eyebrow-frown|ST=oiseau-sur-piquet
+6	[OISEAU]	[OISEAU]	NOUN	_	_	7	nsubj	_	AlignBegin=31675|AlignEnd=32355|DHHeld=PRF[piquet]|GazeHeld=PSS3r|Gloss=[BIRD]|NMM=eyebrow-frown|ST=oiseau-sur-piquet
+7	[être-sur]	[être-sur]	VERB	_	_	3	conj:chaining	_	AlignBegin=32355|AlignEnd=33755|GazeHeld=PSS3r|Gloss=[be-on]|NMM=eyebrow-frown|Obj=PRF(DH)[piquet]|ST=oiseau-sur-piquet|Subj=PRF(NDH)[oiseau]
+8	[regarder]	[regarder]	VERB	_	_	7	conj:chaining	_	AlignBegin=33755|AlignEnd=34700|Gaze=oiseau|Gloss=[look]|NMM=eyebrow-frown|Obj=Gaze|PT=cheval|PTReal=posture-fière+deux-pattes|Subj=PT|Tgt=PSS3r
+9	[regarder]	[regarder]	VERB	_	_	8	conj:chaining	_	AlignBegin=34700|AlignEnd=35315|Gaze=loin|Gloss=[look]|NMM=eyebrow-frown|Obj=Gaze|PT=cheval|PTReal=posture-fière+deux-pattes|Subj=PT|Tgt=PSS3re
+10	PNT[loin]	PNT	ADV	_	_	9	obj	_	AlignBegin=35315|AlignEnd=36465|GazeHeld=PSS3re|Gloss=PNT[far]|ISMarker[CFoc]=NMM+Spatial|ISRole=CFoc|NMM=eyebrow-raise|Tgt=PSS3re
+
+# sent_id = crdo-fsl-cuc022__4
+# text = [VACHE] [MÂCHER] [ruminer]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = une vache rumine.
+# text_en = a cow is grazing.
+1	[VACHE]	[VACHE]	NOUN	_	_	2	nsubj	_	AlignBegin=36465|AlignEnd=37715|Gloss=[COW]|PT=vache|PTReal=posture-avachi|Trs=Left
+2	[MÂCHER]	[MÂCHER]	VERB	_	_	0	root	_	AlignBegin=37715|AlignEnd=38875|Gloss=[CHEW]|PT=vache|PTReal=posture-avachi+rumination|Subj=PT
+3	[ruminer]	[ruminer]	VERB	_	_	2	conj:illustrate	_	AlignBegin=38875|AlignEnd=40755|Gloss=[graze]|PT=vache|PTReal=posture-avachi+rumination+deux-pattes|Subj=PT
+
+# sent_id = crdo-fsl-cuc022__5
+# text = [estimer] [VOULOIR] PNT[MOI] [sauter]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Le cheval observe la barrière : "Moi, je veux sauter par dessus..."
+# text_en = The horse observes the fence: "I want to jump over it..."
+1	[estimer]	[estimer]	VERB	_	_	0	root	_	AlignBegin=40755|AlignEnd=43595|Gloss=[evaluate]|PT=cheval|PTReal=posture-fière+deux-pattes|Subj=PT
+2	[VOULOIR]	[VOULOIR]	VERB	_	_	1	conj:chaining	_	AlignBegin=43595|AlignEnd=43809|Gloss=[WANT]|NMM=eye-blink|PT=cheval|PTReal=posture-fière|Subj=PT
+3	PNT[MOI]	PNT	PRON	_	PronType=Prs	2	nsubj	_	AlignBegin=43809|AlignEnd=44035|Gloss=PNT[ME]|PT=cheval|PTReal=posture-fière|Tgt=Prs1
+4	[sauter]	[sauter]	VERB	_	_	2	ccomp	_	AlignBegin=44035|AlignEnd=45235|Gloss=[jump]|NMM=eye-blink|PT=cheval|PTReal=posture-fière|ST=cheval-qui-saute|STReal=PRF(DH)[cheval]|Subj=PT
+
+# sent_id = crdo-fsl-cuc022__6_split1
+# text = [se-tenir-en-arrêt] [galoper]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Il galope, saute [et] heurte la barrière
+# text_en = It gallops, jumps and hits the fence
+1	[se-tenir-en-arrêt]	[se-tenir-en-arrêt]	VERB	_	_	0	root	_	AlignBegin=45235|AlignEnd=45635|Gloss=[stand]|PT=cheval|PTReal=détermination+deux-pattes|Subj=PT
+2	[galoper]	[galoper]	VERB	_	_	1	conj:chaining	_	AlignBegin=45635|AlignEnd=47195|Gloss=[gallop]|PT=cheval|PTReal=détermination+deux-pattes|Subj=PT
+
+# sent_id = crdo-fsl-cuc022__6_split2
+# text = [sauter] [heurter-barrière]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = Il galope, saute [et] heurte la barrière
+# text_en = It gallops, jumps and hits the fence
+1	[sauter]	[sauter]	VERB	_	_	0	root	_	AlignBegin=47195|AlignEnd=47715|Gloss=[jump]|PT=cheval|PTReal=détermination+mimique-effort|ST=cheval-qui-saute|STReal=PRF(DH)[cheval]|Subj=PT
+2	[heurter-barrière]	[heurter-barrière]	VERB	_	_	1	conj:chaining	_	AlignBegin=47715|AlignEnd=48675|Gloss=[hit-fence]|Obj=PRF(NDH)[barrière]|PT=cheval|PTReal=détermination+mimique-effort|ST=cheval-qui-heurte-barrière|STReal=PRF(DH)[cheval]+PRF(NDH)[barrière]|Subj=PRF(DH)[cheval]
+
+# sent_id = crdo-fsl-cuc022__7
+# text = [tomber] [DOULEUR] [gésir-sol]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = [Il] tombe. Il a mal, à la jambe.
+# text_en = It falls. Its legs is hurt.
+1	[tomber]	[tomber]	VERB	_	_	0	root	_	AlignBegin=48675|AlignEnd=49795|Gloss=[fall]|PT=cheval|PTReal=exp-douleur+deux-pattes|Subj=PT
+2	[DOULEUR]	[DOULEUR]	NOUN	_	_	1	conj:chaining	_	AlignBegin=49795|AlignEnd=50515|Exp[lex]=Douleur|Gloss=[PAIN]|PT=cheval|PTReal=exp-douleur+deux-pattes
+3	[gésir-sol]	[gésir-sol]	VERB	_	_	2	conj:chaining	_	AlignBegin=50515|AlignEnd=51995|Gloss=[lay-on-ground]|PT=cheval|PTReal=exp-douleur+deux-pattes|Subj=PT
+
+# sent_id = crdo-fsl-cuc022__8
+# text = [OISEAU] [s'envoler] [VOLER]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = L'oiseau, voyant la chute, s'envole
+# text_en = The bird, seeing the fall, flies away
+1	[OISEAU]	[OISEAU]	NOUN	_	_	2	nsubj	_	AlignBegin=51995|AlignEnd=52755|Gloss=[BIRD]
+2	[s'envoler]	[s'envoler]	VERB	_	_	0	root	_	AlignBegin=52755|AlignEnd=53555|Gloss=[fly-away]|PT=oiseau|PTReal=deux-ailes|Subj=PT
+3	[VOLER]	[VOLER]	VERB	_	_	2	conj:reform	_	AlignBegin=53555|AlignEnd=54155|Gloss=[FLY]|Subj=PRF[oiseau]|Tgt=PSSXr
+
+# sent_id = crdo-fsl-cuc022__9
+# text = [prendre-VALISE] [apporter] PNT[valise] [PHARMACIE] [apporter] [ouvrir]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = [Il va] chercher une valisette de pharmacie, la dépose et l'ouvre.
+# text_en = It goes to grab the medecine chest, it drops it off and opens it.
+1	[prendre-VALISE]	[VALISE]	VERB	_	_	0	root	_	AlignBegin=54155|AlignEnd=54595|Gloss=[take-CHEST]|Loc=PSSXr|PT=oiseau|Subj=PT
+2	[apporter]	[apporter]	VERB	_	_	1	conj:chaining	_	AlignBegin=54595|AlignEnd=55875|Gloss=[bring]|Obj=PRF(DH)[VALISE]|PT=oiseau|Src=PSSXr|Subj=PT|Tgt=PSSN
+3	PNT[valise]	PNT	PRON	_	_	2	obj	_	AlignBegin=55875|AlignEnd=56115|DHHeld=PRF[VALISE]|Gloss=PNT[chest]|NMM=eyebrow-raise|PT=oiseau|Tgt=PSSN
+4	[PHARMACIE]	[PHARMACIE]	NOUN	_	_	3	nmod	_	AlignBegin=56115|AlignEnd=56795|DHHeld=PRF[VALISE]|Gloss=[PHARMACY]|NMM=eyebrow-raise|PT=oiseau
+5	[apporter]	[apporter]	VERB	_	_	2	conj:reform	_	AlignBegin=56795|AlignEnd=57435|Gloss=[bring]|Obj=PRF[VALISE]|PT=oiseau|Src=PSSN|Subj=PT|Tgt=PSS3l
+6	[ouvrir]	[ouvrir]	VERB	_	_	5	conj:chaining	_	AlignBegin=57435|AlignEnd=59355|Gloss=[open]|Loc=PSS3l|Obj=PRF[VALISE]|PT=oiseau|Subj=PT
+
+# sent_id = crdo-fsl-cuc022__10
+# text = [VACHE] [s'approcher] [prendre] [bander-patte]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = La vache s'approche de la boite et prend quelque chose. La vache soigne le cheval
+# text_en = The cow comes to the chest and takes something. The cow is treating the horse
+1	[VACHE]	[VACHE]	NOUN	_	_	2	nsubj	_	AlignBegin=59355|AlignEnd=60635|Gloss=[COW]|PT=vache|PTReal=mimique|Trs=Right
+2	[s'approcher]	[s'approcher]	VERB	_	_	0	root	_	AlignBegin=60635|AlignEnd=61595|Gloss=[get-closer]|PT=vache|PTReal=mimique+deux-pattes|Subj=PT|Tgt=PSS3r[valise]
+3	[prendre]	[prendre]	VERB	_	_	2	conj:chaining	_	AlignBegin=61595|AlignEnd=62275|Gloss=[take]|Loc=PSS3r[valise]|PT=vache|PTReal=mimique+deux-pattes|Subj=PT
+4	[bander-patte]	[bander-patte]	VERB	_	_	3	conj:chaining	_	AlignBegin=62275|AlignEnd=63195|Gloss=[bandage-leg]|Obj=PRF(NDH)[patte-cheval]|PT=vache|PTReal=mimique|Subj=PT
+
+# sent_id = crdo-fsl-cuc022__11
+# text = [bander-patte] [rester-sans-bouger]
+# video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
+# text_fr = [Le cheval se fait soigner par la vache] et il se laisse faire.
+# text_en = [The horse is being treated by the cow] and it lets it happen.
+1	[bander-patte]	[bander-patte]	VERB	_	Voice=Pass	0	root	_	Agent=PRF(DH)[patte-vache]|AlignBegin=63195|AlignEnd=65355|Exp=Douleur|Gloss=[bandage-leg]|Obj=PRF(NDH)[patte-cheval]|PT=cheval|PTReal=mimique+posture|Subj=PT|Trs=Left
+2	[rester-sans-bouger]	[rester-sans-bouger]	VERB	_	_	1	conj:chaining	_	AlignBegin=65355|AlignEnd=66955|Exp=Douleur|Gloss=[remain-still]|PT=cheval|PTReal=mimique+patte|Subj=PT
+

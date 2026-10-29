@@ -93,9 +93,9 @@
 # text_fr = ligne [chiffre] du tram. Je monte dedans
 # text_en = line [number] of the tram. I go sit on it
 # speaker_id = A
-1	[LIGNE]	[LIGNE]	NOUN	_	_	3	conj:dbl	_	AlignBegin=19910|AlignEnd=20365|Gloss=[LINE]
+1	[LIGNE]	[LIGNE]	NOUN	_	_	5	obj	_	AlignBegin=19910|AlignEnd=20365|Gloss=[LINE]
 2	[[CHIFFRE]]	[[CHIFFRE]]	NUM	_	_	1	nmod	_	AlignBegin=20377|AlignEnd=20615|Gloss=[[NUMBER]]|toBlur=Yes
-3	[LIGNE]	[LIGNE]	NOUN	_	_	5	obl:arg	_	AlignBegin=20631|AlignEnd=21107|Gloss=[LINE]
+3	[LIGNE]	[LIGNE]	NOUN	_	_	1	conj:reform	_	AlignBegin=20631|AlignEnd=21107|Gloss=[LINE]
 4	[TRAM]	[TRAM]	NOUN	_	_	3	nmod	_	AlignBegin=21123|AlignEnd=21660|Gloss=[TRAM]
 5	[MONTER-dans-véhicule]	[MONTER]	VERB	_	_	0	root	_	AlignBegin=21672|AlignEnd=22283|Gloss=[SIT-in-vehicule]|NMM=backward-tilt+eye-blink|Obj=ST|ST=tram|STReal=PRF(DH)[ANIMÉ]+PRF(NDH)[tram]|Subj=PRF(DH)[ANIMÉ]
 

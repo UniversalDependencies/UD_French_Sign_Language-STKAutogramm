@@ -192,11 +192,11 @@
 # text_fr = J'avais oublié: il faut ajouter deux gousses d'ail, bien écrasées et les mettre dans la poêle avec deux cuillerées d'huile.
 # text_en = I forgot: we need to add two cloves of garlic, well mashed and put them in the pan with two spoons of oil.
 1	[A]-[I]-[L]	FingerSpelling	NOUN	_	_	2	nmod	_	AlignBegin=1144859|AlignEnd=1145659|Gloss=[GARLIC]
-2	SST[gousse]	SST	NOUN	_	_	6	conj:reform	_	AlignBegin=1145659|AlignEnd=1146179|Gloss=[clove]
+2	SST[gousse]	SST	NOUN	_	_	4	obj	_	AlignBegin=1145659|AlignEnd=1146179|Gloss=[clove]
 3	[OUBLIER]	[OUBLIER]	VERB	_	_	4	discourse	_	AlignBegin=1146179|AlignEnd=1146459|Gloss=[FORGET]|NMM=eyebrow-raise
 4	[AJOUTER]	[AJOUTER]	VERB	_	_	0	root	_	AlignBegin=1146459|AlignEnd=1146699|Gloss=[ADD]
 5	[DEUX]	[DEUX]	NUM	_	_	6	nummod	_	AlignBegin=1146699|AlignEnd=1147259|Gloss=[TWO]
-6	[gousse]	[gousse]	NOUN	_	_	4	obj	_	AlignBegin=1147259|AlignEnd=1147618|Gloss=[clove]|NMM=eye-contact
+6	[gousse]	[gousse]	NOUN	_	_	2	appos	_	AlignBegin=1147259|AlignEnd=1147618|Gloss=[clove]|NMM=eye-contact
 7	[gousse]	[gousse]	NOUN	_	_	6	conj:illustrate	_	AlignBegin=1147618|AlignEnd=1147819|Gloss=[clove]
 8	[ÉCRASER]	[ÉCRASER]	VERB	_	_	6	acl	_	AlignBegin=1147819|AlignEnd=1149244|Gloss=[MASH]|NMM=eyebrow-frown+head-nod+eye-blink
 9	[METTRE]	[METTRE]	VERB	_	_	4	conj	_	AlignBegin=1149244|AlignEnd=1149739|Gloss=[PUT]|Tgt=PSS3l

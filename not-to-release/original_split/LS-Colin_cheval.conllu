@@ -13,11 +13,11 @@
 # text_en = an animal is standing here, with two ears, a tail, a mane: it's a horse.
 1	PRF[cheval]	PRF	NOUN	_	_	0	root	_	AlignBegin=12190|AlignEnd=13435|Gloss=PRF[horse]|PT=cheval|PTReal=posture-fière
 2	SST[deux-oreilles]	SST	NOUN	_	_	1	conj	_	AlignBegin=13435|AlignEnd=14885|Gloss=SST[two-ears]|PT=cheval|PTReal=posture-fière
-3	PRF[cheval]	PRF	PRON	_	PronType=Prs	4	conj:illustrate	_	AlignBegin=14885|AlignEnd=15875|Gloss=PRF[horse]|PT=cheval|PTReal=posture-fière+deux-pattes
+3	PRF[cheval]	PRF	PRON	_	PronType=Prs	1	appos	_	AlignBegin=14885|AlignEnd=15875|Gloss=PRF[horse]|PT=cheval|PTReal=posture-fière+deux-pattes
 4	SST[queue]	SST	NOUN	_	_	1	conj	_	AlignBegin=15875|AlignEnd=17195|Gloss=SST[tail]|PT=cheval|PTReal=posture-fière+NDH-patte
 5	SST[crinière]	SST	NOUN	_	_	1	conj	_	AlignBegin=17195|AlignEnd=18355|Gloss=SST[mane]|PT=cheval|PTReal=posture-fière+NDH-patte
-6	PRF[cheval]	PRF	PRON	_	PronType=Prs	7	conj:illustrate	_	AlignBegin=18355|AlignEnd=20035|Gloss=PRF[horse]|PT=cheval|PTReal=posture-fière+deux-pattes
-7	[CHEVAL]	[CHEVAL]	NOUN	_	_	1	appos	_	AlignBegin=20035|AlignEnd=21235|Gloss=[HORSE]|ISMarker[Foc]=NMM+Dlxn?|ISRole=Foc|NMM=eyebrow-raise+eye-contact|PT=cheval|PTReal=posture-fière
+6	PRF[cheval]	PRF	PRON	_	PronType=Prs	4	appos	_	AlignBegin=18355|AlignEnd=20035|Gloss=PRF[horse]|PT=cheval|PTReal=posture-fière+deux-pattes
+7	[CHEVAL]	[CHEVAL]	NOUN	_	_	6	appos	_	AlignBegin=20035|AlignEnd=21235|Gloss=[HORSE]|ISMarker[Foc]=NMM+Dlxn?|ISRole=Foc|NMM=eyebrow-raise+eye-contact|PT=cheval|PTReal=posture-fière
 
 # sent_id = crdo-fsl-cuc022__3
 # text = [gambader] [s'arrêter-brusquement] SST[piquet] SST[barrière-entre-piquets] PRF[piquet] [OISEAU] [être-sur] [regarder] [regarder] PNT[loin]

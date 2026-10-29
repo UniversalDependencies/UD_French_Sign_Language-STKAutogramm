@@ -89,9 +89,9 @@
 7	PNT[étape1]	PNT	ADV	_	_	11	dislocated	_	AlignBegin=45046|AlignEnd=45339|Gloss=PNT[stop1]|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NMM=eyebrow-frown|Tgt=PSS3l
 8	PNT[étape2]	PNT	ADV	_	_	7	conj	_	AlignBegin=45339|AlignEnd=45574|Gloss=PNT[stop2]|NDHHeld=PNT[étape1]|NMM=eyebrow-frown|Tgt=PSSN
 9	PNT[étape3]	PNT	ADV	_	_	7	conj	_	AlignBegin=45574|AlignEnd=45954|Gloss=PNT[stop3]|NDHHeld=PNT[étape1]|NMM=eyebrow-frown|Tgt=PSS3r
-10	[QUOI]	[QUOI]	PRON	_	PronType=Int	12	conj:dbl	_	AlignBegin=45986|AlignEnd=46412|Exp[lex]=Int|Gloss=[WHAT]|ISMarker[Foc]=Cxn-dbl+NMM|NMM=eyebrow-frown
+10	[QUOI]	[QUOI]	PRON	_	PronType=Int	11	obj	_	AlignBegin=45986|AlignEnd=46412|Exp[lex]=Int|Gloss=[WHAT]|ISMarker[Foc]=Cxn-dbl+NMM|NMM=eyebrow-frown
 11	[PRÉFÉRER]	[PRÉFÉRER]	VERB	_	_	0	root	_	AlignBegin=46421|AlignEnd=46917|Gaze=Prs2|Gloss=[PREFER]|NMM=eyebrow-frown|Reported=Yes|Subj=Gaze
-12	[QUOI]	[QUOI]	PRON	_	PronType=Int	11	obj	_	AlignBegin=46935|AlignEnd=47648|Exp[lex]=Int|Gloss=[WHAT]|ISRole=Foc|NMM=forward-tilt+eyebrow-frown+eye-blink
+12	[QUOI]	[QUOI]	PRON	_	PronType=Int	10	conj:dbl	_	AlignBegin=46935|AlignEnd=47648|Exp[lex]=Int|Gloss=[WHAT]|ISRole=Foc|NMM=forward-tilt+eyebrow-frown+eye-blink
 
 # sent_id = vacances-sud_6
 # text = PNT[NOUS] [réfléchir]
@@ -204,11 +204,11 @@
 3	[hep]	[hep]	INTJ	_	_	5	discourse	_	AlignBegin=92904|AlignEnd=93618|Gloss=[hep]|NMM=eye-blink|TransfertType=Personne
 4	PNT[MOI]	PNT	PRON	_	Number=Sing|PronType=Prs	5	nsubj	_	AlignBegin=93669|AlignEnd=94029|Gloss=PNT[ME]|Tgt=Prs1
 5	[ADORER]	[ADORER]	VERB	_	_	0	root	_	AlignBegin=94110|AlignEnd=94853|Gloss=[ADORE]|Reported=Yes
-6	PNT[lieu1]	PNT	ADV	_	_	9	nsubj	_	AlignBegin=94868|AlignEnd=95109|Exp=Neg|Gloss=PNT[place1]|NMM=eyebrow-frown|Tgt=PSS3l|TwoH=Yes
+6	PNT[lieu1]	PNT	ADV	_	_	5	obj	_	AlignBegin=94868|AlignEnd=95109|Exp=Neg|Gloss=PNT[place1]|NMM=eyebrow-frown|Tgt=PSS3l|TwoH=Yes
 7	[PREMIER]	[PREMIER]	ADJ	_	_	8	amod	_	AlignBegin=95109|AlignEnd=95529|Exp=Neg|Gloss=[FIRST]|NDHHeld=PNT-PSS3l|NMM=eyebrow-frown
 8	[VILLE]	[VILLE]	NOUN	_	_	6	appos	_	AlignBegin=95544|AlignEnd=95765|Exp=Neg|Gloss=[CITY]|NDHHeld=PNT-PSS3l|NMM=eyebrow-frown
-9	[NON]	[NON]	ADV	_	_	5	obj	_	AlignBegin=95779|AlignEnd=96059|Exp[lex]=Neg|Gloss=[NO]|ISMarker[CFoc]=Cxn-corel?|NDHHeld=PNT-PSS3l|NMM=eyebrow-raise
-10	PNT[lieu2]	PNT	ADV	_	_	9	conj:contr	_	AlignBegin=96088|AlignEnd=96728|Gloss=PNT[place2]|ISRole=CFoc|NDHHeld=PNT-PSS3l|NMM=eyebrow-raise|Tgt=PSSN
+9	[NON]	[NON]	ADV	_	_	6	advmod	_	AlignBegin=95779|AlignEnd=96059|Exp[lex]=Neg|Gloss=[NO]|ISMarker[CFoc]=Cxn-corel?|NDHHeld=PNT-PSS3l|NMM=eyebrow-raise
+10	PNT[lieu2]	PNT	ADV	_	_	6	conj:contr	_	AlignBegin=96088|AlignEnd=96728|Gloss=PNT[place2]|ISRole=CFoc|NDHHeld=PNT-PSS3l|NMM=eyebrow-raise|Tgt=PSSN
 11	[DEUXIÈME]	[DEUXIÈME]	ADJ	_	_	10	advcl	_	AlignBegin=96765|AlignEnd=97154|Gloss=[SECOND]|NMM=eyebrow-raise
 
 # sent_id = vacances-sud_14
@@ -287,7 +287,7 @@
 1	[hep]	[hep]	INTJ	_	_	8	discourse	_	AlignBegin=119352|AlignEnd=119626|Gloss=[hep]|NMM=eyebrow-raise|Trs=Left
 2	PNT[MOI]	PNT	PRON	_	Number=Sing|PronType=Prs	8	discourse:participant	_	AlignBegin=119630|AlignEnd=120600|Gloss=PNT[ME]|NMM=rightward-tilt+eyebrow-raise|Tgt=Prs1
 3	[hep]	[hep]	INTJ	_	_	8	discourse	_	AlignBegin=120604|AlignEnd=121200|Exp=Neg|Gloss=[hep]|NMM=eyebrow-rf
-4	PNT[lieu2]-[non]	PNT	ADV	_	_	8	conj	_	AlignBegin=121200|AlignEnd=122265|Exp=Neg|Gloss=PNT[place2]-[no]|NMM=eye-blink|Src=PSS3l|Tgt=PSSN
+4	PNT[lieu2]-[non]	PNT	ADV	_	_	8	obj	_	AlignBegin=121200|AlignEnd=122265|Exp=Neg|Gloss=PNT[place2]-[no]|NMM=eye-blink|Src=PSS3l|Tgt=PSSN
 5	PNT[lieu3]	PNT	ADV	_	_	4	conj:contr	_	AlignBegin=122274|AlignEnd=122826|Gloss=PNT[place3]|NDHHeld=PNT-PSS3l|NMM=eyebrow-raise|Src=PSSN|Tgt=PSS3r
 6	[TROISIÈME]	[TROISIÈME]	ADJ	_	_	5	advcl	_	AlignBegin=122826|AlignEnd=123287|Gloss=[THIRD]
 7	PNT[lieu3]	PNT	ADV	_	_	5	conj:reform	_	AlignBegin=123296|AlignEnd=123904|Gloss=PNT[place3]|NMM=head-nod+eye-blink|Tgt=PSS3r

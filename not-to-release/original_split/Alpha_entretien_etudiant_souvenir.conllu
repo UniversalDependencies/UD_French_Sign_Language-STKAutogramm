@@ -162,7 +162,7 @@
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = [qui disaient] non pas Macron, je préfère celui-là.
 # text_en = they were saying no not Macron, I prefer this one.
-1	[NON]	[NON]	ADV	_	_	0	root	_	AlignBegin=62267|AlignEnd=62779|Gloss=[NO]|NMM=eyebrown-frown|Reported=Yes|TransfertType=Personne
+1	[NON]	[NON]	ADV	_	_	0	root	_	AlignBegin=62267|AlignEnd=62779|Gloss=[NO]|NMM=eyebrown-frown|Reported=Yes
 2	SignedName[Macron]	SignedName	PROPN	_	_	1	obl:mod	_	AlignBegin=62791|AlignEnd=63140|Gloss=SignedName[Macron]|NMM=eyebrown-frown
 3	PNT[MOI]	PNT	PRON	_	Number=Sing|PronType=Prs	4	nsubj	_	AlignBegin=63157|AlignEnd=63651|Gloss=PNT[ME]|Tgt=Prs1
 4	[PRÉFÉRER]	[PRÉFÉRER]	VERB	_	_	1	conj	_	AlignBegin=63157|AlignEnd=63651|Gloss=[PREFER]

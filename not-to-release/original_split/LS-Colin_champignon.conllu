@@ -183,7 +183,7 @@
 2	[NON]	[NON]	ADV	_	_	1	advmod	_	AlignBegin=1142374|AlignEnd=1142859|Gloss=[NO]|ISMarker[CFoc]=Cxn-corel
 3	[LAISSER]	[LAISSER]	VERB	_	_	1	conj	_	AlignBegin=1142859|AlignEnd=1143214|Gloss=[LET]|ISRole=Foc+CFoc
 4	[SÉCHER]	[SÉCHER]	VERB	_	_	3	ccomp	_	AlignBegin=1143214|AlignEnd=1143659|Gloss=[DRY]|NMM=eyebrow-raise+head-nod
-5	[LAISSER]	[LAISSER]	VERB	_	_	3	conj:reform	_	AlignBegin=1143659|AlignEnd=1144339|Gloss=[LET]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
+5	[LAISSER]	[LAISSER]	VERB	_	_	3	conj:dbl	_	AlignBegin=1143659|AlignEnd=1144339|Gloss=[LET]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
 6	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=1144339|AlignEnd=1144859|Gloss=neutral-position
 
 # sent_id = crdo-fsl-cuc022_82
@@ -272,7 +272,7 @@
 # text_fr = Lorsque c'est à mi-cuisson, verser le bol de sauce dans la poëlle, laisser chauffer, mélanger et laisser jusqu'à ce que le liquide en surface soit un peu absorbé, il ne faut pas le laisser absorber entièrement.
 # text_en = When it's halfway through cooking, pour the bowl of sauce in the pan, let warm up, mix and let it until the liquide on the surface is a little bit absorbed, it shouldn't be absorbed completely.
 1	[par-là]~	[par-là]	ADV	_	_	2	advmod	_	AlignBegin=1168279|AlignEnd=1168939|Gloss=[over-there]~|Scrap=Yes
-2	[VERSER]	[VERSER]	VERB	_	_	0	root	_	AlignBegin=1168939|AlignEnd=1169499|Gloss=[POUR]|Loc=PSS3l[poêle]|NDH=PRF[POÊLE]|NMM=eyebrow-raise+eye-contact|PT=tu-générique|Subj=PT
+2	[VERSER]	[VERSER]	VERB	_	_	0	root	_	AlignBegin=1168939|AlignEnd=1169499|Gloss=[POUR]|Loc=PSS3l[poêle]|NDH=PRF[POÊLE]|NMM=eyebrow-raise+eye-contact|Obl=NDH+Loc|PT=tu-générique|Subj=PT
 3	[mettre-SAUCE]	[SAUCE]	VERB	_	_	2	conj	_	AlignBegin=1169499|AlignEnd=1170099|Gloss=[put-SAUCE]
 4	[LAISSER]	[LAISSER]	VERB	_	_	2	conj	_	AlignBegin=1170099|AlignEnd=1170499|Gloss=[LET]
 5	[CHAUFFER]	[CHAUFFER]	VERB	_	_	4	ccomp	_	AlignBegin=1170499|AlignEnd=1170744|Gloss=[WARM]

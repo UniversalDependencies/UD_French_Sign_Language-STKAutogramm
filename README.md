@@ -28,18 +28,24 @@ The data comes from 3 different pre-existing projects.
    - **Alpha_entretien_etudiant_trajet** is the recording of a description, with more interactional elements. The prompt was for the student to describe a common route he was taking daily.
 
 
-## References
+# References
 
-### STK
+Guillaume, Lou, & Herrera, Santiago, & Perin, Philomène, & Bogliotti, Caroline, & Kahane Sylvain (2026) Un premier treebank syntaxique de LSF, Journée COLAF sur le TAL des langues des signes, INRIA, Nancy, https://openreview.net/group?id=inria.fr%2FINRIA%2FCOLaF%2F2026%2FChallenge#tab-accept-oral.
+
+## STK
  - Cuxac, Christian, & Boutet, Dominique. (2015). Corpus LS-Colin sur plusieurs genres discursifs (Laurent Vallo, Nasredine Chab et Anthony Guyon). COCOON - https://cocoon.huma-num.fr (Huma-Num - CNRS). https://doi.org/10.34847/COCOON.6D4B96B9-83C2-38B4-8FD6-ACB62E57DE4D
 
  - Corpus ALPHA SOURDS. ORTOLANG (Open Resources and TOols for LANGuage) - www.ortolang.fr, https://doi.org/10.82270/corpus-alpha-sourds   
+
 
 # Changelog
 
 * 2026-11-15 v2.19
   * Initial release in Universal Dependencies.
 
+# Acknowledgments
+
+This treebank was produced as part of the [SignToKids ANR project](https://project.inria.fr/signtokids/en/) and the [Autogramm ANR project](https://autogramm.github.io/en/). The main contributor is Lou Guillaume, under the supervision of Santiago Herrera and Sylvain Kahane. With the contribution of Philomène Perin and Caroline Bogliotti for LSF and Bruno Guillaume for the validation of the corpus and the conversion from SUD to UD.
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================

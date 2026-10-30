@@ -1,4 +1,4 @@
-# sent_id = souvenir_1
+# sent_id = Alpha_entretien_etudiant_souvenir__1
 # text = [euh] [PI_TEMPORALITE] [[CHIFFRE]] [ANNÉE] [MEILLEUR] [SOUVENIR] [VIE]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Euh, en [chiffre]-ème, c’est l’année où j’ai eu les meilleurs souvenirs de ma vie.
@@ -11,7 +11,7 @@
 6	[SOUVENIR]	[SOUVENIR]	NOUN	_	_	0	root	_	AlignBegin=4436|AlignEnd=4971|Gloss=[MEMORY]|ISMarker[Foc]=NMM|ISRole=Foc|NMM=eyebrow-frown+foward-tilt+eye-blink
 7	[VIE]	[VIE]	NOUN	_	_	6	nmod	_	AlignBegin=4977|AlignEnd=5570|Gloss=[LIFE]|NMM=eye-blink
 
-# sent_id = souvenir_2_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__2
 # text = [CLASSE] [CLASSE] [GROUPE] [CHAUD]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Dans la classe, le groupe était chaleureux,
@@ -21,7 +21,7 @@
 3	[GROUPE]	[GROUPE]	NOUN	_	_	4	nsubj	_	AlignBegin=6715|AlignEnd=7483|Gloss=[GROUP]|NMM=eye-contact+forward-tilt
 4	[CHAUD]	[CHAUD]	ADJ	_	_	0	root	_	AlignBegin=7494|AlignEnd=8395|Gloss=[WARM]|NMM=eyebrow-frown+eye-blink+forward-tilt
 
-# sent_id = souvenir_2_split2_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__3
 # text = ~ [GROUPE]~ ~ [ÉLÈVE] [AMI] ~ [LIEN] [FORT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = les élèves étaient amis, on avait des liens forts.
@@ -35,7 +35,7 @@
 7	[LIEN]	[LIEN]	NOUN	_	_	5	conj	_	AlignBegin=11081|AlignEnd=11744|Gloss=[LINK]|NMM=eyebrow-frown+forward-tilt
 8	[FORT]	[FORT]	ADV	_	_	7	advmod	_	AlignBegin=11744|AlignEnd=12221|Gloss=[STRONG]|NMM=eye-blink
 
-# sent_id = souvenir_2_split2_split2
+# sent_id = Alpha_entretien_etudiant_souvenir__4
 # text = [PLUS] [INTERNAT] [[LIEU]] [INTERNAT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Encore plus avec l’internat, ici, à [lieu].
@@ -45,7 +45,7 @@
 3	[[LIEU]]	[[LIEU]]	PROPN	_	_	4	nmod	_	AlignBegin=15401|AlignEnd=15860|Gloss=[[PLACE]]|toBlur=Yes
 4	[INTERNAT]	[INTERNAT]	NOUN	_	_	1	obj	_	AlignBegin=15872|AlignEnd=16448|Gloss=[BOARDING-SCHOOL]|NMM=eye-blink+forward-tilt
 
-# sent_id = souvenir_3_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__5
 # text = [PERSONNE] [PROFESSIONNEL] [COMMUNICATION] [INTÉRESSANT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Avec les personnes, les professionnels, on communiquait bien. C’était un groupe intéressant, voilà.
@@ -55,7 +55,7 @@
 3	[COMMUNICATION]	[COMMUNICATION]	NOUN	_	_	0	root	_	AlignBegin=20000|AlignEnd=20628|Gloss=[COMMUNICATION]|NMM=eye-blink+forward-tilt
 4	[INTÉRESSANT]	[INTÉRESSANT]	ADJ	_	_	3	amod	_	AlignBegin=21331|AlignEnd=21983|Gloss=[INTERESTING]|NMM=eye-blink
 
-# sent_id = souvenir_3_split2
+# sent_id = Alpha_entretien_etudiant_souvenir__6
 # text = [ENSUITE] [PI_TEMPORALITE] [ÉTÉ] [euh] [ENVIRON] [MAI] [AVRIL] [JUIN] [PÉRIODE] [PARTIR] [GROUPE]~ [INTERNAT] [GROUPE] [[CHIFFRE]] [ÉTAGE] [GROUPE] [PARTIR] [ESPAGNE] [BARCELONE]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Un jour, en été, euh, à peu près, mai, avril, juin dans cette période, on est partis avec tout le groupe d’internes, le groupe du [chiffre]-ième étage, on est partis en Espagne à Barcelone en avion.
@@ -80,7 +80,7 @@
 18	[ESPAGNE]	[ESPAGNE]	PROPN	_	_	17	obl:arg	_	AlignBegin=32145|AlignEnd=32744|Gloss=[SPAIN]
 19	[BARCELONE]	[BARCELONE]	PROPN	_	_	18	conj:zoom	_	AlignBegin=32756|AlignEnd=33512|Gloss=[BARCELONA]|NMM=head-nod
 
-# sent_id = souvenir_4_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__7
 # text = [voyager-en-AVION] [PREMIER] [FOIS] [GROUPE] [AMI] [AVION]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = C’était la première fois qu’on partait entre amis en avion.
@@ -92,7 +92,7 @@
 5	[AMI]	[AMI]	NOUN	_	_	4	compound	_	AlignBegin=35337|AlignEnd=35843|Gloss=[FRIEND]
 6	[AVION]	[AVION]	NOUN	_	_	1	conj:dbl	_	AlignBegin=35855|AlignEnd=36744|Gloss=[PLANE]|NMM=eye-blink+head-nod
 
-# sent_id = souvenir_4_split2_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__8
 # text = [ATTERRIR] [BARCELONE] [BEAUCOUP] [SOUVENIR] [RIGOLER] [TAQUINER] [MOQUER] [PÎQUER] [DISPUTER]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Quand on a atterri à Barcelone, j’ai plein de souvenirs. On a rigolé, on se taquinait, on se moquait, on s’envoyait des piques, on se disputait aussi.
@@ -107,7 +107,7 @@
 8	[PÎQUER]	[PÎQUER]	VERB	_	_	5	conj	_	AlignBegin=42395|AlignEnd=43674|Gloss=[STING]|NMM=eyebrow-frown|Obj=Tgt|Rep=2|Src=Prs1|Subj=Src|Tgt=PSS3l
 9	[DISPUTER]	[DISPUTER]	VERB	_	_	5	conj	_	AlignBegin=44448|AlignEnd=45419|Gloss=[ARGUE]|NMM=eyebrow-raise+eye-contact
 
-# sent_id = souvenir_4_split2_split2
+# sent_id = Alpha_entretien_etudiant_souvenir__9
 # text = [DRÔLE] [TROP] [SOUVENIR]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = C’était marrant. J’ai trop de souvenirs.
@@ -116,7 +116,7 @@
 2	[TROP]	[TROP]	ADV	_	_	3	advmod	_	AlignBegin=48349|AlignEnd=48756|Gloss=[TOO-MUCH]
 3	[SOUVENIR]	[SOUVENIR]	NOUN	_	_	0	root	_	AlignBegin=48767|AlignEnd=49384|Gloss=[MEMORY]
 
-# sent_id = souvenir_5_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__10
 # text = [PI_TEMPORALITE] [PI_TEMPORALITE] [JOUR] SignedName[Macron] [ÉLÉCTION] [PRÉSIDENT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Et c’était le jour où Macron a été élu président
@@ -128,7 +128,7 @@
 5	[ÉLÉCTION]	[ÉLÉCTION]	NOUN	_	_	3	nmod	_	AlignBegin=53070|AlignEnd=54035|Gloss=[ELECTION]|NMM=backward-tilt
 6	[PRÉSIDENT]	[PRÉSIDENT]	NOUN	_	_	5	nmod	_	AlignBegin=54047|AlignEnd=55221|Gloss=[PRESIDENT]|NMM=eye-blink
 
-# sent_id = souvenir_5_split2_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__11
 # text = [PI_CELUI-CI] [QUI]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = [alors on se disait] c’est qui ? c’est qui ?
@@ -136,7 +136,7 @@
 1	[PI_CELUI-CI]	[PI_CELUI-CI]	PRON	_	PronType=Dem	2	nsubj	_	AlignBegin=55244|AlignEnd=55628|Gloss=[PI_THIS-ONE]|Tgt=PSSLr
 2	[QUI]	[QUI]	PRON	_	PronType=Int	0	root	_	AlignBegin=55634|AlignEnd=57169|Gloss=[WHO]|Loc=PSSLr
 
-# sent_id = souvenir_5_split2_split2
+# sent_id = Alpha_entretien_etudiant_souvenir__12
 # text = PNT[MOI] [BARCELONE] [FRANCE] [QUI] [ÉLÉCTION] [OUI] [DRÔLE]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = J’étais à Barcelone et on attendait de savoir en France qui avait été élu, c’était drôle.
@@ -149,7 +149,7 @@
 6	[OUI]	[OUI]	INTJ	_	_	5	discourse	_	AlignBegin=59430|AlignEnd=59919|Gloss=[YES]|NMM=forward-tilt
 7	[DRÔLE]	[DRÔLE]	ADJ	_	_	5	discourse	_	AlignBegin=59930|AlignEnd=60715|Gloss=[FUNNY]|NMM=eye-blink
 
-# sent_id = souvenir_6_split1_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__13
 # text = [IL-Y-A] [CONTRE]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Y’en a qui étaient contre,
@@ -157,7 +157,7 @@
 1	[IL-Y-A]	[IL-Y-A]	NOUN	_	_	0	root	_	AlignBegin=61698|AlignEnd=62035|Gloss=[THERE-IS]
 2	[CONTRE]	[CONTRE]	ADV	_	_	1	advmod	_	AlignBegin=62052|AlignEnd=62267|Gloss=[AGAINST]|NMM=eyebrow-frown
 
-# sent_id = souvenir_6_split1_split2
+# sent_id = Alpha_entretien_etudiant_souvenir__14
 # text = [NON] SignedName[Macron] PNT[MOI] [PRÉFÉRER] PNT[LUI]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = [qui disaient] non pas Macron, je préfère celui-là.
@@ -168,7 +168,7 @@
 4	[PRÉFÉRER]	[PRÉFÉRER]	VERB	_	_	1	conj	_	AlignBegin=63157|AlignEnd=63651|Gloss=[PREFER]
 5	PNT[LUI]	PNT	PRON	_	Number=Sing|PronType=Prs	4	obj	_	AlignBegin=63663|AlignEnd=63884|Gloss=PNT[HIM]|Tgt=PSS3r
 
-# sent_id = souvenir_6_split2
+# sent_id = Alpha_entretien_etudiant_souvenir__15
 # text = ~ [INTÉRESSANT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = [on a vu ça]? , c’était intéressant.
@@ -176,7 +176,7 @@
 1	~	~	X	_	_	2	dep	_	AlignBegin=63895|AlignEnd=64610|Gloss=~|Scrap=Yes
 2	[INTÉRESSANT]	[INTÉRESSANT]	ADJ	_	_	0	root	_	AlignBegin=64744|AlignEnd=65326|Gloss=[INTERESTING]|NMM=eye-blink
 
-# sent_id = souvenir_7_split1_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__16
 # text = [ENSUITE] [RENTRER] [TOUS] [PLEURER] [TRISTE] [PEINE]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Ensuite, on est rentrés, tout le monde pleurait, était triste. Ça faisait de la peine.
@@ -188,7 +188,7 @@
 5	[TRISTE]	[TRISTE]	ADJ	_	_	2	conj	_	AlignBegin=68116|AlignEnd=68767|Gloss=[SAD]|NMM=eyebrow-frown+eye-blink
 6	[PEINE]	[PEINE]	NOUN	_	_	2	conj	_	AlignBegin=69616|AlignEnd=70105|Gloss=[SORROW]|NMM=eyebrow-frown
 
-# sent_id = souvenir_7_split1_split2
+# sent_id = Alpha_entretien_etudiant_souvenir__17
 # text = [OUI] [WEEK-END] [SEULEMENT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Après un week-end, seulement.
@@ -197,7 +197,7 @@
 2	[WEEK-END]	[WEEK-END]	NOUN	_	_	0	root	_	AlignBegin=72099|AlignEnd=72785|Gloss=[WEEK-END]|NMM=eyebrow-frown+backward-tilt
 3	[SEULEMENT]	[SEULEMENT]	ADV	_	_	2	advmod	_	AlignBegin=72791|AlignEnd=73436|Gloss=[ONLY]|NMM=eyebrow-frown+backward-tilt
 
-# sent_id = souvenir_7_split2_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__18
 # text = [RETOUR] [FRANCE]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = On est retournés en France
@@ -205,7 +205,7 @@
 1	[RETOUR]	[RETOUR]	NOUN	_	_	0	root	_	AlignBegin=74924|AlignEnd=75703|Gloss=[GO-BACK]
 2	[FRANCE]	[FRANCE]	PROPN	_	_	1	nmod	_	AlignBegin=75703|AlignEnd=76444|Gloss=[FRANCE]
 
-# sent_id = souvenir_7_split2_split2_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__19
 # text = [FRANCE] [bah] [RETOUR]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = et en France... bah on est rentrés.
@@ -214,7 +214,7 @@
 2	[bah]	[bah]	INTJ	_	_	3	discourse	_	AlignBegin=0|AlignEnd=0|Gloss=[well]
 3	[RETOUR]	[RETOUR]	NOUN	_	_	0	root	_	AlignBegin=79145|AlignEnd=79674|Gloss=[COME-BACK]
 
-# sent_id = souvenir_7_split2_split2_split2
+# sent_id = Alpha_entretien_etudiant_souvenir__20
 # text = [APRÈS] [APRÈS] [[CHIFFRE]] [MOINS] [SOUVENIR] [[CHIFFRE]] [PARFAIT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Ensuite, euh après en [chiffre]-ème, j’ai moins de souvenirs qu’en [chiffre]-ème , en [chiffre]-ème c’était top.

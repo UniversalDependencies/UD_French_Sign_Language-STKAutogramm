@@ -1,4 +1,4 @@
-# sent_id = vacances-sud_1
+# sent_id = STK_vacances-sud__1
 # text = [PASSÉ-PROCHE] [VACANCES] [ÉTÉ] [euh] [PARTIR] [OÙ] [FRANCE] [carte-france] [SUD] [région-sud] position-neutre
 # source_file = ./recit-agnieska.mp4
 # text_fr = Les dernières vacances d’été, on est partis dans le sud de la France.
@@ -16,7 +16,7 @@
 10	[région-sud]	[région-sud]	NOUN	_	_	9	conj:illustrate	_	AlignBegin=9235|AlignEnd=10548|Gloss=[south-region]|NDHHeld=[carte]
 11	position-neutre	position-neutre	PUNCT	_	_	5	punct	_	AlignBegin=10574|AlignEnd=11065|Gloss=neutral-position
 
-# sent_id = vacances-sud_2_split1
+# sent_id = STK_vacances-sud__2
 # text = [FAMILLE] POSS[MOI] [MAMAN] [PAPA] [SOEUR] [TOUS]-[QUATRE] [VOITURE] [MONTER-dans-véhicule] [aller-en-VOITURE] [itinéraire-vers-sud] [PENDANT-HEURES]-[HUIT]
 # source_file = ./recit-agnieska.mp4
 # text_fr = Dans ma famille il y a maman, papa et ma sœur, nous étions donc tous les 4. On est montés en voiture et on a roulé vers le sud pendant 8 heures. C’était long !
@@ -34,7 +34,7 @@
 10	[itinéraire-vers-sud]	[itinéraire]	ADV	_	_	9	conj:illustrate	_	AlignBegin=19894|AlignEnd=21963|Exp=Intensité|Gloss=[itinerary-south]|NMM=eyebrow-raise
 11	[PENDANT-HEURES]-[HUIT]	[PENDANT-HEURES]-[HUIT]	ADV	_	_	9	advmod	_	AlignBegin=22005|AlignEnd=23310|Exp=Intensité|Gloss=[DURING-HOURS]-[EIGHT]|NMM=eyebrow-raise
 
-# sent_id = vacances-sud_2_split2
+# sent_id = STK_vacances-sud__3
 # text = [c'est-long]
 # source_file = ./recit-agnieska.mp4
 # text_fr = Dans ma famille il y a maman, papa et ma sœur, nous étions donc tous les 4. On est montés en voiture et on a roulé vers le sud pendant 8 heures. C’était long !
@@ -42,7 +42,7 @@
 # video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
 1	[c'est-long]	[c'est-long]	INTJ	_	_	0	root	_	AlignBegin=23333|AlignEnd=24676|Exp[lex]=Intensité|Gloss=[a-lot]|NMM=eyebrow-raise+head-nod
 
-# sent_id = vacances-sud_3
+# sent_id = STK_vacances-sud__4
 # text = [itinéraire] PNT[fin] [UN] [VILLE] [NON] [TROIS] [étape] [étape] [étape] [voilà]
 # source_file = ./recit-agnieska.mp4
 # text_fr = Arrivés là-bas, nous n’avions pas prévu de voir qu’une seule ville, nous avons visité 3 endroits différents.
@@ -59,7 +59,7 @@
 9	[étape]	[étape]	NOUN	_	_	5	conj	_	AlignBegin=29183|AlignEnd=29718|Gloss=[stop]|Loc=PSS3r|NDHHeld=[étape]-PSS3l|NMM=eye-blink+head-nod|Subj=PRF(DH)[ANIMÉ]
 10	[voilà]	[voilà]	INTJ	_	_	5	discourse	_	AlignBegin=29843|AlignEnd=30477|Gloss=[that's-it]
 
-# sent_id = vacances-sud_4
+# sent_id = STK_vacances-sud__5
 # text = PNT[changement-temporel?] [PASSÉ-PROCHE] [DIMANCHE]-[AVANT] [FAMILLE] [RÉUNIR] [MANGER] [BAVARDER] [ÉCHANGER]
 # source_file = ./recit-agnieska.mp4
 # text_fr = Dimanche dernier, toute la famille s’est réunie pour prendre un bon repas, bavarder et échanger.
@@ -74,7 +74,7 @@
 7	[BAVARDER]	[BAVARDER]	VERB	_	_	5	conj	_	AlignBegin=37681|AlignEnd=38449|Gloss=[CHAT]
 8	[ÉCHANGER]	[ÉCHANGER]	VERB	_	_	5	conj	_	AlignBegin=38468|AlignEnd=39542|Gloss=[EXCHANGE]|NMM=eyebrow-raise+eye-blink
 
-# sent_id = vacances-sud_5
+# sent_id = STK_vacances-sud__6
 # text = [MAMAN] [hep] [appel] PNT[VOUS] [ADORER] [VACANCES] PNT[étape1] PNT[étape2] PNT[étape3] [QUOI] [PRÉFÉRER] [QUOI]
 # source_file = ./recit-agnieska.mp4
 # text_fr = Maman a demandé à tout le monde : “Pendant les vacances, lequel des 3 lieux avez-vous préféré ?”
@@ -93,7 +93,7 @@
 11	[PRÉFÉRER]	[PRÉFÉRER]	VERB	_	_	0	root	_	AlignBegin=46421|AlignEnd=46917|Gaze=Prs2|Gloss=[PREFER]|NMM=eyebrow-frown|Reported=Yes|Subj=Gaze
 12	[QUOI]	[QUOI]	PRON	_	PronType=Int	10	conj:dbl	_	AlignBegin=46935|AlignEnd=47648|Exp[lex]=Int|Gloss=[WHAT]|ISRole=Foc|NMM=forward-tilt+eyebrow-frown+eye-blink
 
-# sent_id = vacances-sud_6
+# sent_id = STK_vacances-sud__7
 # text = PNT[NOUS] [réfléchir]
 # source_file = ./recit-agnieska.mp4
 # text_fr = Nous avons tous réfléchi
@@ -102,7 +102,7 @@
 1	PNT[NOUS]	PNT	PRON	_	Number=Plur|PronType=Prs	2	nsubj	_	AlignBegin=48019|AlignEnd=48565|Gloss=PNT[US]|Tgt=Prs1
 2	[réfléchir]	[réfléchir]	VERB	_	_	0	root	_	AlignBegin=48606|AlignEnd=49625|Gloss=[think]|Subj=PT
 
-# sent_id = vacances-sud_7
+# sent_id = STK_vacances-sud__8
 # text = [hep] PNT[MOI] [SOEUR] [hep] PNT[MOI] [ADMIRER] [ADORER] PNT[lieu1] [PREMIER] PNT[lieu1] [POURQUOI] PNT[lieu1] [LÀ] [QUOI] [MER] [PLAGE] [SABLE] [FIN] [PLAGE] [PERSONNE] [FOULE] [FOULE-qui-grouille]
 # source_file = ./recit-agnieska.mp4
 # text_fr = ma sœur a répondu : “Moi, j’ai vraiment adoré le premier lieu avec la mer, la plage de sable fin, et puis ça grouillait de gens !
@@ -131,7 +131,7 @@
 21	[FOULE]	[FOULE]	NOUN	_	_	15	conj	_	AlignBegin=63987|AlignEnd=66937|Exp[lex]=Intensité|Gloss=[CROWD]
 22	[FOULE-qui-grouille]	[FOULE]	VERB	_	_	21	conj:illustrate	_	AlignBegin=63987|AlignEnd=66937|Exp[lex]=Intensité|Gloss=[teem]|NMM=head-nod+eye-blink|ST=foule-qui-grouille
 
-# sent_id = vacances-sud_8
+# sent_id = STK_vacances-sud__9
 # text = [euh] [FEUILLE]~ [rangée-arbre] [FEUILLE-longue-grande] [arbres-de-chaque-côté] position-neutre
 # source_file = ./recit-agnieska.mp4
 # text_fr = Et les palmiers disposés ici et là,
@@ -144,7 +144,7 @@
 5	[arbres-de-chaque-côté]	[arbres-de-chaque-côté]	NOUN	_	_	3	conj:illustrate	_	AlignBegin=69595|AlignEnd=71138|Gloss=[trees-on-both-sides]|NMM=eyebrow-raise|Rep=4|ST=deux-rangées-face|STReal=PRF[ARBRE]|TwoH=Yes
 6	position-neutre	position-neutre	PUNCT	_	_	3	punct	_	AlignBegin=71138|AlignEnd=71855|Gloss=neutral-position|NMM=eye-blink
 
-# sent_id = vacances-sud_9
+# sent_id = STK_vacances-sud__10
 # text = [AUSSI] PNT[là] [MER] PNT-SURFACE[là] [PORT] [VOILE] [LUXE] [bateau] PNT[bateau] [IMPRESSIONNANT]
 # source_file = ./recit-agnieska.mp4
 # text_fr = et aussi, près de la mer, le port avec le voilier de luxe
@@ -161,7 +161,7 @@
 9	PNT[bateau]	PNT	PRON	_	PronType=Prs	10	nsubj	_	AlignBegin=80114|AlignEnd=81063|Gloss=PNT[boat]|NDHHeld=[bateau]|NMM=eyerow-raise|Tgt=NDH
 10	[IMPRESSIONNANT]	[IMPRESSIONNANT]	ADJ	_	_	8	amod	_	AlignBegin=81127|AlignEnd=81759|Gloss=[IMPRESSIVE]|NDHHeld=[bateau]
 
-# sent_id = vacances-sud_10
+# sent_id = STK_vacances-sud__11
 # text = [PERSONNE] [PROMENER] [FOULE]
 # source_file = ./recit-agnieska.mp4
 # text_fr = et tous les promeneurs qui se baladaient là,
@@ -171,7 +171,7 @@
 2	[PROMENER]	[PROMENER]	VERB	_	_	0	root	_	AlignBegin=82886|AlignEnd=83278|Gloss=[STROLL]|NMM=eyebrow-frown
 3	[FOULE]	[FOULE]	NOUN	_	_	2	conj:illustrate	_	AlignBegin=83329|AlignEnd=85937|Exp[lex]=Intensité|Gloss=[CROWD]|NMM=eye-blink
 
-# sent_id = vacances-sud_11
+# sent_id = STK_vacances-sud__12
 # text = PNT-SURFACE[là] [AGRÉABLE]
 # source_file = ./recit-agnieska.mp4
 # text_fr = c’était très agréable !”.
@@ -180,7 +180,7 @@
 1	PNT-SURFACE[là]	PNT-SURFACE	ADV	_	_	2	nsubj	_	AlignBegin=86063|AlignEnd=86924|Gloss=PNT-SURFACE[here]|Tgt=PSSN
 2	[AGRÉABLE]	[AGRÉABLE]	ADJ	_	_	0	root	_	AlignBegin=87013|AlignEnd=88114|Gloss=[PLEASANT]
 
-# sent_id = vacances-sud_12
+# sent_id = STK_vacances-sud__13
 # text = [écouter-en-regardant] PNT[soeur] [SOEUR] PNT[soeur] [c'est-ça] [porter-intérêt]
 # source_file = ./recit-agnieska.mp4
 # text_fr = Nous écoutions ma soeur
@@ -193,7 +193,7 @@
 5	[c'est-ça]	[c'est-ça]	INTJ	_	_	1	discourse	_	AlignBegin=90198|AlignEnd=90641|Gloss=[that's-right]
 6	[porter-intérêt]	[porter-intérêt]	VERB	_	_	1	conj:reform	_	AlignBegin=90663|AlignEnd=91787|Gloss=[show-interest]
 
-# sent_id = vacances-sud_13
+# sent_id = STK_vacances-sud__14
 # text = [transition] [PAPA] [hep] PNT[MOI] [ADORER] PNT[lieu1] [PREMIER] [VILLE] [NON] PNT[lieu2] [DEUXIÈME]
 # source_file = ./recit-agnieska.mp4
 # text_fr = quand papa a pris la parole : “Moi, ce n’est pas le premier mais le deuxième lieu que j’ai adoré,
@@ -211,7 +211,7 @@
 10	PNT[lieu2]	PNT	ADV	_	_	6	conj:contr	_	AlignBegin=96088|AlignEnd=96728|Gloss=PNT[place2]|ISRole=CFoc|NDHHeld=PNT-PSS3l|NMM=eyebrow-raise|Tgt=PSSN
 11	[DEUXIÈME]	[DEUXIÈME]	ADJ	_	_	10	advcl	_	AlignBegin=96765|AlignEnd=97154|Gloss=[SECOND]|NMM=eyebrow-raise
 
-# sent_id = vacances-sud_14
+# sent_id = STK_vacances-sud__15
 # text = PNT[là] [QUOI] [MER] [NON] [à-l'avant] PNT-SURFACE[derrière] [FORÊT] PNT[là] [RIVIÈRE-petite-sinueuse]
 # source_file = ./recit-agnieska.mp4
 # text_fr = dans les terres, la forêt avec la petite rivière sinueuse
@@ -227,7 +227,7 @@
 8	PNT[là]	PNT	ADV	_	_	3	conj	_	AlignBegin=103174|AlignEnd=103439|Gloss=PNT[here]|NMM=eyebrow-raise|Tgt=PSS1
 9	[RIVIÈRE-petite-sinueuse]	[RIVIÈRE]	NOUN	_	_	8	obl:mod	_	AlignBegin=103448|AlignEnd=105461|Gloss=[RIVER-small-winding]
 
-# sent_id = vacances-sud_15
+# sent_id = STK_vacances-sud__16
 # text = [PERSONNE] [PEU] PRF[PERSONNE]
 # source_file = ./recit-agnieska.mp4
 # text_fr = (et surtout) très peu de monde.
@@ -237,7 +237,7 @@
 2	[PEU]	[PEU]	ADV	_	_	0	root	_	AlignBegin=105991|AlignEnd=106787|Exp[lex]=Intensité|Gloss=[LITTLE]|NMM=eyebrow-rf
 3	PRF[PERSONNE]	PRF	NOUN	_	_	2	conj:illustrate	_	AlignBegin=106791|AlignEnd=108683|Exp=Intensité|Gloss=PRF[PERSON]|NMM=eyebrow-rf|Rep=4|TwoH=Yes
 
-# sent_id = vacances-sud_16
+# sent_id = STK_vacances-sud__17
 # text = PNT[là] [NAGER] [AGRÉABLE]
 # source_file = ./recit-agnieska.mp4
 # text_fr = Nager dans la rivière, qu’est-ce que c’était agréable,
@@ -247,7 +247,7 @@
 2	[NAGER]	[NAGER]	NOUN	_	_	3	nsubj	_	AlignBegin=109352|AlignEnd=111017|Exp=Positif|Gloss=[SWIM]
 3	[AGRÉABLE]	[AGRÉABLE]	ADJ	_	_	0	root	_	AlignBegin=111017|AlignEnd=111722|Exp[lex]=Positif|Gloss=[PLEASANT]|NMM=eye-blink
 
-# sent_id = vacances-sud_17
+# sent_id = STK_vacances-sud__18
 # text = [EAU] [FROID]
 # source_file = ./recit-agnieska.mp4
 # text_fr = l’eau était froide
@@ -256,7 +256,7 @@
 1	[EAU]	[EAU]	NOUN	_	_	0	root	_	AlignBegin=111722|AlignEnd=111857|Gloss=[WATER]
 2	[FROID]	[FROID]	ADJ	_	_	1	amod	_	AlignBegin=111857|AlignEnd=113357|Gloss=[COLD]|NMM=forward-tilt
 
-# sent_id = vacances-sud_18
+# sent_id = STK_vacances-sud__19
 # text = [CALME] [NATURE] PNT-SURFACE[là] position-neutre
 # source_file = ./recit-agnieska.mp4
 # text_fr = mais on profitait du calme, de la nature…”.
@@ -267,7 +267,7 @@
 3	PNT-SURFACE[là]	PNT-SURFACE	ADV	_	_	2	conj:illustrate	_	AlignBegin=115083|AlignEnd=116074|Gloss=PNT-SURFACE[here]|NMM=head-nod+eye-blink|Tgt=PSSLr
 4	position-neutre	position-neutre	PUNCT	_	_	2	punct	_	AlignBegin=116074|AlignEnd=116726|Gloss=neutral-position
 
-# sent_id = vacances-sud_19
+# sent_id = STK_vacances-sud__20
 # text = [REGARDER] [écouter-en-regardant] [INTÉRESSANT] PNT[sujet]
 # source_file = ./recit-agnieska.mp4
 # text_fr = Nous écoutions papa, intéressés.
@@ -278,7 +278,7 @@
 3	[INTÉRESSANT]	[INTÉRESSANT]	ADJ	_	_	2	parataxis	_	AlignBegin=117974|AlignEnd=118648|Gloss=[INTERESTING]|Reported=Yes
 4	PNT[sujet]	PNT	PRON	_	_	3	nsubj	_	AlignBegin=118648|AlignEnd=119326|Gloss=PNT[topic]|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NMM=head-nod+eye-blink|Tgt=PSSN
 
-# sent_id = vacances-sud_20
+# sent_id = STK_vacances-sud__21
 # text = [hep] PNT[MOI] [hep] PNT[lieu2]-[non] PNT[lieu3] [TROISIÈME] PNT[lieu3] [ADORER2]
 # source_file = ./recit-agnieska.mp4
 # text_fr = À mon tour, j’ai dit “Moi ce n’est ni le premier, ni le deuxième mais le troisième endroit que j’ai adoré.
@@ -293,7 +293,7 @@
 7	PNT[lieu3]	PNT	ADV	_	_	5	conj:reform	_	AlignBegin=123296|AlignEnd=123904|Gloss=PNT[place3]|NMM=head-nod+eye-blink|Tgt=PSS3r
 8	[ADORER2]	[ADORER2]	VERB	_	_	0	root	_	AlignBegin=123913|AlignEnd=124939|Gloss=[ADORE2]|Reported=Yes
 
-# sent_id = vacances-sud_21
+# sent_id = STK_vacances-sud__22
 # text = PNT[lieu3] [QUOI] [MER] [MAIS] [PLAGE] [DIFFÉRENT] [CALANQUE] [ROCHER] [rocher]
 # source_file = ./recit-agnieska.mp4
 # text_fr = Le bord de mer mais pas la plage, les calanques avec les rochers tout autour.
@@ -309,7 +309,7 @@
 8	[ROCHER]	[ROCHER]	NOUN	_	_	9	nmod	_	AlignBegin=130817|AlignEnd=131152|Gloss=[ROCK]|NMM=eyebrow-rf
 9	[rocher]	[rocher]	NOUN	_	_	7	conj:illustrate	_	AlignBegin=131170|AlignEnd=132813|Exp=Intensité|Gloss=[rock]|NMM=eyebrow-rf|TwoH=Yes
 
-# sent_id = vacances-sud_22
+# sent_id = STK_vacances-sud__23
 # text = [REGARDER]
 # source_file = ./recit-agnieska.mp4
 # text_fr = On pouvait voir la mer depuis les hauteurs.
@@ -317,7 +317,7 @@
 # video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
 1	[REGARDER]	[REGARDER]	VERB	_	_	0	root	_	AlignBegin=132822|AlignEnd=134400|Gloss=[LOOK]|NDH=PRF[falaise]|NMM=head-nod+eye-blink|ST=regarder-depuis-falaise|STReal=NDH|Tgt=down-left-to-down-right
 
-# sent_id = vacances-sud_23
+# sent_id = STK_vacances-sud__24
 # text = [AUSSI] PNT[là-bas-en-bas] [EAU] [SABLE] [non] [ROCHER] [rocher]
 # source_file = ./recit-agnieska.mp4
 # text_fr = Et dans l’eau, pas de sable mais des rochers,
@@ -331,7 +331,7 @@
 6	[ROCHER]	[ROCHER]	NOUN	_	_	5	conj:contr	_	AlignBegin=137317|AlignEnd=138026|Gloss=[ROCK]|ISRole=CFoc|NMM=forward-tilt+eyebrow-rf
 7	[rocher]	[rocher]	NOUN	_	_	6	conj:illustrate	_	AlignBegin=138035|AlignEnd=139774|Exp=Intensité|Gloss=[rock]|NMM=eye-blink
 
-# sent_id = vacances-sud_24
+# sent_id = STK_vacances-sud__25
 # text = [RENTRER] [EAU] [avancer] [marcher-difficilement] [rochers-dans-les-pieds] [marcher-difficilement] [NAGER] [AGRÉABLE]
 # source_file = ./recit-agnieska.mp4
 # text_fr = d’ailleurs quand on rentrait dans l’eau ça faisait mal aux pieds, puis une fois dans l’eau, on nageait et ça allait mieux.
@@ -346,7 +346,7 @@
 7	[NAGER]	[NAGER]	VERB	_	_	6	conj:chaining	_	AlignBegin=145080|AlignEnd=147069|Exp=Positif|Gloss=[SWIM]
 8	[AGRÉABLE]	[AGRÉABLE]	ADJ	_	_	7	advcl	_	AlignBegin=147069|AlignEnd=148069|Exp[lex]=Positif|Gloss=[PLEASANT]|NMM=eyebrow-raise
 
-# sent_id = vacances-sud_25
+# sent_id = STK_vacances-sud__26
 # text = [PERSONNE]/Plur [DESERTIQUE] [CALME]
 # source_file = ./recit-agnieska.mp4
 # text_fr = Et là il n’y avait vraiment pas un chat ! C’était paisible.”
@@ -356,7 +356,7 @@
 2	[DESERTIQUE]	[DESERTIQUE]	VERB	_	_	0	root	_	AlignBegin=148924|AlignEnd=150207|Exp=Neg|Gloss=[EMPTY]|NMM=eyebrow-rf
 3	[CALME]	[CALME]	ADJ	_	_	2	conj:chaining	_	AlignBegin=150228|AlignEnd=151862|Exp=Neg|Gloss=[CALM]|NMM=eyebrow-rf+eye-blink
 
-# sent_id = vacances-sud_26
+# sent_id = STK_vacances-sud__27
 # text = [TOUS]-[QUATRE] [REGARDER] [OUI] [DIFFÉRENT]
 # source_file = ./recit-agnieska.mp4
 # text_fr = Nous étions là tous les 4, à écouter les souvenirs de chacun, tous différents.
@@ -367,7 +367,7 @@
 3	[OUI]	[OUI]	ADV	_	_	4	discourse	_	AlignBegin=154662|AlignEnd=155055|Gloss=[YES]|Reported=Yes
 4	[DIFFÉRENT]	[DIFFÉRENT]	ADJ	_	_	2	parataxis	_	AlignBegin=155062|AlignEnd=156979|Gloss=[DIFFERENT]|NMM=eye-blink|Rep=3
 
-# sent_id = vacances-sud_27
+# sent_id = STK_vacances-sud__28
 # text = [hep] [MAMAN] [OUI] [DIFFÉRENT] [DONNER] [DÉCOUVERTE] [DIFFÉRENT] [RICHE] [INTÉRESSANT]
 # source_file = ./recit-agnieska.mp4
 # text_fr = Maman a terminé en disant : “Avec ces endroits différents, les découvertes étaient variées et riches. C’était très intéressant,
@@ -383,7 +383,7 @@
 8	[RICHE]	[RICHE]	ADJ	_	_	7	conj	_	AlignBegin=162724|AlignEnd=164179|Gloss=[RICH]|NMM=eyebrow-rf
 9	[INTÉRESSANT]	[INTÉRESSANT]	ADJ	_	_	7	conj	_	AlignBegin=164207|AlignEnd=164966|Gloss=[INTERESTING]|NMM=head-nod
 
-# sent_id = vacances-sud_28
+# sent_id = STK_vacances-sud__29
 # text = [BEAU] [JUSTE] [BEAU] [VACANCES] [OUI]
 # source_file = ./recit-agnieska.mp4
 # text_fr = oui, c’était vraiment des bonnes vacances.”
@@ -395,7 +395,7 @@
 4	[VACANCES]	[VACANCES]	NOUN	_	_	0	root	_	AlignBegin=167069|AlignEnd=167572|Gloss=[HOLIDAYS]
 5	[OUI]	[OUI]	ADV	_	_	4	discourse	_	AlignBegin=167600|AlignEnd=168186|Gloss=[YES]|NMM=eye-blink|TwoH=Yes
 
-# sent_id = crdo-fsl-cuc022_68
+# sent_id = LS-Colin_champignon__1
 # text = [RECETTE] [CUISINE] position-neutre
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Recette de cuisine.
@@ -404,7 +404,7 @@
 2	[CUISINE]	[CUISINE]	NOUN	_	_	1	nmod	_	AlignBegin=1098939|AlignEnd=1099659|Gloss=[COOKING]
 3	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=1099659|AlignEnd=1102699|Gloss=neutral-position|NMM=eye-blink
 
-# sent_id = crdo-fsl-cuc022_69
+# sent_id = LS-Colin_champignon__2
 # text = [voilà] position-neutre
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Voilà !
@@ -412,7 +412,7 @@
 1	[voilà]	[voilà]	INTJ	_	_	0	root	_	AlignBegin=1102699|AlignEnd=1103459|Gloss=[that's-it]|NMM=head-nod+eye-blink
 2	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=1103459|AlignEnd=1104459|Gloss=neutral-position
 
-# sent_id = crdo-fsl-cuc022_70_split1
+# sent_id = LS-Colin_champignon__3
 # text = [TITRE] [euh] [CHAMPIGNON] [SAUCE] [S]-[O]-[J]-[A]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = "Champignons à la sauce soja"
@@ -423,7 +423,7 @@
 4	[SAUCE]	[SAUCE]	NOUN	_	_	3	nmod	_	AlignBegin=1106859|AlignEnd=1107459|Gloss=[SAUCE]|NMM=eye-blink
 5	[S]-[O]-[J]-[A]	FingerSpelling	NOUN	_	_	4	nmod	_	AlignBegin=1107459|AlignEnd=1108859|Gloss=[SOY]|NMM=head-nod
 
-# sent_id = crdo-fsl-cuc022_70_split2
+# sent_id = LS-Colin_champignon__4
 # text = [VENIR-DE] [RECETTE] [VIÊT-NAM]~ [MONTAGNE] [VIÊT-NAM] POSS[LUI]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = c'est une recette qui vient du Viêt-Nam.
@@ -435,7 +435,7 @@
 5	[VIÊT-NAM]	[VIÊT-NAM]	PROPN	_	_	4	nmod	_	AlignEnd=1110584|Gloss=[VIÊT-NAM]
 6	POSS[LUI]	POSS	ADJ	_	_	5	amod	_	AlignBegin=1110584|AlignEnd=1112109|Gloss=POSS[IT]|NMM=rightward-tilt+head-nod+eye-blink|Tgt=PSS3l
 
-# sent_id = crdo-fsl-cuc022_71_split1
+# sent_id = LS-Colin_champignon__5
 # text = [bon] PNT[LISTE] [IL-FAUT] [CHAMPIGNON] [N'IMPORTE] [PAREIL] [VOULOIR] [larges-possibilités]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Bon, il faut plusieurs choses, d'abord des champignons, n'importe lesquels, comme vous voulez
@@ -449,7 +449,7 @@
 7	[VOULOIR]	[VOULOIR]	VERB	_	_	6	ccomp	_	AlignBegin=1114779|AlignEnd=1115059|Gloss=[WANT]
 8	[larges-possibilités]	[larges-possibilités]	NOUN	_	_	6	discourse	_	AlignBegin=1115059|AlignEnd=1115859|Gloss=[large-possibilities]
 
-# sent_id = crdo-fsl-cuc022_71_split2
+# sent_id = LS-Colin_champignon__6
 # text = [POUVOIR] [CHOISIR] [CHAMPIGNON] SST[forme-incurvée] [CHAMPIGNON] SST[forme-trompette] SST[forme-ronde] [ETC]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = vous pouvez choisir des champignons de n'importe quel type, en trompette, en forme ronde, etc…
@@ -463,14 +463,14 @@
 7	SST[forme-ronde]	SST	ADJ	_	_	6	conj	_	AlignBegin=1117974|AlignEnd=1118299|Gloss=[round-shape]
 8	[ETC]	[ETC]	INTJ	_	_	3	conj	_	AlignBegin=1118299|AlignEnd=1118979|Gloss=[etc]|NMM=eye-blink
 
-# sent_id = crdo-fsl-cuc022_72
+# sent_id = LS-Colin_champignon__7
 # text = [LIBRE]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Vous êtes libre.
 # text_en = You are free.
 1	[LIBRE]	[LIBRE]	ADJ	_	_	0	root	_	AlignBegin=1118979|AlignEnd=1119624|Gloss=[FREE]|NMM=head-nod+eye-blink
 
-# sent_id = crdo-fsl-cuc022_73
+# sent_id = LS-Colin_champignon__8
 # text = PNT[PREMIEREMENT]~ [IL-FAUT] [DEUX]-[CENT] [GRAMME] [IL-FAUT] PNT[PREMIEREMENT]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = En premier, il en faut 200 grammes.
@@ -482,7 +482,7 @@
 5	[IL-FAUT]	[IL-FAUT]	VERB	_	_	2	conj:dbl	_	AlignBegin=1120979|AlignEnd=1121219|Gloss=[MUST]|NMM=forward-tilt
 6	PNT[PREMIEREMENT]	PNT	ADV	_	_	2	advmod	_	AlignBegin=1121219|AlignEnd=1121629|Gloss=PNT[FIRSTLY]|NDH=[LISTE]|NMM=eye-blink|Tgt=NDH
 
-# sent_id = crdo-fsl-cuc022_74
+# sent_id = LS-Colin_champignon__9
 # text = PNT[DEUXIEMEMENT] [SAUCE] [S]-[O]-[J]-[A] [IL-FAUT]~ [CUILLÈRE] [TROIS] [SOUPE] [IL-FAUT] PNT[DEUXIEMEMENT]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Deuxièmement, de la sauce soja , il en faut 3 cuillères à soupe.
@@ -497,7 +497,7 @@
 8	[IL-FAUT]	[IL-FAUT]	VERB	_	_	0	root	_	AlignBegin=1125179|AlignEnd=1125539|Gloss=[MUST]|NMM=forward-tilt+eye-blink
 9	PNT[DEUXIEMEMENT]	PNT	ADV	_	_	8	advmod	_	AlignBegin=1125539|AlignEnd=1125854|Gloss=PNT[SECONDLY]|NDH=[LISTE]|Tgt=NDH
 
-# sent_id = crdo-fsl-cuc022_75
+# sent_id = LS-Colin_champignon__10
 # text = PNT[TROISIEMEMENT] [UN] [CUILLÈRE] [SUCRE] [un-peu]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Troisièmement, une cuillère de sucre.
@@ -508,7 +508,7 @@
 4	[SUCRE]	[SUCRE]	NOUN	_	_	3	nmod	_	AlignBegin=1126659|AlignEnd=1127379|Gloss=[SUGAR]
 5	[un-peu]	[un-peu]	ADV	_	_	3	advmod	_	AlignBegin=1127379|AlignEnd=1127859|Gloss=[a-little]|NMM=head-nod+eye-blink
 
-# sent_id = crdo-fsl-cuc022_76_split1
+# sent_id = LS-Colin_champignon__11
 # text = PNT[QUATRIEMEMENT] [POIVRE]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Quatrièmement, du poivre.
@@ -516,7 +516,7 @@
 1	PNT[QUATRIEMEMENT]	PNT	ADV	_	_	2	advmod	_	AlignBegin=1127859|AlignEnd=1128499|Gloss=PNT[FOURTHLY]|NDH=[LISTE]|Tgt=NDH
 2	[POIVRE]	[POIVRE]	NOUN	_	_	0	root	_	AlignBegin=1128499|AlignEnd=1129179|Gloss=[PEPPER]|NMM=forward-tilt+eye-contact
 
-# sent_id = crdo-fsl-cuc022_76_split2
+# sent_id = LS-Colin_champignon__12
 # text = PNT[CINQUIEMEMENT] [SEL] [FEUILLE] [PAREIL]~ [PROCHE] [FLEUR] [PI_TYPIQUE] [CHINE] [PI_TYPIQUE]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Quatrièmement, du poivre. Cinquièmement, du sel, des feuilles qui ressemblent à des fleurs, typique de Chine.
@@ -531,7 +531,7 @@
 8	[CHINE]	[CHINE]	PROPN	_	_	9	obj	_	AlignBegin=1132059|AlignEnd=1132539|Gloss=[CHINA]
 9	[PI_TYPIQUE]	[PI_TYPIQUE]	ADJ	_	_	7	conj:dbl	_	AlignBegin=1132539|AlignEnd=1132899|Gloss=[PI_TYPICAL]|ISMarker[Foc]=Cxn-dbl
 
-# sent_id = crdo-fsl-cuc022_77
+# sent_id = LS-Colin_champignon__13
 # text = [FEUILLE-petite] [NOM] [ÉPELER] [pas-savoir] [SAVOIR] [ODEUR] [c'est-tout]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Ces feuilles ont un nom que je ne connais vraiment pas, j'en connais l'odeur, c'est tout.
@@ -544,7 +544,7 @@
 6	[ODEUR]	[ODEUR]	NOUN	_	_	5	obj	_	AlignBegin=1134459|AlignEnd=1134819|Gloss=[SMELL]|ISMarker[CFoc]=Cxn-corel?|ISRole=CFoc|NMM=eye-blink
 7	[c'est-tout]	[c'est-tout]	INTJ	_	_	5	discourse	_	AlignBegin=1134819|AlignEnd=1135459|Gloss=[that's-all]|NMM=eye-blink
 
-# sent_id = crdo-fsl-cuc022_78
+# sent_id = LS-Colin_champignon__14
 # text = PNT[toute-LISTE] [voilà]~
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Tout y est, voilà !
@@ -552,7 +552,7 @@
 1	PNT[toute-LISTE]	PNT	NOUN	_	_	0	root	_	AlignBegin=1135459|AlignEnd=1135939|Gloss=PNT[all-LIST]|NDH=[LISTE]|NMM=head-nod+eye-contact|Tgt=NDH
 2	[voilà]~	[voilà]	INTJ	_	_	1	discourse	_	AlignBegin=1135939|AlignEnd=1136139|Gloss=[that's-it]~|Scrap=Yes
 
-# sent_id = crdo-fsl-cuc022_79_80
+# sent_id = LS-Colin_champignon__15
 # text = [COMMENCER] [COMMENT] [IL-FAUT] [LAVER] [PREMIER]~ [CHAMPIGNON] [LAVER] [COUPER-en-morceaux] [DÉPLACER] SST[forme-plate]~ SST[forme-ronde] [s'égoutter] ??[IL-FAUT]~
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Comment on fait : D'abord, il faut laver les champignons, tout laver, les couper en morceaux, les mettre dans une passoire.
@@ -571,7 +571,7 @@
 12	[s'égoutter]	[s'égoutter]	VERB	_	_	4	conj	_	AlignBegin=1141184|AlignEnd=1141754|Gloss=[DRAIN]
 13	??[IL-FAUT]~	[IL-FAUT]	VERB	_	_	3	conj:reform	_	AlignBegin=1141754|AlignEnd=1142054|Gloss=[MUST]~
 
-# sent_id = crdo-fsl-cuc022_81
+# sent_id = LS-Colin_champignon__16
 # text = [MOUILLER] [NON] [LAISSER] [SÉCHER] [LAISSER] position-neutre
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Il ne faut pas qu'ils soient mouillés, les laisser sécher.
@@ -583,7 +583,7 @@
 5	[LAISSER]	[LAISSER]	VERB	_	_	3	conj:dbl	_	AlignBegin=1143659|AlignEnd=1144339|Gloss=[LET]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
 6	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=1144339|AlignEnd=1144859|Gloss=neutral-position
 
-# sent_id = crdo-fsl-cuc022_82
+# sent_id = LS-Colin_champignon__17
 # text = [A]-[I]-[L] SST[gousse] [OUBLIER] [AJOUTER] [DEUX] [gousse] [gousse] [ÉCRASER] [METTRE] [POÊLE] [DEUX] [CUILLÈRE] [HUILE/SAUCE] [verser-HUILE]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = J'avais oublié: il faut ajouter deux gousses d'ail, bien écrasées et les mettre dans la poêle avec deux cuillerées d'huile.
@@ -603,7 +603,7 @@
 13	[HUILE/SAUCE]	[HUILE]	NOUN	_	_	12	nmod	_	AlignBegin=1150979|AlignEnd=1151339|Gloss=[OIL]
 14	[verser-HUILE]	[HUILE]	VERB	_	_	9	conj:illustrate	_	AlignBegin=1151339|AlignEnd=1152344|Gloss=[pour-oil]|NMM=head-nod+eye-blink
 
-# sent_id = crdo-fsl-cuc022_83
+# sent_id = LS-Colin_champignon__18
 # text = [LAISSER] [FRIRE] [JUSQUE]~ [DEVENIR] [COMMENCER] [MARRON]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Laisser frire jusqu'à ce que cela devienne marron.
@@ -615,7 +615,7 @@
 5	[COMMENCER]	[COMMENCER]	VERB	_	_	4	compound:svc	_	AlignBegin=1153899|AlignEnd=1154219|Gloss=[START]
 6	[MARRON]	[MARRON]	ADJ	_	_	4	obj	_	AlignBegin=1154219|AlignEnd=1155024|Gloss=[BROWN]|ISMarker[Foc]=NMM|ISRole=Foc|NMM=forward-tilt+eyebrow-raise+head-nod+eye-blink
 
-# sent_id = crdo-fsl-cuc022_84_85
+# sent_id = LS-Colin_champignon__19
 # text = [PRENDRE] [CHAMPIGNON] [DÉPLACER] [METTRE-dans-poêle] [MÉLANGER] [LAISSER]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Prendre les champignons et les mettre dans la poëlle et bien mélanger. Puis les laisser.
@@ -627,7 +627,7 @@
 5	[MÉLANGER]	[MÉLANGER]	VERB	_	_	1	conj	_	AlignBegin=1156739|AlignEnd=1157859|Gloss=[MIX]|NMM=eye-blink
 6	[LAISSER]	[LAISSER]	VERB	_	_	1	conj	_	AlignBegin=1157859|AlignEnd=1158139|Gloss=[LET]|NMM=head-nod
 
-# sent_id = crdo-fsl-cuc022_86
+# sent_id = LS-Colin_champignon__20
 # text = [PRÉPARER] [SAUCE] [PRÉPARER]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Préparer la sauce :
@@ -636,7 +636,7 @@
 2	[SAUCE]	[SAUCE]	NOUN	_	_	1	obj	_	AlignBegin=1158619|AlignEnd=1159379|Gloss=[SAUCE]
 3	[PRÉPARER]	[PRÉPARER]	VERB	_	_	1	conj:dbl	_	AlignBegin=1159379|AlignEnd=1160014|Gloss=[PREPARE]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
 
-# sent_id = crdo-fsl-cuc022_87
+# sent_id = LS-Colin_champignon__21
 # text = [petit-récipient] [S]-[O]-[J]-[A] [SAUCE] [visqueux] [verser-SAUCE] [TROIS] [verser]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Dans un petit récipient, verser trois cuillères de sauce soja (un peu visqueux),
@@ -649,7 +649,7 @@
 6	[TROIS]	[TROIS]	NUM	_	_	3	nmod	_	AlignBegin=1163699|AlignEnd=1163939|DHHeld=[SAUCE]|Gloss=[THREE]
 7	[verser]	[verser]	VERB	_	_	5	conj:illustrate	_	AlignBegin=1163939|AlignEnd=1164819|DHHeld=[SAUCE]|Gloss=[pour]|NMM=head-nod+eye-blink|Rep=2
 
-# sent_id = crdo-fsl-cuc022_88_89
+# sent_id = LS-Colin_champignon__22
 # text = [SUCRE] [METTRE] [SEL] [METTRE] [POIVRE] [METTRE] [mélanger] [FINI]~
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Mettre le sucre, mettre le sel, ajouter le poivre, et mélanger. C'est tout.
@@ -663,7 +663,7 @@
 7	[mélanger]	[mélanger]	VERB	_	_	2	conj	_	AlignBegin=1167339|AlignEnd=1168099|Gloss=[mix]|NMM=eyebrow-frown+eye-blink
 8	[FINI]~	[FINI]	VERB	_	_	7	discourse	_	AlignBegin=1168099|AlignEnd=1168279|Gloss=[DONE]~|Scrap=Yes
 
-# sent_id = crdo-fsl-cuc022_90
+# sent_id = LS-Colin_champignon__23
 # text = [par-là]~ [VERSER] [mettre-SAUCE] [LAISSER] [CHAUFFER] [MÉLANGER] [LAISSER] [JUSQUE] [EAU] [en-surface] [ABSORBER-totalement] [NON] [ABSORBER-un-peu]~
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Lorsque c'est à mi-cuisson, verser le bol de sauce dans la poëlle, laisser chauffer, mélanger et laisser jusqu'à ce que le liquide en surface soit un peu absorbé, il ne faut pas le laisser absorber entièrement.
@@ -682,7 +682,7 @@
 12	[NON]	[NON]	ADV	_	_	7	advmod	_	AlignBegin=1174899|AlignEnd=1175424|Gloss=[NO]|ISMarker[CFoc]=Cxn-corel|NMM=eyebrow-raise
 13	[ABSORBER-un-peu]~	[ABSORBER]	VERB	_	_	12	conj:contr	_	AlignBegin=1175424|AlignEnd=1175979|Gloss=[ABSORB-a-little]|ISRole=CFoc|Manner=pas-totalement|NMM=eyebrow-raise+head-nod|Scrap=Yes
 
-# sent_id = crdo-fsl-cuc022_91
+# sent_id = LS-Colin_champignon__24
 # text = [COUPER] [prendre-POÊLE] [verser] [forme-arrondie/saladier] [verser-dans-saladier]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Eteindre le feu et verser le contenu de la poêle dans un saladier.
@@ -693,7 +693,7 @@
 4	[forme-arrondie/saladier]	[forme-arrondie/saladier]	NOUN	_	_	3	obl:arg	_	AlignBegin=1177939|AlignEnd=1178499|Gloss=[round-shape/bowl]|NMM=eye-blink
 5	[verser-dans-saladier]	[verser-dans-saladier]	VERB	_	_	3	conj:dbl	_	AlignBegin=1178499|AlignEnd=1179219|Gloss=[pour-in-bowl]|NDHHeld=[saladier]|NMM=head-nod+eye-blink
 
-# sent_id = crdo-fsl-cuc022_92
+# sent_id = LS-Colin_champignon__25
 # text = [POIVRE] [ENCORE] [COUPER-en-morceaux] [répandre] [FEUILLE] [FLEUR] [répandre]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Mettre encore du poivre, le hacher et le répandre sur la préparation ainsi que les feuilles-fleurs.
@@ -706,7 +706,7 @@
 6	[FLEUR]	[FLEUR]	NOUN	_	_	5	nmod	_	AlignBegin=1181699|AlignEnd=1182059|Gloss=[FLOWER]
 7	[répandre]	[répandre]	VERB	_	_	4	conj:dbl	_	AlignBegin=1182059|AlignEnd=1182779|Gloss=[spread]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
 
-# sent_id = crdo-fsl-cuc022_93
+# sent_id = LS-Colin_champignon__26
 # text = [poser-plat] [COMMENCER]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Poser le plat sur la table. Vous pouvez commencer (à manger).
@@ -714,7 +714,7 @@
 1	[poser-plat]	[poser-plat]	VERB	_	_	0	root	_	AlignBegin=1182779|AlignEnd=1183419|Gloss=[put-down-plate]|NMM=forward-tilt+eyebrow-raise
 2	[COMMENCER]	[COMMENCER]	VERB	_	_	1	conj	_	AlignBegin=1183419|AlignEnd=1183809|Gloss=[START]
 
-# sent_id = crdo-fsl-cuc022_94
+# sent_id = LS-Colin_champignon__27
 # text = [BON] [DÉLICIEUX]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = C'est vraiment délicieux!...
@@ -722,7 +722,7 @@
 1	[BON]	[BON]	ADJ	_	_	0	root	_	AlignBegin=1183809|AlignEnd=1184229|Gloss=[GOOD]|NMM=eyebrow-raise
 2	[DÉLICIEUX]	[DÉLICIEUX]	ADJ	_	_	1	conj	_	AlignBegin=1184229|AlignEnd=1184619|Gloss=[DELICIOUS]
 
-# sent_id = crdo-fsl-cuc022_95_split1
+# sent_id = LS-Colin_champignon__28
 # text = [FINI] position-neutre
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = C'est fini!
@@ -730,7 +730,7 @@
 1	[FINI]	[FINI]	VERB	_	_	0	root	_	AlignBegin=1184619|AlignEnd=1185014|Gloss=[DONE]
 2	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=1185014|AlignEnd=1185894|Gloss=neutral-position|NMM=head-nod
 
-# sent_id = crdo-fsl-cuc022__1
+# sent_id = LS-Colin_cheval__1
 # text = [plaine] [herbe-qui-ondule]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Dans la plaine, l'herbe ondule,
@@ -738,7 +738,7 @@
 1	[plaine]	[plaine]	NOUN	_	_	0	root	_	AlignBegin=7323|AlignEnd=8833|Gloss=[plains]|ST=plaine
 2	[herbe-qui-ondule]	[herbe-qui-ondule]	NOUN	_	_	1	nmod	_	AlignBegin=8835|AlignEnd=12190|Gloss=[grass-waving]|ST=plaine
 
-# sent_id = crdo-fsl-cuc022__2
+# sent_id = LS-Colin_cheval__2
 # text = PRF[cheval] SST[deux-oreilles] PRF[cheval] SST[queue] SST[crinière] PRF[cheval] [CHEVAL]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = un animal se tient là, avec deux oreilles, une queue, une crinière : c'est un cheval.
@@ -751,7 +751,7 @@
 6	PRF[cheval]	PRF	PRON	_	PronType=Prs	4	appos	_	AlignBegin=18355|AlignEnd=20035|Gloss=PRF[horse]|PT=cheval|PTReal=posture-fière+deux-pattes
 7	[CHEVAL]	[CHEVAL]	NOUN	_	_	6	appos	_	AlignBegin=20035|AlignEnd=21235|Gloss=[HORSE]|ISMarker[Foc]=NMM+Dlxn?|ISRole=Foc|NMM=eyebrow-raise+eye-contact|PT=cheval|PTReal=posture-fière
 
-# sent_id = crdo-fsl-cuc022__3
+# sent_id = LS-Colin_cheval__3
 # text = [gambader] [s'arrêter-brusquement] SST[piquet] SST[barrière-entre-piquets] PRF[piquet] [OISEAU] [être-sur] [regarder] [regarder] PNT[loin]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Il galope, puis soudain s'arrête, intrigué : des piquets qui soutiennent une barrière. Un oiseau est perché sur la barrière, le cheval le regarde et loin devant lui
@@ -767,7 +767,7 @@
 9	[regarder]	[regarder]	VERB	_	_	8	conj:chaining	_	AlignBegin=34700|AlignEnd=35315|Gaze=loin|Gloss=[look]|NMM=eyebrow-frown|Obj=Gaze|PT=cheval|PTReal=posture-fière+deux-pattes|Subj=PT|Tgt=PSS3re
 10	PNT[loin]	PNT	ADV	_	_	9	obj	_	AlignBegin=35315|AlignEnd=36465|GazeHeld=PSS3re|Gloss=PNT[far]|ISMarker[CFoc]=NMM+Spatial|ISRole=CFoc|NMM=eyebrow-raise|Tgt=PSS3re
 
-# sent_id = crdo-fsl-cuc022__4
+# sent_id = LS-Colin_cheval__4
 # text = [VACHE] [MÂCHER] [ruminer]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = une vache rumine.
@@ -776,7 +776,7 @@
 2	[MÂCHER]	[MÂCHER]	VERB	_	_	0	root	_	AlignBegin=37715|AlignEnd=38875|Gloss=[CHEW]|PT=vache|PTReal=posture-avachi+rumination|Subj=PT
 3	[ruminer]	[ruminer]	VERB	_	_	2	conj:illustrate	_	AlignBegin=38875|AlignEnd=40755|Gloss=[graze]|PT=vache|PTReal=posture-avachi+rumination+deux-pattes|Subj=PT
 
-# sent_id = crdo-fsl-cuc022__5
+# sent_id = LS-Colin_cheval__5
 # text = [estimer] [VOULOIR] PNT[MOI] [sauter]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Le cheval observe la barrière : "Moi, je veux sauter par dessus..."
@@ -786,7 +786,7 @@
 3	PNT[MOI]	PNT	PRON	_	PronType=Prs	2	nsubj	_	AlignBegin=43809|AlignEnd=44035|Gloss=PNT[ME]|PT=cheval|PTReal=posture-fière|Tgt=Prs1
 4	[sauter]	[sauter]	VERB	_	_	2	ccomp	_	AlignBegin=44035|AlignEnd=45235|Gloss=[jump]|NMM=eye-blink|PT=cheval|PTReal=posture-fière|ST=cheval-qui-saute|STReal=PRF(DH)[cheval]|Subj=PT
 
-# sent_id = crdo-fsl-cuc022__6_split1
+# sent_id = LS-Colin_cheval__6
 # text = [se-tenir-en-arrêt] [galoper]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Il galope, saute [et] heurte la barrière
@@ -794,7 +794,7 @@
 1	[se-tenir-en-arrêt]	[se-tenir-en-arrêt]	VERB	_	_	0	root	_	AlignBegin=45235|AlignEnd=45635|Gloss=[stand]|PT=cheval|PTReal=détermination+deux-pattes|Subj=PT
 2	[galoper]	[galoper]	VERB	_	_	1	conj:chaining	_	AlignBegin=45635|AlignEnd=47195|Gloss=[gallop]|PT=cheval|PTReal=détermination+deux-pattes|Subj=PT
 
-# sent_id = crdo-fsl-cuc022__6_split2
+# sent_id = LS-Colin_cheval__7
 # text = [sauter] [heurter-barrière]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Il galope, saute [et] heurte la barrière
@@ -802,7 +802,7 @@
 1	[sauter]	[sauter]	VERB	_	_	0	root	_	AlignBegin=47195|AlignEnd=47715|Gloss=[jump]|PT=cheval|PTReal=détermination+mimique-effort|ST=cheval-qui-saute|STReal=PRF(DH)[cheval]|Subj=PT
 2	[heurter-barrière]	[heurter-barrière]	VERB	_	_	1	conj:chaining	_	AlignBegin=47715|AlignEnd=48675|Gloss=[hit-fence]|Obj=PRF(NDH)[barrière]|PT=cheval|PTReal=détermination+mimique-effort|ST=cheval-qui-heurte-barrière|STReal=PRF(DH)[cheval]+PRF(NDH)[barrière]|Subj=PT+PRF(DH)[cheval]
 
-# sent_id = crdo-fsl-cuc022__7
+# sent_id = LS-Colin_cheval__8
 # text = [tomber] [DOULEUR] [gésir-sol]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = [Il] tombe. Il a mal, à la jambe.
@@ -811,7 +811,7 @@
 2	[DOULEUR]	[DOULEUR]	NOUN	_	_	1	conj:chaining	_	AlignBegin=49795|AlignEnd=50515|Exp[lex]=Douleur|Gloss=[PAIN]|PT=cheval|PTReal=exp-douleur+deux-pattes
 3	[gésir-sol]	[gésir-sol]	VERB	_	_	2	conj:chaining	_	AlignBegin=50515|AlignEnd=51995|Gloss=[lay-on-ground]|PT=cheval|PTReal=exp-douleur+deux-pattes|Subj=PT
 
-# sent_id = crdo-fsl-cuc022__8
+# sent_id = LS-Colin_cheval__9
 # text = [OISEAU] [s'envoler] [VOLER]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = L'oiseau, voyant la chute, s'envole
@@ -820,7 +820,7 @@
 2	[s'envoler]	[s'envoler]	VERB	_	_	0	root	_	AlignBegin=52755|AlignEnd=53555|Gloss=[fly-away]|PT=oiseau|PTReal=deux-ailes|Subj=PT
 3	[VOLER]	[VOLER]	VERB	_	_	2	conj:reform	_	AlignBegin=53555|AlignEnd=54155|Gloss=[FLY]|Subj=PRF[oiseau]|Tgt=PSSXr
 
-# sent_id = crdo-fsl-cuc022__9
+# sent_id = LS-Colin_cheval__10
 # text = [prendre-VALISE] [apporter] PNT[valise] [PHARMACIE] [apporter] [ouvrir]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = [Il va] chercher une valisette de pharmacie, la dépose et l'ouvre.
@@ -832,7 +832,7 @@
 5	[apporter]	[apporter]	VERB	_	_	2	conj:reform	_	AlignBegin=56795|AlignEnd=57435|Gloss=[bring]|Obj=PRF[VALISE]|Obl=Src+Tgt|PT=oiseau|Src=PSSN|Subj=PT|Tgt=PSS3l
 6	[ouvrir]	[ouvrir]	VERB	_	_	5	conj:chaining	_	AlignBegin=57435|AlignEnd=59355|Gloss=[open]|Loc=PSS3l|Obj=PRF[VALISE]|PT=oiseau|Subj=PT
 
-# sent_id = crdo-fsl-cuc022__10
+# sent_id = LS-Colin_cheval__11
 # text = [VACHE] [s'approcher] [prendre] [bander-patte]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = La vache s'approche de la boite et prend quelque chose. La vache soigne le cheval
@@ -842,7 +842,7 @@
 3	[prendre]	[prendre]	VERB	_	_	2	conj:chaining	_	AlignBegin=61595|AlignEnd=62275|Gloss=[take]|Loc=PSS3r[valise]|PT=vache|PTReal=mimique+deux-pattes|Subj=PT
 4	[bander-patte]	[bander-patte]	VERB	_	_	3	conj:chaining	_	AlignBegin=62275|AlignEnd=63195|Gloss=[bandage-leg]|Obj=PRF(NDH)[patte-cheval]|PT=vache|PTReal=mimique|Subj=PT
 
-# sent_id = crdo-fsl-cuc022__11
+# sent_id = LS-Colin_cheval__12
 # text = [bander-patte] [rester-sans-bouger]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = [Le cheval se fait soigner par la vache] et il se laisse faire.
@@ -850,7 +850,7 @@
 1	[bander-patte]	[bander-patte]	VERB	_	Voice=Pass	0	root	_	Agent=PRF(DH)[patte-vache]|AlignBegin=63195|AlignEnd=65355|Exp=Douleur|Gloss=[bandage-leg]|Obj=PRF(NDH)[patte-cheval]|PT=cheval|PTReal=mimique+posture|Subj=PT|Trs=Left
 2	[rester-sans-bouger]	[rester-sans-bouger]	VERB	_	_	1	conj:chaining	_	AlignBegin=65355|AlignEnd=66955|Exp=Douleur|Gloss=[remain-still]|PT=cheval|PTReal=mimique+patte|Subj=PT
 
-# sent_id = souvenir_1
+# sent_id = Alpha_entretien_etudiant_souvenir__1
 # text = [euh] [PI_TEMPORALITE] [[CHIFFRE]] [ANNÉE] [MEILLEUR] [SOUVENIR] [VIE]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Euh, en [chiffre]-ème, c’est l’année où j’ai eu les meilleurs souvenirs de ma vie.
@@ -863,7 +863,7 @@
 6	[SOUVENIR]	[SOUVENIR]	NOUN	_	_	0	root	_	AlignBegin=4436|AlignEnd=4971|Gloss=[MEMORY]|ISMarker[Foc]=NMM|ISRole=Foc|NMM=eyebrow-frown+foward-tilt+eye-blink
 7	[VIE]	[VIE]	NOUN	_	_	6	nmod	_	AlignBegin=4977|AlignEnd=5570|Gloss=[LIFE]|NMM=eye-blink
 
-# sent_id = souvenir_2_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__2
 # text = [CLASSE] [CLASSE] [GROUPE] [CHAUD]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Dans la classe, le groupe était chaleureux,
@@ -873,7 +873,7 @@
 3	[GROUPE]	[GROUPE]	NOUN	_	_	4	nsubj	_	AlignBegin=6715|AlignEnd=7483|Gloss=[GROUP]|NMM=eye-contact+forward-tilt
 4	[CHAUD]	[CHAUD]	ADJ	_	_	0	root	_	AlignBegin=7494|AlignEnd=8395|Gloss=[WARM]|NMM=eyebrow-frown+eye-blink+forward-tilt
 
-# sent_id = souvenir_2_split2_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__3
 # text = ~ [GROUPE]~ ~ [ÉLÈVE] [AMI] ~ [LIEN] [FORT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = les élèves étaient amis, on avait des liens forts.
@@ -887,7 +887,7 @@
 7	[LIEN]	[LIEN]	NOUN	_	_	5	conj	_	AlignBegin=11081|AlignEnd=11744|Gloss=[LINK]|NMM=eyebrow-frown+forward-tilt
 8	[FORT]	[FORT]	ADV	_	_	7	advmod	_	AlignBegin=11744|AlignEnd=12221|Gloss=[STRONG]|NMM=eye-blink
 
-# sent_id = souvenir_2_split2_split2
+# sent_id = Alpha_entretien_etudiant_souvenir__4
 # text = [PLUS] [INTERNAT] [[LIEU]] [INTERNAT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Encore plus avec l’internat, ici, à [lieu].
@@ -897,7 +897,7 @@
 3	[[LIEU]]	[[LIEU]]	PROPN	_	_	4	nmod	_	AlignBegin=15401|AlignEnd=15860|Gloss=[[PLACE]]|toBlur=Yes
 4	[INTERNAT]	[INTERNAT]	NOUN	_	_	1	obj	_	AlignBegin=15872|AlignEnd=16448|Gloss=[BOARDING-SCHOOL]|NMM=eye-blink+forward-tilt
 
-# sent_id = souvenir_3_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__5
 # text = [PERSONNE] [PROFESSIONNEL] [COMMUNICATION] [INTÉRESSANT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Avec les personnes, les professionnels, on communiquait bien. C’était un groupe intéressant, voilà.
@@ -907,7 +907,7 @@
 3	[COMMUNICATION]	[COMMUNICATION]	NOUN	_	_	0	root	_	AlignBegin=20000|AlignEnd=20628|Gloss=[COMMUNICATION]|NMM=eye-blink+forward-tilt
 4	[INTÉRESSANT]	[INTÉRESSANT]	ADJ	_	_	3	amod	_	AlignBegin=21331|AlignEnd=21983|Gloss=[INTERESTING]|NMM=eye-blink
 
-# sent_id = souvenir_3_split2
+# sent_id = Alpha_entretien_etudiant_souvenir__6
 # text = [ENSUITE] [PI_TEMPORALITE] [ÉTÉ] [euh] [ENVIRON] [MAI] [AVRIL] [JUIN] [PÉRIODE] [PARTIR] [GROUPE]~ [INTERNAT] [GROUPE] [[CHIFFRE]] [ÉTAGE] [GROUPE] [PARTIR] [ESPAGNE] [BARCELONE]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Un jour, en été, euh, à peu près, mai, avril, juin dans cette période, on est partis avec tout le groupe d’internes, le groupe du [chiffre]-ième étage, on est partis en Espagne à Barcelone en avion.
@@ -932,7 +932,7 @@
 18	[ESPAGNE]	[ESPAGNE]	PROPN	_	_	17	obl:arg	_	AlignBegin=32145|AlignEnd=32744|Gloss=[SPAIN]
 19	[BARCELONE]	[BARCELONE]	PROPN	_	_	18	conj:zoom	_	AlignBegin=32756|AlignEnd=33512|Gloss=[BARCELONA]|NMM=head-nod
 
-# sent_id = souvenir_4_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__7
 # text = [voyager-en-AVION] [PREMIER] [FOIS] [GROUPE] [AMI] [AVION]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = C’était la première fois qu’on partait entre amis en avion.
@@ -944,7 +944,7 @@
 5	[AMI]	[AMI]	NOUN	_	_	4	compound	_	AlignBegin=35337|AlignEnd=35843|Gloss=[FRIEND]
 6	[AVION]	[AVION]	NOUN	_	_	1	conj:dbl	_	AlignBegin=35855|AlignEnd=36744|Gloss=[PLANE]|NMM=eye-blink+head-nod
 
-# sent_id = souvenir_4_split2_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__8
 # text = [ATTERRIR] [BARCELONE] [BEAUCOUP] [SOUVENIR] [RIGOLER] [TAQUINER] [MOQUER] [PÎQUER] [DISPUTER]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Quand on a atterri à Barcelone, j’ai plein de souvenirs. On a rigolé, on se taquinait, on se moquait, on s’envoyait des piques, on se disputait aussi.
@@ -959,7 +959,7 @@
 8	[PÎQUER]	[PÎQUER]	VERB	_	_	5	conj	_	AlignBegin=42395|AlignEnd=43674|Gloss=[STING]|NMM=eyebrow-frown|Obj=Tgt|Rep=2|Src=Prs1|Subj=Src|Tgt=PSS3l
 9	[DISPUTER]	[DISPUTER]	VERB	_	_	5	conj	_	AlignBegin=44448|AlignEnd=45419|Gloss=[ARGUE]|NMM=eyebrow-raise+eye-contact
 
-# sent_id = souvenir_4_split2_split2
+# sent_id = Alpha_entretien_etudiant_souvenir__9
 # text = [DRÔLE] [TROP] [SOUVENIR]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = C’était marrant. J’ai trop de souvenirs.
@@ -968,7 +968,7 @@
 2	[TROP]	[TROP]	ADV	_	_	3	advmod	_	AlignBegin=48349|AlignEnd=48756|Gloss=[TOO-MUCH]
 3	[SOUVENIR]	[SOUVENIR]	NOUN	_	_	0	root	_	AlignBegin=48767|AlignEnd=49384|Gloss=[MEMORY]
 
-# sent_id = souvenir_5_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__10
 # text = [PI_TEMPORALITE] [PI_TEMPORALITE] [JOUR] SignedName[Macron] [ÉLÉCTION] [PRÉSIDENT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Et c’était le jour où Macron a été élu président
@@ -980,7 +980,7 @@
 5	[ÉLÉCTION]	[ÉLÉCTION]	NOUN	_	_	3	nmod	_	AlignBegin=53070|AlignEnd=54035|Gloss=[ELECTION]|NMM=backward-tilt
 6	[PRÉSIDENT]	[PRÉSIDENT]	NOUN	_	_	5	nmod	_	AlignBegin=54047|AlignEnd=55221|Gloss=[PRESIDENT]|NMM=eye-blink
 
-# sent_id = souvenir_5_split2_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__11
 # text = [PI_CELUI-CI] [QUI]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = [alors on se disait] c’est qui ? c’est qui ?
@@ -988,7 +988,7 @@
 1	[PI_CELUI-CI]	[PI_CELUI-CI]	PRON	_	PronType=Dem	2	nsubj	_	AlignBegin=55244|AlignEnd=55628|Gloss=[PI_THIS-ONE]|Tgt=PSSLr
 2	[QUI]	[QUI]	PRON	_	PronType=Int	0	root	_	AlignBegin=55634|AlignEnd=57169|Gloss=[WHO]|Loc=PSSLr
 
-# sent_id = souvenir_5_split2_split2
+# sent_id = Alpha_entretien_etudiant_souvenir__12
 # text = PNT[MOI] [BARCELONE] [FRANCE] [QUI] [ÉLÉCTION] [OUI] [DRÔLE]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = J’étais à Barcelone et on attendait de savoir en France qui avait été élu, c’était drôle.
@@ -1001,7 +1001,7 @@
 6	[OUI]	[OUI]	INTJ	_	_	5	discourse	_	AlignBegin=59430|AlignEnd=59919|Gloss=[YES]|NMM=forward-tilt
 7	[DRÔLE]	[DRÔLE]	ADJ	_	_	5	discourse	_	AlignBegin=59930|AlignEnd=60715|Gloss=[FUNNY]|NMM=eye-blink
 
-# sent_id = souvenir_6_split1_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__13
 # text = [IL-Y-A] [CONTRE]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Y’en a qui étaient contre,
@@ -1009,7 +1009,7 @@
 1	[IL-Y-A]	[IL-Y-A]	NOUN	_	_	0	root	_	AlignBegin=61698|AlignEnd=62035|Gloss=[THERE-IS]
 2	[CONTRE]	[CONTRE]	ADV	_	_	1	advmod	_	AlignBegin=62052|AlignEnd=62267|Gloss=[AGAINST]|NMM=eyebrow-frown
 
-# sent_id = souvenir_6_split1_split2
+# sent_id = Alpha_entretien_etudiant_souvenir__14
 # text = [NON] SignedName[Macron] PNT[MOI] [PRÉFÉRER] PNT[LUI]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = [qui disaient] non pas Macron, je préfère celui-là.
@@ -1020,7 +1020,7 @@
 4	[PRÉFÉRER]	[PRÉFÉRER]	VERB	_	_	1	conj	_	AlignBegin=63157|AlignEnd=63651|Gloss=[PREFER]
 5	PNT[LUI]	PNT	PRON	_	Number=Sing|PronType=Prs	4	obj	_	AlignBegin=63663|AlignEnd=63884|Gloss=PNT[HIM]|Tgt=PSS3r
 
-# sent_id = souvenir_6_split2
+# sent_id = Alpha_entretien_etudiant_souvenir__15
 # text = ~ [INTÉRESSANT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = [on a vu ça]? , c’était intéressant.
@@ -1028,7 +1028,7 @@
 1	~	~	X	_	_	2	dep	_	AlignBegin=63895|AlignEnd=64610|Gloss=~|Scrap=Yes
 2	[INTÉRESSANT]	[INTÉRESSANT]	ADJ	_	_	0	root	_	AlignBegin=64744|AlignEnd=65326|Gloss=[INTERESTING]|NMM=eye-blink
 
-# sent_id = souvenir_7_split1_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__16
 # text = [ENSUITE] [RENTRER] [TOUS] [PLEURER] [TRISTE] [PEINE]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Ensuite, on est rentrés, tout le monde pleurait, était triste. Ça faisait de la peine.
@@ -1040,7 +1040,7 @@
 5	[TRISTE]	[TRISTE]	ADJ	_	_	2	conj	_	AlignBegin=68116|AlignEnd=68767|Gloss=[SAD]|NMM=eyebrow-frown+eye-blink
 6	[PEINE]	[PEINE]	NOUN	_	_	2	conj	_	AlignBegin=69616|AlignEnd=70105|Gloss=[SORROW]|NMM=eyebrow-frown
 
-# sent_id = souvenir_7_split1_split2
+# sent_id = Alpha_entretien_etudiant_souvenir__17
 # text = [OUI] [WEEK-END] [SEULEMENT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Après un week-end, seulement.
@@ -1049,7 +1049,7 @@
 2	[WEEK-END]	[WEEK-END]	NOUN	_	_	0	root	_	AlignBegin=72099|AlignEnd=72785|Gloss=[WEEK-END]|NMM=eyebrow-frown+backward-tilt
 3	[SEULEMENT]	[SEULEMENT]	ADV	_	_	2	advmod	_	AlignBegin=72791|AlignEnd=73436|Gloss=[ONLY]|NMM=eyebrow-frown+backward-tilt
 
-# sent_id = souvenir_7_split2_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__18
 # text = [RETOUR] [FRANCE]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = On est retournés en France
@@ -1057,7 +1057,7 @@
 1	[RETOUR]	[RETOUR]	NOUN	_	_	0	root	_	AlignBegin=74924|AlignEnd=75703|Gloss=[GO-BACK]
 2	[FRANCE]	[FRANCE]	PROPN	_	_	1	nmod	_	AlignBegin=75703|AlignEnd=76444|Gloss=[FRANCE]
 
-# sent_id = souvenir_7_split2_split2_split1
+# sent_id = Alpha_entretien_etudiant_souvenir__19
 # text = [FRANCE] [bah] [RETOUR]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = et en France... bah on est rentrés.
@@ -1066,7 +1066,7 @@
 2	[bah]	[bah]	INTJ	_	_	3	discourse	_	AlignBegin=0|AlignEnd=0|Gloss=[well]
 3	[RETOUR]	[RETOUR]	NOUN	_	_	0	root	_	AlignBegin=79145|AlignEnd=79674|Gloss=[COME-BACK]
 
-# sent_id = souvenir_7_split2_split2_split2
+# sent_id = Alpha_entretien_etudiant_souvenir__20
 # text = [APRÈS] [APRÈS] [[CHIFFRE]] [MOINS] [SOUVENIR] [[CHIFFRE]] [PARFAIT]
 # source_file = ./Souvenir_JAN_1.mp4
 # text_fr = Ensuite, euh après en [chiffre]-ème, j’ai moins de souvenirs qu’en [chiffre]-ème , en [chiffre]-ème c’était top.
@@ -1079,7 +1079,7 @@
 6	[[CHIFFRE]]	[[CHIFFRE]]	NOUN	_	_	7	nsubj	_	AlignBegin=83256|AlignEnd=83674|Gloss=[[NUMBER]]|NMM=eye-blink+backward-tilt|toBlur=Yes
 7	[PARFAIT]	[PARFAIT]	ADJ	_	_	5	conj	_	AlignBegin=83703|AlignEnd=84384|Gloss=[PERFECT]
 
-# sent_id = trajet-len-1-signerB_1
+# sent_id = Alpha_entretien_etudiant_trajet__1
 # text = [alors] [REVENIR-EN-ARRIÈRE] [PREMIER] [THÈME] PNT[changement-sujet?]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Alors on revient au premier thème.
@@ -1091,7 +1091,7 @@
 4	[THÈME]	[THÈME]	NOUN	_	_	2	obl:mod	_	AlignBegin=2222|AlignEnd=2802|Gloss=[THEME]
 5	PNT[changement-sujet?]	PNT	PRON	_	_	4	discourse	_	AlignBegin=2816|AlignEnd=3222|Gloss=PNT[topic-change?]|Tgt=PSSN
 
-# sent_id = trajet-len-1-signerB_2_split1
+# sent_id = Alpha_entretien_etudiant_trajet__2
 # text = PNT[TOI] [MAISON] PNT[TOI] POSS[TOI] [JUSQUE] PNT[là] [ARRIVER] PNT[là] [[LIEU]] [COMMENT] [FAIRE]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = De ta maison, pour venir ici et arriver à [lieu], tu fais comment ?
@@ -1109,7 +1109,7 @@
 10	[COMMENT]	[COMMENT]	PRON	_	PronType=Int	11	obl:mod	_	AlignBegin=8241|AlignEnd=8750|Gloss=[HOW]
 11	[FAIRE]	[FAIRE]	VERB	_	_	7	appos	_	AlignBegin=8764|AlignEnd=9075|Gloss=[DO]
 
-# sent_id = trajet-len-1-signerB_2_split2
+# sent_id = Alpha_entretien_etudiant_trajet__3
 # text = PNT[TOI] [TRAJET] [POUVOIR] [EXPLIQUER] [PRÉCIS]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Tu peux m’expliquer ton trajet précisément ?
@@ -1121,7 +1121,7 @@
 4	[EXPLIQUER]	[EXPLIQUER]	VERB	_	_	3	ccomp	_	AlignBegin=10476|AlignEnd=10939|Gloss=[EXPLAIN]|Obj=Tgt|Src=Prs2|Subj=Src|Tgt=Prs1
 5	[PRÉCIS]	[PRÉCIS]	ADJ	_	_	4	advcl	_	AlignBegin=10953|AlignEnd=11425|Gloss=[PRECISE]
 
-# sent_id = trajet-len-1-signerA_1
+# sent_id = Alpha_entretien_etudiant_trajet__4
 # text = [OUI] [PREMIER] PNT[MOI] [MARCHER]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = En premier, je marche…
@@ -1132,7 +1132,7 @@
 3	PNT[MOI]	PNT	PRON	_	Number=Sing|PronType=Prs	4	nsubj	_	AlignBegin=12075|AlignEnd=12722|Gloss=PNT[ME]|Tgt=Prs1
 4	[MARCHER]	[MARCHER]	VERB	_	_	0	root	_	AlignBegin=12741|AlignEnd=13656|Gloss=[WALK]|NMM=head-nod|Scrap=Yes
 
-# sent_id = trajet-len-1-signerB_3
+# sent_id = Alpha_entretien_etudiant_trajet__5
 # text = [HABITER] [OÙ] [HABITER] [PRÉCIS]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Tu habites où précisement ?
@@ -1143,7 +1143,7 @@
 3	[HABITER]	[HABITER]	VERB	_	_	1	conj:dbl	_	AlignBegin=13736|AlignEnd=13995|Gloss=[LIVE]|ISMarker[Top]=Cxn-dbl
 4	[PRÉCIS]	[PRÉCIS]	ADJ	_	_	1	advcl	_	AlignBegin=13995|AlignEnd=14462|Gloss=[PRECISE]
 
-# sent_id = trajet-len-1-signerA_2_split1
+# sent_id = Alpha_entretien_etudiant_trajet__6
 # text = [[NUMÉRO-DÉPARTEMENT]] [[NUMÉRO-DÉPARTEMENT]] [[LIEU]] [[NUMÉRO-DÉPARTEMENT]] [[NUMÉRO-DÉPARTEMENT]]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Dans le [numéro-département], à [lieu], dans le [numéro-département].
@@ -1155,7 +1155,7 @@
 4	[[NUMÉRO-DÉPARTEMENT]]	[[NUMÉRO-DÉPARTEMENT]]	NUM	_	_	1	conj:reform	_	AlignBegin=15783|AlignEnd=16160|Gloss=[[DEPARTEMENT-NUMBER]]|toBlur=Yes
 5	[[NUMÉRO-DÉPARTEMENT]]	[[NUMÉRO-DÉPARTEMENT]]	NUM	_	_	4	flat	_	AlignBegin=16160|AlignEnd=16481|Gloss=[[DEPARTEMENT-NUMBER]]|NMM=head-nod+eye-blink|toBlur=Yes
 
-# sent_id = trajet-len-1-signerA_2_split2
+# sent_id = Alpha_entretien_etudiant_trajet__7
 # text = PNT[MOI] [PROCHE] [DEUX] [MINUTE] [MARCHER] [TRAM]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = À côté, à 2 minutes de marche, il y a le tram,
@@ -1168,7 +1168,7 @@
 5	[MARCHER]	[MARCHER]	VERB	_	_	6	acl	_	AlignBegin=18177|AlignEnd=18502|Gloss=[WALK]|NMM=rightward-tilt|Tgt=PSSXr
 6	[TRAM]	[TRAM]	NOUN	_	_	0	root	_	AlignBegin=18506|AlignEnd=19910|Gloss=[TRAM]|Loc=PSSXr|NMM=eyebrow-raise
 
-# sent_id = trajet-len-1-signerA_3_split1
+# sent_id = Alpha_entretien_etudiant_trajet__8
 # text = [LIGNE] [[CHIFFRE]] [LIGNE] [TRAM] [MONTER-dans-véhicule]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = ligne [chiffre] du tram. Je monte dedans
@@ -1180,7 +1180,7 @@
 4	[TRAM]	[TRAM]	NOUN	_	_	3	nmod	_	AlignBegin=21123|AlignEnd=21660|Gloss=[TRAM]
 5	[MONTER-dans-véhicule]	[MONTER]	VERB	_	_	0	root	_	AlignBegin=21672|AlignEnd=22283|Gloss=[SIT-in-vehicule]|NMM=backward-tilt+eye-blink|Obj=ST|ST=tram|STReal=PRF(DH)[ANIMÉ]+PRF(NDH)[tram]|Subj=PRF(DH)[ANIMÉ]
 
-# sent_id = trajet-len-1-signerA_3_split2_split1
+# sent_id = Alpha_entretien_etudiant_trajet__9
 # text = [ARRÊT] [TERMINUS] [FIN/TERMINUS]~ [MÉTRO] [CHANGER] [MÉTRO] [[CHIFFRE]] [LIGNE] [[LIEU]] [MÉTRO]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = je passe toutes les stations et jusqu’au bout, au terminus, je change pour le métro ligne [chiffre] à [lieu].
@@ -1197,7 +1197,7 @@
 9	[[LIEU]]	[[LIEU]]	PROPN	_	_	8	nmod	_	AlignBegin=26882|AlignEnd=28024|Gloss=[[PLACE]]|NMM=eyebrow-frown|toBlur=Yes
 10	[MÉTRO]	[MÉTRO]	NOUN	_	_	6	conj:dbl	_	AlignBegin=28024|AlignEnd=28669|Gloss=[METRO]|NMM=head-nod+eye-blink
 
-# sent_id = trajet-len-1-signerA_3_split2_split2_split1
+# sent_id = Alpha_entretien_etudiant_trajet__10
 # text = [MONTER-dans-véhicule] [JUSQUE] [DESCENDRE] [CHANGER] [[LIEU]] [OUBLIER]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Je monte dans le métro, jusqu’à l’arrêt [lieu] j’ai oublié,
@@ -1210,7 +1210,7 @@
 5	[[LIEU]]	FingerSpelling	PROPN	_	_	4	obl:mod	_	AlignBegin=30843|AlignEnd=32268|Gloss=[[PLACE]]|NMM=eyebrow-frown|Scrap=Yes|toBlur=Yes
 6	[OUBLIER]	[OUBLIER]	VERB	_	_	1	discourse	_	AlignBegin=32276|AlignEnd=32654|Gloss=[FORGOT]
 
-# sent_id = trajet-len-1-signerA_3_split2_split2_split2
+# sent_id = Alpha_entretien_etudiant_trajet__11
 # text = [CHANGER] [DESCENDRE]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = là je change. Donc je descends là.
@@ -1219,7 +1219,7 @@
 1	[CHANGER]	[CHANGER]	VERB	_	_	2	advcl	_	AlignBegin=32677|AlignEnd=33039|Gloss=[CHANGE]
 2	[DESCENDRE]	[DESCENDRE]	VERB	_	_	0	root	_	AlignBegin=33055|AlignEnd=34047|Gloss=[GET-OUT]|NMM=forward-tilt+eyebrow-raise
 
-# sent_id = trajet-len-1-signerB_4
+# sent_id = Alpha_entretien_etudiant_trajet__12
 # text = [[LIEU]] [hein]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = [lieu] ?
@@ -1228,7 +1228,7 @@
 1	[[LIEU]]	FingerSpelling	PROPN	_	_	0	root	_	AlignBegin=34071|AlignEnd=36260|Gloss=[[PLACE]]|toBlur=Yes
 2	[hein]	[hein]	INTJ	_	_	1	discourse	_	AlignBegin=36268|AlignEnd=36827
 
-# sent_id = trajet-len-1-signerA_4
+# sent_id = Alpha_entretien_etudiant_trajet__13
 # text = [OUI] ??[À-CÔTÉ/PROCHE] PNT[là] [DESCENDRE] [BUS] [NUMÉRO] [[CHIFFRE]] [[CHIFFRE]] [BUS]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Oui, à côté, là. Je descends du métro et je prends le bus numéro [chiffre], le bus.
@@ -1244,7 +1244,7 @@
 8	[[CHIFFRE]]	[[CHIFFRE]]	NUM	_	_	7	flat	_	AlignBegin=39898|AlignEnd=40323|Gloss=[[NUMBER]]|toBlur=Yes
 9	[BUS]	[BUS]	NOUN	_	_	5	conj:dbl	_	AlignBegin=40339|AlignEnd=40961|Gloss=[BUS]
 
-# sent_id = trajet-len-1-signerB_5
+# sent_id = Alpha_entretien_etudiant_trajet__14
 # text = [NUMÉRO] [COMBIEN]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Numéro combien ?
@@ -1253,7 +1253,7 @@
 1	[NUMÉRO]	[NUMÉRO]	NOUN	_	_	2	nmod	_	AlignBegin=41000|AlignEnd=41394|Gloss=[NUMBER]
 2	[COMBIEN]	[COMBIEN]	PRON	_	PronType=Int	0	root	_	AlignBegin=41417|AlignEnd=41945|Gloss=[HOW-MUCH]
 
-# sent_id = trajet-len-1-signerA_5
+# sent_id = Alpha_entretien_etudiant_trajet__15
 # text = [[CHIFFRE]] [[CHIFFRE]] [BUS]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = [chiffre] le bus
@@ -1263,7 +1263,7 @@
 2	[[CHIFFRE]]	[[CHIFFRE]]	NUM	_	_	1	flat	_	AlignBegin=42260|AlignEnd=43024|Gloss=[[NUMBER]]|toBlur=Yes
 3	[BUS]	[BUS]	NOUN	_	_	0	root	_	AlignBegin=43055|AlignEnd=43433|Gloss=[BUS]|NMM=eye-blink
 
-# sent_id = trajet-len-1-signerB_6
+# sent_id = Alpha_entretien_etudiant_trajet__16
 # text = [[CHIFFRE]] [[CHIFFRE]] [OUI]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = [chiffre], d'accord
@@ -1273,7 +1273,7 @@
 2	[[CHIFFRE]]	[[CHIFFRE]]	NUM	_	_	1	flat	_	AlignBegin=42724|AlignEnd=43087|Gloss=[[NUMBER]]|toBlur=Yes
 3	[OUI]	[OUI]	ADV	_	_	1	discourse	_	AlignBegin=43110|AlignEnd=43520|Gloss=[YES]
 
-# sent_id = trajet-len-1-signerA_6
+# sent_id = Alpha_entretien_etudiant_trajet__17
 # text = [JUSQUE] [DESCENDRE] [[LIEU]] [voilà]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Jusqu’à l’arrêt [lieu] et voilà.
@@ -1284,7 +1284,7 @@
 3	[[LIEU]]	[[LIEU]]	PROPN	_	_	2	obl:arg	_	AlignBegin=44787|AlignEnd=45591|Gloss=[[PLACE]]|toBlur=Yes
 4	[voilà]	[voilà]	INTJ	_	_	2	discourse	_	AlignBegin=45630|AlignEnd=46213|Gloss=[well]
 
-# sent_id = trajet-len-1-signerB_7
+# sent_id = Alpha_entretien_etudiant_trajet__18
 # text = [voilà] [TOTAL] ??[COMBIEN] ??[TEMPS] PNT[TOI]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Voilà, au total, tu mets combien de temps ?
@@ -1296,7 +1296,7 @@
 4	??[TEMPS]	[TEMPS]	NOUN	_	_	3	nmod	_	AlignBegin=47732|AlignEnd=48071|Gloss=??[TIME]
 5	PNT[TOI]	PNT	PRON	_	Number=Sing|PronType=Prs	3	nsubj	_	AlignBegin=48079|AlignEnd=48646|Gloss=PNT[YOU]|Tgt=Prs2
 
-# sent_id = trajet-len-1-signerA_7
+# sent_id = Alpha_entretien_etudiant_trajet__19
 # text = [ENVIRON] [TRENTE] [MINUTE] [QUARANTE] [MINUTE] [ENVIRON]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = à peu près, 30, 40 minutes.

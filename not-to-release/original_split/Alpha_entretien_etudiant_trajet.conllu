@@ -1,4 +1,4 @@
-# sent_id = trajet-len-1-signerB_1
+# sent_id = Alpha_entretien_etudiant_trajet__1
 # text = [alors] [REVENIR-EN-ARRIÈRE] [PREMIER] [THÈME] PNT[changement-sujet?]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Alors on revient au premier thème.
@@ -10,7 +10,7 @@
 4	[THÈME]	[THÈME]	NOUN	_	_	2	obl:mod	_	AlignBegin=2222|AlignEnd=2802|Gloss=[THEME]
 5	PNT[changement-sujet?]	PNT	PRON	_	_	4	discourse	_	AlignBegin=2816|AlignEnd=3222|Gloss=PNT[topic-change?]|Tgt=PSSN
 
-# sent_id = trajet-len-1-signerB_2_split1
+# sent_id = Alpha_entretien_etudiant_trajet__2
 # text = PNT[TOI] [MAISON] PNT[TOI] POSS[TOI] [JUSQUE] PNT[là] [ARRIVER] PNT[là] [[LIEU]] [COMMENT] [FAIRE]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = De ta maison, pour venir ici et arriver à [lieu], tu fais comment ?
@@ -28,7 +28,7 @@
 10	[COMMENT]	[COMMENT]	PRON	_	PronType=Int	11	obl:mod	_	AlignBegin=8241|AlignEnd=8750|Gloss=[HOW]
 11	[FAIRE]	[FAIRE]	VERB	_	_	7	appos	_	AlignBegin=8764|AlignEnd=9075|Gloss=[DO]
 
-# sent_id = trajet-len-1-signerB_2_split2
+# sent_id = Alpha_entretien_etudiant_trajet__3
 # text = PNT[TOI] [TRAJET] [POUVOIR] [EXPLIQUER] [PRÉCIS]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Tu peux m’expliquer ton trajet précisément ?
@@ -40,7 +40,7 @@
 4	[EXPLIQUER]	[EXPLIQUER]	VERB	_	_	3	ccomp	_	AlignBegin=10476|AlignEnd=10939|Gloss=[EXPLAIN]|Obj=Tgt|Src=Prs2|Subj=Src|Tgt=Prs1
 5	[PRÉCIS]	[PRÉCIS]	ADJ	_	_	4	advcl	_	AlignBegin=10953|AlignEnd=11425|Gloss=[PRECISE]
 
-# sent_id = trajet-len-1-signerA_1
+# sent_id = Alpha_entretien_etudiant_trajet__4
 # text = [OUI] [PREMIER] PNT[MOI] [MARCHER]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = En premier, je marche…
@@ -51,7 +51,7 @@
 3	PNT[MOI]	PNT	PRON	_	Number=Sing|PronType=Prs	4	nsubj	_	AlignBegin=12075|AlignEnd=12722|Gloss=PNT[ME]|Tgt=Prs1
 4	[MARCHER]	[MARCHER]	VERB	_	_	0	root	_	AlignBegin=12741|AlignEnd=13656|Gloss=[WALK]|NMM=head-nod|Scrap=Yes
 
-# sent_id = trajet-len-1-signerB_3
+# sent_id = Alpha_entretien_etudiant_trajet__5
 # text = [HABITER] [OÙ] [HABITER] [PRÉCIS]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Tu habites où précisement ?
@@ -62,7 +62,7 @@
 3	[HABITER]	[HABITER]	VERB	_	_	1	conj:dbl	_	AlignBegin=13736|AlignEnd=13995|Gloss=[LIVE]|ISMarker[Top]=Cxn-dbl
 4	[PRÉCIS]	[PRÉCIS]	ADJ	_	_	1	advcl	_	AlignBegin=13995|AlignEnd=14462|Gloss=[PRECISE]
 
-# sent_id = trajet-len-1-signerA_2_split1
+# sent_id = Alpha_entretien_etudiant_trajet__6
 # text = [[NUMÉRO-DÉPARTEMENT]] [[NUMÉRO-DÉPARTEMENT]] [[LIEU]] [[NUMÉRO-DÉPARTEMENT]] [[NUMÉRO-DÉPARTEMENT]]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Dans le [numéro-département], à [lieu], dans le [numéro-département].
@@ -74,7 +74,7 @@
 4	[[NUMÉRO-DÉPARTEMENT]]	[[NUMÉRO-DÉPARTEMENT]]	NUM	_	_	1	conj:reform	_	AlignBegin=15783|AlignEnd=16160|Gloss=[[DEPARTEMENT-NUMBER]]|toBlur=Yes
 5	[[NUMÉRO-DÉPARTEMENT]]	[[NUMÉRO-DÉPARTEMENT]]	NUM	_	_	4	flat	_	AlignBegin=16160|AlignEnd=16481|Gloss=[[DEPARTEMENT-NUMBER]]|NMM=head-nod+eye-blink|toBlur=Yes
 
-# sent_id = trajet-len-1-signerA_2_split2
+# sent_id = Alpha_entretien_etudiant_trajet__7
 # text = PNT[MOI] [PROCHE] [DEUX] [MINUTE] [MARCHER] [TRAM]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = À côté, à 2 minutes de marche, il y a le tram,
@@ -87,7 +87,7 @@
 5	[MARCHER]	[MARCHER]	VERB	_	_	6	acl	_	AlignBegin=18177|AlignEnd=18502|Gloss=[WALK]|NMM=rightward-tilt|Tgt=PSSXr
 6	[TRAM]	[TRAM]	NOUN	_	_	0	root	_	AlignBegin=18506|AlignEnd=19910|Gloss=[TRAM]|Loc=PSSXr|NMM=eyebrow-raise
 
-# sent_id = trajet-len-1-signerA_3_split1
+# sent_id = Alpha_entretien_etudiant_trajet__8
 # text = [LIGNE] [[CHIFFRE]] [LIGNE] [TRAM] [MONTER-dans-véhicule]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = ligne [chiffre] du tram. Je monte dedans
@@ -99,7 +99,7 @@
 4	[TRAM]	[TRAM]	NOUN	_	_	3	nmod	_	AlignBegin=21123|AlignEnd=21660|Gloss=[TRAM]
 5	[MONTER-dans-véhicule]	[MONTER]	VERB	_	_	0	root	_	AlignBegin=21672|AlignEnd=22283|Gloss=[SIT-in-vehicule]|NMM=backward-tilt+eye-blink|Obj=ST|ST=tram|STReal=PRF(DH)[ANIMÉ]+PRF(NDH)[tram]|Subj=PRF(DH)[ANIMÉ]
 
-# sent_id = trajet-len-1-signerA_3_split2_split1
+# sent_id = Alpha_entretien_etudiant_trajet__9
 # text = [ARRÊT] [TERMINUS] [FIN/TERMINUS]~ [MÉTRO] [CHANGER] [MÉTRO] [[CHIFFRE]] [LIGNE] [[LIEU]] [MÉTRO]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = je passe toutes les stations et jusqu’au bout, au terminus, je change pour le métro ligne [chiffre] à [lieu].
@@ -116,7 +116,7 @@
 9	[[LIEU]]	[[LIEU]]	PROPN	_	_	8	nmod	_	AlignBegin=26882|AlignEnd=28024|Gloss=[[PLACE]]|NMM=eyebrow-frown|toBlur=Yes
 10	[MÉTRO]	[MÉTRO]	NOUN	_	_	6	conj:dbl	_	AlignBegin=28024|AlignEnd=28669|Gloss=[METRO]|NMM=head-nod+eye-blink
 
-# sent_id = trajet-len-1-signerA_3_split2_split2_split1
+# sent_id = Alpha_entretien_etudiant_trajet__10
 # text = [MONTER-dans-véhicule] [JUSQUE] [DESCENDRE] [CHANGER] [[LIEU]] [OUBLIER]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Je monte dans le métro, jusqu’à l’arrêt [lieu] j’ai oublié,
@@ -129,7 +129,7 @@
 5	[[LIEU]]	FingerSpelling	PROPN	_	_	4	obl:mod	_	AlignBegin=30843|AlignEnd=32268|Gloss=[[PLACE]]|NMM=eyebrow-frown|Scrap=Yes|toBlur=Yes
 6	[OUBLIER]	[OUBLIER]	VERB	_	_	1	discourse	_	AlignBegin=32276|AlignEnd=32654|Gloss=[FORGOT]
 
-# sent_id = trajet-len-1-signerA_3_split2_split2_split2
+# sent_id = Alpha_entretien_etudiant_trajet__11
 # text = [CHANGER] [DESCENDRE]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = là je change. Donc je descends là.
@@ -138,7 +138,7 @@
 1	[CHANGER]	[CHANGER]	VERB	_	_	2	advcl	_	AlignBegin=32677|AlignEnd=33039|Gloss=[CHANGE]
 2	[DESCENDRE]	[DESCENDRE]	VERB	_	_	0	root	_	AlignBegin=33055|AlignEnd=34047|Gloss=[GET-OUT]|NMM=forward-tilt+eyebrow-raise
 
-# sent_id = trajet-len-1-signerB_4
+# sent_id = Alpha_entretien_etudiant_trajet__12
 # text = [[LIEU]] [hein]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = [lieu] ?
@@ -147,7 +147,7 @@
 1	[[LIEU]]	FingerSpelling	PROPN	_	_	0	root	_	AlignBegin=34071|AlignEnd=36260|Gloss=[[PLACE]]|toBlur=Yes
 2	[hein]	[hein]	INTJ	_	_	1	discourse	_	AlignBegin=36268|AlignEnd=36827
 
-# sent_id = trajet-len-1-signerA_4
+# sent_id = Alpha_entretien_etudiant_trajet__13
 # text = [OUI] ??[À-CÔTÉ/PROCHE] PNT[là] [DESCENDRE] [BUS] [NUMÉRO] [[CHIFFRE]] [[CHIFFRE]] [BUS]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Oui, à côté, là. Je descends du métro et je prends le bus numéro [chiffre], le bus.
@@ -163,7 +163,7 @@
 8	[[CHIFFRE]]	[[CHIFFRE]]	NUM	_	_	7	flat	_	AlignBegin=39898|AlignEnd=40323|Gloss=[[NUMBER]]|toBlur=Yes
 9	[BUS]	[BUS]	NOUN	_	_	5	conj:dbl	_	AlignBegin=40339|AlignEnd=40961|Gloss=[BUS]
 
-# sent_id = trajet-len-1-signerB_5
+# sent_id = Alpha_entretien_etudiant_trajet__14
 # text = [NUMÉRO] [COMBIEN]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Numéro combien ?
@@ -172,7 +172,7 @@
 1	[NUMÉRO]	[NUMÉRO]	NOUN	_	_	2	nmod	_	AlignBegin=41000|AlignEnd=41394|Gloss=[NUMBER]
 2	[COMBIEN]	[COMBIEN]	PRON	_	PronType=Int	0	root	_	AlignBegin=41417|AlignEnd=41945|Gloss=[HOW-MUCH]
 
-# sent_id = trajet-len-1-signerA_5
+# sent_id = Alpha_entretien_etudiant_trajet__15
 # text = [[CHIFFRE]] [[CHIFFRE]] [BUS]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = [chiffre] le bus
@@ -182,7 +182,7 @@
 2	[[CHIFFRE]]	[[CHIFFRE]]	NUM	_	_	1	flat	_	AlignBegin=42260|AlignEnd=43024|Gloss=[[NUMBER]]|toBlur=Yes
 3	[BUS]	[BUS]	NOUN	_	_	0	root	_	AlignBegin=43055|AlignEnd=43433|Gloss=[BUS]|NMM=eye-blink
 
-# sent_id = trajet-len-1-signerB_6
+# sent_id = Alpha_entretien_etudiant_trajet__16
 # text = [[CHIFFRE]] [[CHIFFRE]] [OUI]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = [chiffre], d'accord
@@ -192,7 +192,7 @@
 2	[[CHIFFRE]]	[[CHIFFRE]]	NUM	_	_	1	flat	_	AlignBegin=42724|AlignEnd=43087|Gloss=[[NUMBER]]|toBlur=Yes
 3	[OUI]	[OUI]	ADV	_	_	1	discourse	_	AlignBegin=43110|AlignEnd=43520|Gloss=[YES]
 
-# sent_id = trajet-len-1-signerA_6
+# sent_id = Alpha_entretien_etudiant_trajet__17
 # text = [JUSQUE] [DESCENDRE] [[LIEU]] [voilà]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Jusqu’à l’arrêt [lieu] et voilà.
@@ -203,7 +203,7 @@
 3	[[LIEU]]	[[LIEU]]	PROPN	_	_	2	obl:arg	_	AlignBegin=44787|AlignEnd=45591|Gloss=[[PLACE]]|toBlur=Yes
 4	[voilà]	[voilà]	INTJ	_	_	2	discourse	_	AlignBegin=45630|AlignEnd=46213|Gloss=[well]
 
-# sent_id = trajet-len-1-signerB_7
+# sent_id = Alpha_entretien_etudiant_trajet__18
 # text = [voilà] [TOTAL] ??[COMBIEN] ??[TEMPS] PNT[TOI]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = Voilà, au total, tu mets combien de temps ?
@@ -215,7 +215,7 @@
 4	??[TEMPS]	[TEMPS]	NOUN	_	_	3	nmod	_	AlignBegin=47732|AlignEnd=48071|Gloss=??[TIME]
 5	PNT[TOI]	PNT	PRON	_	Number=Sing|PronType=Prs	3	nsubj	_	AlignBegin=48079|AlignEnd=48646|Gloss=PNT[YOU]|Tgt=Prs2
 
-# sent_id = trajet-len-1-signerA_7
+# sent_id = Alpha_entretien_etudiant_trajet__19
 # text = [ENVIRON] [TRENTE] [MINUTE] [QUARANTE] [MINUTE] [ENVIRON]
 # source_file = ./Trajet_LEN_1.mp4
 # text_fr = à peu près, 30, 40 minutes.

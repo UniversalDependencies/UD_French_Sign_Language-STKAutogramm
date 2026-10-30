@@ -1,4 +1,4 @@
-# sent_id = crdo-fsl-cuc022_68
+# sent_id = LS-Colin_champignon__1
 # text = [RECETTE] [CUISINE] position-neutre
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Recette de cuisine.
@@ -7,7 +7,7 @@
 2	[CUISINE]	[CUISINE]	NOUN	_	_	1	nmod	_	AlignBegin=1098939|AlignEnd=1099659|Gloss=[COOKING]
 3	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=1099659|AlignEnd=1102699|Gloss=neutral-position|NMM=eye-blink
 
-# sent_id = crdo-fsl-cuc022_69
+# sent_id = LS-Colin_champignon__2
 # text = [voilà] position-neutre
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Voilà !
@@ -15,7 +15,7 @@
 1	[voilà]	[voilà]	INTJ	_	_	0	root	_	AlignBegin=1102699|AlignEnd=1103459|Gloss=[that's-it]|NMM=head-nod+eye-blink
 2	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=1103459|AlignEnd=1104459|Gloss=neutral-position
 
-# sent_id = crdo-fsl-cuc022_70_split1
+# sent_id = LS-Colin_champignon__3
 # text = [TITRE] [euh] [CHAMPIGNON] [SAUCE] [S]-[O]-[J]-[A]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = "Champignons à la sauce soja"
@@ -26,7 +26,7 @@
 4	[SAUCE]	[SAUCE]	NOUN	_	_	3	nmod	_	AlignBegin=1106859|AlignEnd=1107459|Gloss=[SAUCE]|NMM=eye-blink
 5	[S]-[O]-[J]-[A]	FingerSpelling	NOUN	_	_	4	nmod	_	AlignBegin=1107459|AlignEnd=1108859|Gloss=[SOY]|NMM=head-nod
 
-# sent_id = crdo-fsl-cuc022_70_split2
+# sent_id = LS-Colin_champignon__4
 # text = [VENIR-DE] [RECETTE] [VIÊT-NAM]~ [MONTAGNE] [VIÊT-NAM] POSS[LUI]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = c'est une recette qui vient du Viêt-Nam.
@@ -38,7 +38,7 @@
 5	[VIÊT-NAM]	[VIÊT-NAM]	PROPN	_	_	4	nmod	_	AlignEnd=1110584|Gloss=[VIÊT-NAM]
 6	POSS[LUI]	POSS	ADJ	_	_	5	amod	_	AlignBegin=1110584|AlignEnd=1112109|Gloss=POSS[IT]|NMM=rightward-tilt+head-nod+eye-blink|Tgt=PSS3l
 
-# sent_id = crdo-fsl-cuc022_71_split1
+# sent_id = LS-Colin_champignon__5
 # text = [bon] PNT[LISTE] [IL-FAUT] [CHAMPIGNON] [N'IMPORTE] [PAREIL] [VOULOIR] [larges-possibilités]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Bon, il faut plusieurs choses, d'abord des champignons, n'importe lesquels, comme vous voulez
@@ -52,7 +52,7 @@
 7	[VOULOIR]	[VOULOIR]	VERB	_	_	6	ccomp	_	AlignBegin=1114779|AlignEnd=1115059|Gloss=[WANT]
 8	[larges-possibilités]	[larges-possibilités]	NOUN	_	_	6	discourse	_	AlignBegin=1115059|AlignEnd=1115859|Gloss=[large-possibilities]
 
-# sent_id = crdo-fsl-cuc022_71_split2
+# sent_id = LS-Colin_champignon__6
 # text = [POUVOIR] [CHOISIR] [CHAMPIGNON] SST[forme-incurvée] [CHAMPIGNON] SST[forme-trompette] SST[forme-ronde] [ETC]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = vous pouvez choisir des champignons de n'importe quel type, en trompette, en forme ronde, etc…
@@ -66,14 +66,14 @@
 7	SST[forme-ronde]	SST	ADJ	_	_	6	conj	_	AlignBegin=1117974|AlignEnd=1118299|Gloss=[round-shape]
 8	[ETC]	[ETC]	INTJ	_	_	3	conj	_	AlignBegin=1118299|AlignEnd=1118979|Gloss=[etc]|NMM=eye-blink
 
-# sent_id = crdo-fsl-cuc022_72
+# sent_id = LS-Colin_champignon__7
 # text = [LIBRE]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Vous êtes libre.
 # text_en = You are free.
 1	[LIBRE]	[LIBRE]	ADJ	_	_	0	root	_	AlignBegin=1118979|AlignEnd=1119624|Gloss=[FREE]|NMM=head-nod+eye-blink
 
-# sent_id = crdo-fsl-cuc022_73
+# sent_id = LS-Colin_champignon__8
 # text = PNT[PREMIEREMENT]~ [IL-FAUT] [DEUX]-[CENT] [GRAMME] [IL-FAUT] PNT[PREMIEREMENT]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = En premier, il en faut 200 grammes.
@@ -85,7 +85,7 @@
 5	[IL-FAUT]	[IL-FAUT]	VERB	_	_	2	conj:dbl	_	AlignBegin=1120979|AlignEnd=1121219|Gloss=[MUST]|NMM=forward-tilt
 6	PNT[PREMIEREMENT]	PNT	ADV	_	_	2	advmod	_	AlignBegin=1121219|AlignEnd=1121629|Gloss=PNT[FIRSTLY]|NDH=[LISTE]|NMM=eye-blink|Tgt=NDH
 
-# sent_id = crdo-fsl-cuc022_74
+# sent_id = LS-Colin_champignon__9
 # text = PNT[DEUXIEMEMENT] [SAUCE] [S]-[O]-[J]-[A] [IL-FAUT]~ [CUILLÈRE] [TROIS] [SOUPE] [IL-FAUT] PNT[DEUXIEMEMENT]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Deuxièmement, de la sauce soja , il en faut 3 cuillères à soupe.
@@ -100,7 +100,7 @@
 8	[IL-FAUT]	[IL-FAUT]	VERB	_	_	0	root	_	AlignBegin=1125179|AlignEnd=1125539|Gloss=[MUST]|NMM=forward-tilt+eye-blink
 9	PNT[DEUXIEMEMENT]	PNT	ADV	_	_	8	advmod	_	AlignBegin=1125539|AlignEnd=1125854|Gloss=PNT[SECONDLY]|NDH=[LISTE]|Tgt=NDH
 
-# sent_id = crdo-fsl-cuc022_75
+# sent_id = LS-Colin_champignon__10
 # text = PNT[TROISIEMEMENT] [UN] [CUILLÈRE] [SUCRE] [un-peu]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Troisièmement, une cuillère de sucre.
@@ -111,7 +111,7 @@
 4	[SUCRE]	[SUCRE]	NOUN	_	_	3	nmod	_	AlignBegin=1126659|AlignEnd=1127379|Gloss=[SUGAR]
 5	[un-peu]	[un-peu]	ADV	_	_	3	advmod	_	AlignBegin=1127379|AlignEnd=1127859|Gloss=[a-little]|NMM=head-nod+eye-blink
 
-# sent_id = crdo-fsl-cuc022_76_split1
+# sent_id = LS-Colin_champignon__11
 # text = PNT[QUATRIEMEMENT] [POIVRE]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Quatrièmement, du poivre.
@@ -119,7 +119,7 @@
 1	PNT[QUATRIEMEMENT]	PNT	ADV	_	_	2	advmod	_	AlignBegin=1127859|AlignEnd=1128499|Gloss=PNT[FOURTHLY]|NDH=[LISTE]|Tgt=NDH
 2	[POIVRE]	[POIVRE]	NOUN	_	_	0	root	_	AlignBegin=1128499|AlignEnd=1129179|Gloss=[PEPPER]|NMM=forward-tilt+eye-contact
 
-# sent_id = crdo-fsl-cuc022_76_split2
+# sent_id = LS-Colin_champignon__12
 # text = PNT[CINQUIEMEMENT] [SEL] [FEUILLE] [PAREIL]~ [PROCHE] [FLEUR] [PI_TYPIQUE] [CHINE] [PI_TYPIQUE]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Quatrièmement, du poivre. Cinquièmement, du sel, des feuilles qui ressemblent à des fleurs, typique de Chine.
@@ -134,7 +134,7 @@
 8	[CHINE]	[CHINE]	PROPN	_	_	9	obj	_	AlignBegin=1132059|AlignEnd=1132539|Gloss=[CHINA]
 9	[PI_TYPIQUE]	[PI_TYPIQUE]	ADJ	_	_	7	conj:dbl	_	AlignBegin=1132539|AlignEnd=1132899|Gloss=[PI_TYPICAL]|ISMarker[Foc]=Cxn-dbl
 
-# sent_id = crdo-fsl-cuc022_77
+# sent_id = LS-Colin_champignon__13
 # text = [FEUILLE-petite] [NOM] [ÉPELER] [pas-savoir] [SAVOIR] [ODEUR] [c'est-tout]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Ces feuilles ont un nom que je ne connais vraiment pas, j'en connais l'odeur, c'est tout.
@@ -147,7 +147,7 @@
 6	[ODEUR]	[ODEUR]	NOUN	_	_	5	obj	_	AlignBegin=1134459|AlignEnd=1134819|Gloss=[SMELL]|ISMarker[CFoc]=Cxn-corel?|ISRole=CFoc|NMM=eye-blink
 7	[c'est-tout]	[c'est-tout]	INTJ	_	_	5	discourse	_	AlignBegin=1134819|AlignEnd=1135459|Gloss=[that's-all]|NMM=eye-blink
 
-# sent_id = crdo-fsl-cuc022_78
+# sent_id = LS-Colin_champignon__14
 # text = PNT[toute-LISTE] [voilà]~
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Tout y est, voilà !
@@ -155,7 +155,7 @@
 1	PNT[toute-LISTE]	PNT	NOUN	_	_	0	root	_	AlignBegin=1135459|AlignEnd=1135939|Gloss=PNT[all-LIST]|NDH=[LISTE]|NMM=head-nod+eye-contact|Tgt=NDH
 2	[voilà]~	[voilà]	INTJ	_	_	1	discourse	_	AlignBegin=1135939|AlignEnd=1136139|Gloss=[that's-it]~|Scrap=Yes
 
-# sent_id = crdo-fsl-cuc022_79_80
+# sent_id = LS-Colin_champignon__15
 # text = [COMMENCER] [COMMENT] [IL-FAUT] [LAVER] [PREMIER]~ [CHAMPIGNON] [LAVER] [COUPER-en-morceaux] [DÉPLACER] SST[forme-plate]~ SST[forme-ronde] [s'égoutter] ??[IL-FAUT]~
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Comment on fait : D'abord, il faut laver les champignons, tout laver, les couper en morceaux, les mettre dans une passoire.
@@ -174,7 +174,7 @@
 12	[s'égoutter]	[s'égoutter]	VERB	_	_	4	conj	_	AlignBegin=1141184|AlignEnd=1141754|Gloss=[DRAIN]
 13	??[IL-FAUT]~	[IL-FAUT]	VERB	_	_	3	conj:reform	_	AlignBegin=1141754|AlignEnd=1142054|Gloss=[MUST]~
 
-# sent_id = crdo-fsl-cuc022_81
+# sent_id = LS-Colin_champignon__16
 # text = [MOUILLER] [NON] [LAISSER] [SÉCHER] [LAISSER] position-neutre
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Il ne faut pas qu'ils soient mouillés, les laisser sécher.
@@ -186,7 +186,7 @@
 5	[LAISSER]	[LAISSER]	VERB	_	_	3	conj:dbl	_	AlignBegin=1143659|AlignEnd=1144339|Gloss=[LET]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
 6	position-neutre	position-neutre	PUNCT	_	_	1	punct	_	AlignBegin=1144339|AlignEnd=1144859|Gloss=neutral-position
 
-# sent_id = crdo-fsl-cuc022_82
+# sent_id = LS-Colin_champignon__17
 # text = [A]-[I]-[L] SST[gousse] [OUBLIER] [AJOUTER] [DEUX] [gousse] [gousse] [ÉCRASER] [METTRE] [POÊLE] [DEUX] [CUILLÈRE] [HUILE/SAUCE] [verser-HUILE]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = J'avais oublié: il faut ajouter deux gousses d'ail, bien écrasées et les mettre dans la poêle avec deux cuillerées d'huile.
@@ -206,7 +206,7 @@
 13	[HUILE/SAUCE]	[HUILE]	NOUN	_	_	12	nmod	_	AlignBegin=1150979|AlignEnd=1151339|Gloss=[OIL]
 14	[verser-HUILE]	[HUILE]	VERB	_	_	9	conj:illustrate	_	AlignBegin=1151339|AlignEnd=1152344|Gloss=[pour-oil]|NMM=head-nod+eye-blink
 
-# sent_id = crdo-fsl-cuc022_83
+# sent_id = LS-Colin_champignon__18
 # text = [LAISSER] [FRIRE] [JUSQUE]~ [DEVENIR] [COMMENCER] [MARRON]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Laisser frire jusqu'à ce que cela devienne marron.
@@ -218,7 +218,7 @@
 5	[COMMENCER]	[COMMENCER]	VERB	_	_	4	compound:svc	_	AlignBegin=1153899|AlignEnd=1154219|Gloss=[START]
 6	[MARRON]	[MARRON]	ADJ	_	_	4	obj	_	AlignBegin=1154219|AlignEnd=1155024|Gloss=[BROWN]|ISMarker[Foc]=NMM|ISRole=Foc|NMM=forward-tilt+eyebrow-raise+head-nod+eye-blink
 
-# sent_id = crdo-fsl-cuc022_84_85
+# sent_id = LS-Colin_champignon__19
 # text = [PRENDRE] [CHAMPIGNON] [DÉPLACER] [METTRE-dans-poêle] [MÉLANGER] [LAISSER]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Prendre les champignons et les mettre dans la poëlle et bien mélanger. Puis les laisser.
@@ -230,7 +230,7 @@
 5	[MÉLANGER]	[MÉLANGER]	VERB	_	_	1	conj	_	AlignBegin=1156739|AlignEnd=1157859|Gloss=[MIX]|NMM=eye-blink
 6	[LAISSER]	[LAISSER]	VERB	_	_	1	conj	_	AlignBegin=1157859|AlignEnd=1158139|Gloss=[LET]|NMM=head-nod
 
-# sent_id = crdo-fsl-cuc022_86
+# sent_id = LS-Colin_champignon__20
 # text = [PRÉPARER] [SAUCE] [PRÉPARER]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Préparer la sauce :
@@ -239,7 +239,7 @@
 2	[SAUCE]	[SAUCE]	NOUN	_	_	1	obj	_	AlignBegin=1158619|AlignEnd=1159379|Gloss=[SAUCE]
 3	[PRÉPARER]	[PRÉPARER]	VERB	_	_	1	conj:dbl	_	AlignBegin=1159379|AlignEnd=1160014|Gloss=[PREPARE]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
 
-# sent_id = crdo-fsl-cuc022_87
+# sent_id = LS-Colin_champignon__21
 # text = [petit-récipient] [S]-[O]-[J]-[A] [SAUCE] [visqueux] [verser-SAUCE] [TROIS] [verser]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Dans un petit récipient, verser trois cuillères de sauce soja (un peu visqueux),
@@ -252,7 +252,7 @@
 6	[TROIS]	[TROIS]	NUM	_	_	3	nmod	_	AlignBegin=1163699|AlignEnd=1163939|DHHeld=[SAUCE]|Gloss=[THREE]
 7	[verser]	[verser]	VERB	_	_	5	conj:illustrate	_	AlignBegin=1163939|AlignEnd=1164819|DHHeld=[SAUCE]|Gloss=[pour]|NMM=head-nod+eye-blink|Rep=2
 
-# sent_id = crdo-fsl-cuc022_88_89
+# sent_id = LS-Colin_champignon__22
 # text = [SUCRE] [METTRE] [SEL] [METTRE] [POIVRE] [METTRE] [mélanger] [FINI]~
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Mettre le sucre, mettre le sel, ajouter le poivre, et mélanger. C'est tout.
@@ -266,7 +266,7 @@
 7	[mélanger]	[mélanger]	VERB	_	_	2	conj	_	AlignBegin=1167339|AlignEnd=1168099|Gloss=[mix]|NMM=eyebrow-frown+eye-blink
 8	[FINI]~	[FINI]	VERB	_	_	7	discourse	_	AlignBegin=1168099|AlignEnd=1168279|Gloss=[DONE]~|Scrap=Yes
 
-# sent_id = crdo-fsl-cuc022_90
+# sent_id = LS-Colin_champignon__23
 # text = [par-là]~ [VERSER] [mettre-SAUCE] [LAISSER] [CHAUFFER] [MÉLANGER] [LAISSER] [JUSQUE] [EAU] [en-surface] [ABSORBER-totalement] [NON] [ABSORBER-un-peu]~
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Lorsque c'est à mi-cuisson, verser le bol de sauce dans la poëlle, laisser chauffer, mélanger et laisser jusqu'à ce que le liquide en surface soit un peu absorbé, il ne faut pas le laisser absorber entièrement.
@@ -285,7 +285,7 @@
 12	[NON]	[NON]	ADV	_	_	7	advmod	_	AlignBegin=1174899|AlignEnd=1175424|Gloss=[NO]|ISMarker[CFoc]=Cxn-corel|NMM=eyebrow-raise
 13	[ABSORBER-un-peu]~	[ABSORBER]	VERB	_	_	12	conj:contr	_	AlignBegin=1175424|AlignEnd=1175979|Gloss=[ABSORB-a-little]|ISRole=CFoc|Manner=pas-totalement|NMM=eyebrow-raise+head-nod|Scrap=Yes
 
-# sent_id = crdo-fsl-cuc022_91
+# sent_id = LS-Colin_champignon__24
 # text = [COUPER] [prendre-POÊLE] [verser] [forme-arrondie/saladier] [verser-dans-saladier]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Eteindre le feu et verser le contenu de la poêle dans un saladier.
@@ -296,7 +296,7 @@
 4	[forme-arrondie/saladier]	[forme-arrondie/saladier]	NOUN	_	_	3	obl:arg	_	AlignBegin=1177939|AlignEnd=1178499|Gloss=[round-shape/bowl]|NMM=eye-blink
 5	[verser-dans-saladier]	[verser-dans-saladier]	VERB	_	_	3	conj:dbl	_	AlignBegin=1178499|AlignEnd=1179219|Gloss=[pour-in-bowl]|NDHHeld=[saladier]|NMM=head-nod+eye-blink
 
-# sent_id = crdo-fsl-cuc022_92
+# sent_id = LS-Colin_champignon__25
 # text = [POIVRE] [ENCORE] [COUPER-en-morceaux] [répandre] [FEUILLE] [FLEUR] [répandre]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Mettre encore du poivre, le hacher et le répandre sur la préparation ainsi que les feuilles-fleurs.
@@ -309,7 +309,7 @@
 6	[FLEUR]	[FLEUR]	NOUN	_	_	5	nmod	_	AlignBegin=1181699|AlignEnd=1182059|Gloss=[FLOWER]
 7	[répandre]	[répandre]	VERB	_	_	4	conj:dbl	_	AlignBegin=1182059|AlignEnd=1182779|Gloss=[spread]|ISMarker[Foc]=Cxn-dbl|NMM=head-nod+eye-blink
 
-# sent_id = crdo-fsl-cuc022_93
+# sent_id = LS-Colin_champignon__26
 # text = [poser-plat] [COMMENCER]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = Poser le plat sur la table. Vous pouvez commencer (à manger).
@@ -317,7 +317,7 @@
 1	[poser-plat]	[poser-plat]	VERB	_	_	0	root	_	AlignBegin=1182779|AlignEnd=1183419|Gloss=[put-down-plate]|NMM=forward-tilt+eyebrow-raise
 2	[COMMENCER]	[COMMENCER]	VERB	_	_	1	conj	_	AlignBegin=1183419|AlignEnd=1183809|Gloss=[START]
 
-# sent_id = crdo-fsl-cuc022_94
+# sent_id = LS-Colin_champignon__27
 # text = [BON] [DÉLICIEUX]
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = C'est vraiment délicieux!...
@@ -325,7 +325,7 @@
 1	[BON]	[BON]	ADJ	_	_	0	root	_	AlignBegin=1183809|AlignEnd=1184229|Gloss=[GOOD]|NMM=eyebrow-raise
 2	[DÉLICIEUX]	[DÉLICIEUX]	ADJ	_	_	1	conj	_	AlignBegin=1184229|AlignEnd=1184619|Gloss=[DELICIOUS]
 
-# sent_id = crdo-fsl-cuc022_95_split1
+# sent_id = LS-Colin_champignon__28
 # text = [FINI] position-neutre
 # video_url = https://cocoon.huma-num.fr/data/cuxac/CUC022_low.mp4
 # text_fr = C'est fini!

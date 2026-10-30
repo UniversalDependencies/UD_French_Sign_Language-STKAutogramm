@@ -49,7 +49,7 @@
 # text_en = At the destination, we hadn't planned to see one city, but rather to visit 3 different places.
 # video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
 1	[itinéraire]	[itinéraire]	NOUN	_	_	2	nmod	_	AlignBegin=24745|AlignEnd=25896|Exp=Intensité|Gloss=[itinerary]|NDH=[itinéraire-départ]
-2	PNT[fin]	PNT	PRON	_	_	5	obl:mod	_	AlignBegin=25896|AlignEnd=26315|Gloss=PNT[end]|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NDHHeld=[itinéraire-début]|NMM=eyebrow-raise|Tgt=itinéraire-fin
+2	PNT[fin]	PNT	PRON	_	PronType=Prs	5	obl:mod	_	AlignBegin=25896|AlignEnd=26315|Gloss=PNT[end]|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NDHHeld=[itinéraire-début]|NMM=eyebrow-raise|Tgt=itinéraire-fin
 3	[UN]	[UN]	NUM	_	_	4	nummod	_	AlignBegin=26356|AlignEnd=26792|Gloss=[ONE]
 4	[VILLE]	[VILLE]	NOUN	_	_	5	nsubj	_	AlignBegin=26810|AlignEnd=27264|Gloss=[CITY]
 5	[NON]	[NON]	ADV	_	_	0	root	_	AlignBegin=27329|AlignEnd=27755|Exp[lex]=Neg|Gloss=[NO]
@@ -65,7 +65,7 @@
 # text_fr = Dimanche dernier, toute la famille s’est réunie pour prendre un bon repas, bavarder et échanger.
 # text_en = Last sunday, all the family gathers to have a good meal, chat and exchange.
 # video_url = https://sharedocs.huma-num.fr/wl/?id=16cdvwTDWBmMIosQqwhaqa0oG4eg1FuU&fmode=open
-1	PNT[changement-temporel?]	PNT	PRON	_	_	5	discourse	_	AlignBegin=31435|AlignEnd=31917|Gloss=PNT[time-change?]|NMM=eyebrow-raise|Tgt=PSSN
+1	PNT[changement-temporel?]	PNT	ADV	_	_	5	discourse	_	AlignBegin=31435|AlignEnd=31917|Gloss=PNT[time-change?]|NMM=eyebrow-raise|Tgt=PSSN
 2	[PASSÉ-PROCHE]	[PASSÉ-PROCHE]	ADV	_	_	5	advmod	_	AlignBegin=31954|AlignEnd=32634|Gloss=[RECENT-PAST]|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NMM=eyebrow-raise
 3	[DIMANCHE]-[AVANT]	[DIMANCHE]-[AVANT]	NOUN	_	_	2	conj:zoom	_	AlignBegin=32634|AlignEnd=33472|Gloss=[SUNDAY]-[BEFORE]|NMM=eye-blink
 4	[FAMILLE]	[FAMILLE]	NOUN	_	_	5	nsubj	_	AlignBegin=33532|AlignEnd=34282|Gloss=[FAMILY]
@@ -276,7 +276,7 @@
 1	[REGARDER]	[REGARDER]	VERB	_	_	0	root	_	AlignBegin=116743|AlignEnd=117130|Gloss=[LOOK]|Tgt=PSS3
 2	[écouter-en-regardant]	[écouter-en-regardant]	VERB	_	_	1	conj:illustrate	_	AlignBegin=117139|AlignEnd=117970|Gloss=[listen-looking]
 3	[INTÉRESSANT]	[INTÉRESSANT]	ADJ	_	_	2	parataxis	_	AlignBegin=117974|AlignEnd=118648|Gloss=[INTERESTING]|Reported=Yes
-4	PNT[sujet]	PNT	PRON	_	_	3	nsubj	_	AlignBegin=118648|AlignEnd=119326|Gloss=PNT[topic]|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NMM=head-nod+eye-blink|Tgt=PSSN
+4	PNT[sujet]	PNT	PRON	_	PronType=Prs	3	nsubj	_	AlignBegin=118648|AlignEnd=119326|Gloss=PNT[topic]|ISMarker[Top]=Dlxn+NMM|ISRole=Top|NMM=head-nod+eye-blink|Tgt=PSSN
 
 # sent_id = STK_vacances-sud__21
 # text = [hep] PNT[MOI] [hep] PNT[lieu2]-[non] PNT[lieu3] [TROISIÈME] PNT[lieu3] [ADORER2]
@@ -827,7 +827,7 @@
 # text_en = It goes to grab the medecine chest, it drops it off and opens it.
 1	[prendre-VALISE]	[VALISE]	VERB	_	_	0	root	_	AlignBegin=54155|AlignEnd=54595|Gloss=[take-CHEST]|Loc=PSSXr|PT=oiseau|Subj=PT
 2	[apporter]	[apporter]	VERB	_	_	1	conj:chaining	_	AlignBegin=54595|AlignEnd=55875|Gloss=[bring]|Obj=PRF(DH)[VALISE]|Obl=Src+Tgt|PT=oiseau|Src=PSSXr|Subj=PT|Tgt=PSSN
-3	PNT[valise]	PNT	PRON	_	_	2	obj	_	AlignBegin=55875|AlignEnd=56115|DHHeld=PRF[VALISE]|Gloss=PNT[chest]|NMM=eyebrow-raise|PT=oiseau|Tgt=PSSN
+3	PNT[valise]	PNT	PRON	_	PronType=Prs	2	obj	_	AlignBegin=55875|AlignEnd=56115|DHHeld=PRF[VALISE]|Gloss=PNT[chest]|NMM=eyebrow-raise|PT=oiseau|Tgt=PSSN
 4	[PHARMACIE]	[PHARMACIE]	NOUN	_	_	3	nmod	_	AlignBegin=56115|AlignEnd=56795|DHHeld=PRF[VALISE]|Gloss=[PHARMACY]|NMM=eyebrow-raise|PT=oiseau
 5	[apporter]	[apporter]	VERB	_	_	2	conj:reform	_	AlignBegin=56795|AlignEnd=57435|Gloss=[bring]|Obj=PRF[VALISE]|Obl=Src+Tgt|PT=oiseau|Src=PSSN|Subj=PT|Tgt=PSS3l
 6	[ouvrir]	[ouvrir]	VERB	_	_	5	conj:chaining	_	AlignBegin=57435|AlignEnd=59355|Gloss=[open]|Loc=PSS3l|Obj=PRF[VALISE]|PT=oiseau|Subj=PT
@@ -1089,7 +1089,7 @@
 2	[REVENIR-EN-ARRIÈRE]	[REVENIR-EN-ARRIÈRE]	VERB	_	_	0	root	_	AlignBegin=1467|AlignEnd=1873|Gloss=[GO-BACK]
 3	[PREMIER]	[PREMIER]	ADJ	_	_	4	amod	_	AlignBegin=1877|AlignEnd=2203|Gloss=[FIRST]
 4	[THÈME]	[THÈME]	NOUN	_	_	2	obl:mod	_	AlignBegin=2222|AlignEnd=2802|Gloss=[THEME]
-5	PNT[changement-sujet?]	PNT	PRON	_	_	4	discourse	_	AlignBegin=2816|AlignEnd=3222|Gloss=PNT[topic-change?]|Tgt=PSSN
+5	PNT[changement-sujet?]	PNT	ADV	_	_	4	discourse	_	AlignBegin=2816|AlignEnd=3222|Gloss=PNT[topic-change?]|Tgt=PSSN
 
 # sent_id = Alpha_entretien_etudiant_trajet__2
 # text = PNT[TOI] [MAISON] PNT[TOI] POSS[TOI] [JUSQUE] PNT[là] [ARRIVER] PNT[là] [[LIEU]] [COMMENT] [FAIRE]
@@ -1099,12 +1099,12 @@
 # speaker_id = B
 1	PNT[TOI]	PNT	PRON	_	Number=Sing|PronType=Prs	2	nmod	_	AlignBegin=3863|AlignEnd=4401|Gloss=PNT[YOU]|Tgt=Prs2
 2	[MAISON]	[MAISON]	NOUN	_	_	7	dislocated	_	AlignBegin=4410|AlignEnd=5014|Gloss=[HOUSE]
-3	PNT[TOI]	PNT	PRON	_	_	2	nmod	_	AlignBegin=5014|AlignEnd=5297|Gloss=PNT[YOU]|Tgt=Prs2
+3	PNT[TOI]	PNT	PRON	_	PronType=Prs	2	nmod	_	AlignBegin=5014|AlignEnd=5297|Gloss=PNT[YOU]|Tgt=Prs2
 4	POSS[TOI]	POSS	ADJ	_	_	3	conj:reform	_	AlignBegin=5307|AlignEnd=5726|Gloss=POSS[YOU]|Tgt=Prs2
 5	[JUSQUE]	[JUSQUE]	ADP	_	_	6	case	_	AlignBegin=5745|AlignEnd=6245|Gloss=[UNTIL]
-6	PNT[là]	PNT	PRON	_	_	7	obj	_	AlignBegin=6255|AlignEnd=6481|Gloss=PNT[here]|Tgt=PSSN
+6	PNT[là]	PNT	ADV	_	_	7	obl:arg	_	AlignBegin=6255|AlignEnd=6481|Gloss=PNT[here]|Tgt=PSSN
 7	[ARRIVER]	[ARRIVER]	VERB	_	_	0	root	_	AlignBegin=6491|AlignEnd=7217|Gloss=[ARRIVE]
-8	PNT[là]	PNT	PRON	_	_	6	conj:dbl	_	AlignBegin=7226|AlignEnd=7698|Gloss=PNT[here]|Tgt=PSSN
+8	PNT[là]	PNT	ADV	_	_	6	conj:dbl	_	AlignBegin=7226|AlignEnd=7698|Gloss=PNT[here]|Tgt=PSSN
 9	[[LIEU]]	[[LIEU]]	PROPN	_	_	8	appos	_	AlignBegin=7717|AlignEnd=8090|Gloss=[[PLACE]]|toBlur=Yes
 10	[COMMENT]	[COMMENT]	PRON	_	PronType=Int	11	obl:mod	_	AlignBegin=8241|AlignEnd=8750|Gloss=[HOW]
 11	[FAIRE]	[FAIRE]	VERB	_	_	7	appos	_	AlignBegin=8764|AlignEnd=9075|Gloss=[DO]

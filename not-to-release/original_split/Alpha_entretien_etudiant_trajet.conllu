@@ -8,7 +8,7 @@
 2	[REVENIR-EN-ARRIÈRE]	[REVENIR-EN-ARRIÈRE]	VERB	_	_	0	root	_	AlignBegin=1467|AlignEnd=1873|Gloss=[GO-BACK]
 3	[PREMIER]	[PREMIER]	ADJ	_	_	4	amod	_	AlignBegin=1877|AlignEnd=2203|Gloss=[FIRST]
 4	[THÈME]	[THÈME]	NOUN	_	_	2	obl:mod	_	AlignBegin=2222|AlignEnd=2802|Gloss=[THEME]
-5	PNT[changement-sujet?]	PNT	PRON	_	_	4	discourse	_	AlignBegin=2816|AlignEnd=3222|Gloss=PNT[topic-change?]|Tgt=PSSN
+5	PNT[changement-sujet?]	PNT	ADV	_	_	4	discourse	_	AlignBegin=2816|AlignEnd=3222|Gloss=PNT[topic-change?]|Tgt=PSSN
 
 # sent_id = Alpha_entretien_etudiant_trajet__2
 # text = PNT[TOI] [MAISON] PNT[TOI] POSS[TOI] [JUSQUE] PNT[là] [ARRIVER] PNT[là] [[LIEU]] [COMMENT] [FAIRE]
@@ -18,12 +18,12 @@
 # speaker_id = B
 1	PNT[TOI]	PNT	PRON	_	Number=Sing|PronType=Prs	2	nmod	_	AlignBegin=3863|AlignEnd=4401|Gloss=PNT[YOU]|Tgt=Prs2
 2	[MAISON]	[MAISON]	NOUN	_	_	7	dislocated	_	AlignBegin=4410|AlignEnd=5014|Gloss=[HOUSE]
-3	PNT[TOI]	PNT	PRON	_	_	2	nmod	_	AlignBegin=5014|AlignEnd=5297|Gloss=PNT[YOU]|Tgt=Prs2
+3	PNT[TOI]	PNT	PRON	_	PronType=Prs	2	nmod	_	AlignBegin=5014|AlignEnd=5297|Gloss=PNT[YOU]|Tgt=Prs2
 4	POSS[TOI]	POSS	ADJ	_	_	3	conj:reform	_	AlignBegin=5307|AlignEnd=5726|Gloss=POSS[YOU]|Tgt=Prs2
 5	[JUSQUE]	[JUSQUE]	ADP	_	_	6	case	_	AlignBegin=5745|AlignEnd=6245|Gloss=[UNTIL]
-6	PNT[là]	PNT	PRON	_	_	7	obj	_	AlignBegin=6255|AlignEnd=6481|Gloss=PNT[here]|Tgt=PSSN
+6	PNT[là]	PNT	ADV	_	_	7	obl:arg	_	AlignBegin=6255|AlignEnd=6481|Gloss=PNT[here]|Tgt=PSSN
 7	[ARRIVER]	[ARRIVER]	VERB	_	_	0	root	_	AlignBegin=6491|AlignEnd=7217|Gloss=[ARRIVE]
-8	PNT[là]	PNT	PRON	_	_	6	conj:dbl	_	AlignBegin=7226|AlignEnd=7698|Gloss=PNT[here]|Tgt=PSSN
+8	PNT[là]	PNT	ADV	_	_	6	conj:dbl	_	AlignBegin=7226|AlignEnd=7698|Gloss=PNT[here]|Tgt=PSSN
 9	[[LIEU]]	[[LIEU]]	PROPN	_	_	8	appos	_	AlignBegin=7717|AlignEnd=8090|Gloss=[[PLACE]]|toBlur=Yes
 10	[COMMENT]	[COMMENT]	PRON	_	PronType=Int	11	obl:mod	_	AlignBegin=8241|AlignEnd=8750|Gloss=[HOW]
 11	[FAIRE]	[FAIRE]	VERB	_	_	7	appos	_	AlignBegin=8764|AlignEnd=9075|Gloss=[DO]

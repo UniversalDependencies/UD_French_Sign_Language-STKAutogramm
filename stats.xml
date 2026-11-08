@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>108</sentences><tokens>615</tokens><words>615</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>108</sentences><tokens>615</tokens><words>615</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="287" /><!-- PNT, [[CHIFFRE]], SST, [OUI], [IL-FAUT], [hep], [non], position-neutre, FingerSpelling, [CHAMPIGNON], [GROUPE], [LAISSER], [PREMIER], [SAUCE], PRF -->
+  <forms unique="356" /><!-- [[CHIFFRE]], PNT[MOI], [OUI], PNT[là], [[LIEU]], [hep], [non], position-neutre, [CHAMPIGNON], [LAISSER], [IL-FAUT], [PREMIER], [QUOI], [euh], [regarder] -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="12">
+    <tag name="ADJ">56</tag><!-- [PREMIER], SST, [DIFFÉRENT], [INTÉRESSANT], POSS, [AGRÉABLE], [BEAU], [CALME], [DRÔLE], [PI_TYPIQUE] -->
+    <tag name="ADP">7</tag><!-- [PI_TEMPORALITE], [JUSQUE] -->
+    <tag name="ADV">76</tag><!-- PNT, [non], [OUI], PNT-SURFACE, [ENVIRON], [APRÈS], [ENSUITE], [JUSQUE], [PASSÉ-PROCHE], [AUSSI] -->
+    <tag name="CCONJ">2</tag><!-- [AUSSI], [MAIS] -->
+    <tag name="INTJ">28</tag><!-- [euh], [hep], [voilà], [OUI], [ETC], [alors], [appel], [bah], [bon], [c'est-long] -->
+    <tag name="NOUN">195</tag><!-- SST, [CHAMPIGNON], [FEUILLE], [GROUPE], [PERSONNE], [EAU], [MER], [SAUCE], [SOUVENIR], [rocher] -->
+    <tag name="NUM">24</tag><!-- [[CHIFFRE]], [[NUMÉRO-DÉPARTEMENT]], [DEUX], [TROIS], [UN], [DEUX]-[CENT], [QUARANTE], [TRENTE] -->
+    <tag name="PRON">42</tag><!-- PNT, [QUOI], PRF, [COMBIEN], [COMMENT], [OÙ], [QUI], [TOUS]-[QUATRE], [PI_CELUI-CI], [POURQUOI] -->
+    <tag name="PROPN">20</tag><!-- [FRANCE], [[LIEU]], FingerSpelling, [BARCELONE], SignedName, [VIÊT-NAM], [CHINE], [ESPAGNE] -->
+    <tag name="PUNCT">7</tag><!-- position-neutre -->
+    <tag name="VERB">153</tag><!-- [IL-FAUT], [LAISSER], [METTRE], [regarder], [DESCENDRE], [ADORER], [CHANGER], [COMMENCER], [COUPER], [MONTER] -->
+    <tag name="X">5</tag><!-- ~, [GROUPE] -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="7">
+    <feat name="Number" value="Plur" upos="NOUN,PRON">8</feat><!-- [PERSONNE], PNT[NOUS], PNT[VOUS], [ARRÊT], [PERSONNE]/Plur, [VOILE] -->
+    <feat name="Number" value="Sing" upos="ADJ,PRON">15</feat><!-- PNT[MOI], PNT[TOI], PNT[soeur], PNT[LUI], POSS[MOI] -->
+    <feat name="PronType" value="Dem" upos="PRON">1</feat><!-- [PI_CELUI-CI] -->
+    <feat name="PronType" value="Int" upos="PRON">14</feat><!-- [QUOI], [COMMENT], [OÙ], [QUI], ??[COMBIEN], [COMBIEN], [POURQUOI] -->
+    <feat name="PronType" value="Prs" upos="PRON">24</feat><!-- PNT[MOI], PNT[TOI], PNT[soeur], PRF[cheval], PNT[LUI], PNT[NOUS], PNT[VOUS], PNT[bateau], PNT[fin], PNT[sujet] -->
+    <feat name="PronType" value="Tot" upos="PRON">3</feat><!-- [TOUS]-[QUATRE], [TOUS] -->
+    <feat name="Voice" value="Pass" upos="VERB">1</feat><!-- [bander-patte] -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="37">
+    <dep name="acl">5</dep>
+    <dep name="advcl">9</dep>
+    <dep name="advmod">37</dep>
+    <dep name="amod">25</dep>
+    <dep name="appos">13</dep>
+    <dep name="case">5</dep>
+    <dep name="cc">3</dep>
+    <dep name="ccomp">11</dep>
+    <dep name="compound">1</dep>
+    <dep name="compound:svc">2</dep>
+    <dep name="conj">61</dep>
+    <dep name="conj:chaining">21</dep>
+    <dep name="conj:contr">7</dep>
+    <dep name="conj:dbl">17</dep>
+    <dep name="conj:illustrate">16</dep>
+    <dep name="conj:reform">13</dep>
+    <dep name="conj:zoom">6</dep>
+    <dep name="csubj">1</dep>
+    <dep name="dep">5</dep>
+    <dep name="discourse">43</dep>
+    <dep name="discourse:participant">5</dep>
+    <dep name="dislocated">10</dep>
+    <dep name="flat">5</dep>
+    <dep name="iobj">1</dep>
+    <dep name="mark">1</dep>
+    <dep name="nmod">53</dep>
+    <dep name="nsubj">32</dep>
+    <dep name="nummod">12</dep>
+    <dep name="obj">33</dep>
+    <dep name="obl">1</dep>
+    <dep name="obl:arg">12</dep>
+    <dep name="obl:mod">21</dep>
+    <dep name="parataxis">2</dep>
+    <dep name="punct">7</dep>
+    <dep name="reparandum">10</dep>
+    <dep name="root">108</dep>
+    <dep name="vocative">1</dep>
+  </deps>
+</treebank>
